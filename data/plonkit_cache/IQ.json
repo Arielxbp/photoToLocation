@@ -1,0 +1,99 @@
+{
+  "_id": "iraq",
+  "createdAt": "2025-09-07T21:12:53.286Z",
+  "updatedAt": "2024-02-07T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Iraq",
+  "slug": "iraq",
+  "code": "IQ",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/iraq/Bild_2022-07-01_175248205.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Iraq",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/iraq/0_iraq_summary.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/iraq/Coverage_location.png",
+              "imageLink": "https://goo.gl/maps/tHuevnuaPPyfP3ST8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The coverage in Iraq is limited to a single trekker in the **Iraqi National Museum** in Baghdad."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/iraq/Trekker_mounted_on_cart.png",
+              "imageLink": "https://goo.gl/maps/TYRcoYXiDN18npct5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All of the coverage in Iraq is taken by a **trekker** with a camera similar to **Gen 2 **but with distinctly worse image quality and colour. This coverage tends to be overexposed, even becoming blindingly so [at some points](https://goo.gl/maps/YyzKFREKZvguinm16).",
+              "NOTE: This camera quality is sometimes referred to as Gen 1.5."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/iraq/Bild_2022-07-01_181801364.png",
+              "imageLink": "https://goo.gl/maps/2yv4UYpvhiUn7LwcA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The trekker blur has a well-defined, **pointed** **shape**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/iraq/Bild_2022-07-01_181856327.png",
+              "imageLink": "https://goo.gl/maps/MHY3BKixH2BKhx3p6",
+              "alt": "",
+              "width": 1
+            },
+            "text": [
+              "The only piece of coverage outdoors is a small patio with a diagonal walkway. In this patio you can see many **date palms**.",
+              "This is the only piece of the coverage that can rarely appear on serious maps."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/iraq/Steeles.png",
+              "imageLink": "https://goo.gl/maps/uN2uxkfFMPMU76np9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The inside of the museum features statues, steles, a variety of [artefacts](https://goo.gl/maps/WXRcTXkZSMVuChJK6), and a few [back rooms](https://goo.gl/maps/cjfVfUA3sbEWXegF6)."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

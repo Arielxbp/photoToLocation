@@ -1,0 +1,221 @@
+{
+  "_id": "bermuda",
+  "createdAt": "2025-09-07T20:33:43.738Z",
+  "updatedAt": "2023-11-01T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Bermuda",
+  "slug": "bermuda",
+  "code": "BM",
+  "cat": [
+    "North America"
+  ],
+  "heroImage": "/images/bermuda/bm_banner2.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Bermuda",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/bermuda/0_bm_summary.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_location.png",
+              "imageLink": "/images/bermuda/bm_location.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Bermuda is a British overseas territory, located north of the Caribbean sea. As such, it is counted as **the United Kingdom** for country streaks purposes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_lefthanddrive.png",
+              "imageLink": "https://goo.gl/maps/6v3gTTJcpigMYPLh8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Bermuda drives on the **left side** of the road."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_googlecar.png",
+              "imageLink": "https://goo.gl/maps/i11ygQrbjMXY2DhM7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Bermuda features a **black** Street View car with the entire front sides of the vehicle typically visible."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_generallook.png",
+              "imageLink": "https://goo.gl/maps/BuMojmzaEiaX8WNR9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The most typical look of Bermuda is somewhat dense vegetation, consisting of fairly small trees and a lot of bushes, combined with single family houses strewn across the landscape."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_licenceplate.png",
+              "imageLink": "/images/bermuda/bm_licenceplate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Bermudan licence plates are all-white, fairly long, and with black digits, somewhat contained to the middle of the plate."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_yellowroadline.png",
+              "imageLink": "https://goo.gl/maps/7JmEyBcA9tZu3bbp9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most roads in Bermuda contain a **single solid yellow middle line** with no outer road lines."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_zigzaglines.png",
+              "imageLink": "https://goo.gl/maps/BJWKZjNXHyD98rPi8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "You will occasionally see these white **zig zag road lines** on Bermuda."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_architecture.png",
+              "imageLink": "https://goo.gl/maps/bvdVkzPJxUe6hb6b7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most buildings on Bermuda are single family stone houses painted in **pastel colours**. They will almost always have **completely white roofs**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_palms.png",
+              "imageLink": "https://goo.gl/maps/zZoF8ML6ryHYvarw7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Palms** are very commonly found on Bermuda."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_bluewater.png",
+              "imageLink": "https://goo.gl/maps/VmzYgr8D1MSUKuG9A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "On Bermuda you will never be far away from the ocean, and the water will very often look **distinctly light blue**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_downtownhamilton.png",
+              "imageLink": "https://goo.gl/maps/qF86PbQfiAmsMTsi6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Hamilton is by far the largest town on Bermuda, and as such, the downtown area is distinct due to its many large, densely built **multi-floor buildings**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bm_northwestpeninsula.png",
+              "imageLink": "https://goo.gl/maps/dXekNBoUDpv6gQYm7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The northwestern tip of Bermuda can be recognised by the many large buildings made of **unpainted grey brick**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/bermuda/bermuda_boat.png",
+              "imageLink": "https://goo.gl/maps/LLyY7aLLpAgTsQeMA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A **boat trekker** can be seen on the eastern coast of Bermuda. It can be seen going around [Saint George\u2019s Harbour](https://goo.gl/maps/U6Lze1J5ehU1tJqr9) and past [Fort St. Catherine](https://goo.gl/maps/9UciXRzs9WeyiRpv6) on the northeast tip of the island."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

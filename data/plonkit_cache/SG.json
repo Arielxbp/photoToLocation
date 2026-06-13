@@ -1,0 +1,290 @@
+{
+  "_id": "singapore",
+  "createdAt": "2025-09-07T21:21:28.191Z",
+  "updatedAt": "2023-03-06T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Singapore",
+  "slug": "singapore",
+  "code": "SG",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/singapore/Screenshot_2022-11-22_202003.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Singapore",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/singapore/0_Infographic__281_29.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/landscape.png",
+              "imageLink": "https://goo.gl/maps/tXHdRe2JM6XexBhd6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Singapore is a highly developed city-state, characterised by an overall **cleanliness and orderliness**.",
+              "Main roads are often divided, and commonly feature black-and-white curbs and double yellow outside lines. You will often see tall apartment blocks nearby.",
+              "NOTE: In many cases, this \u201cgeneral look\u201d is all you need to easily identify Singapore. Nevertheless, we have listed some more specific tips below."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/streetsign.png",
+              "imageLink": "https://goo.gl/maps/3gfo9dVeBnTvNSf4A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All street name signs in Singapore follow this **unique format**. They are green, with rounded edges and a distinct white font."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/Singapore_License_Plate.png",
+              "imageLink": "/images/singapore/Singapore_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most Singaporean licence plates are **black, with white text**. Occasionally, you will be able to see the British style **white-and-yellow** plates and very rarely red plates.",
+              "NOTE: Neighbouring Malaysia and Indonesia also use black plates with white text. However, the letters will usually be divided into two or three sections - this is not the case for Singaporean plates."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/directionalsign.png",
+              "imageLink": "https://goo.gl/maps/DwfAaSALd9q2ToKAA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Directional signs are also **green**, with white letters and English writing.",
+              "NOTE: Expressways each have a **three-letter code** (e.g. TPE), making them easy to spot on signs."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/Untitled_design__2845_29.png",
+              "imageLink": "https://goo.gl/maps/i6H4a4yEEVqaccW8A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Road signs in Singapore are unique in that they are always set on a **square white background**.",
+              "NOTE: Road signs in almost all other countries will not have this square background."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/raintrees.png",
+              "imageLink": "https://goo.gl/maps/6kBXjMZL9j9apCwn7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Rain trees** are seen all around Singapore, and are often planted along main roads."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/roadwarnings.png",
+              "imageLink": "https://goo.gl/maps/CJqw8NSgf2Sttiuy9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Warnings are often written **on the road** in large letters, such as the famous \u201cHUMP AHEAD\u201d."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/Copy_of_Untitled__2822_29.png",
+              "imageLink": "https://goo.gl/maps/TCozcHMoXvMiWzUNA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Singaporean buses are mostly **lime-green**, making them easily recognisable. Other designs can also be found, for example the [white-and-purple SBS Transit variants](https://goo.gl/maps/SXeRNoTSsTqTmy5BA)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/busstopbollard.png",
+              "imageLink": "https://goo.gl/maps/ZJPL1kB5qake5EF59",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Moreover, all bus stops are protected by **concrete bollards** with unique black-and-yellow **warning bands**.",
+              "NOTE: Similar, but not quite identical designs are found in some Malaysian cities."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/busleavingbox.png",
+              "imageLink": "https://goo.gl/maps/ghZxZiAc6UtZWKMe6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "In addition to the concrete bollards on bus stops, Singapore sometimes has a unique and yellow **bus-leaving box** with an **arrow** on the street."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/trafficlight.png",
+              "imageLink": "https://goo.gl/maps/7Km9vca4Vp9bjmQb7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Almost all Singaporean traffic lights follow this design and are supported by a curved **sheet of metal** containing several **holes**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/2022-12-21__283_29.png",
+              "imageLink": "https://goo.gl/maps/amC7LH2dMUiJjRQ4A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Many streets are named after the neighbourhood they are in, especially in the suburbs.",
+              "NOTE: These neighbourhood names appear very quickly on the map, so you can save yourself a lot of time scanning for 5k\u2019s that way. For example, the sign in the image refers to Street 31 in the neighbourhood of Ang Mo Kio."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/Singapore_Tuas.png",
+              "imageLink": "https://goo.gl/maps/5j6PRBEvEwMorGEj7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Tuas planning area is an **industrial area** that is characterised by straight roads, industrial complexes, cranes and shipping containers, making it recognisable."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/Singapore_Sentosa.png",
+              "imageLink": "https://goo.gl/maps/UE2VjN9xy4LfUbwA8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can easily recognise the **island of Sentosa** thanks to the green signposts, winding roads and general resort feel. Occasionally you might see a green lane like [this](https://goo.gl/maps/hrc9MLAc4F6GQihy5) as well."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/Singapore_Pulau-Ubin.png",
+              "imageLink": "https://goo.gl/maps/BXgGkC9vDStCp4jp6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Generation 3 **trekker on Pulau Ubin** can be identified by the unusually rural forest coverage and the camouflage-type hat sometimes visible when looking down."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/Singapore_St_John_and_Lazarus.png",
+              "imageLink": "https://goo.gl/maps/yP92EMgBneCzLgLF9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can recognise **St John and Lazarus Islands** thanks to the Generation 3 trekker, the smooth asphalt roads and the sea almost always nearby."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/singapore/Singapore_Kusu_Island.png",
+              "imageLink": "https://goo.gl/maps/RuaECmjmZbgJscC87",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The miniscule Kusu Island is easily identifiable because of the **red paving stones** used for the entire pathway."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

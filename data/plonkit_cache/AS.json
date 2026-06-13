@@ -1,0 +1,142 @@
+{
+  "_id": "american-samoa",
+  "createdAt": "2025-09-07T17:29:43.967Z",
+  "updatedAt": "2023-10-12T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "American Samoa",
+  "slug": "american-samoa",
+  "code": "AS",
+  "cat": [
+    "Oceania"
+  ],
+  "heroImage": "/images/american-samoa/Pola_Islands_Tutuila_NPS.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying American Samoa",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/american-samoa/0_Summary_Graphic.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/american-samoa/as_locator.png",
+              "imageLink": "/images/american-samoa/as_locator.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**American Samoa** is a group of islands east of Fiji, located in the Pacific Ocean. Since it is a US overseas territory, for country streak purposes, it is counted as the US."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/american-samoa/image.png",
+              "imageLink": "https://goo.gl/maps/9J2TRoEJL2CfdnZF9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The general landscape consists of **green, tropical** mountains with many palm trees. Small roads are often made of [concrete](https://goo.gl/maps/GENv4jmjUzvkSbp38). Most houses are one storey, and have a simple box design. Plain **metal sheet** roofs are also very common."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Island specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/american-samoa/main_island_car.png",
+              "imageLink": "https://goo.gl/maps/JsSbHdpLifbJ1Jdt8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "A slightly **rusted black** truck bed can be seen on the main island of Tutuila.",
+              "This is the most common car that will be seen as it has the most coverage."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/american-samoa/other_island_car.png",
+              "imageLink": "https://goo.gl/maps/Ec2D9s8PzZsWwfkXA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The front of a **silver-grey** truck with side mirrors can be seen on Manu\u2019a and Olosega, which are connected by a bridge.",
+              "_See below for more information._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/american-samoa/other_other_island_car.png",
+              "imageLink": "https://goo.gl/maps/89AgZvTc9HJjYqCk8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The front of a similar truck can be seen on the easternmost covered island of Tau. However, the truck will be **glossy black**, with side mirrors visible."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/american-samoa/bride.png",
+              "imageLink": "https://goo.gl/maps/KyriaPF11ZHRuwM47",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The **single-lane** bridge, connecting the islands of Manu\u2019a and Olosega, can be easily recognized by the thin wire guardrail, with the two islands on either side of the bridge."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/american-samoa/boeing_real_estate.png",
+              "imageLink": "https://goo.gl/maps/mK54EUK79dgWx7qv6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Ofu Airport is small with a **concrete** runway. The Google Car covering it has two **orange straps** on the roof. Many palm trees can also be seen on the other side of the runway."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

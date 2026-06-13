@@ -1,0 +1,260 @@
+{
+  "_id": "reunion",
+  "createdAt": "2025-09-06T12:14:41.529Z",
+  "updatedAt": "2026-04-29T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Reunion",
+  "slug": "reunion",
+  "code": "RE",
+  "cat": [
+    "Africa"
+  ],
+  "heroImage": "/images/reunion/mafate-reunion-island-irt-frog-974-photographies.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying R\u00e9union",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/reunion/0_summary_reunion.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/D_C3_A9partement_974_in_France__28zoom_29.svg.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/D%C3%A9partement_974_in_France_%28zoom%29.svg/1920px-D%C3%A9partement_974_in_France_%28zoom%29.svg.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "R\u00e9union, officially the Department of R\u00e9union, is an overseas department and region of France, east of Madagascar in the Indian Ocean. As such, for country streaks purposes, it is **counted as France**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/image__281_29.png",
+              "imageLink": "https://goo.gl/maps/5gnLtSY41NNVVNWZA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "R\u00e9union has a Street View car with visible side mirrors, a roof rack, and **black tape** at the end of the **rear right bar**.",
+              "NOTE: Make sure not to get this confused with the Ghana car, which has tape on the front right bar."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/image.png",
+              "imageLink": "/images/reunion/image.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Being a French Department, you will see **French infrastructure**, such as [signs](https://goo.gl/maps/g4Zs8JkqkiWbQYt28), [bollards](https://www.google.com/maps/@-21.2427103,55.3131219,3a,75y,99.88h,80.84t,358.51r/data=!3m6!1e1!3m4!1sfAEf2UYNe56no-OLI1RWoA!2e0!7i13312!8i6656?entry=ttu) and [poles](https://www.google.com/maps/@-21.281482,55.4317286,3a,90y,19.99h,96.64t/data=!3m6!1e1!3m4!1sm6b5qi8oScL85YCcGo5E_g!2e0!7i13312!8i6656?entry=ttu)."
+            ]
+          },
+          "tags": [
+            "pole",
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/General_Landscape.png",
+              "imageLink": "https://goo.gl/maps/6D7LZ65gmsPn3YYt8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "R\u00e9union is a mountainous volcanic island in the Indian Ocean on a similar latitude to Queensland, Australia. Most roads are along the coast, with lush green mountains visible close by. Vegetation consists of [palms](https://goo.gl/maps/NjLXjEScWkmUzNQ17) and [ferns](https://goo.gl/maps/6oLGxZkvfaiTBqZg7), [pine trees](https://goo.gl/maps/J7vpe2wV2kptobfE9) at higher elevation, and [flowering plants](https://goo.gl/maps/zKst3y8NcdYipxtf6) due to the island\u2019s tropical savanna climate."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional and arrondissement-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/Reunion_Car_Coverage_map.jpg",
+              "imageLink": "/images/reunion/Reunion_Car_Coverage_map.jpg",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Only a handful of roads were covered without a trekker. Learning the general regions with coverage will help you get those extra 10 points."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/Reunion_Bus_Stops.png",
+              "imageLink": "/images/reunion/Reunion_Bus_Stops.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "There are six distinct bus stop designs on R\u00e9union:",
+              "- [Yellow](https://goo.gl/maps/q9CtkypqeALhBfrC7) - This is the most common type and can be found all over the island. It is usually accompanied by another bus stop, meaning you can get a good region guess if you see it on its own.",
+              "- [L Shaped](https://goo.gl/maps/Yts9EDaePYnjKk1L8) - It can either be white, or an [olive](https://goo.gl/maps/jgR9cBEvaMmKFu8SA) colour. It may also be in the form of a [bus shelter](https://goo.gl/maps/ERRyoQBRSTDCwNPL6). It is almost never accompanied by a yellow bus stop.",
+              "- [Pink](https://goo.gl/maps/psuwbrTTAkRmBatTA) - Rarely accompanied by a yellow bus stop.",
+              "- [Orange](https://goo.gl/maps/iab3u7VkEDbP1hSb6) - Almost always accompanied by a yellow bus stop.",
+              "- [Green](https://goo.gl/maps/kg61UkiurFFoe8hX6) - Almost always accompanied by a yellow bus stop.",
+              "- [Red](https://goo.gl/maps/tL9qM1Uzg6ThwBay7) - Rarely accompanied by a yellow bus stop.",
+              "This infographic shows where each one can be found. The list above is ranked by how common each one is found.",
+              "_You can click on the image to enlarge it._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/Sugarcane.png",
+              "imageLink": "https://goo.gl/maps/n4M58X5gveDDB4Uv6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Sugarcane plantations** on R\u00e9union can be found in two regions: the northeast and the southwest. The southwest is generally more built up and densely populated, meaning you will see more buildings or cars around."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/Cilaos.png",
+              "imageLink": "https://goo.gl/maps/LHdNKQSPkAtC7kTB8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Cilaos is a town inside a **caldera**. It can be recognized by the **wall** of mountains surrounding the town with **overcast** coverage."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/Reunion_Blur_Hint.png",
+              "imageLink": "https://goo.gl/maps/N4vNKy2BDwfFgFbt8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can spot this **rectangular blur** on the front camera in all the coverage going north of Saint-Louis."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/Coastal_N1.png",
+              "imageLink": "https://goo.gl/maps/Ji1Bk5ZmKSJ772it6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The northwestern section of the N1 is divided, with a **distinct ridge** to the southeast and the ocean to the northwest.",
+              "Note that although a bridge appears on the map, the coverage was taken before the bridge was built, meaning you will not see the bridge."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/Route_du_Volcan.png",
+              "imageLink": "https://goo.gl/maps/GFdiB9nbVJPF54Bc7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Route du Volcan can be recognized by the **Martian** landscape. The only vegetation is scattered shrubs and the soil is a distinct **brown-red** colour. These [white stones](https://goo.gl/maps/UFYFzYRav6h75Fge8) lining the road are also a good clue."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/Rural_Road.png",
+              "imageLink": "https://goo.gl/maps/m4EWBbcsSnBRhLeCA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "La Route Foresti\u00e8re 58 de la Scierie et du Haut des Makes is a **winding dirt track** that can be recognized by the **dense vegetation** surrounding it, particularly pine trees and eucalyptus. The track itself is also dark in colour, with grass growing in the middle of it."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/Eastern_N2.png",
+              "imageLink": "https://goo.gl/maps/1vJBXBfvwwi8YyB37",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The eastern region of R\u00e9union is the least densely populated, evident by the eastern part of the N2, which is a single carriageway passing through [somewhat dense vegetation on both sides](https://goo.gl/maps/1vJBXBfvwwi8YyB37), or a [vast landscape](https://goo.gl/maps/dCWLTzJzexxtujih9) with little to no trees."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/reunion/City_Bollards.png",
+              "imageLink": "https://goo.gl/maps/BCFWSpgwGXQNRTZG7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The two largest towns in R\u00e9union can be differentiated by their **bollards**, commonly seen at intersections. Saint Paul uses [black](https://goo.gl/maps/BCFWSpgwGXQNRTZG7) bollards, while Saint Denis uses [green](https://goo.gl/maps/zKaQEWScWPr9oF4z5) bollards, often with white balls on top. Saint Denis is also more built up, being the capital."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "In addition, here are some resources to help you practise R\u00e9union:",
+        "- **Plonk It R\u00e9union **([map link](https://www.geoguessr.com/maps/69f032d04925891dad6caf8a)) - This community-made map contains locations for practising each meta in the Plonk It R\u00e9union guide from step 2 to 3."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

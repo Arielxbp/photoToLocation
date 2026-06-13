@@ -1,0 +1,443 @@
+{
+  "_id": "liechtenstein",
+  "createdAt": "2025-09-07T22:31:02.416Z",
+  "updatedAt": "2024-10-01T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Liechtenstein",
+  "slug": "liechtenstein",
+  "code": "LI",
+  "cat": [
+    "Europe"
+  ],
+  "heroImage": "/images/liechtenstein/liechtenstein-6-scaled_copy.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Liechtenstein",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/liechtenstein/0_Normal_Summary_Graphic_4.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Liechtenstein_plates.png",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Liechtenstein uses black plates with white lettering and a yellow-and-red emblem near the left side. When blurred, the plates will appear grey, with the emblem colours being visible."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/FL_Landscape.png",
+              "imageLink": "https://maps.app.goo.gl/d4TSgr1MVjrn7HPh9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most coverage in Liechtenstein is situated in a somewhat flat river valley, but with tall mountains in almost every direction. In particular, within this valley, you will almost always be able to see the nearby mountains towering above you to the east. Most of the mountainous coverage is just on the slopes of the mountains, with only a small amount properly in the mountains.",
+              "As a result of the flat Rhine River Valley, Liechtenstein has a lot of pastures and other agricultural land."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/tv9gAwq.png",
+              "imageLink": "https://maps.app.goo.gl/ng9uBmFyjrGAJLU8A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All coverage in Liechtenstein is **low-cam**. This means that the camera on the Google car is intentionally set up lower than in most other countries. This can be recognized in two ways:",
+              "- The car blur is significantly bigger.",
+              "- Roads look wider and objects around you are seen from a lower angle.",
+              "Generally, the bigger car blur is the most consistent way to recognize low-cam.",
+              "NOTE: The only other countries that always have low-cam are [Switzerland](https://maps.app.goo.gl/mq5nCexiy7KfsV8E8) and [Japan](https://www.google.com/maps/@35.8415638,139.9145236,3a,75y,305.11h,83.84t/data=!3m7!1e1!3m5!1sLyYnyrI7fgLeL5Ev09XeJg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DLyYnyrI7fgLeL5Ev09XeJg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D33.088177%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/2.png",
+              "imageLink": "https://maps.app.goo.gl/t3s7tP6f3gWZshNu7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Liechtenstein uses **black-and-white **cylindrical bollards** **with a white or grey reflector and a rounded top. They also often have a blue attachment on the side.",
+              "When attached to guardrails, they will use the [wedge design](https://maps.app.goo.gl/zDoFQvaitWHeGPhk9) instead.",
+              "NOTE: Switzerland can use almost identical bollards."
+            ]
+          },
+          "tags": [
+            "guardrail",
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Screenshot__281398_29.png",
+              "imageLink": "https://maps.app.goo.gl/8uHzuhiisnbHw4S46",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Bus stops in Liechtenstein use a **green-and-white** design, with a black metallic border around the sign. The phrase LIEMOBIL is written at the top.",
+              "NOTE: The metallic frame is not always black."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Liechtenstein_Architecture__281_29.png",
+              "imageLink": "https://maps.app.goo.gl/KvREG22Xb1TxTVbn7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Like Switzerland, directional signs in Liechtenstein are generally white (smaller roads) or blue (bigger roads), and they have a pointed arrowhead, with a contrasting colour."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/6.png",
+              "imageLink": "https://maps.app.goo.gl/K6qWhntS9DKpRALV6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Liechtenstein pedestrian signs have **seven stripes**. The signs also have an oddly tall rectangle.",
+              "NOTE: Switzerland uses identical signs."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/7.png",
+              "imageLink": "https://maps.app.goo.gl/TtKWwMEXipCJ61yw5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "You can find these** yellow-and-black** **striped **road separators, with a **rounded top**, and a **Lego-like knob** on the top. They have 3 stripes of both colours, with yellow on the bottom.",
+              "NOTE: Switzerland uses a variety of different Road Separators, some of which will look identical to the ones in Liechtenstein."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Screenshot__281405_29.png",
+              "imageLink": "https://maps.app.goo.gl/ghWpyNirh3qs2kvn9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Road signs in Liechtenstein commonly have a round, grey **metal border** around them.",
+              "NOTE: Swiss and German signs can also have similar metallic borders."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/9.png",
+              "imageLink": "https://maps.app.goo.gl/WKCipG81eMWdJSox6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Architecture in Liechtenstein is a blend of traditional Alpine styles and more modern buildings, especially in the bigger cities."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Region-specific clues",
+      "items": [
+        {
+          "kind": "divider",
+          "title": "Landscape and vegetation"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Triesenberg_area.png",
+              "imageLink": "https://maps.app.goo.gl/yGx6Fy4Z4WUnvqDU9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Triesenberg and its surroundings are a fairly densely populated area on the slope of the mountains just east of the Rhine River Valley, which can often be seen below to the west."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Eastern_Mountains.png",
+              "imageLink": "https://maps.app.goo.gl/WcreiPhz4jVASaPE9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Mountains can be seen all around in the coverage east of the mountain ridge that cuts through Liechtenstein."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Ruggell_area.png",
+              "imageLink": "https://maps.app.goo.gl/Ztrpxc417tNA66ms6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Around Ruggell, there is a small, forested ridgeline to the south. This is a big contrast to the towering mountains seen elsewhere."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Between_hills.png",
+              "imageLink": "https://maps.app.goo.gl/hXXtx7tByhzgn9Ha8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Around Mauren, you can see the aforementioned ridge to the north, but this side of the hills is much more developed and urban. And to the south and southeast, you will see the much bigger mountains usually seen to the east."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Rolling_hills.png",
+              "imageLink": "https://maps.app.goo.gl/T3LBJGuprQG7M9aH7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "There is a set of **rolling hills** that run from Bendern, northeast, to the Austrian border. The rest of Liechtenstein is either very flat or in the mountains."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/West_of_Balzers.png",
+              "imageLink": "https://maps.app.goo.gl/HLSeT7fg6T2Gk59f8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In the flat area west of Balzers, with the northeast-oriented gridded roads, to the North/Northwest, you can often see [two rocky peaks](https://maps.app.goo.gl/8ZpQjESH7z189v4g9) on the Swiss side."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Infrastructure"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Vaduz_Bus_Stops.png",
+              "imageLink": "https://maps.app.goo.gl/vqsbtJqackCdEitA7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Unlike the rest of Liechtenstein, Vaduz sometimes uses **red bus stop signs.**",
+              "NOTE: ** **Regular bus stops are also present."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Balzers_Bus_Stop.png",
+              "imageLink": "https://maps.app.goo.gl/fyPizqVwdjxWWHDE6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Unlike the rest of Liechtenstein, Balzers sometimes uses **black bus stop signs.**",
+              "NOTE: ** **Regular bus stops are also present."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Blue_Signs_Outline.png",
+              "imageLink": "https://maps.app.goo.gl/PskAjZtbd5NKNcqr5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Blue street signs with a thin white border will place you either in the south of Liechtenstein or in the north around Bandern."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Blue_Signs_No_Outline.png",
+              "imageLink": "https://maps.app.goo.gl/pUeLq4xJCzcrcgrk8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Blue street signs that don\u2019t have an outline are found in Eschen."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Boring_Black_Signs.png",
+              "imageLink": "https://maps.app.goo.gl/jPFZaHzmGkmJExxv7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Flat black signs are found in eastern Liechtenstein."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Schaan_Signs.png",
+              "imageLink": "https://maps.app.goo.gl/MqYQUvyG9mrEEe5N9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Black signs with a white border and embossed letters can be found in Schaan."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Brown_Signs1.png",
+              "imageLink": "https://maps.app.goo.gl/oLjhmwZ2yf59Dpy49",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These brown street signs with a font reminiscent of **traditional German typefaces**, along with a white border, are found in Vaduz and the northern towns."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Arrow_Signs.png",
+              "imageLink": "https://maps.app.goo.gl/L3V9v1xhJF147Xw18",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Brown street signs that have an **arrow design** are unique to Ruggell.",
+              "NOTE: The regular brown signs are also present in Ruggell."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Generic_Brown_Signs.png",
+              "imageLink": "https://maps.app.goo.gl/uRFSMZLpPzf6gpoP9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Browns signs which have a more \u2018generic\u2019 font will place you in Planken."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/Southwest_cliff.png",
+              "imageLink": "https://maps.app.goo.gl/azBc75pi22L5j3yV9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This steep rocky cliff with trees at its base and on the top can be seen in and around M\u00e4ls."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/liechtenstein/lakes_copy.png",
+              "imageLink": "https://maps.app.goo.gl/e3uph7ptbQF8z3t29",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The only lakes in Liechtenstein are located just south of Steg, near the middle of the mountains."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

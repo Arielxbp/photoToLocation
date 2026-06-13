@@ -1,0 +1,991 @@
+{
+  "_id": "vietnam",
+  "createdAt": "2025-10-05T17:39:36.796Z",
+  "updatedAt": "2026-06-01T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Vietnam",
+  "slug": "vietnam",
+  "code": "VN",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/vietnam/banner1.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Vietnam",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/vietnam/0_vn_summary.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_drivingside.png",
+              "imageLink": "https://maps.app.goo.gl/TSsiZ56VDzUPiY4KA",
+              "alt": ""
+            },
+            "text": [
+              "Vietnam drives on the **right side** of the road.",
+              "NOTE: Cambodia and the Philippines are the only other southeast Asian countries with normal Street View that drives on the right side."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vietnam_plate2.png",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Vietnamese licence plates are **white** with black lettering. Both long and short versions are in use."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_language.png",
+              "imageLink": "#",
+              "alt": ""
+            },
+            "text": [
+              "The Vietnamese language uses a modified version of the Latin script, but with a far larger number of **diacritics** than any other script found on Street View. Words are generally somewhat short, typically consisting of a **single syllable**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_bollard.png",
+              "imageLink": "https://maps.app.goo.gl/RSFNpoU1cFRkC4QcA",
+              "alt": ""
+            },
+            "text": [
+              "The most common bollard type is a small square concrete bollard that is painted **white with a red top**."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_signpost.png",
+              "imageLink": "https://maps.app.goo.gl/fdgRqjtRKm5V9rKj6",
+              "alt": ""
+            },
+            "text": [
+              "The posts of road signs are usually painted with a **red and white stripe** pattern."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_roadsigncolour.png",
+              "imageLink": "https://maps.app.goo.gl/MyiPzDRyxXNf2Csx5",
+              "alt": ""
+            },
+            "text": [
+              "Road signs have a **yellow-orange background**. Within southeast Asia, this is unique."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_waystones.png",
+              "imageLink": "",
+              "alt": ""
+            },
+            "text": [
+              "Waystones that are painted white with a **colourful top**, usually red or blue, are common throughout the country.\u00a0",
+              "NOTE: Waystones like these are also common in Thailand and Cambodia. Often, they will include the road number in a large font on the side, and in a smaller font in the red area on the back and front. In addition, the front and back will list distances to towns. This information can be really helpful with pinpointing. "
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_chevron.png",
+              "imageLink": "https://maps.app.goo.gl/Ai9Xxi5oscnFVNJo6",
+              "alt": ""
+            },
+            "text": [
+              "Chevrons are either **black on yellow** or **white on red** and typically only have one arrow."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_directionalsign.png",
+              "imageLink": "https://maps.app.goo.gl/voJorsHmqvf6Xfuo9",
+              "alt": ""
+            },
+            "text": [
+              "Directional signs are typically blue with either a very [thin white border](https://maps.app.goo.gl/u7UCtnpyaBFKZ1bR6) or no border at all. The signs usually contain white arrows, which rather than being orthogonal often point in slightly strange directions."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_yellowmiddleline.png",
+              "imageLink": "https://maps.app.goo.gl/929V74SPyJ54Ff3S6",
+              "alt": ""
+            },
+            "text": [
+              "While multiple different types of road lines, both white and yellow, can be found in Vietnam, unusually **short yellow middle dashes** are particularly common and distinct."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_concreteroad.png",
+              "imageLink": "https://maps.app.goo.gl/fAoorMZRAH6KjsfD9",
+              "alt": ""
+            },
+            "text": [
+              "Minor roads made of **concrete blocks** are very common in Vietnam.",
+              "NOTE: This is also common in both the Philippines and Thailand, and to a lesser extent in Indonesia."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vietnam_guardrail.png",
+              "imageLink": "https://maps.app.goo.gl/WEex7aesC5EPWpik7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Vietnam uses A-type guardrails. Instead of having just one colour, each reflector is **red** on one side and **yellow** on the other, making them very recognisable."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_concretebarriers.png",
+              "imageLink": "https://maps.app.goo.gl/QkjJq4rXLTNLNqss5",
+              "alt": ""
+            },
+            "text": [
+              "Red and white striped concrete safety barriers are somewhat common on mountain roads."
+            ]
+          }
+        },
+        {
+          "kind": "centeredText",
+          "text": "Vietnam has a considerable variety of different utility poles and pole tops. This section will go over some of the most common ones that are helpful for recognizing the country. Note that some of these are more common in certain regions - the region-guessing section will go over this."
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_holeypoles.png",
+              "imageLink": "https://maps.app.goo.gl/fJZzSjvKLmmZS52f9",
+              "alt": ""
+            },
+            "text": [
+              "**Holey poles**, with holes either only on the lower half or almost all the way to the top, are common in Vietnam.",
+              "NOTE: The only other Asian country that commonly has holey poles is Sri Lanka, where the holes are [significantly larger](https://maps.app.goo.gl/srBQjDH9RRz2uPG48)."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_cambopoletop.png",
+              "imageLink": "https://maps.app.goo.gl/mhQRGYEqaoehmkSr6",
+              "alt": ""
+            },
+            "text": [
+              "Vietnam often has round concrete poles with indents and **small pin holes** near the top.",
+              "NOTE: The same type of pole is also common in [Cambodia](https://goo.gl/maps/JdVDH4F2dURiwAew8) as well as in [Taiwan](https://maps.app.goo.gl/pzPeYUqFoGAVftCb9)."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_trapezoidpoletop.png",
+              "imageLink": "https://maps.app.goo.gl/Q9jR8dr9tMVxaW217",
+              "alt": ""
+            },
+            "text": [
+              "Poletops shaped like **upside down trapezoids** are common in Vietnam.",
+              "NOTE: These may look similar to the poletops found in [central and northern Sulawesi](https://maps.app.goo.gl/F77f85pkPtnfWexk6), Indonesia."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_doublepole.png",
+              "imageLink": "https://maps.app.goo.gl/fqdmiun14TsTvbvh7",
+              "alt": ""
+            },
+            "text": [
+              "Double poles, which can be of different varieties, are fairly common in Vietnam."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_electricityboxes.png",
+              "imageLink": "https://maps.app.goo.gl/XAsh8DQ5TR19c3GF8",
+              "alt": ""
+            },
+            "text": [
+              "Utility poles often feature these light grey **electricity boxes**, which can have anywhere from 1 to 4 small indented windows. They have a very characteristic shape, where the bottom part** slopes down **slightly."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_motorbike.png",
+              "imageLink": "https://maps.app.goo.gl/4w1ZJZyQwjFeTWgd8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Vietnam has a fair amount of **motorcycle coverage**. This can be recognized by the unique shape of the car blur, which vaguely resembles the shape of a bone, and extends slightly higher up on one side. Sometimes you will only see the [helmet of the motorcyclist](https://maps.app.goo.gl/Md2n5vSVD72w2y197).",
+              "There is both Generation 3 and [Generation 4](https://maps.app.goo.gl/C1gwqT4kMgTz54pE6) motorcycle coverage.",
+              "Vietnam has by far the most motorcycle coverage in the world. In particular, if you see this type of coverage in a rural place, you are almost guaranteed to be in Vietnam."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_shitcamstep1.png",
+              "imageLink": "https://maps.app.goo.gl/K3aMzv7yFVPH5vqi9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Shitcam** can be found in some areas of Vietnam. Notably, the shitcam coverage has a car blur similar to the one from the previous tip, which makes it distinct from other countries where shitcam usually has a larger and more circular blur.",
+              "NOTE: The areas in which shitcam can be found will be discussed further at the end of step 2."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_riceonroad.png",
+              "imageLink": "https://maps.app.goo.gl/YSQoTAwEqyWz38gM8",
+              "alt": ""
+            },
+            "text": [
+              "It is somewhat common to see grains being spread out on roads to dry.",
+              "NOTE: This practice is also common in the Philippines, and more rarely in Thailand as well."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_address.jpeg",
+              "imageLink": "https://maps.app.goo.gl/jCHM3VgEr14CaEDN7",
+              "alt": ""
+            },
+            "text": [
+              "**Addresses on signs** are _extremely _common in Vietnam, in particular on storefronts. These addresses follow a hierarchical sequence that usually goes from specific (house/building) to general (city/province). These can be tremendously helpful to find your exact location.",
+              "Usually an address will contain all or some of the following elements, from left to right:",
+              "- House and street number",
+              "- Ward/commune:",
+              "- - Ward (urban areas): **ph\u01b0\u1eddng**",
+              "- - Commune (rural areas): **x\u00e3**",
+              "- District:",
+              "- - Urban district: **qu\u1eadn**",
+              "- - Rural district: **huy\u1ec7n**",
+              "- - District level town: **th\u1ecb x\u00e3**",
+              "- - Municipal/provincial city:** th\u00e0nh ph\u1ed1**",
+              "- Province/City",
+              "- - Province: **t\u1ec9nh**",
+              "- - Municipality: **th\u00e0nh ph\u1ed1 **(a municipality in Vietnam is a city that is on the same administrative level as a province, such as Ha Noi, or H\u1ea3i Ph\u00f2ng)",
+              "These words are often abbreviated. For example, huy\u1ec7n can be abbreviated as just H., th\u00e0nh ph\u1ed1 as just TP., etc. Additionally, sometimes the province itself may be abbreviated, for instance [here](https://maps.app.goo.gl/jrN2XEvhZ31gQmJy5) Th\u00e1i B\u00ecnh is abbreviated as TB."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_provincemap_darkmode.png",
+              "imageLink": "#",
+              "alt": ""
+            },
+            "text": [
+              "The **provinces** are the most useful part of an address. They are easy to scan for on the map, but it is recommended to learn them by heart to find them even quicker on the map.\u00a0",
+              "Often, the names of provinces are abbreviated. For example, Tien Giang is abbreviated TG. These can be especially useful to learn by heart to get an edge over your opponent.",
+              "It is important to note that Vietnam underwent an administrative reform in 2025, combining most provinces into larger ones and reducing the number of provinces significantly. This makes learning the (old) provinces by heart even more important: The overwhelming majority of coverage will be from before the reform, meaning that you cannot simply scan the map for some of the provinces\u2019 names.",
+              "There are lots of resources available to learn the province names and abbreviations. We recommend [https://helloquiz.app/](https://helloquiz.app/)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vnareacodes_map.jpg",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Area codes** in Vietnam always start with a 2, followed by one or two more digits, which are generally ordered from north to south."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vnlicencecodes_map.jpg",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Vietnamese licence plate codes, which are often painted onto the sides of trucks and other vehicles, are another useful clue to figure out the region."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_prefixes.png",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Some place name prefixes, meaning the start of a city name, are regional within Vietnam."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_redriverdeltalandscape.png",
+              "imageLink": "https://maps.app.goo.gl/jn4UaD7vG5uHFmaV7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Wide open and **completely flat agricultural fields** are most commonly seen in the Red River Delta and somewhat less commonly found in the Mekong River Delta."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_mekongcanal.png",
+              "imageLink": "https://maps.app.goo.gl/QhNr7jTwzupb3o1f9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Mekong Delta is an exceedingly flat, water-rich area. It is traversed by numerous very **straight canals**, often flanked by linear villages. It is one of the most densely populated parts of Vietnam, with cultivated fields essentially everywhere. The area is even more tropical than the rest of Vietnam, with lots of [palm trees](https://maps.app.goo.gl/EGM3APVzRnWeDun1A)** **and lush wetland vegetation."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_centralhighlands.png",
+              "imageLink": "https://maps.app.goo.gl/jNM4u7NZGUGzKLeD8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **Central Highlands** region tends to have a landscape with a somewhat distinct vibe: often hilly with distant mountains, red soil, and often fairly dry, rolling agricultural fields. Additionally, the vegetation is a bit drier than in the rest of Vietnam (depending on the season)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_rubbertree.png",
+              "imageLink": "https://maps.app.goo.gl/jfB6Vf5VFwxNuZUi9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Rubber tree plantations** are primarily found in the provinces to the north of Ho Chi Minh City, as well as in several parts of the Central Highlands.",
+              "Rubber trees can be recognized by their thin trunks. In Vietnam, it is typical for a section of the tree trunk to be wrapped in a piece of plastic. These trees tend to be neatly organized in a dense grid-like pattern."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_tea.png",
+              "imageLink": "https://maps.app.goo.gl/ZnL1JdXDiznA9Npv5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Tea plantations** are primarily found in the north, limited to several disconnected areas.\u00a0",
+              "A major exception is the southern province of L\u00e2m \u0110\u1ed3ng, which has a large tea area centred around the city of B\u1ea3o L\u1ed9c.",
+              "Tea plants can be recognized by their compact and neatly trimmed shape, with small dark green leaves. They are often, but not always, planted in windy rows on hillsides."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_khasipines.png",
+              "imageLink": "https://maps.app.goo.gl/mwgr2smCGYtG4cn49",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Clusters of [Khasi pines](https://en.wikipedia.org/wiki/Pinus_kesiya) growing on hills are very typical of far northeastern Vietnam, specifically the provinces of L\u1ea1ng S\u01a1n and Qu\u1ea3ng Ninh."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_dragonfruit.png",
+              "imageLink": "https://maps.app.goo.gl/CNQ9fBLsc27kDvEc9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Dragonfruit** farms are mostly found in two small areas in the south:\u00a0",
+              "- around the city of Phan Thi\u1ebft in B\u00ecnh Thu\u1eadn province",
+              "- a small area on the border between Long An and Ti\u1ec1n Giang, northeast of M\u1ef9 Tho .",
+              "Dragonfruit resembles the end of an upturned wet mop."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_drycoast.png",
+              "imageLink": "https://maps.app.goo.gl/CKKPLtnwTsYXCQq18",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The coastal region northeast of Phan Thi\u1ebft city is noticeably **dry and sandy**, compared to the typical Vietnamese landscape. Some parts of this region are [very rocky](https://maps.app.goo.gl/6tocNAdH2VVzMKpv6) as well."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_pepper.png",
+              "imageLink": "https://maps.app.goo.gl/vNdFkvMdppiY1DSK7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Black pepper** plantations are common in the area in and around the Central highlands. Black pepper is a type of vine that is cultivated on tree trunks: the pepper plants shroud these trees with a dense cover of downward-pointing leaves, completely obscuring the tree\u2019s trunk."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/ViN turbines.png",
+              "imageLink": "https://maps.app.goo.gl/7RXz6QdHnJ4uDJMN8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Wind turbines can be found in a few clusters mainly in the southern half of the country.",
+              "Here are the clusters from most to least common:",
+              "- [Southeast of Dalat, near the coast](https://maps.app.goo.gl/C34Em7GXyZiXqygA6)",
+              "- [North of Buon Ma Thuot, Dak lak](https://maps.app.goo.gl/k7LRFPhiJeH7xBbg8)",
+              "- [South of Pleiku, Gia Lai](https://maps.app.goo.gl/2AhLumL2EKeHUUHv5)",
+              "- [Southeast of Dong Hoi, Quang Binh](https://maps.app.goo.gl/YruY1bs8FcDnyTqW8)",
+              "- [East of Quy Nhon, Binh Dinh](https://maps.app.goo.gl/PRERajWrQJeN9j6J7)",
+              "- [South of Ho Chi Minh City, offshore wind farms near the coast.](https://maps.app.goo.gl/pyei1AkN9WrmEcj8A)",
+              "- [Western Quang Tri province.](https://maps.app.goo.gl/1Ri5pFNTLLjdhLqy5)"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_northspires.png",
+              "imageLink": "https://maps.app.goo.gl/Eoj8LFYVoGrqokJJA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Thin **spires on the roofs** of houses are almost exclusively found in the northern half of the country."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_redriverdeltahouses.png",
+              "imageLink": "https://maps.app.goo.gl/A4a9kHK983g82bn48",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Houses in the Red River Delta (the flat, densely populated area around Hanoi) tend to have a **boxy** look, typically tall with **multiple storeys**. These houses often feature gaudy details that borrow heavily from antique Greco-Roman architecture: [pillars](https://maps.app.goo.gl/6ogDGMJHvMutZ46y9), [pediments](https://en.wikipedia.org/wiki/Pediment), [classical-looking balconies](https://maps.app.goo.gl/9Z9mSB9wJCce7LXC7), etc.",
+              "Note that similar houses are sometimes found in the direct vicinity of Ho Chi Minh City."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_mekongdeltahouses.png",
+              "imageLink": "https://maps.app.goo.gl/a3B5uD8c5V9h8DSy5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Houses in the Mekong Delta also have a boxy, concrete look, but are usually much less tall: they almost always consist of just a single, ground-level storey."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_northwesternhouses.png",
+              "imageLink": "https://maps.app.goo.gl/7yupz3GRHTsfaLnw7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Traditional wooden houses** are common in the northwest. They commonly have one or several of the following features:",
+              "- Stilts holding up the house,",
+              "- corrugated metal roofs,",
+              "- triangular openings on the side of the roofs."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_gravesinfields.png",
+              "imageLink": "https://maps.app.goo.gl/9v7EbSu8XFD5Up7j9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Single graves** in the middle of agricultural fields can be found in the Red River Delta."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_woodenfence.png",
+              "imageLink": "https://maps.app.goo.gl/hwvukT5HT2QcX4q7A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Wooden fences** made out of sticks, or even bamboo, in a grid-like pattern, similar to fences commonly found in northeastern India, are found in the northern parts of Vietnam."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_holeypoleregion.png",
+              "imageLink": "https://maps.app.goo.gl/CiQdu4omgSMkddhS7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Utility poles with **large holes** along most of the pole are common in northern Vietnam.",
+              "NOTE: Do not confuse this with the [regular holey pole](https://maps.app.goo.gl/xbMJe5paBUuoLzm2A), which is where the holes extend only halfway up the pole. This \u00bd of the holey pole is found throughout the entirety of Vietnam."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_nopinholepole.png",
+              "imageLink": "https://maps.app.goo.gl/SXVWjaDqL9h1rKD67",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Round concrete poles usually feature [many pinholes](https://maps.app.goo.gl/RfrXtSv9T5Vy5Smg6) on the top half of the pole, however in the north they often feature a minimal amount or even **no pinholes**.",
+              "NOTE: Although more rare, pinhole poles may be found in the north."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_trapezoidpoletopregion.png",
+              "imageLink": "https://maps.app.goo.gl/LuumQnwFskMD8CTHA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poletops shaped like **upside down trapezoids** are common in central and northern Vietnam.",
+              "NOTE: Trapezoidal pole tops may be [off-centre](https://maps.app.goo.gl/hrHUQbXHHTniFB1t9) which is not the same as regular off-centre poles."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_tripletrapezoidpoletopregion1.png",
+              "imageLink": "https://maps.app.goo.gl/aGRLMRx8KyqDui1s9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The trapezoid shaped poletops can sometimes be off-centre. If a utility pole has **three off-centre incomplete trapezoids** then you will be in the north of the country."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_trianglepoletopregion.png",
+              "imageLink": "https://maps.app.goo.gl/5BX9JiQumbJdaZFPA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poletops shaped like a **triangle**, with the support bars underneath the crossbar, are found in southern Vietnam.",
+              "NOTE: The middle insulator must be mounted onto the pole itself, rather than on a [metal extension ](https://maps.app.goo.gl/7tDNw4eb1L7yeHw29)of the crossbar."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_ashapedpoletop.png",
+              "imageLink": "https://maps.app.goo.gl/npTjfShjf1kcH9ff9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A poletop shaped like an **A above a crossbar** can be found in the centre of the country."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_offcentrepoletop.png",
+              "imageLink": "https://maps.app.goo.gl/Sidg9Q6n7LCUgUav7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Utility poles with **uneven crossbars**, meaning the crossbar is significantly more to one side of the pole than the other, are found in the south of the country. Sometimes, they are not fully uneven but are more in the style of [Indonesian off-centre poles](https://maps.app.goo.gl/TiDuQt7tSV8UmA3K7).",
+              "NOTE: You may mistake partially [off-centre trapezoid](https://maps.app.goo.gl/ieZHLc3qyVbNUXRz5) poletops for regular off-centre poletops, however any pole with a trapezoid connector belongs in a different category. In the exception, the connector is not a straight bar, rather it is an incomplete trapezoid."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_bamboopole.png",
+              "imageLink": "https://maps.app.goo.gl/wX7XtebqX4F9pdwU6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Thin **bamboo poles** can be found in rural areas of the northwestern mountains."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_blackpolesticker.png",
+              "imageLink": "https://maps.app.goo.gl/YwevEY1YjVAdu9tS9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poles in the northern parts of the country will often have **black pole stickers**, similar to those found in Malaysia but often with a more simple design."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_shitcamregion.png",
+              "imageLink": "https://maps.app.goo.gl/frebji9VauTUj8jT7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Shitcam is only found in a few spots in the Red River Delta."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_dalatgreenhouses.png",
+              "imageLink": "https://maps.app.goo.gl/nj3ie8y3mhjiHCce8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The countryside directly around the city of \u0110\u00e0 L\u1ea1t is densely covered in **greenhouses**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_dongvankarstgeopark.png",
+              "imageLink": "https://maps.app.goo.gl/yqACQYVRhY7bL1na9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The \u0110\u1ed3ng V\u0103n Karst Geopark in northern H\u00e0 Giang province, in the extreme northernmost tip of Vietnam, is characterized by a very distinct landscape: **rounded, pointy mountains** with relatively sparse vegetation, exposing the **very dark rocks** underneath.",
+              "NOTE: The broader region of northern Vietnam is also characterized by pointy mountains. The Geopark is unique because of the exposed rocks."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_phuquoc.png",
+              "imageLink": "https://maps.app.goo.gl/8dnFKWJLYGex79F1A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The island of Ph\u00fa Qu\u1ed1c is found in southern Vietnam near Cambodia. Ph\u00fa Qu\u1ed1c only has Generation 3 coverage and has a lot of dark red soil. You may sometimes see a large forested ridge, which sits northeast on the island."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_halongbay.png",
+              "imageLink": "https://maps.app.goo.gl/j5Gca3PAiqM37ad49",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On the coastal roads of the H\u1ea1 Long Bay, east of H\u1ea3i Ph\u00f2ng, you can see numerous **pointy, rocky islands** rising out of the water, making for idyllic views."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_tayninhmountain.png",
+              "imageLink": "https://maps.app.goo.gl/1p7zxDw7PNLXEuxQ9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A **single large mountain** in the middle of an otherwise completely flat landscape can be found just northeast of the city of T\u00e2y Ninh."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_khanhhoapeninsula.png",
+              "imageLink": "https://maps.app.goo.gl/phFRuBwaVpG1XZUU7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This peninsula in far northern Kh\u00e1nh Ho\u00e0 can be recognised by the many **sand dunes** hugging the road, which is mostly a divided highway, but also a [smaller paved road](https://maps.app.goo.gl/Nu1tRXJb6Tq17hYT9) for a shorter stretch."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_hoian.png",
+              "imageLink": "https://maps.app.goo.gl/DrnpuXxwWD36zJ8BA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The historic town of H\u1ed9i An, just south of Da Nang, can be recognised by the **old yellow buildings** typically with dark brown doors and details."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_sapa.png",
+              "imageLink": "https://maps.app.goo.gl/NFgCpKfKumpuUWV7A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Sa Pa is a resort town deep in the northern mountains overflowing with touristy stores and restaurants with excessive signage, and palace-like grand hotels throughout the town. The architecture is a mixture of an [affluent European style](https://maps.app.goo.gl/fbuKyfSwu2fYfuVb9) and a more typical [southeast Asian style](https://maps.app.goo.gl/YuBdCAmfD2rs74it7)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vietnam/vn_cyrillic.png",
+              "imageLink": "https://maps.app.goo.gl/73ZmBpUE8qg4N2Kw7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Near the beach resorts just east of Phan Thi\u1ebft city, most signs will have **Cyrillic text** alongside Vietnamese, catering to Russian tourists."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends you play these maps instead:",
+        "- **A Balanced Vietnam **([map link](https://www.geoguessr.com/maps/685f296859482938d5b066f0)) - 100k+ locations balanced with regionguessing in mind.\u00a0",
+        "- **AI Gen - Vietnam** ([map link](https://www.geoguessr.com/maps/685f29068d1a34931b01d369)) - AI generated map with 110k locations.",
+        "In addition, here are some resources to help you practise Vietnam:",
+        "- **Plonk It Vietnam** ([map link](https://www.geoguessr.com/maps/68fa9c8b683fad7cd50084cf)) - This map contains locations for practising each meta in the Plonk It Vietnam guide from step 2 to 3.",
+        "- **Vietnamese Regions Quiz** ([quiz link](https://helloquiz.app/quiz/3FlM4f2ckUPF)) - Learn all the old Vietnamese provinces.",
+        "- **Vietnamese Area Codes Quiz **([quiz link](https://helloquiz.app/quiz/vOMdRAunuj6D)) - Learn all the Vietnamese area codes.",
+        "- **Vietnamese Licence Plate Codes Quiz**** **_by GeoTrot_ ([map link](https://www.geoguessr.com/maps/68625861476fc8d0684af786)) - Play this map to learn the Vietnamese licence plate codes."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

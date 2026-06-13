@@ -1,0 +1,409 @@
+{
+  "_id": "mali",
+  "createdAt": "2025-09-06T12:00:52.586Z",
+  "updatedAt": "2024-01-29T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Mali",
+  "slug": "mali",
+  "code": "ML",
+  "cat": [
+    "Africa"
+  ],
+  "heroImage": "/images/mali/Moschee_von_Djenn_C3_A9.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Mali",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/mali/0_summary_mali.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Coverage-map-Mali2.png",
+              "imageLink": "/images/mali/Coverage-map-Mali2.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Mali has very **limited coverage**. There are only ten small trekkers, divided over seven locations. Instead of learning a lot of country-specific clues, it is more practical to simply memorise what the trekkers look like."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Tripod.png",
+              "imageLink": "https://goo.gl/maps/QtCv1GDzu69xdW8N7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All this trekker coverage is made with a regular consumer-grade camera on a **tripod**. This gives all the coverage a very peculiar and recognizable look, which is different from the normal backpack trekkers. It can have a slightly \u2018ethereal\u2019 look to it, but it is recommended to simply click on a few of the locations to get a feeling for what it looks like. Objects in the image will usually have motion blur, and slightly saturated colours.",
+              "From here on, the Mali tripod trekkers will be simply referred to as \u201ctripods\u201d.",
+              "NOTE: Tripods can also be found in several other countries."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Mosque_architecture.png",
+              "imageLink": "https://goo.gl/maps/wWfhce7RhSrP6PzM6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Almost all the tripods focus on showing **historical mosques**. These tripods usually have an indoor part and an exterior part, which are sometimes not connected to each other.",
+              "These mosques have a recognizable look: they are made out of **mud bricks and adobe plaster**. The walls of the buildings are decorated with wooden sticks. Inside, you will usually see the same adobe walls, and prayer rugs on the floor."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Pinpointable_exteriors.png",
+              "imageLink": "https://goo.gl/maps/qYC9JaCVe36FTt4n6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The exterior parts of the mosque tripods can look like a normal street. These will sometimes have [enough information](https://goo.gl/maps/W1WVwXgZUmc7HzhWA) available (when moving) to be included in **pinpointable maps**, like [A Community World](https://www.geoguessr.com/maps/62a44b22040f04bd36e8a914).",
+              "This guide has separate sections for the pinpointable and non-pinpointable coverage. You can choose to study only the coverage that is relevant for competitive maps, or all the coverage. Note, however, that the interiors of the mosques are not considered pinpointable, even though they are covered in the section next to their respective exteriors."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Arid_landscape.png",
+              "imageLink": "https://goo.gl/maps/fwF4j9H2JQbJVe8k6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Mali is generally an **arid** country. Seeing a sandy, dry landscape can help with immediately distinguishing the Mali tripods from most tripods in other countries."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Step 2.1 \u2013 Pinpointable tripods",
+      "items": [
+        {
+          "kind": "divider",
+          "title": "Niono Mosque"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/ml_nionooutside.png",
+              "imageLink": "https://goo.gl/maps/P952ubgegGiwt8XH6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Niono mosque is located in a **busy area** by the side of a wide, sandy and fairly dirty road, with trees right by the walls of the mosque.",
+              "It is most easily located on the map by first looking for the \u201cCentre Commercial\u201d slightly north of the centre of Niono."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/ml_nionoinside.png",
+              "imageLink": "https://goo.gl/maps/BjsjTirZ2b5DcC128",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The inside of the Niono mosque can be recognized by its fairly detailed **\u201cEuropean style\u201d pillars**, which is not found in any of the other Malinese mosques with coverage."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Sidi Yahiya Mosque (Timbuktu)"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/ml_sidiyahiyaoutside.png",
+              "imageLink": "https://goo.gl/maps/8jYapKcr9ifVN3Hw8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The roads around the Sidi Yahiya mosque are a mixture of sand and **tiles** shaped like **slices of bread**, which within Mali, is unique to this coverage.",
+              "The surrounding buildings are mostly built of bricks having a peachy orange colour with a brown undertone. This can also be found around the other two mosques with coverage in Timbuktu. The area generally looks [busier](https://goo.gl/maps/Pn2Gdp6uaHQPm21Y6) than around the Djingareyber mosque."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/ml_sidiyahiyainside.png",
+              "imageLink": "https://goo.gl/maps/2M7qw31N9JDUGxFu5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The interior of Sidi Yahiya mosque is recognized by the yellow painted walls combined with the bottom of the walls, which consists of **unpainted bricks**. The mosque has a [courtyard](https://goo.gl/maps/Zsfd6eXb8iVWKYBU6), with walls made of bricks and a floor made of bright, square tiles."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Djingareyber Mosque (Timbuktu)"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Djingareyber_exterior.png",
+              "imageLink": "https://goo.gl/maps/eZaCW9Evrb71EsbU9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Coverage outside of the Djingareyber mosque in Timbuktu features brick buildings and a paved street with **rectangular** tiles."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/ml_djingareyberinside.png",
+              "imageLink": "https://goo.gl/maps/zToWNzmUATvbV9UB6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The inside of the Djingareyber mosque can be characterised by yellow painted walls, wide **round archways**, and red carpet."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Step 2.2 \u2013 Non-pinpointable tripods",
+      "items": [
+        {
+          "kind": "divider",
+          "title": "Sankor\u00e9 Mosque (Timbuktu)"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Sankore_exterior.png",
+              "imageLink": "https://goo.gl/maps/fs7vnXQQQvaffx5EA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Sankor\u00e9 Mosque is surrounded by very **sandy** ground. The mosque itself has a prominent pyramid-shaped tower."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Sankore_doors.png",
+              "imageLink": "https://goo.gl/maps/LXZa5iHZixBT9BK48",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Sankor\u00e9 Mosque has **richly decorated doors**, which are made of wood adorned with metal details."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Sankore_interior.png",
+              "imageLink": "https://goo.gl/maps/2StSezRaq2PhWXX58",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The interior of the Sankor\u00e9 Mosque has blue carpet, yellow painted walls, and a **fairly low ceiling** supported by wooden beams."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Gao Mosque"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/ml_gaooutside.png",
+              "imageLink": "https://goo.gl/maps/UUhY2Gjb8YGAQabv9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The exterior of the mosque in Gao can be recognised by the **large desolate space** outside the walls, the ground consisting of reddish dirt, and some trees in the background."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/ml_gaoinside.png",
+              "imageLink": "https://goo.gl/maps/fecVigpy6ftfRd4w7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The inside of the Gao mosque consists of undecorated corridors with **low roofs**. You can see the **pyramid shaped structure**, with a very large number of dry branches sticking out of it, from the courtyard."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Djenn\u00e9 Mosque"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/ml_djenneoutside.png",
+              "imageLink": "https://goo.gl/maps/D72LW8evidVcmhoq6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Djenn\u00e9 mosque has a very recognizable front, with some distant trees and a **clear sky**. The mosque is surrounded by low houses, making the area look fairly open."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/ml_djenneinside.png",
+              "imageLink": "https://goo.gl/maps/S1L7Bzh2iDLnimnT6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The interior of the Djenn\u00e9 mosque is quite dark, with a high roof and narrow corridors with **gothic arches**. There is also a large courtyard with sandy ground and brown wooden doors along the walls."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Mopti Mosque"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Mopti_outside.png",
+              "imageLink": "https://goo.gl/maps/9fSv2f57DEb8i34r5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Mopti mosque is similar in style to the Djenne mosque, but has **trees growing closer** to the walls and a slight amount of clouds in the sky. The streets with coverage around the walls of the mosque also appear more [narrow](https://goo.gl/maps/wYkmJf6fUAN6Fp2J7) than the ones in Djenne."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Mopti_inside.png",
+              "imageLink": "https://goo.gl/maps/XMnqWUPEEZaBoTxs9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The interior of the Mopti mosque can be recognised by the somewhat **open space,** with a high roof, no arches, and a blue carpet across the entire floor."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "\u201dBamako\u201d Mosque"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Backrooms.png",
+              "imageLink": "https://goo.gl/maps/vzAS32qBEtSoTR8A6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In the north west of Bamako, you can find a tripod inside an empty **modern mosque**. The interior\u2019s light blue walls and pink floor make this location instantly recognizable.",
+              "The coverage on the exterior is in the mosque\u2019s yard. The outside walls are made of concrete, and are painted yellow and orange.",
+              "This coverage is **severely misplaced**, being actually located in an unidentifiable rural area, rather than inside Bamako."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Bandiagara Escarpment"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/ml_middleofnowheregorge.png",
+              "imageLink": "https://goo.gl/maps/V4X7derxE8anXsFx8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This natural **rocky gorge **is part of the [Bandiagara Escarpment](https://en.wikipedia.org/wiki/Bandiagara_Escarpment). It features dry trees and bushes following the path. It is located southwest of Sangha Ogol Leye, and is the only completely rural coverage in Mali."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Miscellaneous misplaced tripods"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/mali/Misplaced.png",
+              "imageLink": "https://www.google.com/maps/@16.776001,-3.0056198,2a,90y,2.68h,90.17t/data=!3m6!1e1!3m4!1sJjfjtd4RPW0AAAQ5TZIq-A!2e0!7i13312!8i6656?entry=ttu",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Inside the Sankore mosque coverage in Timbuktu (but not connected to it), there are **several misplaced locations**: The inside of a [tour business](https://goo.gl/maps/dqPgKDhM4aWPpLgb9) actually located in Bamako, [a classroom](https://www.google.com/maps/@16.7759426,-3.0056179,2a,90y,251.37h,85.19t/data=!3m6!1e1!3m4!1sc7XR-Xm-B-4AAAQ5TZIq-w!2e0!7i13312!8i6656?entry=ttu), a [couple](https://goo.gl/maps/9sbjs2gEbyaCahEw5) of [streets](https://goo.gl/maps/Su95KP4Ervi7Aeta9) and some [other](https://goo.gl/maps/x1Zn5UaRMGveqagMA) [miscellaneous](https://goo.gl/maps/86NpvddGG48R9PYn7) [places](https://goo.gl/maps/Gh7e3WcFX8eQCVTs5)."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

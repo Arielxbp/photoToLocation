@@ -1,0 +1,187 @@
+{
+  "_id": "vanuatu",
+  "createdAt": "2025-09-07T17:31:58.587Z",
+  "updatedAt": "2025-04-08T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Vanuatu",
+  "slug": "vanuatu",
+  "code": "VU",
+  "cat": [
+    "Oceania"
+  ],
+  "heroImage": "/images/vanuatu/monika-mg-YkMC1mqegTw-unsplash.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Vanuatu",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/vanuatu/0_summary_vanuatu.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/vanuatu_locator.png",
+              "imageLink": "/images/vanuatu/vanuatu_locator.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Vanuatu is an island nation located in the Pacific Ocean, northeast of Brisbane between the Solomon Islands, New Caledonia and Fiji."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/vu_trekker.png",
+              "imageLink": "https://maps.app.goo.gl/MXbHWAVxi6XCVG6T9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All coverage in Vanuatu was taken with a **Generation 3 trekker**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/vu_soil.png",
+              "imageLink": "https://maps.app.goo.gl/iF2z775sCKFQC32C7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The coverage was taken on a volcanic island, and as such you will often see **dark volcanic soil**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/vu_tropical.png",
+              "imageLink": "https://maps.app.goo.gl/n1F9nneDAhLeEjvy6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Vanuatu is a tropical island chain, with a significant part of the coverage being taken in a **dense tropical forest**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/vu_coverage.png",
+              "imageLink": "/images/vanuatu/vu_coverage.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Although Vanuatu consists of 13 primary islands, only **Ambrym Island** has coverage. Look for the \u2018Port Vato\u2019 label on the map, north of Port Vila, to find the island."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/Volcano.png",
+              "imageLink": "https://goo.gl/maps/TUdAm2qNf4gVrSXaA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This unique **volcano** trekker can be found in the middle of the island."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/Plateau.png",
+              "imageLink": "https://goo.gl/maps/XtQPKEUtEh6N8ZEGA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A distinct plateau with **dark brown soil** and **patchy grass** is seen east of the volcano."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/Jungle.png",
+              "imageLink": "https://goo.gl/maps/SwFibjUdmAbs2qoN7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Tropical plants and many **ferns** can be seen in this jungle further to the east. A man with a **red cap** is also seen with the trekker."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/Beach.png",
+              "imageLink": "https://goo.gl/maps/V4XG6xGXdyLNzJd99",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A beach with **black sand** can be seen on the east side of the island."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/Dirt_Road.png",
+              "imageLink": "https://goo.gl/maps/Tv2MdcJnNgLrmzAt6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This dirt road with **tire tracks** and slightly purple soil can be seen east of the beach."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/vanuatu/Village.png",
+              "imageLink": "https://goo.gl/maps/TGSzVWFb2dnVy1wn8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Endu Pahakol, the only village with coverage on Ambrym Island, can be recognized by the small **thatched huts** and dark soil."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

@@ -1,0 +1,213 @@
+{
+  "_id": "guam",
+  "createdAt": "2025-09-07T17:30:58.300Z",
+  "updatedAt": "2025-04-08T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Guam",
+  "slug": "guam",
+  "code": "GU",
+  "cat": [
+    "Oceania"
+  ],
+  "heroImage": "/images/guam/gu_banner.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Guam",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/guam/0_gu_summary.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/gu_location.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Guam_in_Oceania_%28-mini_map_-rivers%29.svg/2388px-Guam_in_Oceania_%28-mini_map_-rivers%29.svg.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Guam is a United States overseas territory. As such, it is counted as **the US** for country streaks purposes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/gu_car.png",
+              "imageLink": "https://goo.gl/maps/VRiC7utYWhZZjnsm9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The entire Google car is blurred, however an **antenna** at the front right and a tiny part of the **roof rack** can be seen.",
+              "NOTE: You will not see a roof rack on the Northern Mariana Islands Google car."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/gu_pole.png",
+              "imageLink": "https://goo.gl/maps/jPup4bbtnzrAwtpM7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Poles on Guam are almost always **concrete** and commonly very thick.",
+              "NOTE: Northern Mariana Islands typically have wooden poles."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/streetsign.png",
+              "imageLink": "https://goo.gl/maps/FCLP4g95945UNCAs8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Guam uses **green** street signs, unlike the Northern Mariana Islands, which use blue street signs."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/gu_landscape.png",
+              "imageLink": "https://goo.gl/maps/dquWaVahW6qV5rSY8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Guam has a **tropical climate** with a lot of dense and somewhat low vegetation."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/gu_reflectorspam.png",
+              "imageLink": "https://goo.gl/maps/rV74Bk4bBnfL1emp9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Both Guam and Northern Mariana Islands often have a very **large number** of **road reflectors**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/gu_asian.png",
+              "imageLink": "https://goo.gl/maps/5nqPw4zR28Bqm25w5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**East Asian languages** such as Japanese, Chinese, Korean, and even Russian are common to see in Guam.",
+              "NOTE: This is also the case in Northern Mariana Islands."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/gu_coverage.png",
+              "imageLink": "/images/guam/gu_coverage.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Coverage in Guam is fairly limited, particularly in the southern half, where there is almost no coverage inland."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/gu_hillysouth.png",
+              "imageLink": "https://maps.app.goo.gl/542NLfJXbMdfNzQE9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Hills** are mostly found on the southern half of the island."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/gu_flatnorth.png",
+              "imageLink": "https://maps.app.goo.gl/FTkRJj1AEnDoWnwP8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Similarly, the northern half of the island is mostly **flat**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/Apra_View_Hint.png",
+              "imageLink": "https://maps.app.goo.gl/AKPVwkAEFB5Wjyes6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Some Signposts near the town of Apra View are coloured **yellow**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/guam/gu_leopalace.png",
+              "imageLink": "https://goo.gl/maps/mXQvkj25qFMZJRJR8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "LeoPalace Resort can be recognised by the white, resort buildings with **orange tiled roofs**, which looks superficially similar to tiled roofs found on [Java](https://goo.gl/maps/E6P4UxfQsHz8wZoe7)."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

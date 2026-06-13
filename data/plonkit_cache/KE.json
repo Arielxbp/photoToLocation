@@ -1,0 +1,636 @@
+{
+  "_id": "kenya",
+  "createdAt": "2025-09-06T09:10:17.468Z",
+  "updatedAt": "2026-06-07T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Kenya",
+  "slug": "kenya",
+  "code": "KE",
+  "cat": [
+    "Africa"
+  ],
+  "heroImage": "/images/kenya/kenya.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Kenya",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/kenya/Kenya_summary_graphic2.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_gen4_trucks.png",
+              "imageLink": "https://maps.app.goo.gl/ddmCntAJHVSNsLCR6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Kenya is mostly covered in Generation 4 **pickup truck coverage**. Most trucks are blurred out, but sometimes you can see parts of the car, which can be many different colors, or a **snorkel**.",
+              "NOTE: It is the only country other than Mongolia with a snorkel in Generation 4."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Road_Lines.png",
+              "imageLink": "https://goo.gl/maps/UUUdLrUMp4b6Q4pVA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Outer lines in Kenya will always be solid white, while inner lines will be yellow and either solid or dashed."
+            ]
+          },
+          "tags": [
+            "roadline"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_pole.png",
+              "imageLink": "https://maps.app.goo.gl/XGmhK5Vb5VhJPiMr8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Kenyan poles are either made of concrete or wood, and have an** L shaped crossbar**."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_2Bfollow_2Bcar.png",
+              "imageLink": "https://maps.app.goo.gl/6H21wEqpiRH2HyXr9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "On a lot of the coverage you will see a grey Toyota SUV following the Street View car."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_License_Plate.png",
+              "imageLink": "/images/kenya/Kenya_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Kenya uses **long white** front licence plates. The rear counterpart is **square** and **yellow**."
+            ]
+          },
+          "tags": [
+            "license plates"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Safaricom.png",
+              "imageLink": "https://goo.gl/maps/QtpfkJ74agGdeuNJ8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "This mobile network brand named **Safaricom **is unique to Kenya, and almost every city has one location."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_Directional_Signs.png",
+              "imageLink": "https://maps.app.goo.gl/zXLsKs69MeETYywL7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Directional signs are **green **with a white border and text. They often display road numbers in white or [yellow](https://goo.gl/maps/DqEYtasj9mwbfE3G7)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_Road_Signs.png",
+              "imageLink": "https://goo.gl/maps/ABs9tkzKUjYF1dYM8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "While infrequent, road signs in Kenya will mostly be **red and white**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_Counties.png",
+              "imageLink": "https://goo.gl/maps/as7Nnf6VRktWVWy48",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Upon closer inspection of signs, billboards and posters, you will notice that the **county name** is often written. Therefore, knowledge of Kenyan counties can be extremely useful in region guessing.",
+              "_You can practise Kenyan counties using the quiz in the resource section._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Repurposed_Vans.png",
+              "imageLink": "https://goo.gl/maps/TY8m26XSS8aeMvYw7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "These **repurposed vans** can be found all over Kenya.",
+              "NOTE: While these vans can also be found in Uganda, the [design](https://goo.gl/maps/zn7PBhoaiJuyv6Ju7) of the vehicle wrap is clearly different."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_Eucalyptus.png",
+              "imageLink": "https://goo.gl/maps/NirkuGUdSLtodPQf9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Many species of **eucalyptus **are commonly found in Kenya. They can be identified by their long, often clumped leaves, and smooth bark.",
+              "NOTE: Eucalyptus trees can be found in other countries. Use this information to help reinforce your country guess."
+            ]
+          },
+          "tags": [
+            "vegetation"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_gen3_cars.png",
+              "imageLink": "https://maps.app.goo.gl/CLSpPbCAA1NDD6Ho9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Generation 3 coverage in Kenya often features a **visible roof rack **\u00a0and a **snorkel**. Some Generation 3 coverage has [no visible car](https://maps.app.goo.gl/UGBAo7hH2mhLsUv46)."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional/county-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_Coverage_Map.png",
+              "imageLink": "/images/kenya/Kenya_Coverage_Map.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most of the coverage in Kenya outside of the southwest is limited to **main roads**.",
+              "_You can click on the image to enlarge it._"
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya post codes.png",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Post codes in Kenya are ordered and can be useful in narrowing down your guess.",
+              "_You can click on the image to enlarge it. Here is a _[quiz](https://www.super-duper.fr/quiz2024/areacodes.php?country=POST_KE&language=en&tile=gmaps&border=thin&difficulty=false&timer=false&gmaplng=en)_ to help practice Kenyan post codes_"
+            ]
+          },
+          "tags": [
+            "moving info"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/kenya_topo.png",
+              "imageLink": "/images/kenya/kenya_topo.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The natural formation of land has great diversity between regions. The east and large portions of the north are extremely flat. In contrast, the further southwest you travel, the higher the elevation becomes on average.",
+              "_You can click on the image to enlarge it._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Regional_Climates.png",
+              "imageLink": "/images/kenya/Regional_Climates.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Kenya has distinct regional climates. Some of these include:",
+              "- [Humid](https://goo.gl/maps/ikoiFyXWzkoo89Yd6)",
+              "- [Semi-Arid](https://goo.gl/maps/8pKMM9UmiABeQ5JWA)",
+              "- [Arid ](https://goo.gl/maps/WM987ahC4aCCZtLB9)",
+              "- [Very-Arid](https://goo.gl/maps/cysAiN7mGE66ZSJ97)",
+              "As regions vary, this means that there will be many transitional climates. Use this as a guide to quickly determine the general area to assist with region guessing.",
+              "_You can click on the image to enlarge it._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Mombasa.png",
+              "imageLink": "https://maps.app.goo.gl/BYHSy8Qixt4dX9pd8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Mombasa and the other coastal towns are easily identified from the **white sandy soil, **palm trees and coastal feel."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Landscape_-_Far_West.png",
+              "imageLink": "https://goo.gl/maps/f64sZyt7Ka6ZkuYq5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The far west areas of the country that are northwest and southwest of Kisumu are the most agricultural parts of the country. You will often see **farms**, grassy hills, and tall **eucalyptus **trees in this region of the country."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kitui.png",
+              "imageLink": "https://goo.gl/maps/EMeRDcDxDMyYtSG59",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The area around Kitui is **semi-arid**, usually mountainous, and has light orange, sandy dirt."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Landscape_-_Lodwar.png",
+              "imageLink": "https://goo.gl/maps/s5SKSno4ZYfWXGxQA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The northwest part of the country has very limited coverage, most of which is on the A1 or in Sibiloi National Park. It has faintly **tan soil **and sparse** low trees**. A lot of the coverage in this area is very flat, but you can also see hills or mountains.",
+              "NOTE: Most of this coverage has a [dirty exposed car](https://maps.app.goo.gl/AVaanekywEYdiAqm6)."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/plonkit_kenya_white_flowers.png",
+              "imageLink": "https://maps.app.goo.gl/zD5797ywzQt2YQ1F9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**White flowers**, especially when they are in large numbers, are commonly found east of Chyulu Hills National Park, as well as in Tsavo National Park and near the A109 south of Nairobi."
+            ]
+          },
+          "tags": [
+            "vegetation"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Narok_fences.png",
+              "imageLink": "https://maps.app.goo.gl/n2PfGbFxbfUuBDeVA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Stick fences which **seem to go on forever** are common in the area around Narok."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_National_Parks_And_Reserves.png",
+              "imageLink": "https://goo.gl/maps/WawX8FbNSpX7c9yQ6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Kenya has many **unique **Google cars in and around its National Parks and Reserves. These are still identifiable by the snorkel which is present in almost all of them.",
+              "Many of the National Park and Reserve cars must be used in conjunction with landscape, as they can be found in multiple areas.",
+              "_You can learn more about these National Parks and Reserves in the spotlight section._"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/B9.png",
+              "imageLink": "https://goo.gl/maps/GLNTc8Z5H4yiwPGs9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The B9 in the Northeast is entirely unpaved and has bright **reddish orange dirt **with many trees surrounding the road. Most of it is very flat, but the coverage at the western end of the road can have hills and mountains. The soil also transitions into a more sandy colour."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/A2_South_of_Marsabit.png",
+              "imageLink": "https://goo.gl/maps/ftsX8CzUtdRzXAr3A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The A2 between Isiolo and Marsabit has many plants alongside the road and you will often see **large mountains **in the distance. The stretch going through Namunyak Wildlife Conservation Trust will have a very large mountain range to the west."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/ke_a2N.png",
+              "imageLink": "https://goo.gl/maps/gv4n8pXMm4wgYx9G7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "North of Marsabit will be **much flatter**, with some mountains in the distance. The stretch just north or Marsabit will have mountains visible to the south, while further north, a different range can be seen. It will also have much less vegetation."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/A3_North_of_Garissa.png",
+              "imageLink": "https://goo.gl/maps/Y2ZmqCMsF2H2U5i59",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The A3 north of Garissa is very unique, with **light coloured **soil and many green trees on either side of the road."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Kenya_Western_C34.png",
+              "imageLink": "https://goo.gl/maps/RKX9fuf7LWnPz4PbA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The western part of the C34 is a flat, **east to west** road. There are two long, straight sections with an abundance of **sugar cane**. Furthermore, you will see a large **mountain range** **north** along the entire mentioned stretches of road."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/ke_nairobi.png",
+              "imageLink": "https://goo.gl/maps/A4VDgPZKkDx5287K6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Nairobi is the largest city in the country, and capital of Kenya. It is the only city to have a considerable amount of **skyscrapers**,** **and is highly developed. It is densely populated, and is surrounded by small, poor settlements."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/ke_kilimanjaro.png",
+              "imageLink": "https://goo.gl/maps/4RyhBvaH4JLa7nNr9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In a lot of the coverage north of **Mt Kilimanjaro**, the mountain is visible to the south, usually obscured by clouds. In the city of [Oloitoktok](https://goo.gl/maps/aRSZy6jApL8BNXkm7), the mountain will often be visible directly to the south.",
+              "NOTE: The map shows the location of Mt Kilimanjaro, but it can be seen from very far away."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/ke_homa_bay.png",
+              "imageLink": "https://goo.gl/maps/AqroHrsXtD76Gj9CA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Homa Bay has this **protruding hill** to the east that is often visible."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Wajir_soil.png",
+              "imageLink": "https://maps.app.goo.gl/LBr3TqKXTKozjowm7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The city of Wajir often has blinding white dirt roads, combined with extremely red soil on the roadside."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Mara_Triangle.png",
+              "imageLink": "https://goo.gl/maps/jby7Rcyd8SLsyrPs5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Mara Triangle has no considerable mountains and most of it is either **flat or hilly**. It has a white car that can be found in other Kenyan National Parks. [Generation 4 coverage](https://maps.app.goo.gl/WfJgiKbG4jjJSYwJ8) exists there as well."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/ke_amboseli.png",
+              "imageLink": "https://goo.gl/maps/dJxQAdd3YNVY3cNm8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Amboseli National Park has a grey car with a small snorkel. It is very flat with **tan grass, few trees**, and dried up lake beds. You can always see the base of Kilimanjaro to the south, with most of it obscured by clouds."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/ke_aberdare.png",
+              "imageLink": "https://goo.gl/maps/jDVzvfVRevBPTVGs6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Aberdare National Park** **has a **grey and brown** car that features a large snorkel. Almost all of the coverage is outside of the National Park, with only two roads within the park covered. The main road through the park has [these](https://goo.gl/maps/g4D2K3mtsHqrAwKr7) rubber bands on the roof rack, which can only be found in one other National Park in Kenya."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/Mt_Elgon_National_Park.png",
+              "imageLink": "https://goo.gl/maps/7FpVM14RUjeCfMru7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Between Kitale and Mt Elgon, you can find the Aberdare car as well, but it will always have **rubber bands**, unlike in Aberdare where it will only have them on the main roads through the park. It can be differentiated from Aberdare by its redder dirt, and **greener **landscape."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/ke_sibiloi.png",
+              "imageLink": "https://goo.gl/maps/P72QVsZyJmJetz5H6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The area surrounding and between Kerio and Lodwar uses the same car as the Aberdare National Park, but with a vastly different landscape. It is very **sandy, dry**, and has little vegetation.",
+              "You may also find yourself in [Generation 3 coverage without car meta](https://goo.gl/maps/SVmfuG3XAkPt2ipv7)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/kenya/ke_succulents.png",
+              "imageLink": "https://goo.gl/maps/r1HJAHo83KyoPe53A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This stretch of the B8 just north of Kibaoni has many **succulents **on the side of the road."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends you play these maps instead:",
+        "- **A Balanced Kenya **([map link](https://www.geoguessr.com/maps/638188a2ce5dad8d44eb9cae)) - A well balanced, computer generated map of Kenya with over 50,000 locations.",
+        "In addition, here are some resources to help you practise Kenya:",
+        "- **Plonk It Kenya** ([map link](https://www.geoguessr.com/maps/64063eef856ea5c65c390e7f)) - This map contains locations for practising each meta in the Plonk It Kenya guide from step 2 to 3.",
+        "- **Kenyan Counties - Map Quiz **([quiz link](https://geo.emily.bz/map-quiz/kenya/counties)) - A resource to help you learn the Kenyan counties."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

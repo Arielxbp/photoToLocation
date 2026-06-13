@@ -1,0 +1,137 @@
+{
+  "_id": "falkland-islands",
+  "createdAt": "2025-09-07T17:49:38.226Z",
+  "updatedAt": "2023-11-01T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Falkland Islands",
+  "slug": "falkland-islands",
+  "code": "FK",
+  "cat": [
+    "South America"
+  ],
+  "heroImage": "/images/falkland-islands/download.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Location",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/falkland-islands/0_summary_falklands.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/falkland-islands/1280px-Location_map_of_the_Falklands__E2_80_93_Alternative_version_4.svg.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Location_map_of_the_Falklands_%E2%80%93_Alternative_version_4.svg/1280px-Location_map_of_the_Falklands_%E2%80%93_Alternative_version_4.svg.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Falkland Islands are a British Overseas Territory east of the Tierra del Fuego Province of Argentina. As such, for country streaks purposes, it is counted as the UK.",
+              "Coverage is very limited: there are only a couple of Generation 3 trekkers. The trekkers are all located on and around three islands in the western part of the territory:",
+              "- Carcass Island",
+              "- West Point Island",
+              "- New Island",
+              "Due to the sparse nature of the coverage, that is also entirely not on any streets, it is not useful to learn any territory identification metas. Instead, it is better to just memorise what the trekkers look like."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Trekker tips",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/falkland-islands/Falklands_Carcass_Island.png",
+              "imageLink": "https://goo.gl/maps/b3Dro8BA9QT1UhQr9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Carcass Island trekker can be recognized by the **open plains**, with the ocean clearly visible. The ground may also get rocky.",
+              "NOTE: Do not get this confused with the Faroe Islands trekker."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/falkland-islands/Falklands_West_Point_Island.png",
+              "imageLink": "https://goo.gl/maps/8wZdNvZ4BWe9ewUp7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Open plains with **slightly yellow grass** can be seen on West Point Island. The ocean will not be clearly visible on this trekker."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/falkland-islands/Falklands_West_Point_Boat.png",
+              "imageLink": "https://goo.gl/maps/VgNNhDfA3pJQpohR7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "This **boat trekker** can be seen in the West Point Bay, with yellow hills in the distance with the MS National Geographic Explorer in the bay with the trekker."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/falkland-islands/Falklands_New_Island_Beach.png",
+              "imageLink": "https://goo.gl/maps/67ENwgrMULMYYUcv6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "This **sandy beach** with other people in red and blue jackets can be seen on New Island."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/falkland-islands/Falklands_New_Island_Brown_Soil.png",
+              "imageLink": "https://goo.gl/maps/g4c98CFw5MHgU15BA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Inland New Island can be recognized by the **dark brown soil**. Tire tracks may also be visible."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/falkland-islands/Falklands_New_Island_Cliffs.png",
+              "imageLink": "https://goo.gl/maps/vGxi34vi9qFJedpZ6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Distinct **steep cliffs** can be seen on New Island."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

@@ -1,0 +1,199 @@
+{
+  "_id": "northern-mariana-islands",
+  "createdAt": "2025-09-07T17:31:24.417Z",
+  "updatedAt": "2023-10-15T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Northern Mariana Islands",
+  "slug": "northern-mariana-islands",
+  "code": "MP",
+  "cat": [
+    "Oceania"
+  ],
+  "heroImage": "/images/northern-mariana-islands/nmi_banner.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Northern Mariana Islands",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/northern-mariana-islands/1_nmi_summary.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/nmi_location.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Northern_Mariana_Islands_in_Oceania_%28-mini_map_-rivers%29.svg/2388px-Northern_Mariana_Islands_in_Oceania_%28-mini_map_-rivers%29.svg.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Northern Mariana Islands is a United States overseas territory. As such, it is counted as **the US** for country streaks purposes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/nmi_car.png",
+              "imageLink": "https://goo.gl/maps/e1TVSUpRgtRetpM26",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The entire Google car is blurred, however an antenna at the front right can be seen. The antenna is also **noticeably closer** to the camera than in the Guam Google car."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/nmi_pole.png",
+              "imageLink": "https://goo.gl/maps/WcWY9Maj3jL19JjD9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Northern Mariana Islands have **wooden poles**, frequently with a crossbar at the top.",
+              "NOTE: Guam typically has concrete poles."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/streetsign.png",
+              "imageLink": "https://maps.app.goo.gl/3E6PHtcJLSiYhBBMA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Northern Mariana Islands uses **blue** street signs, unlike Guam, which use green street signs."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/nmi_landscape.png",
+              "imageLink": "https://goo.gl/maps/iqpm75XrCW6PDLw9A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Northern Mariana Islands have a **tropical climate** with a lot of dense and somewhat low vegetation."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/nmi_redflower.png",
+              "imageLink": "https://goo.gl/maps/tnw3drhwSREqtCtc6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Royal Poinciana, Flamboyant Tree or Flame Tree ([Delonix Regia](https://en.wikipedia.org/wiki/Delonix_regia)) is the official tree of the Northern Mariana Islands and very common to see in the territory. Its **wide crown** with **bright red flowers** is easy to recognize.",
+              "NOTE: This tree is not common in Guam."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/nmi_reflectorspam.png",
+              "imageLink": "https://goo.gl/maps/UWyusyAu8qRihpKg9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Both Northern Mariana Islands and Guam often have a very **large number **of** road reflectors**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/nmi_asian.png",
+              "imageLink": "https://goo.gl/maps/Mv91ffZwXQdu9UBe6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**East Asian languages** such as Japanese, Chinese, Korean, and even Russian are common to see in the Northern Mariana Islands.",
+              "NOTE: This is also the case in Guam."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/nmi_coveragemap.png",
+              "imageLink": "/images/northern-mariana-islands/nmi_coveragemap.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The only island with car coverage is the main island of **Saipan**. The islands north of that have no coverage. Tinian and Sinapalu south of Saipan only have **tripod** coverage."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/nmi_towncentres.png",
+              "imageLink": "https://goo.gl/maps/3ismHgYegwwX6C6a8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Dense commercial areas** can be found on the southern half of the west coast."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/northern-mariana-islands/nmi_suicidecliff.png",
+              "imageLink": "https://goo.gl/maps/abcbroprRxLYZe9y8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **Suicide Cliff** is a steep cliff with a lot of exposed rock near the northern tip of the island."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

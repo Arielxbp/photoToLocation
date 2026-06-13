@@ -1,0 +1,209 @@
+{
+  "_id": "cocos-islands",
+  "createdAt": "2025-09-07T17:30:49.451Z",
+  "updatedAt": "2023-11-01T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Cocos Islands",
+  "slug": "cocos-islands",
+  "code": "CC",
+  "cat": [
+    "Oceania"
+  ],
+  "heroImage": "/images/cocos-islands/a.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Cocos (Keeling) Islands",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/cocos-islands/0_summary_cocos.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/Cocos_Keeling_Islands_in_Australia_-mini_map.png",
+              "imageLink": "/images/cocos-islands/Cocos_Keeling_Islands_in_Australia_-mini_map.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Cocos (Keeling) Islands consist of two coral atolls. It is an Australian territory, so for country streaks purposes, it is counted as Australia."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/image.png",
+              "imageLink": "https://goo.gl/maps/h87frck6yQfSL11JA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The general landscape consists of **bright white sand**, **many palms** and mowed grass. Cocos Islands is significantly less forested or hilly compared to Christmas Island."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/West_Car.png",
+              "imageLink": "https://www.google.com/maps/@?api=1&fov=133.1644250522535&heading=58.31346630818494&map_action=pano&pano=t9toXJDM7shTLoa4pPytmg&pitch=-89&shorturl=1&viewpoint=-12.198487%2C96.838037#extra%5BloadMode%5D=latLng",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This unique car with a **snorkel** at the front right and the edges of the bed visible is found on West Island."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/Bantam_Car.png",
+              "imageLink": "https://goo.gl/maps/qZVyDP1CYvqWAcPi9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This white car with the **rear edges visible** is found in Bantam.",
+              "NOTE: The car may be fully blurred. Make sure to look out for other clues before guessing."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/Bantam_Pavement.png",
+              "imageLink": "https://goo.gl/maps/BQmZ9KsvERmVkLkj6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Bantam Village can be recognized by the **cross-hatched** brick pavement."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/Runway.png",
+              "imageLink": "https://goo.gl/maps/meTENoyBJQZjYXiB8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Cocos Islands runway can be recognized by it being the widest paved road on the island, with mowed grass on both sides of the runway and this [follow car](https://goo.gl/maps/evWNsAeXZ9ScSxqW9)."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/Trekkers.png",
+              "imageLink": "https://goo.gl/maps/dHaidqjjuKGMWXTL9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Cocos Islands has many trekkers along the **coast**. Most of them will be walking on white sand, with the ocean to one side and **palms** the other."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/Direction_Island.png",
+              "imageLink": "https://goo.gl/maps/kUodYKrF1H3Rb88fA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Direction Island can be recognized by the beaches having significantly more **litter** compared to the other islands. [Bricks](https://goo.gl/maps/tSjoPrWjNQyRNRig7), [styrofoam](https://goo.gl/maps/Yvcoa9whDkWhEQDT7) and [dead coral](https://goo.gl/maps/3jQPVmeJT2PCunwY9) can be seen along some portions of the coast.",
+              "In addition, the trekker can be seen walking between many palms [inland](https://goo.gl/maps/63zUyWmqRJoKygM38)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/Horsburgh_Island.png",
+              "imageLink": "https://goo.gl/maps/FafxVExg4rFmHUD78",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The inland trekker on Pulau Luar (Horsburgh Island) can be recognized by the **dry**, yellow grass, and more **sparse** vegetation."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/Big_Boat.png",
+              "imageLink": "https://goo.gl/maps/Dw2Vk1EmdQzicY1dA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This medium boat with a **large seating capacity** can be seen from West Island to Bantam."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/Black_Bar_Boat.png",
+              "imageLink": "https://goo.gl/maps/m8SP5EdQ7BQJTU3E8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This small boat with **black bars** at the rear can be seen in the north."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/cocos-islands/Woman_Boat.png",
+              "imageLink": "https://goo.gl/maps/f2PgYc65399fNNyP6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This small dark grey boat with a **woman** sitting at the back can be seen in the south."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

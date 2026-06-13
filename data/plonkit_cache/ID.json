@@ -1,0 +1,1054 @@
+{
+  "_id": "indonesia",
+  "createdAt": "2025-09-13T16:51:49.576Z",
+  "updatedAt": "2026-06-10T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Indonesia",
+  "slug": "indonesia",
+  "code": "ID",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/indonesia/unjowns12.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Indonesia",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/indonesia/Indonesia_summary_graphic.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Indonesia_License_Plate.png",
+              "imageLink": "/images/indonesia/Indonesia_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Indonesian licence plates are black with white letters. The letters usually appear as **three white sections** through the blur.",
+              "Commercial vehicles use yellow licence plates.",
+              "Plates in newer coverage can be [white](https://maps.app.goo.gl/41BknjygGkkbi1CJ6) too.",
+              "NOTE: Malaysian licence plates are also black, but generally have two white sections."
+            ]
+          },
+          "tags": [
+            "license plates"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Untitled_design87.png",
+              "imageLink": "https://goo.gl/maps/3ULcUjQ68JXNHybu7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Indonesia drives on the **left**.",
+              "NOTE: Malaysia drives on the left, while the Philippines drives on the right."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/image.png",
+              "imageLink": "https://goo.gl/maps/fzdoM5RgUoCzHorz7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Indonesia uses **white or yellow** centre lines. Outer lines will always be white. The centre lines will be solid or dashed.",
+              "In Generation 3 coverage, yellow centre lines are more rare, as Indonesia only recently started using this colour for its road lines.",
+              "NOTE: Malaysian road lines are always all white."
+            ]
+          },
+          "tags": [
+            "roadline"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Copy_of_IndoPoles_copy.png",
+              "imageLink": "https://goo.gl/maps/HmyVTZMzuZPANmsX9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Poles in Indonesia are typically round and made out of either [**steel**](https://goo.gl/maps/rnii3wodNEqzH2FDA)** **or **concrete**. Many of the steel poles are painted black, and also feature the Indonesian flag colours on them. The pole tops are usually either [even](https://goo.gl/maps/rnii3wodNEqzH2FDA) or [uneven](https://goo.gl/maps/jA77LfkLbiz5AbK37), depending on the region.",
+              "_You can learn more about regional poles in the region-guessing section._"
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Dont_guess_Thailand_or_UK.png",
+              "imageLink": "https://maps.app.goo.gl/NPpMTsi9FqNP5ggv7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Indonesia commonly uses these **black-and-white** square or circular bollards, as well as these **yellow-and-black** ones, which can also have a red reflector. Other designs can also be found.",
+              "NOTE: [UK-style bollards](https://maps.app.goo.gl/YP74qg3Qj8Ugogus9) are mostly found in Kalimantan."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Waystones_1.png",
+              "imageLink": "https://goo.gl/maps/rLNFoXf2huGbbGUy7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Usually yellow waystones that are angled towards the road, and have a cutout close to the top are unique to Indonesia. They include shorthand for three cities or towns, with the biggest one being on the top in the cutout section.",
+              "NOTE: Waystones in the Philippines are perpendicular to the road and have the text facing away from the road."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Indonesian_language.png",
+              "imageLink": "/images/indonesia/Indonesian_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Indonesian can look very similar to Malaysian, however Indonesian has been influenced by **Dutch**, and Malaysian by English. These small changes in spelling may help differentiate the two.",
+              "An example is the word television in English, which translates to \u2018televisi\u2019 in Indonesian, similar to the Dutch word \u2018televisie.\u2019 In Malaysian, it translates to \u2018televisyen\u2019, more similar to English."
+            ]
+          },
+          "tags": [
+            "language"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/round__281_29.png",
+              "imageLink": "https://goo.gl/maps/bwBsWYwabmUPTCzMA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "You can find these rows of red and white **banners **all around Indonesia. Sometimes, [more colourful flags](https://goo.gl/maps/iFwjZBmEWCbEcbvU9) can be found."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Cigarette_ads.png",
+              "imageLink": "https://goo.gl/maps/n3amc3aZ4MtygHkh9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Cigarette **ads can be found all over Indonesia, usually with a black or red colour scheme and around a price of 18,000 Rp. Keep an eye out for **illustrated graphic pictures**, and the word **\u2018PERINGATAN\u2019**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Front_License_Plate_on_Motorcycle.png",
+              "imageLink": "https://goo.gl/maps/5BAuTvppuz3dUCbE9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Motorcycles in Indonesia have **front** licence plates, as opposed to other south-east Asian countries which do not."
+            ]
+          },
+          "tags": [
+            "license plates"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/rupiah.png",
+              "imageLink": "https://goo.gl/maps/EmGcr4L9hyT3kU8C7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The official Indonesian currency is the Rupiah **(Rp)**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional and province-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/id_coveragemap.png",
+              "imageLink": "/images/indonesia/id_coveragemap.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Coverage in Indonesia is fairly limited. Notably, there is no coverage on Papua or adjacent islands, and coverage is sparse in areas such as Kalimantan, Aceh, Central Sulawesi and North Maluku."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Kabupaten_Rotate.png",
+              "imageLink": "https://goo.gl/maps/iFCFgp5vA91D6T2h8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The names of 2nd level subdivisions, named **\u2018Kabupaten\u2019 **or **\u2018Kab\u2019 **for short, translating to regency, can be found all over Indonesia on various signs and billboards. Each province is split up into multiple Kabupatens, totalling to 417 which are covered by street view, and therefore applicable in Geoguessr. These are learnable with enough time and patience.",
+              "_See the resources section for more information._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Cardinal_Directions_1.png",
+              "imageLink": "https://goo.gl/maps/Rpy67jEMMWt41FJd6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can find the **cardinal directions** written on many addresses. They are as follows:",
+              "- North = Utara",
+              "- East = Timur",
+              "- South = Selatan",
+              "- West = Barat",
+              "- Central = Tengah"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/alien_detectors.png",
+              "imageLink": "/images/indonesia/alien_detectors.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Satellite dishes can help you determine whether you are north or south of the **equator**. For example, if the satellite dish points north, you are most likely south of it, and vice versa. Additionally, they usually point towards the middle part of West Kalimantan. This lets you use the angle to determine which side of Indonesia you are in. Lastly the angle of the satellite dish can also tell you how far away from the equator you are."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Indonesian_postal_code_zones_map.png",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "While kabupaten names appear significantly more often, a number of [signs](https://maps.app.goo.gl/UgV2DtQbn4qVDL9t5) also display the **postal code**. Postal codes are five digits long and grouped by their starting digit, ranging from 1xxxx in Jakarta to 9xxxx in Maluku and Papua.",
+              "_You can click on the image to enlarge it._"
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Infrastructure"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/If_you_are_reading_this_have_a_nice_day.png",
+              "imageLink": "/images/indonesia/If_you_are_reading_this_have_a_nice_day.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Indonesia uses two types of pole tops: [**even**](https://goo.gl/maps/DBHoERAvYjR6zQbk8)** and **[**uneven**](https://goo.gl/maps/i1CUqRxZzPzgqZ9p7). This refers to the bar that holds the insulators and whether it is symmetrical to the pole itself. Knowing where even and uneven poles are most commonly found is useful for region guessing."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Nusa_poles.png",
+              "imageLink": "https://maps.app.goo.gl/GZXLV8emxHbhnRT38",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On the Lesser Sunda Islands (\u201cNusas\u201d), you can find poles with an **extra long support** on the pole top. Sometimes, [two supports](https://goo.gl/maps/TqHWQVDtBYiexALq9) can be present."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/id_triangle_connector.png",
+              "imageLink": "https://goo.gl/maps/oiymiM8cfHCt7uWq9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can find these poles with a **triangle attachment** under the horizontal bar in the following regions.",
+              "NOTE: This does not apply to [stacked poles](https://goo.gl/maps/qmeRHfBzabUpZ8uu5)."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/West Chiva Poles.png",
+              "imageLink": "https://maps.app.goo.gl/E5z8Jdwxeqgh9t7i9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poles with an **indent** on both sides are found in West Java, Jakarta, and Banten."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/id_trident.png",
+              "imageLink": "https://goo.gl/maps/Jx2NKweJrwGTcZtAA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Trident** style pole tops are most commonly found in **Central Java** and Yogyakarta, and rarely in South and West Kalimantan, and North Sumatra and Riau."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/CentralAndNorthSulaPole_hint.png",
+              "imageLink": "https://goo.gl/maps/dTPryqwyZHcbC9LV8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Pole tops in North and Central Sulawesi, and Gorontalo commonly feature an **extra attachment** right under the horizontal bar."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Copy_of_Indonesia_hint_2.png",
+              "imageLink": "https://goo.gl/maps/MZePeEZMs7uM8aev6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These poles are almost exclusive to North Sumatra. The bar which holds the insulators is **even**, but features **uneven **insulators with one on one side and two on the other."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/plonkit a-frame poles indonesia.png",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poles with a **support shaped like the letter A** are common in Kalimantan and the Nusa islands.",
+              "NOTE: A-frame poles can exist anywhere where the electrical wires are in a bend and need extra support. Use this tip with caution."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Sulawesi_crossbar.png",
+              "imageLink": "https://maps.app.goo.gl/TLFqGFvLcQf8xMVp9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poles with the **flat part of the crossbar facing away** from the pole are common in Sulawesi.\u00a0",
+              "NOTE: Usually, poles in Indonesia have the flat part of the crossbar [attached](https://maps.app.goo.gl/NRULcr17wky2Wskq9) to the pole."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/id_central_sula_secondary_pole.png",
+              "imageLink": "https://goo.gl/maps/TgyzVS7yVT2yZUwb9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can often see thin, black poles next to regular poles near the East Peninsula of Central Sulawesi. Two pieces of tape can be seen near the top of the poles, usually **light blue and green**. These can rarely be seen in northern South East Sulawesi."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Copy_of_Copy_of_Copy_of_Copy_of_Pakse.png",
+              "imageLink": "https://goo.gl/maps/XQQDnUN4dd5zsiNk6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can find this **rectangle **attachment on the pole tops which is mostly unique to Bali. This appears with the Lesser Sunda Island [support beam](https://goo.gl/maps/2tNeMhvSXphqn48V7) as well."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Bali_sticker_updated.png",
+              "imageLink": "https://maps.app.goo.gl/cwrizdPW8DxY5z498",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Pole paint with **horizontal text **on the pole is usually a good clue for Bali. It is usually **dark blue** on Bali but can be [light blue](https://maps.app.goo.gl/tfSezgbbQ1Q2yKsX8) or even [green](https://maps.app.goo.gl/DKjM3Q4WCXZhhD3y9)."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/plonkit 2 supports indonesia.png",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Asymmetrical poles** with **2 supports** below the bar occur mainly on Sumatra and the southern part of Sulawesi. It is not commonly seen in Kalimantan or Java."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Indicator-template-Indonesia1.png",
+              "imageLink": "https://goo.gl/maps/B29kEF3Xy8GqPXiV7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These painted fences are typically found on Sulawesi. They will be mostly painted white with blue or red."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Copy_of_Copy_of_Indonesia_hint_2.png",
+              "imageLink": "https://goo.gl/maps/T2b2DTsWicpF1z4d8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Central Sulawesi features these unique bollards that are painted **black **on the bottom, **white **in the middle, and **yellow **on the top."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/id_kalimantanpolepaint.png",
+              "imageLink": "https://goo.gl/maps/pd8ivsm1mTNDXCes9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Green** paint can often be seen on the side of bridges in South and Central Kalimantan."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "divider",
+          "title": "Landscape"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/id_oilpalm_v2.png",
+              "imageLink": "https://goo.gl/maps/pCjvo2oYqao6Pb5ZA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Within Indonesia, oil palm plantations are mostly concentrated in **Sumatra **and **Kalimantan**. Palm plantations can rarely be seen in Sulawesi."
+            ]
+          },
+          "tags": [
+            "vegetation"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Copy_of_Indonesia_oil_palms.png",
+              "imageLink": "https://goo.gl/maps/xEamKndAxR8XaTPq8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The majority of rice production is concentrated in **Java**, but can sometimes be found in other provinces, namely South Sulawesi and South Sumatra. They can rarely be found in other provinces as well. For a full overview, see [this page](https://www.fas.usda.gov/data/production/id)."
+            ]
+          },
+          "tags": [
+            "vegetation"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Nusa_vegetation.png",
+              "imageLink": "https://maps.app.goo.gl/B3cmMRutHQBFbHCYA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Nusas are **drier **than other regions in Indonesia. Vegetation tends to look less tropical, but instead lower and shrubbier.\u00a0",
+              "NOTE: While less common, other regions such as Java can look similarly dry. Make sure to look out for other clues before guessing."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/gorontalo_hills_2.png",
+              "imageLink": "https://maps.app.goo.gl/iV4mus9h1EkcJFQs8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Very rounded green hills**, typically covered with clusters of palms, sugarcane or corn, are extremely common within the province of Gorontalo."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Sumba_Savannah_gen4.png",
+              "imageLink": "https://maps.app.goo.gl/XxkThb7YFKaazJC7A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **savannah** landscape is occasionally seen on north Sumba.\u00a0",
+              "NOTE: In Generation 3, you will always see a [white car](https://goo.gl/maps/Dz8hDHNHviJTvKiCA)."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/0hnRPsu.png",
+              "imageLink": "https://maps.app.goo.gl/bgVXG6axUWw4kJks7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Red soil with a layer of **white soil on top** of it is most commonly found in the Bangka Belitung islands. On these islands, the white soil can often be seen spilling onto the road."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "divider",
+          "title": "Architecture"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/tiledroof_updated",
+              "imageLink": "https://goo.gl/maps/AL4cgVZHF6JSNk3C7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Tiled roofs are most commonly found on the island of **Java**, and sometimes nearby regions such as southern Sumatra, the Lesser Sunda Islands, and South Kalimantan.",
+              "NOTE: The tiles on roofs in South Kalimantan and Jambi look [slightly different](https://goo.gl/maps/BpZ43LPt2nDBJrHD9). The tiles are usually less rounded but flatter."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/5G_deflector.png",
+              "imageLink": "https://goo.gl/maps/3a7y4QZXyaaGNdTa9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Plain sheet metal roofs are more commonly found toward the north, where tiled roofs are **not **found. They are most commonly found on Kalimantan, Sulawesi and Sumatra."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Bugis_Roofs.png",
+              "imageLink": "https://goo.gl/maps/tb3aUFfWU4wD9sCQ7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These** horizontal slots** inside the **triangles **of the roofs are almost unique to Southern Sulawesi.",
+              "NOTE: They can rarely be found in East Kalimantan and West Nusa."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Indonesia_hint_1.png",
+              "imageLink": "https://goo.gl/maps/3E9C3wqH7jZVWffF9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can find these distinct roofs with uniquely **high-pitched peaks** on Sumba."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Bali_architecture.png",
+              "imageLink": "https://goo.gl/maps/FS7TdCybJmjD3oo4A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Architecture in Bali** is unique because it was influenced by old Balinese culture and Hinduism. The most important thing to look for are these [crown-like roof pinnacles](https://goo.gl/maps/9v5HBGbiGDczWKYn7), found everywhere in Bali. [Guardian statues](https://goo.gl/maps/CB1pcgrABdjsc3Y88) and [slit-drum towers](https://goo.gl/maps/xPNMsB3rqDjjWZi39) are common too. Andesite, a dark, volcanic rock, is a common building material in Bali. You can often see [gates](https://goo.gl/maps/StCdo1UxpSMXfA388), [walls](https://goo.gl/maps/KF7GweCfsicZyQpN7), and other [intricately carved ornaments](https://goo.gl/maps/9DHCZvKStsqSXG8RA) built from this material."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Copy_of_Copy_of_Copy_of_Copy_of_Pakse1.png",
+              "imageLink": "https://goo.gl/maps/bBW5rCWizX2ja7Wc8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "West Sumatra features these distinct **boat-shaped** roofs."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Untitled.png",
+              "imageLink": "https://goo.gl/maps/vmWMDSLpsy6ag3NU6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "North Sumatra features similarly distinct **boat-shaped** roofs, however the roofs are **less angled** upward and they do not feature spires.",
+              "NOTE: These roofs are most commonly found near Lake Toba, due to its sacred history."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Untitled_2200_1080_px.png",
+              "imageLink": "https://goo.gl/maps/YM8vNXYqV8ahvftf7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On Kalimantan, you can find these unique roofs made out of **wooden **chips."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/horny.png",
+              "imageLink": "https://goo.gl/maps/QsGJBMLJMCuPXSYe6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Roofs with **gable horns** can be found most commonly in [South Sulawesi](https://maps.app.goo.gl/THNEUGSHTyvnPqjn8), [Riau](https://maps.app.goo.gl/5JbZ5ryhrAygBQDB9) and [Central and South](https://goo.gl/maps/6JtUHKh3dccA8cvw6) Kalimantan.",
+              "NOTE: Horned roofs are often found with Bugis roofs in South Sulawesi. Use this tip along with other clues to determine which region you are in."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Toraja_Roofs_1.png",
+              "imageLink": "https://goo.gl/maps/nfgcmwP2sh7gKEKx5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A small region of South Sulawesi, around the city of Rante Pao, features these very unique houses, called [Tongkonan](https://en.wikipedia.org/wiki/Tongkonan), that have **saddle-shaped roofs**. The houses themselves are also **elevated from the ground**."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "divider",
+          "title": "Miscellaneous"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Copy_of_Copy_of_Indonesia_oil_palms.png",
+              "imageLink": "https://goo.gl/maps/6m7WckeiGMRLwA7bA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Indonesia is religiously a **Muslim **majority country, so seeing churches, and other Christian signs, is a good clue for these regions."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Anetnna_gen_3_-_Indonesia.png",
+              "imageLink": "https://goo.gl/maps/Q4zF4sb9L5mtZYvD9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Generation 3 antenna** coverage is most commonly found on Java, but can very rarely be seen on Bali in and around Denpasar. It is most commonly seen in East Java, as most of the antenna coverage in the west has been overwritten by Generation 4."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Black_Car_Gen_3_Map_Hint.png",
+              "imageLink": "https://goo.gl/maps/CYtG4CycRq11K3io8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Black Generation 3 coverage can be found almost everywhere in Indonesia, but is most common in **Sulawesi**."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/CKali_blur.png",
+              "imageLink": "https://maps.app.goo.gl/NDFETLAuV5yMUE1A8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This camera glitch, reminiscent of a **Moir\u00e9 Pattern**, is found throughout Central Kalimantan.",
+              "_You can click on the image for a clearer view._"
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Copy_of_Indonesia_hint_1.png",
+              "imageLink": "https://goo.gl/maps/zSEDyqZG6Jc1qsny7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The region around **Lake Toba**, in North Sumatra, can be recognized by mountains surrounding the lake and Samosir Island in the middle. Overcast coverage is also common for the region."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/South_Kali_Karst_2.png",
+              "imageLink": "https://maps.app.goo.gl/rphU3sCk3nkscv996",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "South Kalimantan is home to **karst formations**.\u00a0",
+              "NOTE: These can rarely be found elsewhere."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Pula_bay.png",
+              "imageLink": "https://goo.gl/maps/3EKETFv2TBvri3av7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Palu Bay is a unique slightly north-west facing bay just north of Palu city, which features mountains to the **west **of the bay, and a flat, more urbanised landscape to the **east**."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Indonesia_hint.png",
+              "imageLink": "https://goo.gl/maps/TGS8y6JqPxQuGM8A7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Steeply** **pitched** roofs made of palm tree leaves can sometimes be seen on Nias Island, south west of North Sumatra."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/rare_bali_Car.png",
+              "imageLink": "https://goo.gl/maps/gwRCVZdqqaXgH1ru5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A **white **SUV with black bars and a wooden plank on the roof can rarely be seen in eastern Bali."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/indonesia/Copy_of_rare_bali_Car.png",
+              "imageLink": "https://goo.gl/maps/sVJpvXNZE5w3yxWf7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A **black cab** with men sitting in the truck bed can be seen near Jagasatru on Bali."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends you play these maps instead:",
+        "- **AI Gen - Indonesia **([map link](https://www.geoguessr.com/maps/619086606e5572000185a1db)) - A well balanced computer generated map of Indonesia with over 100,000 locations.",
+        "- **IntersectionGuessr - Indonesia **([map link](https://www.geoguessr.com/maps/60cbc09a00ea7b000151849f)) - Arbitrarily generated locations at intersections, and therefore potentially pinpointable (but this is not guaranteed).",
+        "In addition, here are some resources to help you practise Indonesia:",
+        "- **Plonk It Indonesia** ([map link](https://www.geoguessr.com/maps/6730afe5443b59170cce90d9)) - This map contains locations for practising each meta in the Plonk It Indonesia guide from step 2 to 3.",
+        "- **Kabupaten Practice - Indonesia **([map link](https://www.geoguessr.com/maps/6181d5ef34994a0001f63105)) - This is a map made for practising kabupatens, containing 5 locations for each and also 3 locations per kota (city)."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

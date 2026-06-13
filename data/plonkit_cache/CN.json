@@ -1,0 +1,280 @@
+{
+  "_id": "china",
+  "createdAt": "2025-09-07T21:12:30.253Z",
+  "updatedAt": "2024-02-07T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "China",
+  "slug": "china",
+  "code": "CN",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/china/banner1.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying China",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/china/0_cn_summary.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_tripod.png",
+              "imageLink": "https://goo.gl/maps/otmXAQfR43YAKUzYA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All official coverage in mainland China is taken with a **tripod**. Objects in the image will usually have motion blur, and slightly saturated colours.",
+              "NOTE: Hong Kong and Macau both have full Google Car coverage.",
+              "_A separate Plonk It guide to Hong Kong can be found [here](https://www.plonkit.net/hong-kong). The Macau guide can be found [here](https://www.plonkit.net/macau)._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_language.png",
+              "imageLink": "/images/china/cn_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Chinese writing consists of often complicated symbols made up of several strokes. On mainland China, you\u2019ll typically find [simplified Chinese](https://en.wikipedia.org/wiki/Simplified_Chinese_characters), where the number of strokes of many symbols have been greatly reduced compared to [traditional Chinese](https://en.wikipedia.org/wiki/Traditional_Chinese_characters).",
+              "NOTE: Traditional Chinese is widely used in Taiwan, Hong Kong and Macau."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_licenceplate.png",
+              "imageLink": "/images/china/cn_licenceplate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Chinese licence plates are **blue** with white text."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Region-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_coverage.png",
+              "imageLink": "/images/china/cn_coverage.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Coverage in mainland China is limited to several small spots, mainly in or near major urban areas on the east coast. A significant portion of the coverage is considered **hidden**, which is also shown on this map. Hidden means it won\u2019t show up on Google Maps, however you can still access it in the [Map Making App](https://map-making.app/)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_museums.png",
+              "imageLink": "https://goo.gl/maps/3CuSgZx5AikTBYwa9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A significant portion of the coverage was taken **inside museums** and can be found in many cities, however a majority of the covered museums are located in and around Beijing and Shanghai."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_ancienttowns.png",
+              "imageLink": "https://goo.gl/maps/HXYKRv6u9YGqz4uA8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Ancient cities** with coverage can be found along the east coast in [Zhoucun](https://goo.gl/maps/HtrBBDFAqr4kmpsi7), northeast of [Xuzhou](https://goo.gl/maps/ZBQ6DJwNq9GaX48v5), in [Yangzhou](https://goo.gl/maps/Jv38RED54kjAMofy9), west of [Jiaxing](https://goo.gl/maps/9ShXFknmEMANdcw67) and west of [Zhangzhou](https://goo.gl/maps/obaDwScAwCNoynGs5)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_urban.png",
+              "imageLink": "https://goo.gl/maps/N1EK4YpxPCeLrZFDA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Coverage taken outside in modern **urban areas** can be found in [Beijing](https://goo.gl/maps/6LT8nsRuT7ZzY3t57), [Yangzhou](https://goo.gl/maps/Dka3nyFnF2jdkMAh8), [Shanghai](https://goo.gl/maps/Q3GDwGHXSckc6M7z7), [Shenzhen](https://goo.gl/maps/M6rYq1LDtTUvphnMA) and [Chengdu](https://goo.gl/maps/u334vZ7Q9KAFmYvW9)."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Pinpointable coverage",
+      "items": [
+        {
+          "kind": "centeredText",
+          "text": "This section contains more in-depth descriptions of all coverage considered **pinpointable **in mainland China. For a complete guide to the Chinese coverage, read [this document](https://docs.google.com/document/d/10FNd5ZpL6mU5EbgtwqJf76hy9kWShY7XNuhk2vuIeI0/edit?usp=sharing)."
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_forbiddencity.png",
+              "imageLink": "https://goo.gl/maps/zAALwQg5wcHqz6AH8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Palace Museum (commonly referred to as the [Forbidden City](https://en.wikipedia.org/wiki/Forbidden_City)) is a **massive palace** in the centre of Beijing."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_todayartmuseum.png",
+              "imageLink": "https://goo.gl/maps/VjETDsdh2ZkTfUab8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "By the Today Art Museum in Beijing you can find this modern urban street with several cafes and bars along the road. In front of the museum you can also find this [uncanny statue](https://goo.gl/maps/GE62dTna3EgiyzWv5)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_sichuanmuseum.png",
+              "imageLink": "https://goo.gl/maps/bKxeaX3N6Dnzi5AN7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **parking area** outside Sichuan Museum in Chengdu has a lot of **greenery**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_hubeimuseum.png",
+              "imageLink": "https://goo.gl/maps/mQEmfDV1VzCJjqAM6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Hubei Museum in Wuhan can be recognised by its **palace-like** architecture with **grey roofs**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_museumofsilk.png",
+              "imageLink": "https://www.google.com/maps/@30.2232945,120.1526687,2a,79.6y,249.45h,96.54t/data=!3m6!1e1!3m4!1sZdljSlLFkKAAAAQvxgSQgg!2e0!7i13312!8i6656?entry=ttu",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Museum of silk production in Hangzhou can be recognised by the **rounded glass facade** and the **fountain** by the front."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_longmuseum.png",
+              "imageLink": "https://goo.gl/maps/ZadE469v7gEDyHRJA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Shanghai Long Museum can be recognised by the **boxy concrete main building**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_suzhoumuseum.png",
+              "imageLink": "https://goo.gl/maps/GnG3GnGZ3vKFwro57",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Suzhou Museum can be recognised by the white and grey **symmetric angular architecture**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_yangzhoumuseum.png",
+              "imageLink": "https://goo.gl/maps/UEYT4oc5eK6drFYp8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Yangzhou Museum can be recognised by the **beige rounded stone building**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/china/cn_zhoucunancientcity.png",
+              "imageLink": "https://goo.gl/maps/TnNb1jRvNsKdTun58",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The ancient city of Zhoucun is the only pinpointable ancient city in China, and can be recognised by the street going straight north to south."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends the following maps instead:",
+        "- **Mainland China (official incl. hidden coverage) **([map link](https://www.geoguessr.com/maps/639830917274a5e2480cd39f)) - This map contains all official coverage in Mainland China including hidden coverage.",
+        "In addition, here are some resources to help you practise China:",
+        "- **Complete Guide to Mainland China Trekkers** ([link](https://docs.google.com/document/d/10FNd5ZpL6mU5EbgtwqJf76hy9kWShY7XNuhk2vuIeI0/edit?usp=sharing)) - A comprehensive guide describing every tripod on mainland China. Includes descriptions for hidden coverage."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

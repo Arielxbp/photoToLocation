@@ -1,0 +1,445 @@
+{
+  "_id": "qatar",
+  "createdAt": "2025-09-07T21:21:46.228Z",
+  "updatedAt": "2023-10-27T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Qatar",
+  "slug": "qatar",
+  "code": "QA",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/qatar/pexels-pareekshith-indeever-10742619.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Qatar",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/qatar/0_summary_qatar.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Qatar_License_Plate.png",
+              "imageLink": "/images/qatar/Qatar_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Regular cars in Qatar have **long, white** licence plates with a **maroon** strip on the left. Trucks have **square, black** licence plates and police plates are blue."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Qatar_cars.png",
+              "imageLink": "https://goo.gl/maps/hG3A7d8PmrJVREag9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Google car will usually be **blurred**, with only the **antenna on the left and** a sliver of the car visible. Sometimes the entire **white pickup truck** can be visible. Rusty clips can be seen on the crossbar.",
+              "_See the region guessing section for more information._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Qatar_landscape.png",
+              "imageLink": "https://goo.gl/maps/93i1pngQ5JNxg9QP6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Qatar's landscape is **predominantly desert**, with **arid**, and **mostly flat** expanses of sand as far as the eye can see. You will often not see a lot of trees or other greenery."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Qatar_Roadlines.png",
+              "imageLink": "https://goo.gl/maps/Renv5A1k3wqJDjmH6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Qatar typically uses **solid outer white lines** with either white or yellow in the middle. More rarely, you can also find outer yellow lines too."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Qatarpoles.png",
+              "imageLink": "https://goo.gl/maps/7H2syKvgiFZGhyvP9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Qatar uses **round** poles with 3 insulators on the pole top, with the middle one being slightly higher. The crossbar also has 2 diagonal bars connecting it to the pole."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Qatar_chevron.png",
+              "imageLink": "https://goo.gl/maps/vyBWdLGRZ45hig5T8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Qatar uses **white on red** and **white on blue** chevrons."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/image.png",
+              "imageLink": "https://goo.gl/maps/DWDixma3HcEcerM69",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Since some coverage was taken before the **2022 World Cup** took place, many banners can be seen mentioning the event."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Crossing_Sign.png",
+              "imageLink": "https://goo.gl/maps/mj8vmvtKuS87w3tQ6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Qatari crossing signs feature a man in a [**thobe**](https://en.wikipedia.org/wiki/Thawb)."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Qatar_Coverage_Map_.png",
+              "imageLink": "/images/qatar/Qatar_Coverage_Map_.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Qatar is pretty well covered, with almost every main road and some side roads having coverage. Only the south and west lack coverage at the moment."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/zones-of-qatar-2020-PSA.JPG",
+              "imageLink": "https://d12eu00glpdtk2.cloudfront.net/public/images/local/zones-of-qatar-2020-PSA.JPG",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Qatar is divided into municipalities, further divided into **numbered zones**, which can be seen on [street signs](https://goo.gl/maps/M8fdWeriuhXw3Meu5). This infographic shows which number corresponds to each zone."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Short_Antenna_hint__281_29.png",
+              "imageLink": "https://goo.gl/maps/azFQWo4CQjbTLxRV7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This very **short** antenna is found in northern Qatar."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Middle_Antenna_hint_2.png",
+              "imageLink": "https://maps.app.goo.gl/9z65ZJ3LMVrf5CHr6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **fairly long** antenna is found in and around Doha."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Long_Antenna_hint.png",
+              "imageLink": "https://goo.gl/maps/mnrxxVzp4bsrCX1YA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "And this **long** antenna is mostly found in southwestern Qatar."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Qatar_Bollards_Hint.png",
+              "imageLink": "https://goo.gl/maps/Pyuj9bGnbTgSvySr6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Bollards **in Qatar are only found on a few roads, and you can easily tell them apart.",
+              "- The horizontal [road just west of Qatar map label](https://maps.app.goo.gl/gTG4kNoWi6Nvgzgd9#extra%5BloadMode%5D=latLng) uses black and yellow centre lines.",
+              "- The horizontal [road south of Madinat al Ka`ban](https://maps.app.goo.gl/8zw6N5R1F83nVcoE7#extra%5BloadMode%5D=latLng) has a lot more greenery and, the coverage is also very overcast.",
+              "- The [coastal road south of Fuwayrit](https://maps.app.goo.gl/TccRhQzayTorZkmP9#extra%5BloadMode%5D=latLng) has coastal shrubs all around, and you can often see the coast.",
+              "- If the road doesn\u2019t fit the above descriptions, guess on [the long vertical road west of Qatar map label](https://maps.app.goo.gl/Zc4PecYmyuGQXYju7#extra%5BloadMode%5D=latLng)."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/North_Stadium.png",
+              "imageLink": "https://goo.gl/maps/zwUH6gceMPAxHJNm9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Al Bayt Stadium can be recognized by the black and white **horizontal stripes** on the stadium along with the tent-like roof."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Lusail_Stadium.png",
+              "imageLink": "https://goo.gl/maps/6YH83ZPGt8x8GdL9A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lusail Stadium, in Lusail, can be recognized by its golden **bowl-like** shape."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Lusail_Plaza.png",
+              "imageLink": "https://goo.gl/maps/7GUmTgXzV8XGd5V99",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Four towers**, resembling a **screw thread**, can be seen from almost every point in Lusail."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Far_Stadium.png",
+              "imageLink": "https://goo.gl/maps/HkKKTNJvqY1EzSHr5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A structure resembling a **gahfiya** can be seen around the Ahmed bin Ali Stadium, in Rawdat Al Jahhaniya district."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Far_Mall.png",
+              "imageLink": "https://goo.gl/maps/9dcYpeDgJzE4ZCoL8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **Mall of Qatar** in Rawdat Al Jahhaniya can be recognized by the boxy appearance with many ads on the side of the building. Large [car parks](https://goo.gl/maps/HH42iSf57P7GxfVD9) are also seen next to the mall."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Education_City_Stadium.png",
+              "imageLink": "https://goo.gl/maps/WQ7oQ2H33pDof6hm7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Education City Stadium can be recognized by the large, **grey** cladding with a **diamond pattern**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Education_City_Pavement.png",
+              "imageLink": "https://goo.gl/maps/YhvRmjh8VfszKDmk7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Education City features distinct **black-tiled **roads."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Education_City_Signs.png",
+              "imageLink": "https://goo.gl/maps/bTP8W4bfzVUb7JYi7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Brown **street signs, often fixed to the ground, are seen in Education City."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/South_Stadium.png",
+              "imageLink": "https://goo.gl/maps/9nyFHpov4NtATegYA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Khalifa International Stadium can be recognized by the **dual arches** shaped like a wide open mouth."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/South_Tower.png",
+              "imageLink": "https://goo.gl/maps/gim4wCkSgGorF66m7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Torch Tower can be seen from almost every point in the Baaya District, and can be recognized by its **hyperboloid** structure, along with it being the tallest building in Qatar."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Cardboard_Box.png",
+              "imageLink": "https://goo.gl/maps/382mjVZWvUYiSiMF7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **cardboard box** in the right side of the bed is seen in Lusail. The rusty clips will also be visible.",
+              "NOTE: The box will not always be visible. Make sure to look out for other clues before guessing."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Box_Left.png",
+              "imageLink": "https://goo.gl/maps/Mbi5imw2ScVxBFCt6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **black box** on the **left** side of the bed is seen southeast of Ar-Rayyan, around the green area.",
+              "NOTE: The box will not always be visible. Make sure to look out for other clues before guessing."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Box_Right.png",
+              "imageLink": "https://goo.gl/maps/9c7MHTRHWV1cJkkv6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **black box** on the **right** side of the bed is seen in Al Khor, and in the green area around The Torch Tower and Khalifa International Stadium.",
+              "NOTE: The box will not always be visible. Make sure to look out for other clues before guessing."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/qatar/Airport.png",
+              "imageLink": "https://goo.gl/maps/Tn2mHDzDJipNFDfD9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A **tripod** was used to capture the interior of the Hamad International Airport. A unique tripod that captured the [inside of a plane](https://goo.gl/maps/Bgbsuqhkc4g98q1E7) can also be seen here."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

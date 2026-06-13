@@ -1,0 +1,147 @@
+{
+  "_id": "monaco",
+  "createdAt": "2025-09-07T22:31:51.913Z",
+  "updatedAt": "2025-12-27T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Monaco",
+  "slug": "monaco",
+  "code": "MC",
+  "cat": [
+    "Europe"
+  ],
+  "heroImage": "/images/monaco/monaco.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Monaco",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/monaco/transparent-mc_summary_2026.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/monaco/Monaco_location.png",
+              "imageLink": "/images/monaco/Monaco_location.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Monaco is a European **microstate** on the French Riviera, a few kilometres west of the border with Italy."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/monaco/Monaco_Rich.png",
+              "imageLink": "https://goo.gl/maps/uigMhSwBe6SnCU4MA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Monaco is a **rich** and **densely populated** city state, with a Mediterranean feel to it. The architecture is similar to cities in southern France and northern Italy, but more luxurious. You will see a lot of apartment buildings, neoclassical details, and pastel colours. There are essentially no rural areas."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/monaco/Monaco_Licence_Plate.png",
+              "imageLink": "/images/monaco/Monaco_Licence_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Monaco\u2019s licence plates are **short** and lack the blue strip.",
+              "You will still see a lot of normal French plates around, however. These French vehicles often still have the old yellow back plates, due to how old the Generation 2 coverage is."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/monaco/Monaco_Hilly.png",
+              "imageLink": "https://goo.gl/maps/3JveALZ5vX8AUkGH8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Monaco is a **hilly** country. The very few areas that are not built up show mediterranean vegetation."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/monaco/Palm_trees.png",
+              "imageLink": "https://goo.gl/maps/mUwP7PCGfzLuZaWs6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Planted **palm trees** are common."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/monaco/Tunnels.png",
+              "imageLink": "https://goo.gl/maps/E3Y9ws3uw87UwoEe7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "There is a lot of coverage inside **tunnels**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/monaco/Monaco_Mopeds.png",
+              "imageLink": "https://goo.gl/maps/EhdAvrCRYS7czP3y7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Rows of parked **mopeds** are a common sight around Monaco\u2019s streets."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/monaco/Harbour_trekker.png",
+              "imageLink": "https://goo.gl/maps/v3st3FYK3yrp3wVc9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In the harbour, there is an extensive **Generation 3 trekker on a boat**. The Google employee\u2019s brown hair and sunglasses are visible. You can see Monaco\u2019s skyline and the hills beyond it. There are a lot of expensive [yachts](https://goo.gl/maps/4Z8rnvc99PPCqQEL7) around.",
+              "This trekker shows up a lot in the official competitive game modes, so it is worth remembering."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

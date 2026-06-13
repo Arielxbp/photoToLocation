@@ -1,0 +1,402 @@
+{
+  "_id": "lebanon",
+  "createdAt": "2025-09-18T20:51:34.679Z",
+  "updatedAt": "2024-05-27T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Lebanon",
+  "slug": "lebanon",
+  "code": "LB",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/lebanon/banner2.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Lebanon",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/lebanon/0_Shitcam_Summary_Graphic.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_licenceplates.png",
+              "imageLink": "/images/lebanon/lb_licenceplates.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Standard Lebanese licence plates are either long with a blue strip on the left, similar to most licence plates in Europe, or **short** with a similar blue strip. Licence plates on taxis are notably **deep red**. You may also find licence plates with [other colours](https://goo.gl/maps/oQN6Fvb8y2GSypoC6)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_arabic.png",
+              "imageLink": "/images/lebanon/lb_arabic.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The official language of Lebanon is **Arabic**, however [English](https://goo.gl/maps/wAohfpzv2g5ayJyy7) and [French](https://goo.gl/maps/JJ7RJ4cZ246BJksc9) are also common to see."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_shitcam.png",
+              "imageLink": "https://maps.app.goo.gl/iFa9EfF7U672jiV67",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Lebanon is currently the only Middle Eastern country that has official **shitcam coverage**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_trekker.png",
+              "imageLink": "https://goo.gl/maps/ivF5SCCKd4r3uK4o9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Apart from the shitcam, all of the Lebanese coverage was taken with a **Generation 3 trekker**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_landscape.png",
+              "imageLink": "https://goo.gl/maps/XZ9yWgSmuLSArWUk6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Lebanon has a **Mediterranean landscape**, with a lot of hills and rocky cliffs."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/Lebanon_Poles.png",
+              "imageLink": "https://maps.app.goo.gl/tAWXTZWp4SjQyEis6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Lebanon uses a variety of **metallic mesh poles**, which are sometimes **painted bright yellow**. Generic-looking wooden poles are common too."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_sandstonebricks.png",
+              "imageLink": "https://goo.gl/maps/iTXPFrsoaiso5gGp8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "While several types of architecture can be found on the Lebanese coverage, it is worth mentioning that many buildings are made of **sandstone bricks**.",
+              "NOTE: These bricks often look very similar to [Jerusalem stone](https://www.google.com/maps/@31.8956347,35.198306,3a,75y,245.85h,124.16t/data=!3m6!1e1!3m4!1s21rJNnw9rW4MmPpgX4NHNw!2e0!7i13312!8i6656?entry=ttu), commonly found in Israel and the West Bank."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Region-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/Lebanon_Coverage_Map.png",
+              "imageLink": "/images/lebanon/Lebanon_Coverage_Map.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most of the coverage is concentrated near the west coast, north of Beirut."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/Lebanon_East_Flat_Hint.png",
+              "imageLink": "https://maps.app.goo.gl/cP5JVW85DD8rDBmC9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The region around Zahle has flat agricultural fields, with mountains visible to the northwest."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/Lebanon_Snow_Hint.png",
+              "imageLink": "https://maps.app.goo.gl/ZKYT3yDDZJ8AwsmY6#extra%5Btags%5D=Snow",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Coverage where **snow **is visible on mountain tops, or on the ground, is found in the northeastern mountains, east of Tripoli."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/Lebanon_Very_Flat_Hint.png",
+              "imageLink": "https://maps.app.goo.gl/KmMWgXBCQ59MyiH48#extra%5Btags%5D=Greenhouse",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Northern Lebanon is **very flat** and **agricultural**. You might see the mountains to the southeast."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/Lebanon_Black_Car_Hint.png",
+              "imageLink": "https://maps.app.goo.gl/1Gj4Tn5wvNjqU7HbA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A visible black car can be found in and around Zahle."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Gen 3 Trekkers",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_trekkercoverage.png",
+              "imageLink": "/images/lebanon/lb_trekkercoverage.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Generation 3 trekker coverage in Lebanon is **extremely limited**, mostly being found around tourist attractions, university campuses and trails. Note that due to the large number of distinct trekkers, this guide will only cover those that are considered pinpointable."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_beirut.png",
+              "imageLink": "https://goo.gl/maps/Yz5EHxGwfPh1SKQC7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Beirut is the capital of Lebanon and the only covered city with many modern **high-rise buildings**. While the city might not be clearly visible from all parts of the coverage, you will almost always be able to see urban [buildings](https://goo.gl/maps/QbcXbyAKVZ5qwiFW6) or [infrastructure](https://goo.gl/maps/uLp9kfysBxmAr5Db9) in the background."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_beirutcoast.png",
+              "imageLink": "https://goo.gl/maps/Fm7ipn8TSJfYkyiy7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Coverage was taken along parts of the promenade in Beirut, with a grey brick pavement and a large number of fan palms."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_usj.png",
+              "imageLink": "https://goo.gl/maps/noFmNwbewTPxPnS59",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Universit\u00e9 Saint Joseph, southeast of central Beirut can be recognised by the old, **grand-looking** **sandstone building**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_beirutarabuni.png",
+              "imageLink": "https://goo.gl/maps/QFruHNnBUSwieDGy7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Campus Debbieh of the Beirut Arab University consists of somewhat sparsely built large **modern sandstone buildings** on top of a forested hill. [The ocean](https://goo.gl/maps/JABVUYU4L9Zztrxm8) can typically be seen far away to the west."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_liu.png",
+              "imageLink": "https://goo.gl/maps/y7vp4LyNC198MMyM9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Lebanese International University (LIU) can be recognised by the many large stone buildings having unpainted bottom floors while the floors above are painted beige."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_balamanduni.png",
+              "imageLink": "https://goo.gl/maps/vr4q4NubrXySzSY78",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The University of Balamand has a lot of modern **white painted buildings**. The buildings often have a very cubic look."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_lebaneseamericanuni.png",
+              "imageLink": "https://goo.gl/maps/amU8qk9x4ZRvfs6c7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Lebanese American University, east of Byblos, has a very **urban look**, with a lot of construction work and large modern buildings."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_byblos.png",
+              "imageLink": "https://goo.gl/maps/ox8Mdbp1BwfMZbS96",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The ancient city of Byblos is one of the oldest cities in the world and can be recognised by the many **old historical buildings**, almost all built out of the same type of unpainted stone bricks."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_bsharricanyon.png",
+              "imageLink": "https://goo.gl/maps/AJc5vp5hPnoYZa7a7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The trekker near Bsharri can be recognised by the **large canyon** to the south."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_baalbek.png",
+              "imageLink": "https://goo.gl/maps/SchY7afwE5gGjyWCA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In Baalbek you can find a large complex of **Roman ruins**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_mseilhafort.png",
+              "imageLink": "https://goo.gl/maps/GZQ7WY6ykS6cFW1v5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Mseilha fortress can be found southwest of Tripoli and is built on a monolithic limestone rock."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/lebanon/lb_romanroad.png",
+              "imageLink": "https://goo.gl/maps/NYq3MzkuWBN9kEnR7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The only **rural coastal road** with trekker coverage in Lebanon can be found southwest of Tripoli."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends the following maps instead:",
+        "- **AI Generated Lebanon** ([map link](https://www.geoguessr.com/maps/662191c459258954c4609012)) - 100k+ arbitrarily generated locations.",
+        "- **Intersectionguessr - Lebanon** ([map link](https://www.geoguessr.com/maps/6628aacf5c6ce268075243dc)) - 10k+ arbitrarily generated locations on intersections."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

@@ -1,0 +1,275 @@
+{
+  "_id": "azores",
+  "createdAt": "2025-09-07T22:23:28.878Z",
+  "updatedAt": "2025-11-13T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Azores",
+  "slug": "azores",
+  "code": "PT-AZ",
+  "cat": [
+    "Europe"
+  ],
+  "heroImage": "/images/azores/banner.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying the Azores",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/azores/0_azores_summary_2025.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/portugueseinfra_az.png",
+              "imageLink": "https://maps.app.goo.gl/dCua4zV8CP73cDwB7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Since the Azores is an autonomous region of Portugal, you will often come across various types of Portuguese infrastructure, such as poles, chevrons and bollards."
+            ]
+          },
+          "tags": [
+            "pole",
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/landscape.png",
+              "imageLink": "https://maps.app.goo.gl/ift9UX9X6PRXE9Us9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most of the Azores visible on Street View consists of open agricultural fields in a rolling landscape, often with taller round hills in the background.",
+              "NOTE: Madeira has a very mountainous landscape, and very rarely has open agricultural fields."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/rockwall.png",
+              "imageLink": "https://maps.app.goo.gl/JELtGUWRFWXeqiax8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Dry rock walls** made of volcanic rocks are very common on the Azores.",
+              "NOTE: Dry rock walls are not common on Madeira, and while they are somewhat common on mainland Portugal, they will not be made of volcanic rocks."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/hydrangeas.png",
+              "imageLink": "https://goo.gl/maps/WwH2bT56AzExbTEb7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Hydrangeas** can commonly be seen on the Azores.",
+              "NOTE: They can rarely be found on Madeira."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/cedars.png",
+              "imageLink": "https://goo.gl/maps/qKec9TiRjEgvEbV8A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Japanese cedars ([cryptomeria japonica](https://en.wikipedia.org/wiki/Cryptomeria)) are very common on the Azores.",
+              "NOTE: While they can less commonly be seen on Madeira, they are not native to any part of mainland Europe."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/architecture.png",
+              "imageLink": "https://maps.app.goo.gl/nRkH1aPx9w6g4vFz7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Houses in the Azores are typically one or two stories, with an orange tiled roof. They are painted **white** or in **pastel colours**, and dark green shutters on windows are common.",
+              "While you can also find [yellow](https://maps.app.goo.gl/eKrCqxAGLvi8JfKr8) or [blue](https://maps.app.goo.gl/tztY4hFYy1q7exjYA) highlights like in mainland Portugal, **grey highlights** are almost exclusive to the Azores."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/streetsign.png",
+              "imageLink": "https://goo.gl/maps/ToMozFbi74mPnijs8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Street signs in the Azores are almost exclusively painted ceramic tiles, with blue letters and, typically, a decorative pattern around the edge."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/signpost.png",
+              "imageLink": "https://goo.gl/maps/xC7HBpSxGej25Rsp8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Signposts on the Azores are often striped.",
+              "NOTE: These are also seen on Madeira."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/cows.png",
+              "imageLink": "https://maps.app.goo.gl/jG71PcRKRxBPq7cLA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Black and white cows** are very common on the Azores.",
+              "NOTE: Cows on Madeira are usually [brown with white spots](https://maps.app.goo.gl/6cXY7T6okctmsJ9FA)."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Region-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/coverage_az_2025.png",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The only islands in the Azores with car coverage are Ilha de S\u00e3o Miguel, Ilha Terceira and Ilha do Faial."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/gen4.png",
+              "imageLink": "https://goo.gl/maps/FeT1ivRsqcdF96LH7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The only island with **Generation 4** coverage is Ilha de S\u00e3o Miguel."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/azores_shitcam.png",
+              "imageLink": "https://maps.app.goo.gl/JAvRHWSUTF1WN64C8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Shitcam** coverage is found on Ilha de S\u00e3o Miguel and Ilha do Faial. ",
+              "The car seen on [S\u00e3o Miguel](https://maps.app.goo.gl/JAvRHWSUTF1WN64C8) has an **indentation** in the centre, while the one on [Faial](https://maps.app.goo.gl/SFnsE3SAKAeeX8Pw7) appears as a smooth surface, sometimes with an antenna visible."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/lakes.png",
+              "imageLink": "https://goo.gl/maps/9PbobNJkrBrYytE38",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Ilha de S\u00e3o Miguel is the only island in the Azores or Madeira where you can find lakes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/whiterockwall.png",
+              "imageLink": "https://maps.app.goo.gl/8XACx9KaiafrnRUk9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Rock walls with a white painted concrete top are somewhat common on Ilha Terceira."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/faial_white_rocks_very_real_meta.png",
+              "imageLink": "https://maps.app.goo.gl/Wij62iKHRGLgfADw5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On Ilha do Faial, you will sometimes find traditional whitewashed rock walls with unevenly sized dark basalt stones."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/azores/ilhadofaial.png",
+              "imageLink": "https://goo.gl/maps/uvf2SVtGtsuXkRXt5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A trekker going along the edge of a crater can be seen on Ilha do Faial."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

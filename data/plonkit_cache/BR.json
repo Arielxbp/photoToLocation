@@ -1,0 +1,1743 @@
+{
+  "_id": "brazil",
+  "createdAt": "2025-09-07T17:49:14.908Z",
+  "updatedAt": "2026-06-03T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Brazil",
+  "slug": "brazil",
+  "code": "BR",
+  "cat": [
+    "South America"
+  ],
+  "heroImage": "/images/brazil/Arauc_C3_A1rias_ao_fundo_Parque_Nacional_da_Serra_da_Bocaina_-_denoise.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Brazil",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/brazil/0_Brazil_Summary_Graphic.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Brazil_License_Plate.png",
+              "imageLink": "/images/brazil/Brazil_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Licence plates in Brazil were **white **until 2018. Now, a **white plate with a blue stripe** on top is used. Red is still used for commercial vehicles."
+            ]
+          },
+          "tags": [
+            "license plates"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Portuguese.png",
+              "imageLink": "/images/brazil/Portuguese.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Portuguese **is spoken in Brazil, as opposed to most Latin American countries which speak Spanish. Compared to Spanish, some essential differences are that Portuguese uses -\u00e3o rather than -\u00f3n, -ch/-lh instead of -ll and -nh instead of -\u00f1."
+            ]
+          },
+          "tags": [
+            "language"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/soil.png",
+              "imageLink": "https://goo.gl/maps/f7ioYhJZuhKPRrFa6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Soil in most of Brazil is distinctly **red**. It can range from a [light pink](https://goo.gl/maps/n8fe3fywheFqKCTPA) around Mato Grosso to a deep maroon near the Paran\u00e1 river. The soil is usually not red in the North East, or in the majority of Rio Grande do Sul, however.",
+              "NOTE: Parts of Paraguay and the nearby Argentine province of Misiones have deep red soil, as well a handful of other regions around the world."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/ladders.png",
+              "imageLink": "https://www.google.com/maps/@-24.9571126,-53.4509432,3a,90y,210.01h,106.39t/data=!3m6!1e1!3m4!1s5lhJHp3bn7bMpsWZg81SCA!2e0!7i16384!8i8192",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The most common poles in Brazil have some resemblance to a **ladder **in the bottom portion. They are rectangular, have long segments running through the bottom, and small holes near the top.",
+              "NOTE: Paraguay uses similar poles."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Black_sign_back.png",
+              "imageLink": "https://goo.gl/maps/143MAmoWube3G7rt6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most Brazilian road signs have the backs painted **black**.",
+              "NOTE: This is also common in Paraguay."
+            ]
+          },
+          "tags": [
+            "chevron/sign"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/blue.png",
+              "imageLink": "https://goo.gl/maps/Deg85umMeQ4MGHzn8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Blue road markers** with the road number and kilometre can be seen on the sides of roads."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Untitled_design32.png",
+              "imageLink": "https://goo.gl/maps/MKFEtgz85v7epbvv7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Brazil uses **yellow **on **black **chevrons, as opposed to most of South America, which use black on yellow chevrons."
+            ]
+          },
+          "tags": [
+            "chevron/sign"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/doubleyellow.png",
+              "imageLink": "https://goo.gl/maps/NLfa3R3x6HeYKjPi6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Roads in Brazil will usually feature **double yellow** middle lines, with white outer lines. Roads can occasionally have a [single dashed yellow line](https://goo.gl/maps/c8XDntyn1zgp9gah9)."
+            ]
+          },
+          "tags": [
+            "roadline"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/whitekerbs.png",
+              "imageLink": "https://goo.gl/maps/S1CB98FhhmfFSwMz6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "There are frequently **white painted kerbs** on Brazilian roads."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/redtile.png",
+              "imageLink": "https://goo.gl/maps/KcYzQgBDhLRRpNAC6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Many houses throughout Brazil have **orange tiled roofs**."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/transparentdish.png",
+              "imageLink": "https://goo.gl/maps/K7nxFxHKUmx418Ec7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "It is fairly common to see **transparent satellite dishes**, which within Latin America is generally unique to Brazil."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/watertanks.png",
+              "imageLink": "https://goo.gl/maps/Yx7jVHxygB8Mquoj9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Blue Fortlev water tanks **are often seen on Brazilian roofs."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Car meta"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/gen3.png",
+              "imageLink": "/images/brazil/gen3.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "In Generation 3 coverage, you can see two different cars:",
+              "- A white car with a [**stubby antenna**](https://goo.gl/maps/NhuDAxCVQ9TjhSUF7). There is a diagonal coil wrapped around the antenna.",
+              "- A white car with [**no antenna**](https://goo.gl/maps/nKHjWrdrmbWcUULn6).",
+              "The car\u2019s colour is not always visible, meaning you will often see either just the stubby antenna, or no hints of the car at all.",
+              "The stubby antenna with a diagonal coil can also be found in Ecuador, Colombia, and Mexico."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/gen4.png",
+              "imageLink": "/images/brazil/gen4.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Generation 4 cars you can find in Brazil have a visible front, and have one of the following three colour patterns:",
+              "- [**Blue**](https://goo.gl/maps/cX9hiLoFAWmSxYLp8)",
+              "- [**White with a blue stripe**](https://goo.gl/maps/8m72fEE5hMYAQKF27)",
+              "- [**White**](https://goo.gl/maps/fkcFJmPtRwACz2Jv7)"
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Smallcam_Brazil.png",
+              "imageLink": "https://maps.app.goo.gl/ZDE2DDVr5TS4zGn77",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Brazil also has Generation 4 \u201csmallcam\u201d coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front.",
+              "NOTE: Brazil, Peru and Argentina are the only South American countries with smallcam."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional and state-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/br_coverage.png",
+              "imageLink": "/images/brazil/br_coverage.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most of the coverage in Brazil is along the **eastern **half, with only sparse coverage in the Amazon.",
+              "It is useful for beginning players to start forming a rough mental map of where the (limited) coverage is in the western half. When you get Amazonian rounds, this can prevent you from wildly plonking hundreds of kilometres away from the nearest road."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Brasil_-_C_C3_B3digos_de__C3_A1rea_DDD.png",
+              "imageLink": "/images/brazil/Brasil_-_C_C3_B3digos_de__C3_A1rea_DDD.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Area codes** are common to see in Brazil. They are often notated using parentheses, or at minimum as two separate numbers. Phone numbers are sometimes without area codes, and without them will be 8 numbers long for landline and 9 for mobile.",
+              "The pattern for each of the states is very learnable and useful. The area codes are grouped by first digit, so even just learning those can already help a lot. Notably, area codes ending in 1 will always be around major cities and state capitals."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/State_acronyms.png",
+              "imageLink": "/images/brazil/State_acronyms.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Each Brazilian state has a **two-letter acronym**. These show up most prominently in the numbers of state roads (found on kilometre markers). They can also be found in other contexts however.",
+              "The state acronyms show up when you zoom out a little bit on Google maps, which is also possible in the minimap while in-game. However, for quick and or competitive games, it can be very useful to learn them by heart anyway, as this can help a lot with eliminating scanning time."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/cepcodes.png",
+              "imageLink": "/images/brazil/cepcodes.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Postcodes (CEP) **are seen frequently on [street signs](https://goo.gl/maps/7RAf4dB5LnHm3PT36) in Brazil (though sometimes hard to read). The first two numbers will depict an area, a state or multiple states. The numbers go anti-clockwise from S\u00e3o Paulo, ending in Rio Grande do Sul."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Landscape and vegetation"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Brazil_topo.png",
+              "imageLink": "/images/brazil/Brazil_topo.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Shown here is an **elevation map** of Brazil. It can help to have a rough mental map of where you can find mountains, and which regions are more flat. The highest mountains are generally found near the southeastern coast."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/caatinga.png",
+              "imageLink": "https://goo.gl/maps/j1cCqLxKWXdAenr68",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Northeastern Brazil can be identified by its **dry soil, shrubs and succulents** (the [Caatinga](https://en.wikipedia.org/wiki/Caatinga) landscape). In rainy season coverage, the shrubs are still recognisable, but can be deceptively green."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/amazon.png",
+              "imageLink": "https://goo.gl/maps/eiS8scMBj8Z6nHmm8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **Amazon** is a dense rainforest that comprises 40% of Brazil\u2019s total area. Not many roads are within it, but those that are, mostly go through either biodiverse forest or grassy hills with sparse trees."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/acre.png",
+              "imageLink": "https://goo.gl/maps/zaUQ57C3VCLVxVaQ6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Acre has a unique landscape of **small grass hills** and sparsely growing trees. The roads often do not cut around the hills like in most of Brazil, but ride the hills instead. A similar landscape can also be seen near Maraba in the state of Par\u00e1."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/roraima.png",
+              "imageLink": "https://goo.gl/maps/smpdyVYMrkq5Grpo9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Rural locations in Roraima are mostly open **grassy plains with large, distant mountains** in the background. Occasionally, you are on roads within the mountains. Furthermore, the grass in Roraima is distinctly thin, and grows in bunches."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/rgds.png",
+              "imageLink": "https://goo.gl/maps/9pPmBGwKYkAT1YPa8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The landscape in Rio Grande do Sul can be hilly or flat with lush, green fields. Southern areas can have some resemblance to Uruguay."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/hills.png",
+              "imageLink": "https://goo.gl/maps/LMwyZYBwooy6FpDU6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Minas Gerais, Rio de Janeiro and Esp\u00edrito Santo often have **rolling grassy hills**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/exposed_rock_mountains.png",
+              "imageLink": "https://goo.gl/maps/4B5ZLWBPwyEMtQhdA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Esp\u00edrito Santo, and the surrounding areas, often have large mountains with **exposed rock**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/paranapine.png",
+              "imageLink": "https://goo.gl/maps/DRkDJASiJ3va7ejTA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These distinct trees, called **Paran\u00e1 pines**, have long horizontal branches with leaves only at the end. They grow mainly in the southern Brazilian states of Paran\u00e1, Santa Catarina, and Rio Grande do Sul."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/coconut.png",
+              "imageLink": "https://goo.gl/maps/YwF2QH3JNL23XGAu9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Coconut palm trees have long leaves, **can grow very tall, and have thin trunks**. They are common across the north eastern states and sometimes further west or south along the coast.",
+              "NOTE: Coconut palms grow across the world and are not unique to Brazil."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/carnauba.png",
+              "imageLink": "https://goo.gl/maps/akhtASxxFEmjphJZ6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Carna\u00faba palms have short but strong, **fan-like leaves** and a trunk that is smooth at the top and spiked at the bottom. They are common in Cear\u00e1 but are also in Piau\u00ed and Rio Grande do Norte."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/babassu.png",
+              "imageLink": "https://goo.gl/maps/BpwS7ZX9JGf2GL9JA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Babassu palms have long, robust leaves comprised of many leaflets. Trunk length can vary from short to tall. They are found throughout the Amazon, or more rarely, down the east coast."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/acai.png",
+              "imageLink": "https://goo.gl/maps/dWhR34GopEFGbvy6A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A\u00e7ai palms produce fruits that are popular globally. Most of these palms are found near Belem, but can be seen across the Amazon. They are distinct in the way the **leaflets droop downward** along with their unusually thin trunks."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Moriche.png",
+              "imageLink": "https://goo.gl/maps/FC3kSKvyyNo8TXbN6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Moriche palms have leaves with a **rounded fan shape**. They are most common in Amazonas, Acre, and Roraima, but can be found in all of the Amazonian states.",
+              "NOTE: These palms can additionally be found very commonly in the Amazonian parts of Colombia and Peru."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/macaw_palm1.png",
+              "imageLink": "https://goo.gl/maps/jjGdwoxewupqLJWu5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Macaw palms have **thin leaves** compared to other palms, and often have a visible **spear shaped** top. They are very common around Mato Grosso do Sul and the surrounding states, but can be seen much further out sometimes. These palms should be used with caution, and single trees are much less of an indicator than multiple trees."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/longstems.png",
+              "imageLink": "https://goo.gl/maps/seDoq4e2crD3ipmB6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This species of plant, with **long stems** and many leaves growing up, are very common in Cear\u00e1, Rio Grande do Norte, and Para\u00edba. In the dry season, you can still make out the distinct long stems without leaves."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/tocantins_grass.png",
+              "imageLink": "https://goo.gl/maps/SfuMeJGXe3neKS6B6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Very tall grass** can be often seen in the centre of the country, most notably in the Tocantins, Goi\u00e1s, Bahia, and Minas Gerais states."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Agriculture"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/trees2.png",
+              "imageLink": "https://goo.gl/maps/rzfG527SvLMXiGHg9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Eucalyptus Grandis**, when fully grown, is a very tall tree with plantations all over Brazil. You can find them in both large and very small plantations., as well as randomly growing anywhere. You can see them all over the south, but there are some large plantations in Amap\u00e1 too."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/sugar.png",
+              "imageLink": "https://goo.gl/maps/GH5p7d7mwu5Xe1Xp6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Sugarcane plantations** are by far most common in the state of S\u00e3o Paulo, and in the coastal north east states, especially Alagoas and Pernambuco."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/soybeanas.png",
+              "imageLink": "https://goo.gl/maps/tLkPUoSYFJ1BPvqK7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Soybeans** appear as small, leafy soil grown plants. They are most commonly grown in Mato Grosso, Paran\u00e1, and Goi\u00e1s."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/coffee.png",
+              "imageLink": "https://goo.gl/maps/jYJPP4CsJxtdcinz6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Coffee beans** are by far the most common in Minas Gerais, but also can be found in Esp\u00edrito Santo and northeastern S\u00e3o Paulo."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Infrastructure"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Brazil_Round_Poles_2.png",
+              "imageLink": "/images/brazil/Brazil_Round_Poles_2.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Alongside ladder poles, **round poles** can often be found across the south of Brazil, especially S\u00e3o Paulo. These poles are cylindrical and made of concrete.",
+              "NOTE: This map and the following wooden pole map was created using statistical analysis of semi-urban and rural locations. 434 locations of 3 poles per location were used across 16 states that were thought to have mixed poles. Regardless of the state, the centre of large cities will often have round poles."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Brazil_Pole_Wooden.png",
+              "imageLink": "/images/brazil/Brazil_Pole_Wooden.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Some states also use **wooden poles**. They are most commonly seen in Rio Grande do Sul, Roraima, Amazonas, and Rio de Janeiro."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/br_polesupport.png",
+              "imageLink": "/images/brazil/br_polesupport.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Brazil often uses **supports **on its electricity poles that connect the crossbar to the stem of the pole. The frequency of pole supports varies greatly state-to-state. It is notably rare in the northeast.",
+              "NOTE: This tip only works for poles that have a crossbar."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Brazil_Single_support.png",
+              "imageLink": "https://maps.app.goo.gl/WcwMBFNxV42o1Rs26",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poles with a **single support **are most commonly found in the states of Tocantins, Santa Catarina, and Minas Gerais."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/BA_and_PE_Code.png",
+              "imageLink": "https://goo.gl/maps/F1YUU4dL2MCrDFVK9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Markings on poles are used by the electricity companies to identify them. This pole ID is **long**, **yellow** **pole paint **with a black code. The ones that start with a letter are found in Bahia and Pernambuco."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/GO_code.png",
+              "imageLink": "https://goo.gl/maps/M2cYpviU5PsZ9S8c8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Similar to the Bahia and Pernambuco poles, Goi\u00e1s poles also use **long, yellow pole paint **with a black paint code, but it always starts with a number. They also have a rarer yellow on black pole ID, which can be either paint or a plate."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/RN_code.png",
+              "imageLink": "https://goo.gl/maps/fCRXbKrzDHWLN9KG9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **small yellow or orange plate** attached onto the pole by thin metal or zip tie is found in Rio Grande do Norte and Pernambuco. This ID is usually much higher up the pole in Pernambuco than in Rio Grande do Norte."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Parana_pole_paint_id.png",
+              "imageLink": "https://goo.gl/maps/GAgiqiwUX5veFbYz7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Pole IDs in Paran\u00e1 are usually made up of **black paint** and yellow or white painted text."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/ma_pole_code_2.png",
+              "imageLink": "https://goo.gl/maps/m1C4VJGayQW7W9S46",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Most poles in Maranh\u00e3o have a **small beige plate with numbers** built into the surface of the pole. This pole ID can be found in Par\u00e1 and Piau\u00ed more rarely."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/Parana_streets.png",
+              "imageLink": "https://goo.gl/maps/d5MturZ4SJ5ujasA8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Utility poles in Paran\u00e1 on intersections are sometimes **painted with the street name**. This can sometimes extend to Santa Catarina or Rio Grande do Sul if there are ladder poles in the city."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/br_saopaulopoletop.png",
+              "imageLink": "https://maps.app.goo.gl/oxhdz83wNttza3gE6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This poletop, consisting of an **asymmetrical crossbar** and a **support** reaching to the middle of the longer** **part of the crossbar, is the most common poletop in the state of S\u00e3o Paulo. It can also be frequently seen in the states of Rio Grande do Sul, Rio de Janeiro and Mato Grosso do Sul."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/br_cearapoletop.png",
+              "imageLink": "https://maps.app.goo.gl/zLxbd5F1YkDpmMjX8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **asymmetrical** **crossbar** with **no supports** is exclusive to Ceara and Rondonia.",
+              "NOTE: While the crossbar in Ceara is usually made of concrete, the [Rondonian variation](https://maps.app.goo.gl/nXUtLu6sWXvN4zfF8) features a metal crossbar, and is far less common."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/br_ceararoraimapole.png",
+              "imageLink": "https://maps.app.goo.gl/yy5oCChLroCqjbJo8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This pole configuration, featuring a zigzag-shaped top bar resting atop a flat crossbar, is exclusive to Ceara and Roraima. The pole is usually much larger than a regular electricity pole."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/br_riopencilpole.png",
+              "imageLink": "https://goo.gl/maps/uisPPRi6mRFnvw7H7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poles that have a smooth cone on top, often called a **pencil pole**,** **are common in the state of Rio de Janeiro and rarely in Bras\u00edlia and Manaus."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/br_gammabox.png",
+              "imageLink": "https://maps.app.goo.gl/ujnYHRLBugsqHxyEA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Gamma-shaped (\"\u0393\")** poles containing **electricity boxes** at the end of the bar are most commonly seen in the state of Rio de Janeiro and in the cities of Bel\u00e9m, Salvador, Fortaleza and Macei\u00f3.",
+              "NOTE: A variation with a [shorter bar](https://maps.app.goo.gl/AQ9y7AkQfqjh7KjV9) is exclusive to Bel\u00e9m."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/br_counteronpole.png",
+              "imageLink": "https://maps.app.goo.gl/gTrFCY5J37z1UA1t7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You may frequently see** electricity counters** attached to the poles in Cuiab\u00e1, Macap\u00e1 and large cities in the state of Par\u00e1.",
+              "NOTE: The electricity counter may consist of one or [several ](https://maps.app.goo.gl/cHRjDx6cB5YRJZHi7)compartments."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/mtacpole.png",
+              "imageLink": "https://goo.gl/maps/eG9RWoaHFbD3WEfbA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poles that have one insulator on top and **alternating** horizontal insulators can be found in Mato Grosso and southern Acre. It is also very rare in Rio Grande do Sul."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/brown_mushroom.png",
+              "imageLink": "https://goo.gl/maps/S7u7ymZnyNeSdGyg8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Insulators that resemble **brown mushrooms** are only found in Pernambuco."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/ba_insulators.png",
+              "imageLink": "https://goo.gl/maps/kxqR6mL7iUiWT1U76",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Insulators that resemble **white mushrooms** are found in Bahia and rarely Bras\u00edlia."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/transparent1.png",
+              "imageLink": "https://goo.gl/maps/p4kR8JTcuwQ1MVyCA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Transparent** insulators are mostly in Alagoas in the northeast, and Santa Catarina in the south. They can be seen rarely in Sergipe, Cear\u00e1, and Bras\u00edlia."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/thread.png",
+              "imageLink": "https://goo.gl/maps/hPt9Ju4NRda1TK9K6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These insulators have a shape resembling a **spool of thread**. They are found mostly in Rio de Janeiro and Esp\u00edrito Santo, and have been seen in Cear\u00e1."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/skinny.png",
+              "imageLink": "https://goo.gl/maps/ramjW1hBrNb3Dmvb6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Insulators in Cear\u00e1 can sometimes be uniquely **long and thin**. They are in Goi\u00e1s too, but are rare."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/para_pole.png",
+              "imageLink": "https://goo.gl/maps/VmQ6UGEKDSsfdMuc8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poles with **horizontal insulators** are very common in Par\u00e1 and less so in Mato Grosso. They are rarely found in Acre, Amap\u00e1, Tocantins, Santa Catarina and Rio Grande do Sul."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/longinsulators.png",
+              "imageLink": "https://goo.gl/maps/GfSdbRv2X3a4EEmZA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Long grey insulators**, not including when they are horizontal, are most commonly found in Par\u00e1, Mato Grosso, Tocantins, Bahia, Mato Grosso do Sul, Paran\u00e1 and Santa Catarina.",
+              "They are found rarely in Maranh\u00e3o, Rio Grande do Norte, Alagoas, Sergipe, Rond\u00f4nia, and Rio Grande do Sul. Other states have between 0 and 5%."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/mainsulators.png",
+              "imageLink": "https://maps.app.goo.gl/96QsZZGhxJTZEXdr7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poles with these **black double UFO-shaped insulators in a trident formation** are common in Maranh\u00e3o. The insulator itself is common across many states, but not in this configuration."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/lollipop.png",
+              "imageLink": "https://goo.gl/maps/RzqyWeStn32fysfd8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These insulators are spherical or cone shaped and suspended on a rod above the insulator bar. They are often referred to as **\u201clollipop\u201d insulators**. They are very common in Rio Grande de Norte, Para\u00edba, Pernambuco, and more rarely, Sergipe."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/dark.png",
+              "imageLink": "https://goo.gl/maps/Wnfj29hYgHQyXyqF9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These **dark brown insulators** with grey bases are found almost exclusively in Santa Catarina and Rio Grande do Sul."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/concrete_bins.png",
+              "imageLink": "https://maps.app.goo.gl/nC9UK3828x2ovmmy7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Brazil often uses metal trash baskets outside houses. In Acre and Rond\u00f4nia, however, it is much more common to see them made of **concrete**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/br_twopartlamp.png",
+              "imageLink": "https://goo.gl/maps/QmBTbXv9EbS8KVCg9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lamps in Minas Gerais and Goias will often feature **two parts** to them. They can also be found in** **Rio Grande do Norte, Cear\u00e1, Rio Grande do Sul as well as the Federal District."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/PRLamps2.png",
+              "imageLink": "https://goo.gl/maps/NV56XDz9w8mX5gy19",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lamps in urban northern Paran\u00e1 sometimes have **no lamp arm**. Styles contrast, and are either colourful, plastic and industrial, or look fancy and ornate. Both versions are most commonly found in northwest Paran\u00e1."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/br_mtmslamps.png",
+              "imageLink": "https://goo.gl/maps/8VWUFbJQQtn6SnTa7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The vast majority of poles in Mato Grosso, Mato Grosso do Sul, Par\u00e1, Amap\u00e1, Rio Grande do Norte, Pernambuco and Santa Catarina have the **lamp arm attached** to the pole, as opposed to it being attached with a plate, which is much more common generally."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/roraima_lamps.png",
+              "imageLink": "https://goo.gl/maps/kYzkP7x6CZTbjiXr8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lamps in Roraima have a **similar style** but have **different colours** in the main cities. Boa Vista, Normandia, and Mucaja\u00ed have red lamps, Rorain\u00f3polis has blue lamps, Pacaraima and Iracema have green, and Caracara\u00ed has yellow."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/ceara_lamps.png",
+              "imageLink": "https://goo.gl/maps/MckB245goyAT61DeA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lamps in Cear\u00e1 often have a **fancy and colourful arm**, whether as lampposts or attached to utility poles. It sometimes says the town on the arm."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/brazil_highways.png",
+              "imageLink": "/images/brazil/brazil_highways.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "S\u00e3o Paulo has far more **divided highways** than any other state."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/SPphone.png",
+              "imageLink": "https://goo.gl/maps/AAJf669hRUgGftPMA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Phone numbers** can sometimes be seen underneath kilometre markers in S\u00e3o Paulo."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/NEroads.png",
+              "imageLink": "https://goo.gl/maps/7do2nnCEtUs9K8oVA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Cobblestone pavement** is most common in the northeast and in Rio Grande do Sul."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/scroads.png",
+              "imageLink": "https://goo.gl/maps/nbrVUdWPtQ1px9JW6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Roads with **hexagonal** concrete tiles can be found across Brazil, but they are more common in Santa Catarina and Minas Gerais."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/acreroad.png",
+              "imageLink": "https://goo.gl/maps/CKLk3b2yvemvhmh9A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Some roads in Acre are made of **red brick**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/anarchy.png",
+              "imageLink": "https://goo.gl/maps/dUYVByAv63qgdgTT9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Cobblestone roads with **randomly sized stones** are most common in southeast Rio Grande do Sul and Minas Gerais."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/unevensquare.png",
+              "imageLink": "https://goo.gl/maps/HPn3zs2Y5SLbNztx5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These **uneven** but mostly **square** stone roads are seen in western Rio Grande do Sul and west Santa Catarina. The soil will often be very dark in these regions too.",
+              "NOTE: The same roads are seen in the Misiones province of Argentina."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/rgds_pavement.png",
+              "imageLink": "https://goo.gl/maps/pa7Ly6M1wtZA4GPj8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can often see pavements in Rio Grande do Sul that have **brown tiles** but are either jagged and random, or square. This style can sometimes be seen in Santa Catarina."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Architecture"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/european.png",
+              "imageLink": "https://goo.gl/maps/bQcUQcVNugZzETYz5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Buildings in the southern states, mainly Santa Catarina, can be of **European influence** (typically vaguely German) in design and style."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/houses.png",
+              "imageLink": "https://goo.gl/maps/KZQUzyJ1KygjdGXG6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Wooden houses on stilts are very common in the state of Acre.",
+              "NOTE: They are also seen more rarely in low-lying Amazonas and Par\u00e1, as well as various other countries."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Miscellaneous"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/piauiroad.png",
+              "imageLink": "https://goo.gl/maps/TNgnZM7sdfKtnUg89",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Some roads in Piau\u00ed have **red gravel **on the side of the road.\u00a0",
+              "NOTE: This can appear elsewhere. Use with caution."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/amapasmudge.png",
+              "imageLink": "https://goo.gl/maps/tLuoeuV2xauC5Uoc7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In all Generation 4 coverage in Amap\u00e1, the front right of the camera is **smudged**. In addition, all Generation 4 coverage in Amap\u00e1 features the white car with the blue stripe."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/joao.png",
+              "imageLink": "https://goo.gl/maps/zWwzhZYRw5ZKL8297",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These spheres on top of utility poles are **Jo\u00e3o-de-Barro nests**. They are common across the south of Brazil."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "divider",
+          "title": "Landscape spotlight"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/roraimafolded.png",
+              "imageLink": "https://goo.gl/maps/FNvyMySmwt4HWnUU9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The landscape near the town of Uiramuta, in northern Roraima, features a very distinct landscape. It is dry, with large mountains containing numerous \u201cfolds.\u201d"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/coastalrgds.png",
+              "imageLink": "https://goo.gl/maps/XqQWffwdN9wiZQYH7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Coastal regions in Rio Grande do Sul are recognisable due to being a rare **flat wetland**, which is uncommon in Brazil."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Infrastructure spotlight"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/saopauloyellow.png",
+              "imageLink": "https://goo.gl/maps/j8e7bCncUhMrV61XA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "S\u00e3o Paulo has a **square, yellow** pole ID paint. It has three letters on top followed by two numbers, a black line, and four more numbers. The three letters represent the municipality within S\u00e3o Paulo, but are rarely visible."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/pole_wrapped.png",
+              "imageLink": "https://goo.gl/maps/bP6rWChW4MMmzJS18",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Street signs in [Campo Grande](https://goo.gl/maps/bP6rWChW4MMmzJS18) and [Joinville](https://goo.gl/maps/1UTu9TZ3KLZK4kxv7) are **stickers** wrapped around a pole at intersections. Campo Grande signs usually have extra information and a red and yellow stripe."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/riocurved.png",
+              "imageLink": "https://goo.gl/maps/b6vqNHVc4YrsdBqT9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lamps in Rio de Janeiro are **curved** through the whole of the lamp arm, which is not seen anywhere else."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/teresina.png",
+              "imageLink": "https://goo.gl/maps/kb3zrqgYoCsy73xz7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Teresina lamps are usually **blue** with an **orange arm**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/belemorange.png",
+              "imageLink": "https://goo.gl/maps/6jT48exBoqaGENbk8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Bel\u00e9m lamp heads are often **orange**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/cuiaba.png",
+              "imageLink": "https://goo.gl/maps/1jnXMgChb33T5RJE7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Cuiaba lamps are usually a **light green**, and is one of the few cities that has poles with multiple electricity metres, sometimes 6 to 12."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/belouber.png",
+              "imageLink": "https://goo.gl/maps/qSjNMZ1XS3ZnrQP46",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lamps in Belo Horizonte and Uberaba in Generation 4 can have a **white, numbered plaque** attached to the lamp. In Belo Horizonte, the tag starts with 0 or 1, and in Uberaba, it starts with a 1 or 2.",
+              "Since this plaque is new, it may appear in other cities in Minas Gerais in the future."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/caxiaslamps.png",
+              "imageLink": "https://goo.gl/maps/4Wm5b9TQP7ioozsH9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lamps in Caxias do Sul usually have a **zig-zag** bent pole and a yellow head."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/florianopolis.png",
+              "imageLink": "https://maps.app.goo.gl/Lewkj9Gk3BZRGeo56",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Poles on Santa Catarina Island (Florian\u00f3polis) are painted **white** with **blue and red stripes**."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "divider",
+          "title": "Miscellaneous"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/alagoas.png",
+              "imageLink": "https://goo.gl/maps/mYF2DQyC48f62Dk76",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can often see **rifts** in Alagoas Generation 3 coverage."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/rgds_glitch.png",
+              "imageLink": "https://goo.gl/maps/Cf2H26uN5Mzs7Mjr7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Northwest Rio Grande do Sul has coverage with this **camera glitch** in Generation 3."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "divider",
+          "title": "Recognisable roads"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/acre364.png",
+              "imageLink": "https://goo.gl/maps/5sVgqaCwywpYD1SG9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The 364 through Acre is very recognisable due to the **rollercoaster-like landscape and road**: the road uniquely rides the hills rather than snaking around them. There is usually no traffic, and is covered mostly by Generation 3 with an antenna."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/amazon319.png",
+              "imageLink": "https://goo.gl/maps/SbhHdZNnQw6tWps3A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Amazonas 319 has a very lush, bright green and tropical landscape, as it **cuts through the Amazon rainforest**. The road is flat and mostly unpaved, featuring bright orange soil. However, closer to Manaus the road becomes paved. There are wooden or ladder poles alongside the entire stretch. It is covered by the blue Generation 4 car."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/para163.png",
+              "imageLink": "https://goo.gl/maps/n5PLrNd8pqfyNt266",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Par\u00e1 section of the 163 is often **hilly, curvy, dry, and sometimes hazy**. It has a wide range of amazonian vegetation. The road is frequently trafficked, usually by transportation trucks. It is covered by the blue Generation 4 car."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Trekkers and unique cars"
+        },
+        {
+          "kind": "centeredText",
+          "text": "Note: Brazil has many hundreds of trekkers and a couple of unique cars. This section only discusses a couple of prominent and recognizable trekkers and unique cars that sometimes appear in custom maps and the official competitive game modes."
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/boat.png",
+              "imageLink": "https://goo.gl/maps/brfp9Ew56tvHeEsv8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **Amazonian trekker** combines [boat](https://goo.gl/maps/oUDek9JNat9NFZAt6) and walking coverage on and near the Madeira and Aripuana rivers, south of the 319. They are seen travelling through dense rainforest and small villages."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/maranhaopark.png",
+              "imageLink": "https://goo.gl/maps/5qFfYA4fFpVuyUzP8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The beautiful National Park of Northeast Maranh\u00e3o, known for its **sand dunes** with pools of water, has [walking trekker](https://goo.gl/maps/Pftf1x4EiqezRmw38) and [vehicle coverage](https://goo.gl/maps/atT5yDswGMP8jaWs9). The truck is white with a black bed. The landscape can vary from beach to sandy wetland."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/brazil/ilha.png",
+              "imageLink": "https://www.google.com.au/maps/@-3.845899,-32.4116046,2a,75y,238.14h,44.56t/data=!3m7!1e1!3m5!1ssbaAFPNxsj86OT_bbw-Fmg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DsbaAFPNxsj86OT_bbw-Fmg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D124.53145%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Ilha de Fernando de Noronha is a **Brazilian island** with official coverage approximately 340 kilometres northeast of Rio Grande do Norte, and the country itself. It is covered by a white buggy, which is visible at the front. The island is similar in vegetation to the closest part of mainland Brazil, and has large exposed rocks. There is also [boat coverage](https://goo.gl/maps/YGr29mutxGNbnuXL7) around the island."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends you play these maps instead:",
+        "- **A Balanced Brazil** ([map link](https://www.geoguessr.com/maps/61df8477a94f5d0001ef9f2c)) - The main Brazil map. If you are looking to learn and streak Brazil, A Balanced Brazil is used in official Plonk It records, and is recommended to play.",
+        "- **Brazil City Streaks** ([map link](https://www.geoguessr.com/maps/6361915c9101c6d54c89f780)) - If you want to practise distinguishing between urban areas.",
+        "- **Dirty Brazil** ([map link](https://www.geoguessr.com/maps/63f3c7c7be7bda29cf4872df)) - A map focusing on extremely rural coverage, with mostly dirt roads.",
+        "In addition, here are some resources to help you practise Brazil:",
+        "- **Plonk It Brazil** ([map link](https://www.geoguessr.com/maps/6463d22e69666cb4d28fbc09)) - This map contains locations for practising each meta in the Plonk It Brazil guide from step 2 to 3.",
+        "- **Brazil Area Codes** ([map link](https://www.geoguessr.com/maps/6284d238e52ac884bb36938a)) - Play this map to practise the various Brazilian area codes."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

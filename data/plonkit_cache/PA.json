@@ -1,0 +1,592 @@
+{
+  "_id": "panama",
+  "createdAt": "2025-09-07T20:35:27.060Z",
+  "updatedAt": "2026-06-03T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Panama",
+  "slug": "panama",
+  "code": "PA",
+  "cat": [
+    "North America"
+  ],
+  "heroImage": "/images/panama/PanamaBanner.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Panama",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/panama/0_1.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/2.png",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Panama features short licence plates, most commonly white with a horizontal **turquoise strip **on the** top**. Rarely, the strip can have [other colours](https://goo.gl/maps/xCKZgTN28Dzp9W8w6).",
+              "Front plates are **not **required in Panama."
+            ]
+          },
+          "tags": [
+            "license plates"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/PanamaCar.png",
+              "imageLink": "https://goo.gl/maps/wAUy9vFzP6jNjK31A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Panama was covered by a large white pickup truck that is usually **entirely blurred**. An antenna is occasionally visible.",
+              "NOTE: The [Costa Rican](https://maps.app.goo.gl/468aLVF3daz21MRLA) truck is usually unblurred. The car used in [Ecuador](https://maps.app.goo.gl/dSweUPGTkgTasq9B7) has neither an antenna nor a white metal railing."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/4.png",
+              "imageLink": "https://goo.gl/maps/mxghYG8jVb6Hgbvq5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Panama is a tropical country with a lot of hills. You will find a lot of palms and other tropical plants along with drier rolling hills and fields."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/5.png",
+              "imageLink": "https://goo.gl/maps/oj7zt58pNoPgEp8K8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most roads are paralleled by fences that are partly or fully made out of small trees. The rest of the fence posts are also almost always wooden."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/6.png",
+              "imageLink": "https://goo.gl/maps/cEXFmgQg32UswRSG9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Panamanian architecture often reflects **Spanish colonial influences**, featuring vibrant colours, and some ornate detailing. The most common type of building has **painted concrete** or sometimes brick** **walls with red metal sheets or tiles for a roof. Many** **windows have bars on them for security."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/7.png",
+              "imageLink": "https://goo.gl/maps/v5qnArZ7E531Q4v19",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Panama features a diverse set of road lines, but the most common combination is [solid outer white with an inner yellow line](https://goo.gl/maps/KAGUqGk3zVKLnNXH8). However, those are not unique to Panama. Within Latin America, solid outer white lines with no middle line are almost unique to Panama."
+            ]
+          },
+          "tags": [
+            "roadline"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/8.png",
+              "imageLink": "https://goo.gl/maps/Lqdhmbem6HJvdX2Q7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Panama uses a wide variety of poles, but the most common type is a **round concrete pole**, with a varying amount of insulators. Poles can also be wooden or metallic. They often have [plates](https://goo.gl/maps/5u2MsQ5wAd6cLHTt7) attached to them. [Blue](https://goo.gl/maps/wCUF3vx7iUtNgZjAA), [white](https://goo.gl/maps/4wmrWMk22ZnZtY3x5), or [red](https://goo.gl/maps/4tDyan7Qz2WnrPsX9) numbers are commonly painted on them as well."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/9.png",
+              "imageLink": "https://goo.gl/maps/eXwqy2CCBmp5iGJn8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Yellow **taxis with a **chequerboard patterned horizontal stripe** are a common sight in Panama. The licence plate will be drawn on the side, containing the city name and a [regional code](/panama#taxiplates)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/10.png",
+              "imageLink": "https://goo.gl/maps/LaAjCE36HSZziiCg8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Panama uses the Spanish word \u201c**ALTO**\u201d on stop signs.",
+              "NOTE: [Mexico](https://goo.gl/maps/f1zLdwAo5VhYDhtC7), [Costa Rica](https://maps.app.goo.gl/K6pZqyNn2Hw52GXJ7) and [Guatemala](https://www.google.com/maps/@14.6255005,-90.5568668,3a,15y,74.14h,81.77t/data=!3m6!1e1!3m4!1smSi97ivNOrtG5_baoEx9YQ!2e0!7i13312!8i6656?entry=ttu) also use \u201cALTO\u201d, but the font is thinner."
+            ]
+          },
+          "tags": [
+            "chevron/sign"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/11.png",
+              "imageLink": "https://goo.gl/maps/iWGgnMeCtaC2KeYy5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Red octagonal signs with an oddly **realistic eye** are unique to Panama."
+            ]
+          },
+          "tags": [
+            "chevron/sign"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/12.png",
+              "imageLink": "/images/panama/12.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "While Panama is quite well covered, there is barely any coverage on the north coast, or east of Panama City."
+            ]
+          },
+          "tags": [
+            "coverage"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/13.png",
+              "imageLink": "/images/panama/13.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The first digit of phone numbers can be used to regionguess Panama.",
+              "The numbers with a smaller font indicate potentially useful [regional two-digit codes](https://goo.gl/maps/fgoa9tJUxY5QL2C56).",
+              "NOTE: Only phone numbers with 7 digits are helpful, and any numbers starting with 5, 6, or 8 are useless as well."
+            ]
+          },
+          "tags": [
+            "moving info"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/14.png",
+              "imageLink": "/images/panama/14.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The first digit of taxi and bus licence plates can be used to regionguess Panama.",
+              "NOTE: Cars travel, so they are not always reliable, especially outside of cities."
+            ]
+          },
+          "tags": [
+            "moving info"
+          ]
+        },
+        {
+          "kind": "divider",
+          "title": "Landscape"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/15.png",
+              "imageLink": "https://goo.gl/maps/xeTP9RXkqCJHPtQVA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Green tropical landscapes** with palm trees and very tall grass** **are common around Col\u00f3n and Panama City."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/16.png",
+              "imageLink": "https://goo.gl/maps/2UwdWeq3ne9XYdST8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Volcanic rocks** that are either scattered on the ground, or built into **rock walls**, are common north of David."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/17.png",
+              "imageLink": "https://goo.gl/maps/xZ3EPeQuJDzn4paG9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The area around David is **very flat**, with lots of fairly **open fields**. Usually, [mountains](https://goo.gl/maps/MT8CapwfA7XwFeDw9) will be visible to the north and northeast."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/18.png",
+              "imageLink": "https://goo.gl/maps/s4RD9WRpQqoTJHXPA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The region around Aguadulce is relatively **flat **and features a lot of agricultural fields along with very **brown or orange** soil."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "divider",
+          "title": "Infrastructure"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/19.png",
+              "imageLink": "https://goo.gl/maps/yi7z3ui4vv4qy86N8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The eastern provinces often have tall vertical plates that can be yellow or white. They are commonly attached to poles by black zip ties.",
+              "NOTE: Be careful not to mix them up with [these white vertical plates](https://goo.gl/maps/9UssGMTvSrtsLBN98), often attached by metallic zip ties. They are slightly wider than the eastern plates and always have 6 digits."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/20.png",
+              "imageLink": "https://goo.gl/maps/ZddsBP4tzehW1faL6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Many poles in the western provinces will have **horizontal **plates attached to them. However, if one of these is accompanied by an [eastern vertical plate](https://maps.app.goo.gl/Fd541FefRusFDcE37), the eastern plate takes precedence."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/21.png",
+              "imageLink": "https://goo.gl/maps/c16Ro4gVBaG6bR1U9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Thin yellow plates, vertical or horizontal, with a visible black border are most common in the Col\u00f3n Province."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/22.png",
+              "imageLink": "https://goo.gl/maps/Rigy2UWGfdKTj2Px8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Wind turbines can be seen [south](https://goo.gl/maps/NFm7beZBXA6frwMb7) and [north](https://goo.gl/maps/tbfJ4v7xXsSbRa4B8) of Penonome."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Distinct Roads"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/23.png",
+              "imageLink": "https://goo.gl/maps/z1GPPhxrTVsMSfVv7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The main covered road in the Ng\u00e4be-Bugl\u00e9 province is very **high-altitude** and almost above the clouds. The surrounding mountains tend to be quite **dry**, and the altitude makes for many stunning views."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/24.png",
+              "imageLink": "https://goo.gl/maps/VR6hqMA8fgzZ9guB8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The road going to Changuinola features a lush and **green hilly landscape**. The weather is **cloudy **or overcast** **on the entire road."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/25.png",
+              "imageLink": "https://goo.gl/maps/FdYKUneX7Wb42MWYA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Highway 9 going from Panama City north to Col\u00f3n is a **divided concrete highway**. The road is visibly **grainy **and has a lot of **tar lines**. The landscape is lush and hilly."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/26.png",
+              "imageLink": "https://goo.gl/maps/AEgxDqRbctstA3mq5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Most of Road 407 features a **freshly paved road**, with visibly **orange soil** on the sides of the road. The southern portion is [hilly](https://goo.gl/maps/jAhhHN6t4w56XvCM6), right before the road quality [deteriorates](https://goo.gl/maps/F59mLWj9TrUS9LXM8)."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/31.png",
+              "imageLink": "https://goo.gl/maps/dg3jRgrwhNKeHsh49",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Panama City can be recognised by the large number of **white high-rise buildings**."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/32.png",
+              "imageLink": "https://goo.gl/maps/Ug54DTcAf9aw8nCCA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Col\u00f3n features a lot of **warehouses **and **rundown multi-storey buildings**."
+            ]
+          },
+          "tags": [
+            "architecture"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/33.png",
+              "imageLink": "https://www.google.com/maps/@9.4121126,-82.5565031,3a,83.8y,258.62h,91.05t/data=!3m7!1e1!3m5!1sp-bU73xBVkMUSHGbbBbELg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dp-bU73xBVkMUSHGbbBbELg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D93.29357%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The region around Changuinola is filled with** banana plantations.**"
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/34.png",
+              "imageLink": "https://goo.gl/maps/MVJ3m2z8nWphRksQ6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Sunset **coverage can be found in southern Panama on a small road south of Tonosi."
+            ]
+          },
+          "tags": [
+            "coverage",
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/35.png",
+              "imageLink": "https://goo.gl/maps/Rz1gbtuWRGqezNEt5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A mountainous** **landscape with **pine trees**, **volcanic rocks**, **dry grass**, and gravel roads can be found northeast of Volc\u00e1n."
+            ]
+          },
+          "tags": [
+            "landscape"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/panama/36.png",
+              "imageLink": "https://goo.gl/maps/GQ5q4RLXSAAFzbuy8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Yellow pole socks** can be found near the Panama Canal, around the town of Gat\u00fan."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends the following maps instead:",
+        "- **AI Generated Panama** ([map link](https://www.geoguessr.com/maps/65161a37377228d88a008ba5)) - 35k arbitrarily generated locations, balanced with streaking in mind. Not pinpointable.",
+        "In addition, here are some resources to help you practise Panama:",
+        "- **Plonk It Panama **([map link](https://www.geoguessr.com/maps/65b540dc2e213c8b185160b4)) - This map contains locations for practising each meta in the Plonk It Panama guide from step 2 to 3.",
+        "- **Panama: Provinces Quiz on Seterra** ([quiz link](https://www.geoguessr.com/vgp/3388)) - Study the provinces of Panama using this quiz.",
+        "- **Panama: Taxi codes quiz on Seterra** **by Kommu** ([quiz link](https://www.geoguessr.com/seterra/en/vgp/3388?c=5AC7K)) - Study the taxi and bus codes of Panama using this quiz."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

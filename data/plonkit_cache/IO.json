@@ -1,0 +1,174 @@
+{
+  "_id": "british-indian-ocean-territory",
+  "createdAt": "2025-09-07T21:12:22.043Z",
+  "updatedAt": "2024-01-16T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "British Indian Ocean Territory",
+  "slug": "british-indian-ocean-territory",
+  "code": "IO",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/british-indian-ocean-territory/On_the_beach_in_Diego_Garcia__2898491095_29.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying the British Indian Ocean Territory",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/british-indian-ocean-territory/0_summary_io.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/british-indian-ocean-territory/British_Indian_Ocean_Territory_in_United_Kingdom.svg.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/British_Indian_Ocean_Territory_in_United_Kingdom.svg/2560px-British_Indian_Ocean_Territory_in_United_Kingdom.svg.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The British Indian Ocean Territory is an United Kingdom overseas territory in the Indian Ocean. As such, it is counted as **the UK** for country streaks purposes.",
+              "Beware that none of the coverage is considered pinpointable, and as a result you are unlikely to get it in most community-made maps. As such, this guide is mainly intended to give a general idea of what type of coverage you can find on the islands."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/british-indian-ocean-territory/io_trekker.png",
+              "imageLink": "https://goo.gl/maps/ATdKjiPLx4M99tSD6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Coverage was taken with a Generation 3 **trekker**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/british-indian-ocean-territory/io_coveragemap.png",
+              "imageLink": "/images/british-indian-ocean-territory/io_coveragemap.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Coverage is mostly found on small atolls in the northern half of the territory."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/british-indian-ocean-territory/io_beaches.png",
+              "imageLink": "https://goo.gl/maps/ijtdCuJsHeLYZ7ns5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "A large portion of the coverage is taken on sand beaches. You will typically see many palm trees along the beaches."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/british-indian-ocean-territory/io_palmforest.png",
+              "imageLink": "https://goo.gl/maps/YV4Hz5ufXvUqKB2R7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Coastal palm forests also comprise a significant portion of the coverage. They almost exclusively consist of coconut palms."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/british-indian-ocean-territory/io_mangroves.png",
+              "imageLink": "https://goo.gl/maps/VhCDqJM7gF6yuK95A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Mangroves can be found on several of the atolls."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/british-indian-ocean-territory/io_fields.png",
+              "imageLink": "https://goo.gl/maps/oSskxDoYUHWp1ec49",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Some of the larger islands with coverage have grassy fields surrounded by bushes and palms."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/british-indian-ocean-territory/io_water.png",
+              "imageLink": "https://goo.gl/maps/wcNcrMFAdc5jUbK48",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The trekker can occasionally be found walking offshore in the water."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/british-indian-ocean-territory/io_coindumire.png",
+              "imageLink": "https://goo.gl/maps/mPE4ZAFzdMMWXG5v7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Coin du Mire is a small island with a dark **rocky shore** and a grassy field with **no bushes or palm trees**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/british-indian-ocean-territory/io_shipwreck.png",
+              "imageLink": "https://goo.gl/maps/BXYdzfPXHVXAvLCH7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A white medium-sized **shipwreck** can be found on the beach at the eastern tip of Nelsons Island."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

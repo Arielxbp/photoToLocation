@@ -1,0 +1,528 @@
+{
+  "_id": "denmark",
+  "createdAt": "2025-09-07T22:24:20.046Z",
+  "updatedAt": "2026-03-02T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Denmark",
+  "slug": "denmark",
+  "code": "DK",
+  "cat": [
+    "Europe"
+  ],
+  "heroImage": "/images/denmark/2018_-_Nyhavn_on_sunset.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Denmark",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/denmark/transparent-dk_summary_2026.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Denmark_License_Plate.png",
+              "imageLink": "/images/denmark/Denmark_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "[Standard](https://maps.app.goo.gl/y3Ke88cHDERNzsJV8) plates are long and **white**, with a blue strip on the left. [Commercial](https://maps.app.goo.gl/qU3xVHvq6aXEbTdSA) plates are **yellow**. And so-called \u201c[Parrot](https://maps.app.goo.gl/Wd1QcR8HbxzcrTGX9)\u201d plates have a **yellow section** on the left hand side. These are unique to Denmark.",
+              "NOTE: The Netherlands, Luxembourg and the UK use yellow plates for private vehicles."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/General_Landscape.png",
+              "imageLink": "https://goo.gl/maps/e5smgzqdDAHyKddP7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Denmark is a generally [flat](https://goo.gl/maps/wt6BuwquwRoUX68m6) country with wide, [open fields](https://goo.gl/maps/Jb3jz3sdcsSrYGQc9) between towns. [Suburban areas](https://goo.gl/maps/17bXd4RSqqJSu26MA) are usually open, with space between buildings. Urban cores are more dense and built up."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Road_Lines.png",
+              "imageLink": "https://goo.gl/maps/jeMYT7nne864hiQ7A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Denmark has all-white road lines. **Double middle lines** are very common.",
+              "NOTE: Some other European countries, most notably Poland and Greece, can have double middle lines."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Blocky_Gapped_Outside_Road_Lines.png",
+              "imageLink": "https://goo.gl/maps/etSawkoBBBvYemA86",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Outer road lines often consist of **small white squares**. These unique-looking lines are a good way to identify Denmark."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Directional_Signs.png",
+              "imageLink": "https://goo.gl/maps/xt2jxMHjMQivxS8B7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Denmark has very unique-looking direction signs that are very useful to recognize the country. They are low to the ground and **framed by pipes**. They are either coloured [red and white](https://goo.gl/maps/xt2jxMHjMQivxS8B7) or [blue and white](https://goo.gl/maps/zC5mi95DGrvhHD8W6), with a directional arrow incorporated into the background. Signs often feature road numbers.",
+              "Some larger road signs have a more [standard layout](https://goo.gl/maps/oXjRzsLL2PQBcJC89) without the pipe frame. Highway signs have [blue or green](https://goo.gl/maps/SZ3AQjYCNbzxErT68) backgrounds."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Street_Vej.png",
+              "imageLink": "https://goo.gl/maps/1HfGZjFxgfTaxR3L6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most Danish street names end in **\u201cvej.\u201d** This is the Danish word for \u201cstreet.\u201d Street signs most commonly have a blue background with white text."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Bollard.png",
+              "imageLink": "https://goo.gl/maps/hB3ufTfvXba1U1Q26",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Denmark has a very recognizable white bollard with a yellow reflector and a **dark orange stripe**. This bollard is unique to the country. You may also find this [green variant](https://maps.app.goo.gl/9N1oFxNmpXjCDc5G8).",
+              "NOTE: Belgium has bollards that may look somewhat similar. However, it will never feature the orange stripe."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/dk_language.png",
+              "imageLink": "/images/denmark/dk_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Danish** is a North Germanic language that is closely related to Swedish and Norwegian. The Danish alphabet contains these special letters: **\u00c6**, **\u00d8**, and **\u00c5**.",
+              "NOTE: The special letters found in Danish can also be found in some of the other Northern Germanic languages:",
+              "- Norwegian uses \u00c6, \u00d8, and \u00c5.",
+              "- Faroese uses \u00c6 and \u00d8 but not \u00c5.",
+              "- Icelandic only uses \u00c6.",
+              "- Swedish only uses \u00c5. In addition, Swedish uses \u00c4 and \u00d6, which are not found in Danish."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Architecture.png",
+              "imageLink": "https://goo.gl/maps/GWCwFZbAUeZTdKag8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Much of the architecture in Denmark consists of **red brick**. Roofs often have orange, dark brown or black tiles.",
+              "NOTE: Similar brick architecture is also common in the Netherlands and Belgium."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Roofs.png",
+              "imageLink": "https://goo.gl/maps/NashMa15BuXjoRMp7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Some houses in Denmark have [**thatched roofs**](https://goo.gl/maps/aDB7vcs9VXEMNan37), especially in rural areas.",
+              "You can also sometimes find grey [**corrugated roofs**](https://goo.gl/maps/nGYSiVBbLtqLsbro8). These look somewhat similar to roofs commonly found in Baltic countries."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Timber_frame_buildings.png",
+              "imageLink": "https://goo.gl/maps/Q1W5og7u9TDx5Fdp6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Some older or rural buildings have **timber frame** walls.",
+              "NOTE: Timber framing can be found in other Western and Central European countries as well, but are an especially common wall type for historical buildings in Denmark."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Signpost.png",
+              "imageLink": "https://goo.gl/maps/WVXwEpoPNuo5468F8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "This signpost, where the pipe frame is **bent around the sign**, is unique to Denmark."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Guardrail.png",
+              "imageLink": "https://goo.gl/maps/F4ALMK8nggKYd2gaA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Denmark has **square (normal B-type) guardrails**, with no reflectors.",
+              "NOTE: Denmark is one of only a very few European countries with this type of guardrail. For a good overview of European guardrails, see [this infographic](/images/denmark/europeguardrail.png)."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Pedestrian_sign.png",
+              "imageLink": "https://goo.gl/maps/eX4qnqpUzQaAdJye7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "This Danish pedestrian sign has **5 stripes. **Uniquely, the first and fifth stripe touch the edge of the white triangle.",
+              "NOTE: Sweden\u2019s pedestrian sign has 4 stripes. Norway almost always has 4 stripes too, but very rarely you can find signs with 5 stripes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Town_entry_and_exit_sign.png",
+              "imageLink": "https://goo.gl/maps/t6QgzJiPipzhkB4H9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "This unique sign is found when entering a town. When leaving, there will be a red slash through the sign."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Bus_stop_sign.png",
+              "imageLink": "https://goo.gl/maps/muUpnWhghWgHozsW8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Bus stop signs in Denmark are **black and yellow**. A small sign is attached to the top of the pole, with the bus schedule underneath. Additionally, you may see this older [**blue and white**](https://goo.gl/maps/fRjTDJetFmcvkqtt6)** **version."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Chevron.png",
+              "imageLink": "https://goo.gl/maps/PRFkDUqgGMiw4Wxu8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "This **red-and-white** chevron is found in Denmark. They are often low to the ground."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Large_Poles.png",
+              "imageLink": "https://goo.gl/maps/rHndu59edqcWTuso7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Standard street level **utility poles are rare** in Denmark. Most of the electricity infrastructure you will find in the countryside are large, towering [overhead power lines](https://en.wikipedia.org/wiki/Overhead_power_line), often near highways."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Bicycle_Paths.png",
+              "imageLink": "https://goo.gl/maps/vomjjowjszspFodd8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "You may sometimes see **bicycle paths** on the side of the road.",
+              "NOTE: Bicycle paths are also commonly seen in the Netherlands and Belgium."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/PostNord_Postal_Box.png",
+              "imageLink": "https://goo.gl/maps/SPHtDFBQTLHaFU9EA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The PostNord, or Post Danmark company, is the national provider of postal services in Denmark. It uses these unique **postal boxes**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Gas_Station_Brands.png",
+              "imageLink": "https://goo.gl/maps/ue4NuoAibsmbyij88",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "These four **gas station brands** are common to Denmark, but each are shared between one other country:",
+              "- [**Ingo**](https://goo.gl/maps/gzK5cAGTik4myC2t6) can be found in Denmark and Sweden.",
+              "- [**Ok**](https://goo.gl/maps/ZnQyP9LSGm32coji9) can be found in Denmark and the Netherlands.",
+              "- [**Uno-X**](https://goo.gl/maps/N7BtoCnkt2mgQe5HA) and [**Yx**](https://goo.gl/maps/MnuSF8c2GA8ujdW19) can be found in Denmark and Norway."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Bicycle_Paths_Bollard.png",
+              "imageLink": "https://goo.gl/maps/Zqr64udnqxjmWY249",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "You will rarely see these **stone bollards**, which may be painted red at the top, near bicycle paths."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Denmark_Road_Numbers.png",
+              "imageLink": "/images/denmark/Denmark_Road_Numbers.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Denmark has an easy to learn **road numbering** system. They order their roads from east to west.",
+              "Roads starting with the numbers 2 to 5 are grouped by region.",
+              "Roads starting with the number 1 can be found nationwide, but the second digit still follows a rough regional distribution. Notably, Bornholm only has roads starting with the number 1.",
+              "_You can click on the image to enlarge it._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Ring_Roads.png",
+              "imageLink": "https://goo.gl/maps/mta8cerTzoKZPEiXA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Ring roads** are special highways near bigger cities, labelled from O1 up to O4. The number increases from the centre, and each fully or partially encircles the city.",
+              "These cities have ring roads: Copenhagen, Odense, Aarhus, Aalborg, Hiller\u00f8d, Kolding, and Velje."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Denmark_Bus_Companies.png",
+              "imageLink": "/images/denmark/Denmark_Bus_Companies.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "There are six regions in Denmark that each use a different **bus transportation company**. Each bus will have the brand written on the front, and have a unique colour scheme.",
+              "_You can click on the image to enlarge it._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Denmark_Bus_Stop_Signs.png",
+              "imageLink": "/images/denmark/Denmark_Bus_Stop_Signs.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In addition, these regions each have their own **bus stop sign**.",
+              "_You can click on the image to enlarge it._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Denmark_Greenland_General.png",
+              "imageLink": "/images/denmark/Denmark_Greenland_General.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Greenland** is the world\u2019s largest island country, and is a part of Denmark.",
+              "_A separate Plonk It guide to Greenland can be found [here](https://www.plonkit.net/greenland)._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Denmark_Faroe_Islands_General.png",
+              "imageLink": "/images/denmark/Denmark_Faroe_Islands_General.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **Faroe Islands** is a group of united islands in the North Atlantic, and are an autonomous territory of Denmark.",
+              "_A separate Plonk It guide to Faroe Islands can be found [here](https://www.plonkit.net/faroe-islands)._"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Area_-_Bornholm_Bus_Stop.png",
+              "imageLink": "https://goo.gl/maps/JwApeHPojip87YfL9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **bus stops** on the island of Bornholm have this unique green, red and white colour scheme."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Bornholm_bicycle_signs.png",
+              "imageLink": "https://goo.gl/maps/P288rSBFDkYHJbE8A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These **green bicycle signs** are found on the island of Bornholm."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/L_C3_A6s_C3_B8_Roof.png",
+              "imageLink": "https://maps.app.goo.gl/w5wJZ2S34wktN88m9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These traditional \u201cseaweed roofs\u201d are found on the island of L\u00e6s\u00f8. They are made from a type of seaweed known as [eelgrass](https://en.wikipedia.org/wiki/Zostera)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/denmark/Anholt_Generation_2.png",
+              "imageLink": "https://goo.gl/maps/L7rXV3C9Lr6hhoa27",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The island of **Anholt** only has Generation 2 coverage, with distinct gloomy, overcast weather. A large portion of coverage is recognizable due to the sandy dirt on the roadside."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

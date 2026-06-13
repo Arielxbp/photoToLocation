@@ -1,0 +1,175 @@
+{
+  "_id": "gibraltar",
+  "createdAt": "2025-09-07T22:25:55.744Z",
+  "updatedAt": "2026-02-25T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Gibraltar",
+  "slug": "gibraltar",
+  "code": "GI",
+  "cat": [
+    "Europe"
+  ],
+  "heroImage": "/images/gibraltar/michal-mrozek-Fz3vBE8XoHc-unsplash.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Gibraltar",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/gibraltar/0_summary_gibraltar.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/gibraltar/e.png",
+              "imageLink": "/images/gibraltar/e.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Gibraltar is a British Overseas Territory located at the southern tip of the Iberian Peninsula, bordering Spain. For country streak purposes, the territory is counted as **the United Kingdom**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/gibraltar/Gibraltar_antenna.png",
+              "imageLink": "https://goo.gl/maps/D13tJK1WxyoPJ9br7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All coverage in Gibraltar is Generation 3. The car will always have a unique **long antenna with a silver tip**, often referred to simply as the \u201cGibraltar antenna\u201d by the community.",
+              "NOTE: This antenna can also be found in parts of Spain, but nowhere else in Europe. In addition, the parts of Spain where this antenna can be found do not border Gibraltar."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/gibraltar/Rock_of_Gibraltar.png",
+              "imageLink": "https://goo.gl/maps/Vx73ktwAzsPWjQDt9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The territory\u2019s most recognizable feature is the Rock of Gibraltar, a massive limestone mountain that dominates every part of the territory. It can be recognized by its exposed **white limestone rocks** and distinct shape."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/gibraltar/Back_plates.png",
+              "imageLink": "https://goo.gl/maps/LzCMKW3QcUGhsdDY6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Like the UK, Gibraltar uses white front and **yellow back plates** on vehicles."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/gibraltar/Driving_side.png",
+              "imageLink": "https://goo.gl/maps/Rmza34UhEMZRr7zx5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Unlike the UK, Gibraltar drives **on the right**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/gibraltar/English_language.png",
+              "imageLink": "https://goo.gl/maps/oqP8uQhP6KzWxDMP7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The main language used in Gibraltar is **English**. This can be especially helpful if you see English on official signs in a Mediterranean setting.",
+              "NOTE: Note that English is also one of the main languages of Malta, which also has a Mediterranean landscape and vibe."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/gibraltar/Gibraltar_architecture.png",
+              "imageLink": "https://goo.gl/maps/KkqK1BdQ72ucTeVj9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The urban parts of Gibraltar are mostly fairly dense. Buildings look similar to those found in other Mediterranean countries. They have **pastel colours** and **louvered window shutters** (horizontal slats of wood set into a frame). These window shutters are usually painted green, blue or brown."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/gibraltar/Christmas_decorations2.png",
+              "imageLink": "https://goo.gl/maps/bDmRN6RjJd1dnZNn7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All coverage is from December, so in many parts of town you will see **Christmas decorations**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/gibraltar/gi_monke.png",
+              "imageLink": "https://www.google.com/maps/@36.1320521,-5.3457884,3a,23.1y,217.83h,71.68t/data=!3m6!1e1!3m4!1sHezPg0nSxJv39GQdNNfSKw!2e0!7i13312!8i6656?entry=ttu",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Gibraltar is famous for its **monkeys**, of the species [Barbary macaque](https://en.wikipedia.org/wiki/Barbary_macaque). It is the only place in Europe where you can find wild monkeys."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/gibraltar/Mosque.png",
+              "imageLink": "https://goo.gl/maps/GYuppGVwJJPAUk3Z6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Near the southern tip of the territory, you will be able to see the **minarets** of the [Ibrahim-al-Ibrahim Mosque](https://en.wikipedia.org/wiki/Ibrahim-al-Ibrahim_Mosque), the southernmost mosque in continental Europe."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

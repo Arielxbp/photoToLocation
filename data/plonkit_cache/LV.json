@@ -1,0 +1,321 @@
+{
+  "_id": "latvia",
+  "createdAt": "2025-09-07T22:30:39.873Z",
+  "updatedAt": "2026-04-10T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Latvia",
+  "slug": "latvia",
+  "code": "LV",
+  "cat": [
+    "Europe"
+  ],
+  "heroImage": "/images/latvia/latvia2.jpeg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Latvia",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/latvia/transparent-lv_summary_2026.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Latvia_License_Plate.png",
+              "imageLink": "/images/latvia/Latvia_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Latvian **licence plates** are long and white, with the standard blue European strip on the left."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Bollard.png",
+              "imageLink": "https://maps.app.goo.gl/F7picqfioPyziBLK7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Latvian bollards have a **thin, slightly curved shape**.",
+              "They have a rectangular reflector on the front, and two circular reflectors on the back. The reflectors can be white or orange. The black strip is slightly angled. Bollards often have numbers below the front reflector.",
+              "NOTE: Estonian and Lithuanian bollards look different.",
+              "!![This infographic](/images/latvia/nordics_bollards.png) shows the main similarities and differences between the bollards of the Baltic and Nordic countries."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Poletop.png",
+              "imageLink": "https://goo.gl/maps/Jv42bzU7EtxRHnQP6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Latvian poles have distinctive poletops, with **hook-shaped insulators**, that are arranged in an alternating manner: left-right-left (or vice versa).",
+              "NOTE: These poletops are much more rare in the other two Baltic countries. They can however appear in some other European countries."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Chevron.png",
+              "imageLink": "https://goo.gl/maps/hiLDBft1bigExgip6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Latvia uses white chevrons with red arrows.",
+              "NOTE: Many other European countries, including Lithuania and Poland, use the same chevrons.",
+              "!!However, Estonia, Russia and Ukraine use chevrons with the opposite colour scheme: red with white arrows."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/KM_sign.png",
+              "imageLink": "https://goo.gl/maps/jVrqxq487ri9rZE27",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All Baltic countries use the same blue kilometre marker. However, they can be distinguished from each other by their angle relative to the road.",
+              "In Latvia, the marker will be **parallel** to the road. It only has a number on one side.",
+              "For a quick overview of all three Baltic countries, see [this infographic](/images/latvia/baltics_kmmarkerinfographic.png)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Latvian_Signs.png",
+              "imageLink": "https://goo.gl/maps/gEYNkP3v5WTvfuwf7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Each Baltic country has a slightly different border for its warning and speed signs.",
+              "Latvian signs have a **thick** red border, with a **thin white outline** around it."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Pedestrian_sign.png",
+              "imageLink": "https://goo.gl/maps/KmbmMNQh5qyBCMe77",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Latvian pedestrian signs have **five stripes**, which is unique within the Baltics. Uniquely, the pedestrian has noticeably **long legs** compared to pedestrian signs in other European countries.",
+              "The other two Baltic countries have three stripes on their pedestrian signs."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Bus_stop_sign.png",
+              "imageLink": "https://goo.gl/maps/ZCbvTDGF9dK5Dziz8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Latvian bus stop signs have this design.",
+              "Most importantly, the bus has **five windows**. Within the Baltics, this is unique to Latvia. The other two Baltic countries have four windows."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Guardrail.png",
+              "imageLink": "https://goo.gl/maps/RVEYU1szGvsikJs59",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Latvia has normal A-type guardrails with **white or red reflectors**.",
+              "NOTE: Estonia has no reflectors. Lithuania has orange reflectors. For a good overview of European guardrails, see [this infographic](/images/latvia/europeguardrail.png)."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Latvian_language.png",
+              "imageLink": "/images/latvia/Latvian_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Latvian** belongs to the Baltic languages. The other major member of this branch is Lithuanian, to which it is closely related.",
+              "Within the Baltic languages, the following letters are unique to Latvian:",
+              "- Vowels with a macron (horizontal stripe): \u0100 \u0112 \u012a.",
+              "- Consonants with a small hook: \u0122 \u0136 \u013b \u0145.",
+              "NOTE: Estonian is not a member of the Baltic languages(despite the name), and therefore looks significantly different."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Iela.png",
+              "imageLink": "https://goo.gl/maps/7jzCqFz4S6QSxS8y6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Latvian word for street is **iela**. This word is unique to Latvian.",
+              "Very rarely, you might see \u2018gatve\u2019 in Riga (abbreviated as gat.). This word is also the standard word for street in Lithuania (usually abbreviated as g.)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/lv_housenumber.png",
+              "imageLink": "https://www.google.com/maps/@57.177445,26.7603386,3a,15y,165.76h,88.86t/data=!3m6!1e1!3m4!1smlkqmcNiQQjg3uWHytAaYg!2e0!7i16384!8i8192?entry=ttu",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Latvian house numbers are often shaped like **tall rectangles** and can be found in [several colours](https://www.google.com/maps/@56.6568307,23.7457261,3a,15y,38.74h,91.25t/data=!3m6!1e1!3m4!1sP7bXCAylAr5ghFSDKp9l1g!2e0!7i16384!8i8192?entry=ttu).",
+              "NOTE: This is not common in Estonia or Lithuania."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Latvia_architecture.png",
+              "imageLink": "https://goo.gl/maps/Bbeoky6CBx3GRkZt6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Latvian architecture generally consists of a combination of **wood** and **white brick**, typically with somewhat steep **corrugated metal roofs**. Slightly modern houses with **pastel coloured stone walls** and houses with a combination of wood with another material, particularly white brick, are also common."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/lv_directionalsign.png",
+              "imageLink": "https://goo.gl/maps/g3aqkLH6yjQwrCSF7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Latvian directional signs are blue with white text.",
+              "NOTE: The arrow on Latvian signs is more stylized than in [Estonia](https://goo.gl/maps/eW7AJWdVriTfsprx7) and [Lithuania](https://goo.gl/maps/17A5xxGivFmbs4ae8), where the back part of the arrowhead is vertical."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Screenshot (607).png",
+              "imageLink": "https://maps.app.goo.gl/S5S2pNJ26c46XSgm6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "A red generation 4 Google car can be found in Latvia.",
+              "NOTE: It can also be found in a few other European countries, including Lithuania, but not Estonia."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Screenshot (610).png",
+              "imageLink": "https://maps.app.goo.gl/nXUCvMFqS9pHNHRs9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "A black generation 4 Google car can also be found in Latvia.",
+              "NOTE: It can also be found in many other European countries, including Lithuania, but not Estonia."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional and municipality-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/South_of_Jelgava.png",
+              "imageLink": "https://goo.gl/maps/WUpY4LvnEMPxETM56",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The area south of Jelgava is characterised by a **wide open landscape** with considerably less forest and more fields than most of the rest of Latvia."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/latvia/Downtown_Riga.png",
+              "imageLink": "https://goo.gl/maps/94yYzKyx3xLk4gAG9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The historic downtown area of Riga is characterised by majestic [**art nouveau**](https://en.wikipedia.org/wiki/Art_Nouveau)** architecture**, that is in places reminiscent of the architecture in Vienna. This is unique within Latvia, and even within the entire Baltics."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

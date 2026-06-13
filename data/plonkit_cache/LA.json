@@ -1,0 +1,463 @@
+{
+  "_id": "laos",
+  "createdAt": "2025-09-07T21:14:11.015Z",
+  "updatedAt": "2025-11-08T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Laos",
+  "slug": "laos",
+  "code": "LA",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/laos/laos.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Laos",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/laos/0_Laos_summary_graphic.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Laos_coverage.png",
+              "imageLink": "/images/laos/Laos_coverage.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Street View coverage in Laos is very **limited**. Only five cities are covered: Vientiane, Vang Vieng, Luang Prabang, Savannakhet, and Pakse.",
+              "In addition, all coverage in Laos was taken by a Generation 3 camera.",
+              "All five cities have a distinct look and with some practise they are easily distinguishable from each other. The differences are discussed in more detail in the region-guessing section, but the summarized version is as follows:",
+              "- **Luang Prabang**: historical architecture, hills, palms",
+              "- **Vang Vieng**: distinct mountains",
+              "- **Vientiane**: no roof rack, large city",
+              "- **Savannakhet**: very flat",
+              "- **Pakse**: red soil, arid, hills"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Laos_car.png",
+              "imageLink": "https://www.google.de/maps/@16.5633151,104.7678901,3a,90y,6.75h,16.97t/data=!3m7!1e1!3m5!1sRil7k9kHyEUqBjcsYaGM1A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DRil7k9kHyEUqBjcsYaGM1A%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D95.68906%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "In all cities except for the capital, Vientiane, this Google car will be visible. It is silver-coloured, with a **roof rack** with two metal bars and black side mirrors.",
+              "NOTE: A similar car can be found in Guatemala, so be sure to look at the other clues before guessing."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Laos_driving_side.png",
+              "imageLink": "https://goo.gl/maps/SnXrach5CutXFYCH7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Laos drives on the **right hand** side of the road.",
+              "NOTE: This is mostly useful to distinguish between Thailand, which drives on the left hand side of the road."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Laos_License_Plate.png",
+              "imageLink": "/images/laos/Laos_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Laotian licence plates are short and **yellow**. This distinguishes them from nearby Thailand and Cambodia, who both use white plates on non-commercial vehicles.",
+              "Laotian commercial plates are white, and government plates are blue.",
+              "NOTE: Thailand uses yellow plates for commercial vehicles, such as taxis."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/la_language.png",
+              "imageLink": "/images/laos/la_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Lao script** is compact and curvy, with some diacritics on top and below characters.",
+              "NOTE: It is very similar to Thai script, but (in most fonts) Lao script has fewer straight lines."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Laos_buddhism.png",
+              "imageLink": "https://goo.gl/maps/Y6zVTTYCXJ7ESgH79",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Laos is a majority **Buddhist** country. Buddhist temples are a common sight. They can be recognized by their ornate decorations, often with gold leaf detailing.",
+              "NOTE: Thailand and Cambodia are also majority Buddhist."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Laos_striped_curbs.png",
+              "imageLink": "https://goo.gl/maps/dZSkujLLxzSD33PH7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Striped curbs** of various colours, such as red, yellow, or black with white, can be seen throughout Laos."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Stop_Sign_Comparison.png",
+              "imageLink": "https://goo.gl/maps/cyVVXQknYEHuPJw68",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Stop signs** feature the Lao script. Sometimes, the sign features the word \u2018stop\u2019 in Latin script below the Lao script.",
+              "NOTE: In Laos, stop signs only have **2 characters,** compared to 3 in Thailand."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/laos_Pole_Graphic.png",
+              "imageLink": "https://goo.gl/maps/ub8haRwjtMHxjxE39",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Laos uses **square concrete poles**, with small pinholes on the sides in a row from top to bottom.",
+              "NOTE: Similar poles are found in Thailand, Sri Lanka, and less commonly, Cambodia."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Laos_bollards.png",
+              "imageLink": "https://goo.gl/maps/HpWRhdGVCwAJAaKg6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Laos uses square concrete **black and white bollards** with one or more black bands.",
+              "NOTE: Thailand, Indonesia, and rarely Cambodia use similar bollards."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Laos_lamp_posts.png",
+              "imageLink": "https://goo.gl/maps/FjnT8AG1DFAD8xkA9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Some lamp posts have **diagonal red and white striped markings** that do not** **go down to the base."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Laos_faraway_bollards.png",
+              "imageLink": "https://goo.gl/maps/AAEn5A6WkjP3MW4H8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "A **red and white** painted cuboid concrete bollard can sometimes be seen a few metres off the side of the road."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Laos_communist_flag.png",
+              "imageLink": "https://goo.gl/maps/hrGV2PJXPSjLrCGA6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Laos has a communist government. You can sometimes see red **hammer and sickle flags**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "City-specific clues",
+      "items": [
+        {
+          "kind": "subsection",
+          "title": "Luang Prabang"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Luang_Prabang_general_look.png",
+              "imageLink": "https://goo.gl/maps/M2g4A3DCGprcVCin6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Luang Prabang is located on the [Mekong River](https://goo.gl/maps/kdK5uhvp6kE4E3zc6) and surrounded by low **mountains** and hills (not always visible)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Luang_Prabang_palms.png",
+              "imageLink": "https://goo.gl/maps/qyXoP6dCzSdHoFB77",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Palm trees** are common in Luang Prabang."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Luang_Prabang_architecture.png",
+              "imageLink": "https://goo.gl/maps/xXust9qE964eyEsW7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Luang Prabang is the former royal capital of Laos and a UNESCO heritage site. The city has a lot of **historical architecture**, including several [temples](https://goo.gl/maps/T4rVQMmiqkaFBLhy7). Many buildings make use of traditional [dark wooden](https://goo.gl/maps/E5rWvMQBr5MH7Ar86) architectural elements. There are also some buildings dating back to [French colonial](https://goo.gl/maps/G9NRBCbmvH6QVwem8) rule of Laos."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/la_luangprabangsignback.png",
+              "imageLink": "https://goo.gl/maps/3WneEABNk3pKJjVW9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Within Laos, **blue sign backs** are only found in Luang Prabang."
+            ]
+          }
+        },
+        {
+          "kind": "subsection",
+          "title": "Vang Vieng"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/la_vang_vieng.png",
+              "imageLink": "https://www.google.de/maps/@18.9316241,102.4499602,3a,90y,291.6h,85.9t/data=!3m6!1e1!3m4!1sCE_mH4hQPST9j_Kt5Q9r0g!2e0!7i13312!8i6656",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **rugged mountain range** can be seen from almost any point in Vang Vieng, and is the most reliable way of recognizing it.",
+              "NOTE: Vang Vieng has [very limited coverage](/images/laos/laos_vangviengcoverage.png); by far the least out of all 5 Lao cities. The actual coverage is also south of the Vang Vieng label on the map."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Vang_Vieng_tourism.png",
+              "imageLink": "https://goo.gl/maps/Ye3vhEGFjVd2LAok6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Vang Vieng is also very **touristic**: you will see a lot of signs for hotels, guesthouses, and other tourism-related enterprises. In the (very few) rounds that the distinct mountains are blocked by buildings, this is a good way to recognize the town."
+            ]
+          }
+        },
+        {
+          "kind": "subsection",
+          "title": "Vientiane"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/No_Roof_rack_map.png",
+              "imageLink": "https://goo.gl/maps/882kdEjzZEyjDq9q8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "As previously mentioned, the Vientiane area is the only part of Laos where the Google car is **not **visible. It also has a considerable amount of rural coverage, especially to its southeast.",
+              "NOTE: This may lead to toss-ups with Thailand and Cambodia. Use the driving side (Thailand being left, and Laos and Cambodia right), along with other clues to tell them apart."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Road_450_Map.png",
+              "imageLink": "https://www.google.de/maps/@17.9646238,102.7209199,3a,75y,10.97h,83.27t/data=!3m7!1e1!3m5!1s4iY4mGN5oeqN1B0AUrMtxQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D4iY4mGN5oeqN1B0AUrMtxQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D102.19216%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Road 450 east of Vientiane is made entirely of **concrete blocks**. It is also one of the very few divided highways in Laos with coverage."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Nong_Beuak_map.png",
+              "imageLink": "https://goo.gl/maps/xYdtr8J8HBELHyCW9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The divided highway that passes through Nong Beuak can be easily recognized by these **street lamps **that line the sides of the road.",
+              "NOTE: These streetlamps can also be found on the divided section of road 13, but it is more urban, and has a different road angle."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Conservation_area_map1.png",
+              "imageLink": "https://goo.gl/maps/HBJ24q6zJsM55E536",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The road that goes through the conservation area features uniquely **hilly **terrain for Laos. Landscape around the road is also very **dry**, and mostly **forested**. Additionally, the road is in good condition with coloured curbs and dashed outer lines.",
+              "NOTE: It is the only single lane road that has black and white or yellow and white curbs."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Vientiane_Patuxay_Monument_trekker.png",
+              "imageLink": "https://goo.gl/maps/SAw2XAgL8csyjFfF6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The only trekker in Laos is a view of the monumental **Patuxai** arch, a massive war memorial in the middle of Vientiane. Some of the coverage is made with a normal trekker, and some with a [tripod](https://goo.gl/maps/Jhfo521otTgghE1W9)."
+            ]
+          }
+        },
+        {
+          "kind": "subsection",
+          "title": "Savannakhet"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/la_savanakhett.png",
+              "imageLink": "https://goo.gl/maps/vdbqghAkcZivzUcu5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Savannakhet is very **flat**: the only mountains that are visible are on the other side of the Mekong river, in Thailand.",
+              "It is also recognizable as its soil has a **slight red** tinge, however not as red as Pakse.",
+              "NOTE: On Google Maps, the label for Savannakhet is hidden under the label of the Thai province of Mukdahan until you zoom in relatively close. You can find Savannakhet by going west of Xeno."
+            ]
+          }
+        },
+        {
+          "kind": "subsection",
+          "title": "Pakse"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/la_pakse.png",
+              "imageLink": "https://www.google.de/maps/@15.11176,105.8354543,3a,42.3y,323.05h,78.45t/data=!3m6!1e1!3m4!1sNl0Vb-JikfFnryKKr0dN8A!2e0!7i13312!8i6656",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The southern city of Pakse is easily recognizable thanks to the distinct **red **soil.",
+              "The vegetation is also uniquely **dry**, with equally [dry hills](https://goo.gl/maps/VRfYqJdVfgmuNvwL6) nearby."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/laos/Pakse_Bridg_map.png",
+              "imageLink": "https://www.google.de/maps/@15.0997481,105.8117855,3a,75y,19.58h,80.04t/data=!3m6!1e1!3m4!1srNecOylBMglJ3U82pyHW8A!2e0!7i13312!8i6656",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This 1380-metre long **bridge **crosses the Mekong River next to the city of Pakse. It is the only major bridge in Laos with coverage."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

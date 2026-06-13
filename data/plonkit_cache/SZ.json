@@ -1,0 +1,292 @@
+{
+  "_id": "eswatini",
+  "updatedAt": "2025-10-18T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Eswatini",
+  "slug": "eswatini",
+  "code": "SZ",
+  "cat": [
+    "Africa"
+  ],
+  "heroImage": "/images/eswatini/import.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Eswatini",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/eswatini/0_Copy_of_Copy_of_Infographic__284_29.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Eswatini_vibe.png",
+              "imageLink": "https://goo.gl/maps/kaSZLDsRUZT9rSqK9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Eswatini\u2019s landscape is known for its **green, wooded hills** and **tall golden grass**.",
+              "NOTE: In contrast, Lesotho\u2019s mountains are typically barren, and long grass is not a common sight there."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Copy_of_Untitled_Design__2830_29.png",
+              "imageLink": "https://goo.gl/maps/WabAtaNFUHPmjDu39",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Poles in Eswatini are made of **dark brown wood** and follow a simple design. The insulators are mostly mounted on the side.",
+              "NOTE: In Southern Africa, three insulators on the pole are more commonly found in Eswatini."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/MRroad.png",
+              "imageLink": "https://goo.gl/maps/XijzShmqmNAUzgSr8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Roads starting with the letters **\u201cMR\u201d** are exclusive to Eswatini."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Eswa_lines.png",
+              "imageLink": "https://maps.app.goo.gl/NBm6EGg6jRga9iaQ7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Eswatini typically uses **yellow **outside lines and occasionally, **triple white **middle lines.",
+              "NOTE: Similar road lines can also be found in South Africa, Lesotho and Botswana."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/white_car.webp",
+              "imageLink": "https://goo.gl/maps/LezhCXoNXmEpgHNX9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All of Eswatini was covered by a **white** Google car without an antenna.",
+              "NOTE: Within Africa, this car can also be found in South Africa, Lesotho and Botswana."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Eswatini_License_Plate.png",
+              "imageLink": "/images/eswatini/Eswatini_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Licence plates in Eswatini are **long** and **green at the bottom**.",
+              "NOTE: These may look similar to certain South African plates. Make sure to refer to other clues before guessing."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/busshelter.png",
+              "imageLink": "https://goo.gl/maps/iA4AafmHbeThgvVc8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Concrete bus shelters** are a common sight on roads in Eswatini."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Landscape_-_Montane_Grasslands.png",
+              "imageLink": "https://goo.gl/maps/3ANbxjsG6XHvEWSeA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Montane grasslands with **long golden grass** and a mountainous landscape are typical of Western Eswatini.",
+              "NOTE: Long grass can be found in almost all areas of Eswatini. This clue refers specifically to the pristine golden colour most commonly seen in the Western highlands."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Pine_Tree_Plantations.png",
+              "imageLink": "https://goo.gl/maps/Co1nJep9ZzFFVwjv7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Pine tree plantations** are found in select areas in the West of the country.",
+              "NOTE: Similar plantations can also be found in South Africa."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Landscape_-_MR9_Region.png",
+              "imageLink": "https://goo.gl/maps/QnqDGkJadPeXfY1NA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This distinct region in the central South of the country, mostly along the MR9, can be recognized by the dark, overwhelming **greenness** and **tall wooded mountains**.",
+              "NOTE: If you are struggling to see why this is unique, try comparing this to other areas of the country, which are more \u201cgolden\u201d and light-coloured."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Landscape_-_East_Flat.png",
+              "imageLink": "https://goo.gl/maps/7WXeAqaBidpshEgo7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can recognise this region in the east of the country thanks to the **unusual flatness** and the mountains often visible in the distance."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Sugar_Cane.png",
+              "imageLink": "https://goo.gl/maps/Rd2ooAxU1cFdyq8w9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Sugar cane **is grown in several areas along the Eastern border."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Road_-_MR3_South_of_Ngomane.png",
+              "imageLink": "https://goo.gl/maps/JmzYM7QGyM9oyKs46",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The MR3 South of Ngomane can be recognized thanks to flatness, long dry grass and the **dirt on the camera**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Road_-_MR3_Manzini_to_South_Africa_Border.png",
+              "imageLink": "https://goo.gl/maps/m9WfTwwzVHykzXs18",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The MR3 from Manzini to the South African border is **divided** by metal and stone guardrails, making it recognisable.",
+              "NOTE: This road is the only divided highway found in Eswatini."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Road_-_MR8_Southeast_Ridge.png",
+              "imageLink": "https://goo.gl/maps/Z4RzWidosvGdZpUA9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The MR8 in Southeastern Eswatini straddling the South African border is recognisable because of this **distinct ridge to the east**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Mlawula_Nature_Reserve.png",
+              "imageLink": "https://goo.gl/maps/vCn23seDZXMGgZfj8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can recognise the **Mlawula Nature Reserve** thanks to the narrow dirt tracks, tall grass and overall savannah landscape."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/eswatini/Lomahasha_Portuguese.png",
+              "imageLink": "https://goo.gl/maps/8oo2gkohrgE1Vq3u8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "If you see **Portuguese** text in Eswatini, you are most likely in the small town of Lomahasha.",
+              "NOTE: This is because of its proximity to Mozambique, where Portuguese is spoken."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

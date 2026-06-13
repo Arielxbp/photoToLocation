@@ -1,0 +1,819 @@
+{
+  "_id": "netherlands",
+  "createdAt": "2025-09-07T22:32:58.965Z",
+  "updatedAt": "2025-12-14T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Netherlands",
+  "slug": "netherlands",
+  "code": "NL",
+  "cat": [
+    "Europe"
+  ],
+  "heroImage": "/images/netherlands/banner.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying the Netherlands",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/netherlands/0_Netherlands_summary_graphic.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Netherlands_plate.png",
+              "imageLink": "/images/netherlands/Netherlands_plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Netherlands has long, **yellow licence plates** with the standard European blue strip on the left. Dutch taxis have blue plates.",
+              "NOTE: The only other countries in Europe with yellow licence plates are Luxembourg and the UK. For the UK, only the back plates are yellow, and they often lack the blue strip. In addition, some older coverage in France features the French yellow back plates. In Denmark, you can find yellow plates on commercial vehicles."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/nl_language.png",
+              "imageLink": "/images/netherlands/nl_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Dutch** is a Germanic language. It features a lot of double vowels. Typical letter clusters are ij, ieuw and oe. \u201cIJ\u201c written as one capitalised letter is also unique to the language.",
+              "NOTE: Dutch is also used in the region of Flanders, which comprises the northern half of Belgium."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Dutch_bollard.png",
+              "imageLink": "https://goo.gl/maps/x8RkQr3mT4Q6H5pG6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Netherlands has a simple, white **bollard** with a red reflector.",
+              "NOTE: On rare occasions, you can find round [French-style bollards](https://goo.gl/maps/vTgbpvfX35mcng4k8) with a red band and a pointed top. A difference with French bollards is that the red wrap usually does not go all the way around the bollard."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Lack_of_utility_poles.png",
+              "imageLink": "https://goo.gl/maps/QyQkNvZxF6immhQp7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Netherlands usually **does not have any utility poles**. You might see larger power lines like the ones shown in the image, but essentially never any street-level smaller utility poles.",
+              "NOTE: Belgium does use utility poles somewhat commonly."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Flat_landscape.png",
+              "imageLink": "https://goo.gl/maps/YSfJxTNe16fTG5B4A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Netherlands is extraordinarily **flat**. In most of the country, you will get no more than a few metres of elevation. Large swathes of the country are reclaimed land that is at or even below sea level.",
+              "NOTE: The most major exception to this is the south of Limburg, where you can get low hills. Another place with some amount of hills is De Veluwe in central Gelderland province."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Water_landscape.png",
+              "imageLink": "https://goo.gl/maps/uqiRncfL4wFvLTJ56",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "In addition, the Netherlands is a very water-rich country. The country has innumerous **waterways**. Canals and ditches next to the road are common. Water management is an important facet of Dutch infrastructure, so you will often see [dikes](https://en.wikipedia.org/wiki/Levee) (low earthen walls to protect against water), dams and bridges."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Tree-lined_roads_2.png",
+              "imageLink": "https://goo.gl/maps/YfTitjNAmk1NQcm97",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Many rural roads are **lined by rows of trees**.",
+              "NOTE: This is also common in Poland."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Urban_planning.png",
+              "imageLink": "https://goo.gl/maps/exPDu6pKSnyTqf1v8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Netherlands has a high amount of urban planning, and as a result tends to have a **very organised look**. Road infrastructure is well-maintained. Suburbs are usually master-planned and typically feature row houses."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Road_lines.png",
+              "imageLink": "https://goo.gl/maps/WMNmjt7FP5rHDDdUA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Like most of Europe, the Netherlands has **all-white** road lines. Many roads have dashed outside lines. Sometimes, you can find unique [green middle lines](https://goo.gl/maps/hFMtuu8BBeGNQbiPA)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Bicycle_path_2.png",
+              "imageLink": "https://goo.gl/maps/iRsaXy19rs7sZCBQA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Many Dutch roads are flanked by **bicycle paths**. Different designs exist, but a very common one is a reddish-pink lane.",
+              "Cycling is one of the most common modes of transportation in the Netherlands. You will see cyclists and bicycles everywhere."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Brick_roads.png",
+              "imageLink": "https://goo.gl/maps/GQMqzaurD6mHzoqA9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Brick roads** are common in the Netherlands, both in rural and urban areas. The brick pattern shown in the image is especially common."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Sidewalks.png",
+              "imageLink": "https://goo.gl/maps/ymYJ3mCFQUPYgNcd7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most Dutch **sidewalks** use the same type of square grey tiles and offset tiling pattern. In some historic areas, you might find smaller [brick sidewalks](https://goo.gl/maps/57mi9meFyFNVCbun9)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Speed_bump.png",
+              "imageLink": "https://goo.gl/maps/mT3GjNSRvQ2NPihX7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Netherlands has very recognizable **speed bumps**. They usually have white warning stripes that alternate between long and short. The example image is on a brick road, but they also occur on [asphalt roads](https://goo.gl/maps/QsuN5WtHsjZ2EoeJ9)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Rumble_strip_v2.png",
+              "imageLink": "https://goo.gl/maps/gE7BEhtiWJTNb72F7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Many rural roads feature a sort of **brick rumble strip** on the sides. This is fairly unique to the Netherlands and a good way to identify the country in very rural rounds."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Street_sign.png",
+              "imageLink": "https://goo.gl/maps/MaWxHPk5LrcR6m1JA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Street signs are almost always **blue with white lettering**. Very rarely, you can find [yellow](https://goo.gl/maps/yMhbRKLJK1QuyEs68), [white](https://goo.gl/maps/8TuTmC7n7oLw8qAS9) or [green](https://goo.gl/maps/W3BrcUwTrYA4TeMC8) street signs.",
+              "The Dutch word for street is **straat**. Other common road name endings are -weg, -laan, -pad, and -plein. However, if you see a blue sign with the word \u2018fietspad\u2019, do not search for it; it simply means \u2018bicycle path\u2019.",
+              "NOTE: Street signs in Belgium come in a variety of colours and usually mention the municipality, which is rare in the Netherlands."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Direction_signs.png",
+              "imageLink": "https://www.google.com/maps/@52.4952465,5.0704956,3a,37.7y,90.59h,106.8t,0.51r/data=!3m6!1e1!3m4!1s81rwpbd8HyoQjIMLTVsYbQ!2e0!7i16384!8i8192",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Dutch **direction signs** are blue with white lettering. Signs for bicyclists are [white with a red border](https://goo.gl/maps/Ym8jxRtVRgdeJFgf6)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Town_sign.png",
+              "imageLink": "https://www.google.com/maps/@52.1089484,5.7102493,3a,38.7y,17.09h,84.08t/data=!3m6!1e1!3m4!1sKTsgIL7ZIEJoEgGG1x9NEg!2e0!7i16384!8i8192",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Dutch **town entry signs** are blue. The signs sometimes have very [elaborate designs](https://goo.gl/maps/XAfoVPzYZfX83KoS9), often with frames and additional signs.",
+              "NOTE: Often, these signs list the municipality they are in, after the word \u2018gemeente\u2019 (gem). Many municipalities are named after larger towns or cities in the vicinity, which can help a lot with scanning."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Road_marker.png",
+              "imageLink": "https://goo.gl/maps/7bUsdJo6LBGCGzfN9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Dutch **road markers** are green. Many list the road number in a small yellow or red box.",
+              "Highways have a red box and start with the letter **A**. Regional roads have a yellow box and start with the letter **N**.",
+              "NOTE: Some of them have province-specific designs. You can learn more about this in the region-guessing section."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/nl_signedges.png",
+              "imageLink": "https://maps.app.goo.gl/WVmEYLL4GXgzj4va9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Edges of Dutch road signs will extend to the back, creating a **border visible from behind**, sometimes retaining the colour of the sign. This is both consistent and unique to the country."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Pole_markings.png",
+              "imageLink": "https://goo.gl/maps/PvsqLY5QxNmkySQ16",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Many Dutch signposts feature **striped markings** with a black-and-white or blue-and-white colour scheme."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Yellow_signposts.png",
+              "imageLink": "https://goo.gl/maps/HmGUfwkdPKUS4zLQ9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Road signs on traffic islands often have these bulky **yellow signposts**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Dutch_road_barrier.png",
+              "imageLink": "https://goo.gl/maps/LPW1woZLx9Q9p4v69",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "On some roads, especially in rural areas, you might find these distinctive **striped barriers**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Brick_architecture.png",
+              "imageLink": "https://goo.gl/maps/2PhhGDhvVpNRAud46",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Brick architecture** is very common in the Netherlands. Many buildings feature red-brownish-coloured bricks. Roofs often have orange or dark grey tiles.",
+              "NOTE: Similar brick architecture is also common in Denmark and Belgium."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Row_houses.png",
+              "imageLink": "https://goo.gl/maps/TdPLJxWQ6gi9npW47",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "As mentioned before, **row houses** are very common in the Netherlands. Almost half of the Dutch housing stock are row houses, significantly more than almost all other European countries."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Windmills.png",
+              "imageLink": "https://goo.gl/maps/KADMGYAZivi5cpuE9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Windmills**, both traditional water or grain mills, and modern [wind power turbines](https://goo.gl/maps/opan2kvhD6DRGkRU9), are common in the Netherlands."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Black_car_glitch.png",
+              "imageLink": "https://goo.gl/maps/3Kmbe5adzr5RxfAPA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Some Generation 4 coverage has a car blur glitch where the **black back of the Google car** is visible."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/europe_smallcam.png",
+              "imageLink": "https://maps.app.goo.gl/u2DBkgBC4a5RnqF18",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Netherlands also has Generation 4 \u201csmallcam\u201d coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, making it harder to spot.",
+              "NOTE: Most of Western Europe also has smallcam."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional and province-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Area_codes_of_the_Netherlands.png",
+              "imageLink": "/images/netherlands/Area_codes_of_the_Netherlands.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Dutch landline phone numbers start with a three- or four-digit **area code**. These are geographically grouped, except for the ones that start with 07, and two of the 02 codes.",
+              "NOTE: Dutch mobile phone numbers start with 06, which is a code that is not used for any of the landline area codes.",
+              "_You can click on the image to enlarge it._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Hectometer_roads_with_attribution.png",
+              "imageLink": "/images/netherlands/Hectometer_roads_with_attribution.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Some road markers (\u201c**hectometre markers**\u201d) have province-specific designs. This only applies to markers for regional N-roads, which have road numbers in yellow boxes.",
+              "Not all N-road markers have province-specific designs: some just have a generic design that can be found nationwide.",
+              "The A-roads all have the same signs and are recognizable because the road number is in a red box.",
+              "Bollards sometimes feature **kilometre stickers**, which are also limited to specific regions.",
+              "_You can click on the image to enlarge it. Image provided by Timzkii._"
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Regional_flags_darkmode.png",
+              "imageLink": "/images/netherlands/Regional_flags.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "All Dutch provinces have their own flag. However, most of these are very rarely seen in the wild. The major exceptions to this are the flags of **Friesland** and **Noord-Brabant**.",
+              "In addition, you can sometimes see the unofficial but very popular flag of the Achterhoek cultural region in the east of Gelderland.",
+              "For a full list of all provincial flags, you can view [this Wikipedia page](https://en.wikipedia.org/wiki/Flags_of_provinces_of_the_Netherlands)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Frisian_language.png",
+              "imageLink": "https://goo.gl/maps/VhnjVZbvU6y7UHp57",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In the province of Friesland, the Frisian language is commonly spoken. While Dutch language is still most prevalent on signs, a lot of town entry signs will feature **bilingual town names**.",
+              "Some street names in Friesland uniquely end in -wei or -strjitte.",
+              "NOTE: Frisian has vowels with [circumflex](https://en.wikipedia.org/wiki/Circumflex) diacritics (\u201clittle hats\u201d): \u00c2, \u00ca, \u00d4 and \u00db. Dutch does not have these letters, except in loanwords. In addition, the Y is significantly more common compared to Dutch."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/nl_limburgstreetlightsticker.png",
+              "imageLink": "https://maps.app.goo.gl/VAXna2ekKmvC6QCP7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This long, vertically arranged white sticker with three to four digits is found on street lights in Limburg."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/nl_nbstreetlightsticker.png",
+              "imageLink": "https://maps.app.goo.gl/34dHXax9uT9FSa3Y8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Similarly to Limburg, North Brabant also has white stickers on their street lights, however it is horizontally arranged and only has one or two digits."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Polder_landscape.png",
+              "imageLink": "https://goo.gl/maps/h2WLheRg28ZdoU7C6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Most of the **west and north** is at or below sea-level. As a result, most of this region\u2019s countryside has a distinct [\u201c**polder**\u201d landscape](https://en.wikipedia.org/wiki/Polder): the landscape is marshy, often with a large amount of small waterways."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/South_and_Eastern_landscape.png",
+              "imageLink": "https://goo.gl/maps/KbrXqrG16nmXQziS9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Conversely, the **south and the east** tends to have a more typical flat European farmland look. Waterways are still common, but the landscape can look less marshy."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Limburg_hills.png",
+              "imageLink": "https://goo.gl/maps/xCxLmLzo4mYqNHfe9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "While most of the Netherlands is very flat, Southern Limburg has some **low hills**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Veluwe.png",
+              "imageLink": "https://goo.gl/maps/oyccR5kBgJgQwpHu5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **Veluwe** area is unusually forested for Dutch standards. Some parts feature a very slight amount of elevation.",
+              "Some parts of the Veluwe feature old-growth forest, [heath](https://en.wikipedia.org/wiki/Heath) or sandy soil. This area can [look odd](https://goo.gl/maps/6pZWyZjMDKwaZoGh6) and unlike the rest of the Netherlands if you have never seen it before.",
+              "NOTE: Some other natural areas in the Netherlands can have a similar look, but the Veluwe is by far the largest."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Flevoland.png",
+              "imageLink": "https://goo.gl/maps/gDJj6zpa5QbMJBuy9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Almost all of the land belonging to the province of Flevoland was reclaimed from the sea in the mid-20th century. As a result, the province has a distinct, **man-made** look: extremely straight roads and large crop fields dominate the landscape. Wind turbines are common. In urban areas, there are no historical buildings.",
+              "NOTE: The only exception to this description is the town of Urk, which is situated on a former island now surrounded by the rest of the province\u2019s man-made [polder](https://en.wikipedia.org/wiki/Polder) landscape."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Dunes.png",
+              "imageLink": "https://goo.gl/maps/72VDXX3bz4cWucZh8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Most of the Dutch North Sea coast is lined by **dunes**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Wadden_Islands.png",
+              "imageLink": "https://goo.gl/maps/PbFwfjTLEzVemfJF7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The islands in the northwest are called the **Wadden Islands**. They are very popular local tourism destinations, which is sometimes evident in the street view coverage. Their northwestern coastlines feature a lot of sand dunes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Northern_farm_roofs.png",
+              "imageLink": "https://goo.gl/maps/YvvrppJE3va9qSGK7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Farms in the north of the Netherlands often have **very large roofs**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Rolling_shutters.png",
+              "imageLink": "https://goo.gl/maps/xVjTBS5VJaju9X8r6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Rolling shutters** on house windows are more common in the southern half of the Netherlands.",
+              "NOTE: While more prevalent in the south, rolling shutters on homes in more northern regions are not unheard of. Use this meta with some caution."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Curacao_in_its_region.svg.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Curacao_in_its_region.svg/1920px-Curacao_in_its_region.svg.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Cura\u00e7ao** is a constituent country in the Kingdom of the Netherlands, located north of western Venezuela in the Caribbean Sea. As such, for country streaks purposes, it is counted as the Netherlands.",
+              "Plonk It has a more in-depth guide to Cura\u00e7ao [here](https://www.plonkit.net/curacao)."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Amsterdam_street_sign.png",
+              "imageLink": "https://goo.gl/maps/Zr994hrmEmv4YoFc9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Amsterdam street signs** feature the city district in a smaller font size below the actual street name.",
+              "NOTE: This design is very uncommon in the rest of the Netherlands."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Ugliest Street Signs Hint.png",
+              "imageLink": "https://maps.app.goo.gl/D2E6nPytxoSRDb5W6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The municipality of Oegstgeest, just northwest of Leiden, uses uniquely illegible street signs with** yellow text on a red background.**"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Zaanstreek_architecture.png",
+              "imageLink": "https://goo.gl/maps/3czvsfrcMTLujVEN7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Buildings in the **Zaanstreek** region just north of Amsterdam often feature wooden architectural elements, usually painted green or black; with white trims. They sometimes have [tall roof spires](https://goo.gl/maps/aLs9DTJZ3e1HMasd8), usually painted white."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Afsluitdijk.png",
+              "imageLink": "https://goo.gl/maps/fD6w35NQ92SrFod5A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **Afsluitdijk** is a very recognizable man-made causeway between Noord-Holland and Friesland. It is a divided highway that runs in a very straight southwest to northeast direction. You can see water to your southeast, and a dike to your northwest.",
+              "NOTE: There are other large causeways and dams in the Netherlands, but the Afsluitdijk is the biggest and has a very recognizable road direction."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Westland_Greenhouses.png",
+              "imageLink": "https://goo.gl/maps/QTfEob3QKgUJabgd7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In the Westland municipality, just southwest of The Hague, **greenhouses** are extremely common. They cover most of the municipality\u2019s land surface."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Veluwe_trekker.png",
+              "imageLink": "https://goo.gl/maps/PLHbeWgwdhzkZmWm6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In the southern part of the Veluwe, in** National Park De Hoge Veluwe**, you can find a trekker that is recognizable because the Google employee\u2019s brown hair is visible."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Rotterdam_harbour.png",
+              "imageLink": "https://goo.gl/maps/U5RFabWMgTHHEfTw8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **harbour of Rotterdam** is one of the largest in the world. It extends all the way from downtown Rotterdam to the North Sea coast. If you see a lot of industrial activity, often in combination with large, round **fuel storage tanks**, there is a good chance that you are in this harbour area.",
+              "NOTE: Amsterdam and Delfzijl also have large harbours. Both also feature a lot of [fuel storage tanks](https://goo.gl/maps/c6f3u3iLbD5yGCk47)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Lelystad_street_names.png",
+              "imageLink": "https://goo.gl/maps/K7C3T5TbKH8bZF528",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Many **streets in Lelystad** follow a fairly distinct naming scheme: instead of having unique names, they are named after the neighbourhood they are in, followed by a number. Some of these neighbourhood names show up on the Google map."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/netherlands/Baarle.png",
+              "imageLink": "https://goo.gl/maps/o1NmpjhqsCZ7CWHN8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Baarle** is a town in the south of the Netherlands which contains a number of Belgian enclaves. Throughout the town, you can sometimes see signs of this, such as markings on the pavement and [Dutch and Belgian flags](https://goo.gl/maps/sKCBPk8vqM9AUrmB9) being flown together."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends you play these maps instead:",
+        "- **AI Generated Netherlands** ([map link](https://www.geoguessr.com/maps/63feed5b6177da9add0b8191)) - 100k+ AI-generated locations.",
+        "- **IntersectionGuessr - Netherlands** ([map link](https://www.geoguessr.com/maps/60ca31bfcdf6930001c822c3)) - 40k+ AI-generated pinpointable locations.",
+        "In addition, here are some resources to help you practise the Netherlands:",
+        "- **Plonk It Netherlands** ([map link](https://www.geoguessr.com/maps/6672e4c2fc3eeb973fc02111)) - This map contains locations for practising each meta in the Plonk It Netherlands guide from step 2 to 3."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

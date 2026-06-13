@@ -1,0 +1,201 @@
+{
+  "_id": "macau",
+  "createdAt": "2025-09-07T21:20:27.199Z",
+  "updatedAt": "2024-02-07T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Macau",
+  "slug": "macau",
+  "code": "MO",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/macau/mo_banner.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Macau",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/macau/0_summary_macau.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/countrystreakreminder.svg.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Macau_locator_map.svg/1205px-Macau_locator_map.svg.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Macau is a **Special Administrative Region of China**, so for country streaks purposes, it is counted as China."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/gen2.png",
+              "imageLink": "https://goo.gl/maps/sWL4TAdQtBHrmt8i8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Coverage in Macau is limited to **Generation 2**.",
+              "Generation 2 can be recognized by the lower camera quality and circular blur above and below the camera. Colours will also seem slightly off.",
+              "The coverage in Macau specifically is some of the oldest Generation 2 available, meaning that the colours look even more **washed out** and overexposed than usual. This can be a great way to identify the Macau coverage in the absence of other clues."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/Licence_Plates.png",
+              "imageLink": "/images/macau/Licence_Plates.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Macau uses **black** licence plates with **white** text. Licence plates can either be long or square."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/lamppost.png",
+              "imageLink": "https://goo.gl/maps/ju7iHWF8ireQLBRK8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Cylindrical grey lamp posts with a **black painted bottom** can be seen in Macau.",
+              "NOTE: Similar lamp posts can be seen in Hong Kong, however they do not have a black painted bottom."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/chinese_portuguese.png",
+              "imageLink": "https://goo.gl/maps/dTagWVtXj5i8ZH2f9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Due to Macau\u2019s history as a Portuguese colony, **Portuguese language** can commonly be seen, especially on storefronts, along with Chinese."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/streetsigns.png",
+              "imageLink": "https://goo.gl/maps/1Niz7edXudqih1qr5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "These **white** street signs with a **blue border** around the Chinese and Portuguese text are unique to Macau."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/Gambling.png",
+              "imageLink": "https://goo.gl/maps/s8H2z59BDDiAMzY69",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Gambling** is legal in Macau and its biggest source of revenue (50% of its GDP). As a result, you will see a lot of casinos and advertisements for gambling. The casinos often have very extravagant, kitsch designs.",
+              "Due to how old the Generation 2 is, many newer casinos can be seen [under construction](https://goo.gl/maps/sQsjXjEBhpx79hV77)."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/Dense.png",
+              "imageLink": "https://goo.gl/maps/BgZnxvPfVdhPqbYd6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Dense** apartment buildings with gridded, **narrow streets** and cars parked on both sides can be found in this region in the northern half of Macau."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/Rural.png",
+              "imageLink": "https://goo.gl/maps/2rXTjyffftw4wB7H8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "A **hilly,** **rural** region of Macau can be found in the south. Roads are narrow, winding up hills with trees on both sides. A helpful clue are the lamp posts, which are commonly seen.",
+              "When this area appears in a world map, it can be confusing to newer players, as there are very few language or architecture clues available. The washed out early Generation 2 coverage can help with identifying it as being located in Macau."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/Sai_Van_Bridge.png",
+              "imageLink": "https://goo.gl/maps/sAD84yjBikdeBBAQA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Sai Van Bridge can be recognized by these unique **cuboid towers** with **arches** in them."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/macau/Amizade_Bridge.png",
+              "imageLink": "https://goo.gl/maps/QBF8uRmGzn2Fmiyu8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Red** guardrails can be seen on the Amizade Bridge."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

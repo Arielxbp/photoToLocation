@@ -1,0 +1,218 @@
+{
+  "_id": "sao-tome-and-principe",
+  "createdAt": "2025-09-06T12:18:58.561Z",
+  "updatedAt": "2026-05-31T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+  "slug": "sao-tome-and-principe",
+  "code": "ST",
+  "cat": [
+    "Africa"
+  ],
+  "heroImage": "/images/sao-tome-and-principe/banner1.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying S\u00e3o Tom\u00e9 & Pr\u00edncipe",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/sao-tome-and-principe/0_st_summary.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/st_shit.png",
+              "imageLink": "https://goo.gl/maps/LTkTMgjD7rxFCcgE8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All the coverage was taken with a low quality camera that\u2019s commonly referred to as \u201cShitcam\u201d. The car will often be completely blurred, with a **very large blur** covering the back and a [somewhat smaller blur](https://goo.gl/maps/YfaEf11wuzdt3NYv8) covering the front.",
+              "NOTE: The coverage is a newer variant of shitcam, where the image is dimmer and hazier than the original shitcam primarily found in [India](https://maps.app.goo.gl/3MYW94icKvwhWTc66) and [Nigeria](https://maps.app.goo.gl/eETqUgMHvyiCR4di8)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/st_language.png",
+              "imageLink": "/images/sao-tome-and-principe/st_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Portuguese** is the main language used on S\u00e3o Tom\u00e9 and Pr\u00edncipe."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/st_polepedestriancrossing.png",
+              "imageLink": "https://goo.gl/maps/4ojwFdj6pSKUkbeF8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "On top of the language, the Portuguese influence can also be seen in infrastructure, such as ladder poles and pedestrian signs with the same design as in Portugal."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/st_tropical.png",
+              "imageLink": "https://goo.gl/maps/qjvx6rFCZPN7M3QdA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "S\u00e3o Tom\u00e9 and Pr\u00edncipe are **tropical islands**, which are almost completely covered in rainforests. Banana plants are especially common throughout the islands."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/antenna.png",
+              "imageLink": "https://maps.app.goo.gl/4VeKVBatyNNenp8y9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "In many locations, you will notice a **slanted antenna** protruding from the side of the car."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/st_bluepolepaint.png",
+              "imageLink": "https://goo.gl/maps/6x7TkiEeH4v4XSGL7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Some wooden poles are painted **blue **on the bottom. You can also read the letters **CST **on them."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/yellow_taxi_sao_tome.png",
+              "imageLink": "https://maps.app.goo.gl/JkNYuG5P1kwrHWMa8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Taxis and minibuses are painted in a **bright yellow** colour."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Region-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/st_principecam.png",
+              "imageLink": "https://maps.app.goo.gl/rMu2eGbM2tD2KF719",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This desaturated and even dimmer variant of shitcam is most common on Pr\u00edncipe."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/principe_car.png",
+              "imageLink": "https://maps.app.goo.gl/gFGYZg3wL1LP4acT9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The car used on Pr\u00edncipe can be recognised by the **blue** roof and silver roof rails.",
+              "NOTE: Remember that it can sometimes be blurred out."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/sao_tome_car.png",
+              "imageLink": "https://maps.app.goo.gl/XNmPyAVxnjhpm81n7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The car used on S\u00e3o Tom\u00e9 is **black** with black roof rails. In most locations, it is blurred out."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/st_oilpalmplantation.png",
+              "imageLink": "https://goo.gl/maps/13XwZpCMeKqxn6wG7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can find **oil palm plantations** in southern S\u00e3o Tom\u00e9."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/sao-tome-and-principe/st_trinidadpolepaint.png",
+              "imageLink": "https://goo.gl/maps/1Aty7JQDMLYERf7N8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The town of Trinidade has poles with **red and white** pole paint."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

@@ -1,0 +1,70 @@
+# GeoGuessr Agent Configuration
+# All values can be overridden via command-line arguments.
+
+model:
+  backbone: efficientnet_b1
+  pretrained: true
+  pretrained_weights: IMAGENET1K_V2
+  image_size: [320, 180]
+  embed_dim: 1280
+  dropout: 0.3
+  num_countries: 96
+  num_regions: 24576
+  num_continents: 7
+  region_type: s2_l6
+
+training:
+  batch_size: 128
+  epochs: 30
+  learning_rate: 0.001
+  weight_decay: 0.01
+  lr_scheduler_patience: 3
+  lr_scheduler_factor: 0.5
+  loss_country_weight: 0.6
+  loss_region_weight: 0.3
+  loss_continent_weight: 0.1
+  haversine_temperature: 1.0
+  num_workers: 4
+  val_split: 0.1
+  seed: 42
+  mixed_precision: true
+
+dpo:
+  beta: 0.1
+  learning_rate: 0.00001
+  buffer_size: 10000
+  batch_size: 64
+  dpo_epochs: 3
+  fine_tune_every_n_rounds: 500
+  collect_rounds_per_session: 50
+
+game:
+  url: https://openguessr.com/
+  headless: false
+  stealth: true
+  screenshot_dir: data/screenshots
+  viewport_width: 1280
+  viewport_height: 720
+  round_timeout_ms: 15000
+  guess_delay_ms: [200, 500]
+  max_daily_rounds: 500
+  crop_panorama: true
+
+data:
+  kaggle_dir: data/kaggle
+  plonkit_cache_dir: data/plonkit_cache
+  checkpoint_dir: checkpoints
+  log_dir: logs
+  use_mapped_subset: false
+  min_images_per_country: 50
+  filter_duplicate_coords: true
+  filter_low_variance: true
+  variance_threshold: 15.0
+  laplacian_threshold: 50.0
+
+wandb:
+  enabled: false
+  project: geoguessr-agent
+  entity: ""
+
+device: cuda

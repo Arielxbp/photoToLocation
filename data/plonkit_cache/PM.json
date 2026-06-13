@@ -1,0 +1,207 @@
+{
+  "_id": "saint-pierre-and-miquelon",
+  "createdAt": "2025-09-07T20:35:10.306Z",
+  "updatedAt": "2025-04-08T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Saint Pierre and Miquelon",
+  "slug": "saint-pierre-and-miquelon",
+  "code": "PM",
+  "cat": [
+    "North America"
+  ],
+  "heroImage": "/images/saint-pierre-and-miquelon/Miquelon.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Saint Pierre and Miquelon",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/saint-pierre-and-miquelon/0_summary_stpm.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/Saint_Pierre_and_Miquelon_in_France.svg.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Saint_Pierre_and_Miquelon_in_France.svg/1920px-Saint_Pierre_and_Miquelon_in_France.svg.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Saint Pierre and Miquelon, officially the Territorial Collectivity of Saint-Pierre and Miquelon, is an overseas department and region of France, south of Newfoundland in Canada. As such, for country streaks purposes, it is **counted as France**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/pm_licenceplate.png",
+              "imageLink": "/images/saint-pierre-and-miquelon/pm_licenceplate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Licence plates can be either white or yellow and either short or long. They all have a blue EU strip however, and the white plates will also have a blue strip on the right, as is custom in France. Vehicles may or may not have front plates."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/pm_trekker.png",
+              "imageLink": "https://maps.app.goo.gl/V2GRbCTfmTVgBk1V8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All coverage was taken with a **Generation 3 trekker camera**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/pm_architecture.png",
+              "imageLink": "https://maps.app.goo.gl/hiNLV117tvmdphZE6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most houses are made of wooden panels with a **boxy look** and often **vivid colours**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/pm_landscape.png",
+              "imageLink": "https://maps.app.goo.gl/ib3aZzykXYTwCXC48",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The landscape mainly consists of flat or rolling **grasslands**. The coast will be visible more often than not."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/pm_coverage.png",
+              "imageLink": "/images/saint-pierre-and-miquelon/pm_coverage.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Coverage is fairly limited, being only found in the eastern parts of Saint-Pierre as well as at the northern tip of Miquelon-Langlade."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/Miquelon_Langlade_Town.png",
+              "imageLink": "https://goo.gl/maps/JPErMrsLx9ukv7ms7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Miquelon-Langlade is a small town in the north of St Pierre. It can be recognized by the houses with timber cladding painted in **bold, vivid colours**. [A shadow of the ATV](https://goo.gl/maps/QKtCCJyEA33ukUTw9) used to cover this town can also be seen."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/St_Pierre_Town.png",
+              "imageLink": "https://goo.gl/maps/3iu4tyYcwYvSnnrS8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Saint-Pierre is the capital and largest town. The coverage in this town is made with a **sidewalk trekker**. Larger buildings and more cars can be seen, with a more populated feel compared to Miquelon-Langlade."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/Ile_aux_Marins.png",
+              "imageLink": "https://goo.gl/maps/33dErMGJE2atHxj3A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A slightly **hilly, grass**y landscape with boxy houses spaced apart can be seen on \u00cele-aux-Marins."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/Rural_North.png",
+              "imageLink": "https://goo.gl/maps/aeiccedKCiSDMtiNA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This rural trekker in the far north can be recognized by the **rolling, grassy** landscape. The trekker can also be seen walking on a wooden path, with trees on either side."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/Saint_Pierre_Island_Rural.png",
+              "imageLink": "https://goo.gl/maps/HS4posLRKnSuLpe67",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The rural trekker on Saint Pierre island has a more **rocky** landscape. The trekker also walks on a path with trees on both sides."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/saint-pierre-and-miquelon/Boat.png",
+              "imageLink": "https://goo.gl/maps/hXdyVUU1TEvrCY5D6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **boat** **trekker** between Saint Pierre Island and \u00cele-aux-Marins can be recognized by this man wearing a grey and black sweater."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

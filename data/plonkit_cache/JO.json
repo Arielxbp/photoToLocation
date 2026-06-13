@@ -1,0 +1,410 @@
+{
+  "_id": "jordan",
+  "createdAt": "2025-09-07T21:13:51.301Z",
+  "updatedAt": "2024-08-06T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Jordan",
+  "slug": "jordan",
+  "code": "JO",
+  "cat": [
+    "Asia"
+  ],
+  "heroImage": "/images/jordan/konstantinos-kaskanis-J_tpg9cloPg-unsplash_281_29.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Jordan",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/jordan/0_Jordan_Basic_Summary_Graphic_281_29.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Untitled_design89.png",
+              "imageLink": "https://goo.gl/maps/5gwKWQHcwNAdRcj6A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Coverage in Jordan was taken by a **black** Google car, without a red brake light.",
+              "NOTE: Jordan is the only Middle Eastern country where a black Google car without an antenna or a red brake light can be found."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Jordan_License_Plate.png",
+              "imageLink": "/images/jordan/Jordan_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Jordanian licence plates are **white** and can be long or short. Commercial transport vehicles, such as taxis, have a distinctive **green strip** on the left.",
+              "NOTE: In the Middle East, the green strip is only found in Jordan.",
+              "The UAE also uses long white plates. Israel however only uses yellow licence plates. In Palestine, both white domestic and yellow Israeli plates are common."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/arabic_language.png",
+              "imageLink": "/images/jordan/arabic_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The official language used in Jordan is **Arabic** and can be identified by its lines and dots.",
+              "NOTE: Unlike the UAE, Jordan does not have English writing on most commercial signs. This can be helpful to distinguish the two countries."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/roadlines.png",
+              "imageLink": "https://goo.gl/maps/uFnASS6JeeZLjsiS8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Roads in Jordan typically feature **yellow outside** and **white middle **lines.",
+              "NOTE: Other Middle Eastern countries such as the UAE and Israel can also have these road lines. Make sure to check other clues before guessing."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/chevron.png",
+              "imageLink": "https://goo.gl/maps/De9DmfTFSAMYSZPTA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Jordanian chevrons are **white with red arrows**.",
+              "NOTE: You can use chevrons to distinguish between Jordan and Israel: the Israeli chevrons are black with white arrows."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Untitled_design92.png",
+              "imageLink": "https://goo.gl/maps/vKF8m8xHi4tb72P57",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "These are three common electricity poles that you will find in Jordan. Rounded concrete poles have either a **diagonal support** or consist of three horizontal **Y pole tops.** You may additionally see thin, two support metal poles with three vertical coils."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/jo_landscape.png",
+              "imageLink": "https://maps.app.goo.gl/x6B4NqSBZcAFfdz38",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Jordan is a **very arid** country, with limited vegetation and a lot of almost completely lifeless desert. The lushest parts will still only have the look of an [arid Mediterranean landscape](https://maps.app.goo.gl/zvmGEnAftHUVwb6N9)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/jo_architecture.png",
+              "imageLink": "https://maps.app.goo.gl/ynzUtqqpbxSvA2389",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most buildings in Jordan are made of **bright sandstone bricks** and have flat roofs.",
+              "NOTE: Similar sandstone bricks are also common in [Jerusalem](https://maps.app.goo.gl/asRSSgsgJHajzb9N6) and in [the West Bank](https://maps.app.goo.gl/MSSFNKXV4ux3cFhq8)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Jordan_road.png",
+              "imageLink": "https://goo.gl/maps/dgww956zaSN475AG9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "On occasion, the road quality in Jordan is reflective of its age. Roads are well travelled and can be in poor condition. The heat has caused the asphalt to buckle, creating **warped cracks** in the road.",
+              "NOTE: In general, the road quality as a whole tends to be worse than Israel."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional and governorate-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/jo_coverage.png",
+              "imageLink": "/images/jordan/jo_coverage.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Jordan only has Street View coverage in the **far** **western part** of the country. Coverage is limited to bigger towns and main roads in this area.",
+              "NOTE: Coverage ends just north of Jerash. Even though Irbid is the second largest city of Jordan, it has zero official coverage. In the south, coverage extends all the way to the coastal town of Aqaba, but not south of it."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Amman.png",
+              "imageLink": "https://goo.gl/maps/4ntHt9XwLWXmRkmx6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Amman** is by far the largest city in Jordan with extensive coverage. It is a bustling, developed metropolis with a distinct **\u201cbig city\u201d feel** to it. It is slightly hilly and most of the city consists of medium-sized apartment blocks."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Road_-_Highway_15.png",
+              "imageLink": "https://goo.gl/maps/FrtZ4JgXRtr9cnT19",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Highway 15** is the longest **divided highway** with coverage in Jordan. Most of the road is surrounded by desert landscape. It is also surrounded by rocky hills in the south closer to Aqaba.",
+              "NOTE: Highway 35 north of Madaba and highway 40 west of Amman are also divided but do not feature a desert landscape, while the divided highway 80 in the south runs mainly from east to west, making it distinguishable."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Road_-_Highway_35.png",
+              "imageLink": "https://goo.gl/maps/6F7ZPdQqmzaHN6pi7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Highway 35** connecting Amman and Jerash is a divided road surrounded by hills speckled with green vegetation.",
+              "NOTE: Highway 40 west of Amman is also divided and features a similar landscape. However, the **T-shaped** lamppost shown in the image is only found on highway 35 which helps distinguish the two."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Road_-_Highway_40.png",
+              "imageLink": "https://goo.gl/maps/Tk1n6sHgmBDz87B58",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Highway 40** is a recognisable divided** **road surrounded by low, green shrubbery that makes its way west of Amman through the hilly terrain into the sandy area close to the Dead Sea.",
+              "NOTE: **Y-shaped **lamp posts as shown in the image can be found along the length of highway 40, making it distinguishable from highway 35 north of Amman."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Road_-_North_Highway_65.png",
+              "imageLink": "https://goo.gl/maps/v8i93hgPVAZiVS1s7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **Dead Sea** can be found directly west along the northern portion of Highway 65.",
+              "NOTE: There is a long, flat,** expansive ridge** on the other side, which is useful to differentiate this from other bodies of water."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Road_-_South_Highway_65.png",
+              "imageLink": "https://goo.gl/maps/nXATkPxmgAGhv4TS8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Highway 65** is a single lane, north to south highway. It features long, sandy stretches of road south of Feifa valley. Now and then, you may encounter overcast coverage on some sections.",
+              "NOTE: When on the portion of road near the airport by Aqaba, you can find sunset coverage."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Landscape_-_Madaba_Soil.png",
+              "imageLink": "https://goo.gl/maps/gPcR7sZ7fys5Kpn5A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Near and in the city of Madaba, you will find **flat fields** which are sometimes tilled. They uniquely have the characteristic of **rich, red soil.**",
+              "NOTE: The fields continue both north and south of Madaba, along Highway 35."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Wadi_Al_Hasa_Rolling_Hills.png",
+              "imageLink": "https://goo.gl/maps/BrxYsKb6RxJFvv6J8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This arid rolling hill valley is located near the almost dried out river of Wadi al Hasa on Highway 35. The rock is **rounded and smooth,** with a single lane highway running through the center."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Road_-_Highway_80.png",
+              "imageLink": "https://goo.gl/maps/9ps5fM1YvycnD1Bi6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "For a large majority of Highway 80 and its turns, this **divided valley road** is surrounded by **large, rigid mountains.** When turning onto the stretch of road leading to Aqaba, the mountains level off.",
+              "NOTE: The road direction of Highway 80 is east to west, as opposed to Highway 15, which runs north to south."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Aqaba_Mountains.png",
+              "imageLink": "https://goo.gl/maps/Z9CP5HLFwEgZrQuq7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This long stretch of **jagged mountains** can be found on the eastern to southern side of Aqaba."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Amman_Taxi.png",
+              "imageLink": "https://goo.gl/maps/aWcY26YHccAWvSWQ7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In **Amman**, taxis are yellow and green.",
+              "NOTE: The colours of taxis can be useful to distinguish between Jordanian cities."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Aqaba_Taxi.png",
+              "imageLink": "https://goo.gl/maps/HyGhMKtWhfb5yMYm8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In **Aqaba**, taxis are olive green on the top and black at the bottom."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Madaba_Taxi.png",
+              "imageLink": "https://maps.app.goo.gl/gaCsqnC6zSeqyXyo8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In **Madaba**, taxis are yellow with white bumpers."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Wadi_Musa_Mountains.png",
+              "imageLink": "https://goo.gl/maps/tFXJwj2MRcUmKTop6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In some parts of the town of **Wadi Musa**, unique mountains with distinctive, bulbous rock formations can be seen in the background."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/jordan/Petra.png",
+              "imageLink": "https://goo.gl/maps/tb9JSiqx9jJXPAWa6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "West of the town of **Wadi Musa**, a collection of trekkers can be found in and around **Petra**, a rock-cut city from antiquity. This trekker coverage features highly eroded reddish rocks, narrow gorges, and occasionally groups of tourists crowding around the archaeological sites.",
+              "NOTE: While not likely to appear in competitive or pinpointable maps, these trekkers are a mainstay in many maps, including the default World map."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

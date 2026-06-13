@@ -1,0 +1,1466 @@
+{
+  "_id": "france",
+  "createdAt": "2025-09-07T22:27:18.537Z",
+  "updatedAt": "2025-12-28T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "France",
+  "slug": "france",
+  "code": "FR",
+  "cat": [
+    "Europe"
+  ],
+  "heroImage": "/images/france/Carcassonne_-_Pont_Neuf_-_View_SSE_on_Old_Bridge__26_Citadel_-_Porte_d_27Aude.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying France",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/france/transparent-fr_summary_2026.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_licenceplate2.png",
+              "imageLink": "/images/france/1_licenceplate2.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Modern French plates are long and white, with **blue strips on both sides** of the plate. The left strip will be more visible than the right strip.",
+              "Some older French plates lack the right blue strip, with the rear plate being **yellow**. These are very rare in newer coverage.",
+              "NOTE: Italian plates also have two blue strips, which are equally visible. In addition, Italian front plates are considerably shorter."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_language.png",
+              "imageLink": "/images/france/1_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**French** is a Romance language that is closely related to languages like Catalan, Spanish and Italian. It uses these diacritics and special letters:",
+              "- Accent aigu: \u00e9",
+              "- Accent grave: \u00e0, \u00e8, \u00f9",
+              "- Accent circonflexe: \u00e2, \u00ea, \u00ee, \u00f4, \u00fb",
+              "- Trema: \u00eb, \u00ef, \u00fc, \u00ff",
+              "- Ligature: \u0153",
+              "- [C\u00e9dille](https://en.wikipedia.org/wiki/Cedilla): \u00e7 with a small hook",
+              "In addition, the -ux suffix is only found in French.",
+              "NOTE: Other European countries with sizable francophone populations include Belgium, Luxembourg, Monaco and Switzerland."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_rue.png",
+              "imageLink": "https://maps.app.goo.gl/VnbUTCUvYgT9kZ8A6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The French word for street is \u201c**rue**\u201d."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Bollard.png",
+              "imageLink": "https://goo.gl/maps/umpqYFC9twDST7Qw9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The French bollard is extremely recognizable and appears very often. It is a **round white post with a pointed top** and a reflector band going all the way around. The band can be grey or red. Some rare variations have a [fully red top](https://maps.app.goo.gl/1zSoGbpiKic3nAxM6).",
+              "NOTE: A bollard that is commonly found in [Scotland](https://goo.gl/maps/CyjNmHyh5zyKv7qR7) looks similar, but has a blunt top instead of a pointed one."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Medium_bollard.png",
+              "imageLink": "https://goo.gl/maps/c1A1Njw7qQ73kkJW7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "A different round white bollard, with two reflective indented bands, is unique to France.",
+              "You can also find this design in other colours like [green](https://goo.gl/maps/HiePkuYXrAFBQbyu9) or [yellow](https://goo.gl/maps/uKExi7xcUZjGZt316)."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Rare_bollard.png",
+              "imageLink": "https://maps.app.goo.gl/xEBcYEjdsjzpcp3o7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Less common wedge**-**shaped bollards with **wide** **rectangular white reflectors** on both the front and back are also unique to France."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Ladder_poles.png",
+              "imageLink": "https://goo.gl/maps/cYtpBcr8fPxdawT1A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Concrete poles with step-like indents are common in France. They are referred to as **ladder** or **waffle poles** by the community.",
+              "NOTE: They are also common in Spain."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_ruralpoles.png",
+              "imageLink": "https://goo.gl/maps/erhtKsTeTta2rUDV7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Wooden poles and thin [octagonal metal poles](https://goo.gl/maps/HQZMGmGXLKRX2s7y6) are very common in rural areas and small towns."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Blue_sticker_2.png",
+              "imageLink": "https://goo.gl/maps/VMp1GTSbQcaBeTDs6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Small** blue **rectangular markings on** utility poles** are unique to France. They are often referred to as \u2018stickers\u2019 by the community, but are actually small plates.",
+              "You will find these plates on almost all wooden and metallic poles, but not as often on ladder poles."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/French_poletop.png",
+              "imageLink": "https://goo.gl/maps/PZ9PsYF1UrCZpnp79",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Diamond shaped pole tops with three wires are commonly called \u201cFrench poletops\u201d within the community. They are most frequently found on top of ladder poles.",
+              "NOTE: Within Europe, \u201cFrench poletops\u201d in conjunction with ladder poles are also common in Spain."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Top_insulators.png",
+              "imageLink": "https://goo.gl/maps/WdyXfGYQxHqsiQqC6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Some variations of the French pole tops have the insulators on top. These variations may resemble an arrowhead and are unique to France."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/europe_smallcam.png",
+              "imageLink": "https://maps.app.goo.gl/uyojMchccLMa8U8t6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "France has Generation 4 \u201csmallcam\u201d coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, making it harder to spot.",
+              "NOTE: Most of Western Europe also has smallcam."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_roadnumber.png",
+              "imageLink": "https://maps.app.goo.gl/sQeNFx6mXEGLx3j86",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Small **yellow signs** displaying the road number, which typically starts with a \u201c**D**\u201d, are unique to France. They are commonly placed on top of directional signs or town entry signs."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Directional_signs.jpg",
+              "imageLink": "https://goo.gl/maps/tdNYjKvMZPRJXZg78",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "French directional signs are usually white with a black outline slightly offset from the edge. They have an arrow-like shape, with the black border getting thicker at the point.",
+              "Highway directions have either a [blue or green background](https://goo.gl/maps/8jKUAjSqdf9AJcLM9).",
+              "Smaller places and points of interest are frequently written in an italic font."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Town_entrance.png",
+              "imageLink": "https://goo.gl/maps/YWkLYRWa3pcMtu789",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Town entrance signs in France have a red border with a thin white outline."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Signs_border.png",
+              "imageLink": "https://goo.gl/maps/pnQwdiMHtJpuUDaG9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "French road signs have a red border with a thin white outline. You will often find white rectangular signs with black text below traffic signs.",
+              "NOTE: Road signs in Spain have a [thick red border](https://maps.app.goo.gl/49ec9Xf89vko3Tbr5) that goes all the way to the edge."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Flat_signpost.png",
+              "imageLink": "https://goo.gl/maps/d9muYRu2aLkPH5Kv7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Many traffic signs in France have flat rectangular signposts.",
+              "_Signposts, along with signbacks, can be dyed with unorthodox colours, more so than in other countries. Some of those are regional, which you can learn more about in the regionguessing section._",
+              "NOTE: The only other European countries with flat signposts are Portugal, Spain, and Andorra."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_lowsign.png",
+              "imageLink": "https://maps.app.goo.gl/mKexktLfg1VQqgvb6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Traffic signs with particularly **short signposts** are very common in France."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Chevrons.png",
+              "imageLink": "https://maps.app.goo.gl/mk6n3dm6p4PE86q48",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "France uses chevrons with white arrows on a blue background. They can have a wide amount of arrows, ranging from one to five.",
+              "NOTE: The only other European country with this colour scheme is Spain, where you will only find chevrons with two or four arrows."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Pedestrian.png",
+              "imageLink": "https://goo.gl/maps/prEdCDWA62epYPyCA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Pedestrian crossing signs in France have five stripes and a disconnected head on the person. They have the usual white border of French traffic signs.",
+              "Less commonly, you can find a design with [two dashed lines](https://goo.gl/maps/iD7GdGUA7Ew3h8oa7) instead of stripes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_kmmarker.png",
+              "imageLink": "https://goo.gl/maps/3xifwCz3xmSHZ1k26",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Kilometre markers in France most commonly have a yellow or red semicircle on top of a white rectangle. They can be found in the form of a waystone or as a flat sign and can be either [parallel](https://goo.gl/maps/8KpoMhXGetkA7qeR9) or [perpendicular](https://goo.gl/maps/WJHfU8tnG9qfZoyDA) to the road. Major highways can have [square markers](https://maps.app.goo.gl/RTdHYF79SdUZFLTt7) with a red top."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Lines_dashes.png",
+              "imageLink": "https://goo.gl/maps/GtpsmS7Ao4h9NuJF6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Typical French roads have long spaced out dashes on the outside."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Middle_Z_line.png",
+              "imageLink": "https://goo.gl/maps/zzcBKhejqtdVreGG7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "These middle road lines, where each dash consists of two **offset blocks**, are unique to France. They are not extremely common, but when you see them, you can safely guess France."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Long_dashes.png",
+              "imageLink": "https://goo.gl/maps/89ntZMYdGQCgAQkD9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Middle lines with **dashes that are longer than usual** can be a good clue for France.",
+              "NOTE: Unusually long dashes are also common in the UK."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_roadarrow.png",
+              "imageLink": "https://maps.app.goo.gl/MpAPF7ZXVU595uCf9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "These arrows on the road signalling the end of a passing zone are only found in a couple of European countries, including France. In France, the middle dashes will be very close together in these areas.",
+              "NOTE: Other countries where this style of arrow can be found are Spain, Portugal and Romania. These arrows can also be found in the UK, but they will point towards the left lane instead of the right one."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/Guardrail.png",
+              "imageLink": "https://goo.gl/maps/TFGWHPxgLCYYuk1D8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "France uses A-type guardrails, usually without reflectors. On rare occasions, you can find [thin B-type](https://maps.app.goo.gl/LZPs77QN14xKdL3RA), the standard guardrail in Czechia and Slovakia.",
+              "NOTE: Spanish, Andorran and Belgian guardrails use yellow reflectors."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_flagmarker.png",
+              "imageLink": "https://maps.app.goo.gl/HFRqV1WC2uSVXbXB9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Roads may be lined by tall rectangles on a stick in the colours of the Austrian flag, which are not found elsewhere."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_architecture.jpg",
+              "imageLink": "https://maps.app.goo.gl/WjJyqpxBLoZRDgFB6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "French architecture largely consists of stone houses, which will normally be either unpainted or painted in greyish or yellow pastel colours. The roofs will typically have a simple [gable](https://en.wikipedia.org/wiki/Gable_roof) design, with orange tiles or less commonly black slates. Townhouses will often lay wall to wall along the road.",
+              "Do note that France has some of the most diverse regional architecture of any European country, so don\u2019t be surprised to see towns that look significantly different from the previously described architecture."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_housenumber.png",
+              "imageLink": "https://maps.app.goo.gl/LyW7w21VXLXNNYo59",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "House numbers in France are most commonly blue, typically written in a serif font with slightly exaggerated shapes. This is most useful when differentiating from Italy, which almost never uses blue house number signs.",
+              "NOTE: Similar designs can be found in all other neighbouring, as well as many other, countries."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/1_carbrands.png",
+              "imageLink": "https://maps.app.goo.gl/1aHukoU97HsumS7W6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "French car brands Peugeot, Renault and Citro\u00ebn together make up almost half of all cars in France.",
+              "NOTE: These car brands are also common in linguistically related neighbouring countries."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional and department-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_divisions.png",
+              "imageLink": "/images/france/2_divisions.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "This guide will mainly operate with two types of administrative divisions: [**regions**](https://en.wikipedia.org/wiki/Regions_of_France), totalling at **13** in European France, and **96 **[**departments**](https://en.wikipedia.org/wiki/Departments_of_France), which appear on google maps as the primary administrative divisions. Other rarer divisions you may come across include [pre 2016 regions](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Map_Carte_des_Anciennes_R%C3%A9gions_2015.png/1024px-Map_Carte_des_Anciennes_R%C3%A9gions_2015.png), [historical provinces](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/France_in_1789.svg/1024px-France_in_1789.svg.png), and [regions based on cardinal directions](https://www.ffft.fr/sites/default/files/images/d%C3%A9coupage%20r%C3%A9gions%20FFFT%20et%20officielles.jpg).",
+              "Departments are often named after physical geographical features and their logos may show up on various infrastructure, shown in the next tip.",
+              "_You can practise them with [this quiz](https://geo.emily.bz/map-quiz/france/departments)._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_areacodes.png",
+              "imageLink": "/images/france/2_areacodes.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "French telephone numbers are 10 digits long, with the first two pairs of digits being two separate area codes, following two patterns:",
+              "- 01 is in \u00cele-de-France and 02-05 goes **clockwise **from the northwest.",
+              "- 2X is in the far north, with the numbers generally increasing **anticlockwise**. 9X is an exception, being found both in the far northwest and far southeast.",
+              "Secondary area codes in \u00cele-de-France can be seen on [this map](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Indicatif_telephonique_IDF.jpg/1280px-Indicatif_telephonique_IDF.jpg).",
+              "NOTE: Phone numbers beginning with 06-09 are not regional."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_postcodes.png",
+              "imageLink": "/images/france/2_postcodes.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Each department has an assigned number to it, arranged mostly [alphabetically](https://en.wikipedia.org/wiki/Departments_of_France#Current_departments). This is most useful in postal codes, consisting of 5 digits, the first two representing the department they\u2019re in.",
+              "NOTE: the same regional codes are used inside the right blue strip on [licence plates](https://maps.app.goo.gl/hdSg7fcVKbUGPcjP8)."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Infrastructure"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_departmentlogo2.png",
+              "imageLink": "https://maps.app.goo.gl/WpDZN53v4x41gsPNA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Most departments have their own unique logo (formally called official flag), often containing stylized initials or the entire name. Notable infrastructure with department logos include [bus stops](https://maps.app.goo.gl/1CqFWtzhUqLV2k8n7), [kilometre markers](https://maps.app.goo.gl/JGY1Xwa8SvPyyV5A9), [trail banners](https://maps.app.goo.gl/kP4kjMrH3rK5gLSZ7), [directional signs](https://maps.app.goo.gl/QM5gqNqrRtf4gWRR6) and [signbacks](https://maps.app.goo.gl/ZHA8UMQL6eFzSNyP6). Learning what each logo looks like is not recommended for beginners, but it can be helpful to know what they stand for when scanning.",
+              "You can find the full list of logos [here](https://en.wikipedia.org/wiki/Flags_of_the_regions_of_France#French_Departments), or see them projected onto a map [here](https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_Map_of_Departments_of_France_Version_2_%28Logo_Flags%29.png)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_occitanielogo.png",
+              "imageLink": "https://maps.app.goo.gl/qgrMg2CSWwfUN5rm6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A red and yellow logo with an [Occitan cross](https://en.wikipedia.org/wiki/Occitan_cross) and vertical stripes is the official flag of the Occitanie region.",
+              "The rest of the regions also have [logos](https://en.wikipedia.org/wiki/Flags_of_the_regions_of_France#Regions), which appear less frequently. You can see them projected onto a map [here](https://i.imgur.com/DNYKa4L.png)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_senyera.png",
+              "imageLink": "https://maps.app.goo.gl/5qaCyZZqpYspFmzk9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A flag made up of red and yellow stripes, based on [the Senyera](https://en.wikipedia.org/wiki/Senyera), is the official flag and department logo of **Pyr\u00e9n\u00e9es-Orientales**. You will often find the pattern used in coats of arms on street signs.",
+              "NOTE: The flag of [Provence](https://en.wikipedia.org/wiki/Provence) looks similar, but with [vertical](https://maps.app.goo.gl/CWTzNJaQNoRJwEDeA) stripes instead."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_redroad.png",
+              "imageLink": "https://maps.app.goo.gl/3jAQjLHr34BMS78w5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Roads with a significant** red**, **purple** or **burgundy** tint are most commonly found in an area between Paris and Dijon, with Normandy being a notable exception. The historical region of [**Burgundy**](https://en.wikipedia.org/wiki/Burgundy), which gave the name to the shade of red, roughly corresponds to the highlighted area.",
+              "NOTE: Normal roads may deceptively look reddish under some lighting, so use this with caution."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_darkgreenposts.png",
+              "imageLink": "https://maps.app.goo.gl/czHGmieVsioQJUds7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Dark green** road signposts and backs are most commonly found in Brittany and around Paris, but also various southern regions in the country.",
+              "NOTE: Beware that this, and the following coloured infrastructure can rarely be found in other parts of the country."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_eureetloirsticker.png",
+              "imageLink": "https://maps.app.goo.gl/xjYTeyohJA2hZcDn7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Signbacks in Eure-et-Loir may include a **green sticker**, the department\u2019s logo. They\u2019re usually placed on a dark green back, without a matching post."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/decimal_d_roads.png",
+              "imageLink": "https://maps.app.goo.gl/SZXadF3gcokT3BFG7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Still in Eure-et-Loir, this is also where D-roads with a **superscript number** are most common. On the map, these are expressed as decimals, e.g. D134.10 and D121.9.",
+              "NOTE: They are rarely found in other [departments](https://maps.app.goo.gl/FLC24eo6tV36Jn1D8)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_darkdarker.png",
+              "imageLink": "https://maps.app.goo.gl/mXGHJ2YhWhBLm5YM9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A **greyish green** signback supported by a **darker green** post, is found in three areas: Brittany (C\u00f4tes-d'Armor and eastern half of Ille-et-Vilaine), Pyr\u00e9n\u00e9es-Atlantiques and rarely near the Alps."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_pasdecalaissignback.png",
+              "imageLink": "https://maps.app.goo.gl/d6oVe7ou6biKMSgEA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In the Pas-de-Calais department, you may find road signs with the following colour arrangement: a **dark green post** paired with a signback of a **lighter shade of green**, ranging from [matcha green](https://maps.app.goo.gl/cH9cbEYkyVwUMkEXA) to [greenish turquoise](https://maps.app.goo.gl/HVwoK8mut3XwKQ8g8). The [department\u2019s logo](https://upload.wikimedia.org/wikipedia/fr/6/64/Logo_62_pas_de_calais.jpg), a green and blue triangle, is occasionally present [on the signback](https://maps.app.goo.gl/RV2AH3h7Lq75MKu47).",
+              "NOTE: Under certain lighting, they can appear similar to the greyish road signs mentioned in the previous tip."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_brownbacks.png",
+              "imageLink": "https://maps.app.goo.gl/E1Yw5VJGRTPYe6KfA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Road signs where both the** post** and **back** are painted **brown** are most commonly found in Seine-et-Marne, and rarely in Ille-et-Vilaine. It is more reliable when the post is **square**, however round signposts are equally common."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/hautegaronne_fixations.png",
+              "imageLink": "https://maps.app.goo.gl/gWd9mTKWHXRToEW7A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Directional signs in Haute-Garonne often use **burgundy red attachments** and ornaments. This is sometimes paired with [yellow signposts](https://maps.app.goo.gl/zXUbPBqqsHJZaBvu7)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/marne_town_entry_signs.png",
+              "imageLink": "https://maps.app.goo.gl/bAApSMi2kLERnX8w5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Most town entry signs in Marne follow a unique format: Instead of having [separate](https://maps.app.goo.gl/MK8LGR6zFBcdyG2M7) entry and exit signs, they are combined into a **single, noticeably thicker block**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_parismetrostreetsign.png",
+              "imageLink": "https://maps.app.goo.gl/RPUvFUx1aT6K6uWx6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Street signs in the metropolitan area of Paris often say the** name of the city**, which is generally atypical for street signs in France. The signs will often be made in a **modern design**, and many city names will be** river based**, notably named after Seine and Marne.",
+              "NOTE: This can be seen sporadically throughout the country, so consider other clues."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_corsicastoneguardrail.png",
+              "imageLink": "https://maps.app.goo.gl/9BoPNXbPVFB5WWyK8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Cuboid barriers made of** stones** and mortar are commonly found on Corsica. While by no means unique to Corsica, it is good to consider the island when you see them in rounds with a plausible Mediterranean landscape.",
+              "NOTE: Stone barriers with a [rounded top](https://maps.app.goo.gl/VJ9vC1KXSVHkmqHbA) are not found on Corsica."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Landscape"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_topography.png",
+              "imageLink": "/images/france/2_topography.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "This is a topographic map of France. Notably, the tallest mountains are found in the southeast and on the Spanish border. The north and the west coast is generally quite flat or rolling, while the southern half is often hillier."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_westernvibe.png",
+              "imageLink": "https://www.google.com/maps/@49.4908887,-1.7382795,3a,75y,86.36h,89.64t/data=!3m6!1e1!3m4!1sKAPjt_gsDfbBQ4yk8HWxHQ!2e0!7i16384!8i8192?coh=205409&entry=ttu",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Rural roads surrounded by hedges blocking the view, reminiscent of the British Isles, are primarily found in the northwest, particularly in Normandy.",
+              "NOTE: Hedges by themselves are not sufficient for recognizing this area and are common all over France."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_stonepine.png",
+              "imageLink": "https://maps.app.goo.gl/chNWU9f52THVoPVv5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "[**Stone pines**](https://en.wikipedia.org/wiki/Stone_pine) are commonly found along the southern coast, often planted alongside urban roads. You may however find them as north as Nantes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_bordeauxpine.png",
+              "imageLink": "https://maps.app.goo.gl/84vVwwUmVne23Fzr9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Forests made up entirely of Maritime pines ([pinus pinaster](https://en.wikipedia.org/wiki/Pinus_pinaster)) are found in the southwest of the country (Gironde and Landes departments). The whole area will be fairly flat, which is not typical of other areas with such pines."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_vineyards2.png",
+              "imageLink": "https://goo.gl/maps/nqicyNPLKLJtcvYA8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "France is the second largest wine producer in the world, with many famed wine regions. The most common include the area [around Bordeaux](https://maps.app.goo.gl/m8uNroZ9jJLd3QAK9), [southern coast](https://maps.app.goo.gl/HTsrjHu2c5PRFyf66) and [Champagne](https://maps.app.goo.gl/qtGYHb1vJigF6dhh8), East of Paris. Other regions include, but are not limited to, [Loire Valley](https://maps.app.goo.gl/DfoQ5ieYBdvu3Gwj6), [Alsace](https://maps.app.goo.gl/VZ83XTNAHMGyYnpo7) and [Corsica](https://maps.app.goo.gl/1LfT57wVaQ6dhW4f7).",
+              "NOTE: This map is highly simplified, see [this map](https://vineyards.com/photos/maps/France%20Wine%20Map.png) for more detailed and extensive description."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_sunflower.png",
+              "imageLink": "https://maps.app.goo.gl/3TLm2DdgtPTrg8zp9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Sunflowers** are mostly found in the southwest of the country, particularly around Toulouse."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_windfarms.png",
+              "imageLink": "https://maps.app.goo.gl/8xQMrVkAAUmZpuj87",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Wind turbines are considerably more common in the north of the country."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Architecture"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_blackroofs.png",
+              "imageLink": "https://maps.app.goo.gl/omNZqBqdkk1VFCqc8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Black shingle roofs** are primarily found in the northwest, the rough cutoff being the Loire river. Other areas include near the Belgian border, the south-centre, and the Pyrenees, making black roofs a good clue for Alps-Pyrenees toss-ups."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_brittanyhouses.png",
+              "imageLink": "https://maps.app.goo.gl/MKXiqrkp1hexfbF2A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Brittany** has one of the most recognizable and consistent architectures in the country. Common elements include, in addition to black roofs, [edge chimneys](https://maps.app.goo.gl/aAhwWVjHEPsQPH9T6), [black slate walls](https://maps.app.goo.gl/HepcAWsvqucqhSpb6) and [stones surrounding doors and windows](https://maps.app.goo.gl/aMX5LbsbQsab7LmT9). The walls will be either very light coloured or made of stone."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_southerntiles.png",
+              "imageLink": "https://maps.app.goo.gl/GEHbHrDCuapV2SnY6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Roofs in the south of the country will often be made up of rounded tiles overlapping one another, often varying in colour."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_belgianbrick.png",
+              "imageLink": "https://maps.app.goo.gl/tswYUJbkrArzGoAWA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Rows of dark red brick houses, most similar to Flemish architecture in Belgium, are unsurprisingly found near the Belgian border. The individual bricks may be outlined by white mortar."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_toulousebrick.png",
+              "imageLink": "https://maps.app.goo.gl/hhjLkXuWSPbdJRu86",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In and around Toulouse, mainly in old towns, you will commonly find **bright orange brick buildings**. They differ from brick houses near Belgium by the bricks being brighter, as well as somewhat Mediterranean looking architectural features, such as [wooden shutters](https://maps.app.goo.gl/1Bp6ctTT9uJVuXX67), being common."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_pariswalls.png",
+              "imageLink": "https://maps.app.goo.gl/5ZcHutQrofqSYLMt9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Walls made of uneven **cream coloured **to **orange stones**, glued with mortar and often incorporating **red brick details** can be found in the towns surrounding Paris. Note that the city of Paris itself generally does not have this architecture."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_rivieraarchitecture.png",
+              "imageLink": "https://maps.app.goo.gl/Ax66PMfa8ZmQEv6W8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The [French Riviera](https://en.wikipedia.org/wiki/French_Riviera) will mirror many characteristics of Monaco. Rich areas with planted **palms** and light coloured multi story buildings with **wide balconies** are good indications you\u2019re in this area, with the rest of the southern coast and Corsican Bastia sharing similar vibes.",
+              "NOTE: Just like Monaco, several cities host [boat trekkers](https://maps.app.goo.gl/KMhr7HRhd1ch44jR6) in their harbour."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_basquehouse.png",
+              "imageLink": "https://maps.app.goo.gl/6sm9myV5DMRYQkFB9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "White houses with, often colourful, timber framing are a staple of Basque architecture that extends beyond the Basque speaking area. The timber frame colour (in this case red) will be consistent with other wooden elements, like window shutters and gates.",
+              "NOTE: They\u2019re also common in parts of Northern Spain, where the timber frames are usually unpainted."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_alpinehouse.png",
+              "imageLink": "https://maps.app.goo.gl/TsN4aX28dS7d64Yv6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Alpine architecture, unmistakable for its light coloured base and extensive **wooden** elements, is unsurprisingly found in the Alps.",
+              "NOTE: Similar houses can be found in the [touristic parts of Pyrenees](https://maps.app.goo.gl/gBufc9meA3Qc2Z7eA)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_germanhouse.png",
+              "imageLink": "https://maps.app.goo.gl/GMP2woXDjc6DjmZd8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Many elements of** Germanic architecture** are concentrated in Alsace, such as **timber framing** and [half-hip roof](https://en.wikipedia.org/wiki/Hip_roof#Half-hip_roof). Furthermore, roofs with [fish scale tiles](https://maps.app.goo.gl/awYyavUYj1kHHdVX7) are more common in this region.",
+              "Beware that these elements are sometimes incorporated into [architecture](https://maps.app.goo.gl/c72CRemeuSDxuZfE8) in other parts of France, and are most reliable in conjunction with one another."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Languages"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_languageoverview.png",
+              "imageLink": "/images/france/2_languageoverview.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "France is home to many minority languages, 6 of which will be covered in this guide:",
+              "- **Alsatian**, a dialect of Alemannic German.",
+              "- **Basque**, the only European [language isolate](https://en.wikipedia.org/wiki/Language_isolate).",
+              "- **Breton**, a Celtic language.",
+              "- **Catalan, Corsican **and **Occitan**, Romance languages which are related to French.",
+              "However, French, legally the only official language, is dominant in all regions of the country, so don\u2019t exclude highlighted regions when you\u2019re placed in an all French round."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_breton.png",
+              "imageLink": "https://maps.app.goo.gl/YgHD9amVX34xxhvM9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "[**Breton**](https://en.wikipedia.org/wiki/Breton_language) is a Celtic language, visually most similar to Welsh. Common letters include **d**, **k**, **w **and the letter** \u00f1**, which is not found in French. It is commonly found on the Breton peninsula, with bilingual street signs as east as [Rennes](https://maps.app.goo.gl/SXA9tpudgXLcbpvJ7) and rarely [Nantes](https://maps.app.goo.gl/v9hAN6FqvpLekm5n6). The Breton word for street is straed**.**"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_plouprefix.png",
+              "imageLink": "https://maps.app.goo.gl/tExyyWJtNjY8k91ZA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Towns with the **Plou-** prefix are concentrated in Northwestern Brittany."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_alsatian.png",
+              "imageLink": "https://maps.app.goo.gl/Qa4s4mfdHVBXNTmB6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "[**Alsatian**](https://en.wikipedia.org/wiki/Alsatian_dialect), a dialect of German, is occasionally found in [Alsace](https://en.wikipedia.org/wiki/Alsace), a region that changed countries 4 times in modern history. Most bilingual street signs use some variation of gasse or strasse.",
+              "NOTE: Streets [containing German names](https://maps.app.goo.gl/HeoLMxMiP1nPJuJD9) are also concentrated in this region, though not as consistently."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_occitan.png",
+              "imageLink": "https://maps.app.goo.gl/7kySpCfhAo36m7H38",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "[**Occitan**](https://en.wikipedia.org/wiki/Occitan_language) is a Romance language closely related to Catalan that\u2019s sparsely concentrated in the South of France, most often found on street signs in big cities, and very rarely on [town entry signs](https://maps.app.goo.gl/J5Bj9ZSR2MfHAegg9). It can be divided into dialects, each using a slightly different word for street, all similar to Catalan \u201ccarrer\u201d. For example, in Toulouse, you\u2019ll find the Languedocian carri\u00e8ra and in Avignon carriero, in the Proven\u00e7al** **dialect.",
+              "Click [here](https://i.imgur.com/B8gX96p.png) for a more extensive infographic.",
+              "NOTE: The street sign designs pictured are also unique to the two cities respectively."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_basque.png",
+              "imageLink": "https://maps.app.goo.gl/djTQjuaBroWeQ8Ai7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Bilingual signs in [**Basque**](https://en.wikipedia.org/wiki/Basque_language), a language isolate, are concentrated In the western half of the Pyr\u00e9n\u00e9es-Atlantiques department, bordering the Basque speaking regions in Spain. Common letters include K, X and Z. On directional signs, it\u2019s written with a **thinner font**, which is unique within all minority languages in France.",
+              "The word for street is karrika, in contrast to \u201ckalea\u201d in the Spanish Basque country."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_corsican.png",
+              "imageLink": "https://maps.app.goo.gl/RMQvtnxBJDARMh16A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On the island of Corsica, you may find bilingual signs in [**Corsican**](https://en.wikipedia.org/wiki/Corsican_language), a Romance language that utilises many features found in Italian, like words almost always ending in vowels. In particular, the endings** u/iu/ju**, changed from o/io, are common in Corsican. Moreover, placenames will usually have an Italian origin."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_catalan.png",
+              "imageLink": "https://maps.app.goo.gl/GtgpNxrxyW4hRtwB7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The far southern department **Pyr\u00e9n\u00e9es-Orientales**, also known as Catalunya Nord (Northern Catalonia), uses [**Catalan**](https://en.wikipedia.org/wiki/Catalan_language) on their various signage.",
+              "It is closely related to both Spanish and French, with \u00c7 being considerably more common than in French. The word for street is carrer."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_majortoponyms.png",
+              "imageLink": "/images/france/2_majortoponyms.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Knowing basic toponymy in France is crucial for regionguessing, particularly suffixes. This map shows one of the most common and useful endings, with rare exceptions. Other, extraordinarily rare suffixes can be found [here](/images/france/2_minortoponyms.png?).",
+              "_You can click on the image to enlarge it._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_rivertoponyms.webp",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Many French cities contain the name of the **river** they lay on, usually in the format **-sur-[river]**. On signage, sur are often [shortened to \u02e2/](https://maps.app.goo.gl/KZQRgQ7Pszn6X79R6), in this case Chalonnes-sur-Loire (Chalonnes upon Loire). The picture shows five of the longest and therefore most common origins of river based names, but cities can bear the name of any river, regardless of length.",
+              "Similarly, city names containing [-sur-mer](https://maps.app.goo.gl/nKqfxeaX1hhikGeF8) (=on sea) or [-plage](https://maps.app.goo.gl/6mbr4tT9J4CRaEAb8) (=beach)** **are found exclusively on the coast."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Non-contiguous regions and territories"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_reunion.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/D%C3%A9partement_974_in_France_%28zoom%29.svg/1920px-D%C3%A9partement_974_in_France_%28zoom%29.svg.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "R\u00e9union is an overseas department and region of France, east of Madagascar. As such, it is counted as France for country streaks purposes.",
+              "Plonk It has a more in-depth guide to R\u00e9union [here](https://www.plonkit.net/reunion)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_sp_and_m.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Saint_Pierre_and_Miquelon_in_France.svg/1920px-Saint_Pierre_and_Miquelon_in_France.svg.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Saint-Pierre and Miquelon is a self-governing territorial overseas collectivity of France, south of Newfoundland in Canada. As such, for country streaks purposes, it is counted as France.",
+              "Plonk It has a more in-depth guide to Saint-Pierre and Miquelon [here](https://www.plonkit.net/saint-pierre-and-miquelon)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_martinique.png",
+              "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Martinique_in_France_2016.svg/1920px-Martinique_in_France_2016.svg.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Martinique is an overseas department and region and a single territorial collectivity of France, in the eastern Caribbean. For country streaks purposes, it is counted as France.",
+              "Plonk It has a more in-depth guide to Martinique [here](https://www.plonkit.net/martinique)."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_mansardroof.png",
+              "imageLink": "https://maps.app.goo.gl/TaCdLhmAvics8DSC8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "[Mansard roofs](https://en.wikipedia.org/wiki/Mansard_roof), also known as French windows, are a very common feature of Parisian architecture. They\u2019re made up of steep black shingle roofs with inserted dormer windows. While not unique to Paris, it is a good clue in abundance and on wide boulevards."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_belleileenmer.png",
+              "imageLink": "https://maps.app.goo.gl/CezovGkgqbkHQHYh7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On the Breton island** Belle-\u00cele-en-Mer** you can find houses typical for Brittany combined with colourful fa\u00e7ades and outlines, superficially similar to houses in Portugal.",
+              "NOTE: The entire island was only covered with an often oversaturated Generation 2 camera."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_lavender.png",
+              "imageLink": "https://maps.app.goo.gl/eVL47kFAdWScLUZW6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Lavender fields** can be found in the southeast, appearing as [small grey bushes](https://maps.app.goo.gl/Mm9eUmvDpzN6izC57) when not fully grown."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/salt_farms_new.png",
+              "imageLink": "https://maps.app.goo.gl/rXGjRyJyCZPEZpck8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Salt farms**, which appear as flooded trenches with grass medians, are found along the Atlantic coast, most notably around Gu\u00e9rande, Noirmoutier, \u00cele de R\u00e9 and \u00cele d'Ol\u00e9ron."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_arrondissement.png",
+              "imageLink": "https://maps.app.goo.gl/QYNYeexEke5HSmun9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Paris**, **Lyon** and **Marseille** are the three largest cities in France and the only ones divided into **municipal arrondissements **(Arr\u1d57 or Arrt.** **for short). The arrondissements appear on google maps, so finding these street signs can help a lot with pinpointing.",
+              "The street signs of these three cities will be further described in the following tips."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_parisstreetsign.png",
+              "imageLink": "https://maps.app.goo.gl/6KGEWJviVjvT5ko48",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Paris uses an iconic** green & Prussian blue **design with a top arch that has also been replicated in [Bucharest](https://maps.app.goo.gl/E3LqAPwX8jt9YmgK8), which is sometimes referred to as Paris of the east.",
+              "NOTE: The simple rectangular form of the sign can be found in the [towns nearby](https://maps.app.goo.gl/Noo6GyM9T63fta8C8) and rarely in [other cities](https://maps.app.goo.gl/SN1rqVG9eMNqQZxQ8)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_lyonstreetsign.png",
+              "imageLink": "https://maps.app.goo.gl/VsJPa6JDv4VSGxVPA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lyon\u2019s street signs feature four corner bolts and an **uninterrupted inner white border** that cuts a **notch** for the arrondissement and each bolt.",
+              "NOTE: Outside Lyon proper, the street sign will display the [name of the suburb](https://maps.app.goo.gl/gP3ngUUpUKf4Rqmz6) instead."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_marseillestreetsign.png",
+              "imageLink": "https://maps.app.goo.gl/kGnq1YeuB8RAqYRUA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Marseille**\u2019s street signs will usually feature the city\u2019s **emblem**, a variation of the [Greek cross](https://en.wikipedia.org/wiki/Christian_cross_variants#Greek_cross). The white border will usually be **interrupted** at the top, even when the cross is [absent](https://maps.app.goo.gl/Kb4vaENAKeNfGt2XA)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/2_bordeauxstreetsign.png",
+              "imageLink": "https://maps.app.goo.gl/7ZGmvriE7d6HjQeg9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Small tables with \u201c**Arr\u1d57**\u201d written on a small separate sign, are found in **Bordeaux**, despite being a city not divided into arrondissements."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_montpelierstreetsign.png",
+              "imageLink": "https://maps.app.goo.gl/uZza5xJMWbcXqqGy8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Montpellier** street signs will typically contain a blue **\u2018M\u2019** on a white background in the top left corner."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_lillestreetsign.png",
+              "imageLink": "https://maps.app.goo.gl/FbNBLiEjba5hZGtF9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Street signs with a red slanted [fleur-de-lis](https://en.wikipedia.org/wiki/Fleur-de-lis) are unique to **Lille**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_bordeauxpost.png",
+              "imageLink": "https://maps.app.goo.gl/f839jNczobuXdAhk6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In the outskirts of **Bordeaux**, you may find square traffic signposts with the [Bordeaux](https://en.wikipedia.org/wiki/Wine_red#Claret) shade of **red**, named after the wine grown in the region.",
+              "NOTE: Red posts by themselves are not unique to Bordeaux, so apply this meta with caution."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_rivierapost.png",
+              "imageLink": "https://maps.app.goo.gl/e8uNBX7tU8FBJUmC9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On the French Riviera (C\u00f4te d'Azur in French, literally translated as **Blue Coast**), you can find regular traffic signposts painted azure blue. Uniquely, [Cagnes-sur-mer](https://maps.app.goo.gl/sP2LGFRxb79XRWro6), west of Nice, will feature lighter, powder blue infrastructure.",
+              "NOTE: Blue infrastructure can be found to a lesser extent all across France, particularly [Brittany](https://maps.app.goo.gl/6GwpcWAD5gS5LCE7A), so consider the landscape as well."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_thinB.png",
+              "imageLink": "https://maps.app.goo.gl/DqGSsufKztEWDKQc9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Thin B type** guardrail, typical for Czechia and Slovakia, is sometimes found on **highways** in the northern half of the country, often coming from Le Mans, Tours, Paris, Reims and Metz.",
+              "NOTE: On the highlighted sections, thin B can be the minority guardrail, and short sections of any highway will have no guardrails at all. It is also more common on smaller roads in the North, but less consistent as a clue."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/france/3_gen3antenna.jpeg",
+              "imageLink": "/images/france/3_gen3antenna.jpeg",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On rare occasions, you may find a flag attached to the antenna in the generation 3 coverage. While much of the highlighted areas has been overwritten, learning the distribution of each antenna can yield very high scores.",
+              "NOTE: All pictured colourful antenna flags are unique to France."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends you play these maps instead:",
+        "- **An Equitable France **([map link](https://www.geoguessr.com/maps/66338d3804309d08d22387c0)) - 100k+ locations equally balanced among all types of coverage like city centres, small alleys and tiny country roads in dense coverage areas. Not pinpointable.",
+        "- **AI Generated France **([map link](https://www.geoguessr.com/maps/65a893f90a62752da73fdfdd)) - 100k+ AI generated locations.",
+        "- **La Diversit\u00e9 Fran\u00e7aise **([map link](https://www.geoguessr.com/maps/5eb5ea048734a02c543f2ae1)) - 24k pinpointable locations distributed equally between the departments.",
+        "In addition, here are some resources to help you practise France:",
+        "- **Plonk It France **([map link](https://www.geoguessr.com/maps/66cbabb95a125a1f1a7e444f)) - This map contains locations for practising each meta in the Plonk It France guide from step 2 to 3.",
+        "- **Area codes quiz** ([link](https://super-duper.fr/quiz/areacodes_en.php?country=FR&tile=gmaps)) - Interactive quiz to practise secondary area codes overlaid on google maps.",
+        "- **Departments quiz** ([link](https://geo.emily.bz/map-quiz/france/departments)) - Quiz to master departments with google maps overlaid.",
+        "- **French cities quiz **([link](https://www.geoguessr.com/vgp/3327)) - Seterra quiz that helps you quickly locate top 39 cities on a blind map."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

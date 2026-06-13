@@ -1,0 +1,116 @@
+{
+  "_id": "belarus",
+  "createdAt": "2025-09-07T22:23:26.521Z",
+  "updatedAt": "2025-11-05T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Belarus",
+  "slug": "belarus",
+  "code": "BY",
+  "cat": [
+    "Europe"
+  ],
+  "heroImage": "/images/belarus/Screenshot_2022-06-28_105736.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Belarus",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/belarus/0_summary_belarus.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/belarus/Coverage_map.png",
+              "imageLink": "/images/belarus/Coverage_map.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The only coverage in Belarus, apart from spills, is a single **walking trekker** in the historic centre of Minsk.",
+              "Instead of learning a lot of country-specific clues, it is more practical to simply memorise what the trekker looks like.",
+              "You can recognise trekkers by the fact that the camera feels a bit lower than the usual Google car. In Belarus\u2019 case, the trekker is also mostly on pedestrian-only roads.",
+              "_You can find information about the border spill coverage in the [Spillover Guide](/spillover-countries)._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/belarus/General_look.png",
+              "imageLink": "https://goo.gl/maps/T2dS9DmPMAHvoG7s7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Minsk trekker features a **historic part of the city**, with well-maintained classical European architecture. Many buildings have white or pastel coloured walls. Most of the roads you see are pedestrian-only."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/belarus/church.png",
+              "imageLink": "https://goo.gl/maps/knpeW7A115CrHQaZ9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Holy Spirit Cathedral features prominently in the coverage. Its two towers can often be seen from far away."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/belarus/by_pavement.png",
+              "imageLink": "https://goo.gl/maps/GsTiY3PefHnHorth9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The pavement which the trekker walks on in Minsk is mostly **grey rectangular tiles**. On a small part, there are [pink-ish tiles](https://goo.gl/maps/jBJvXJYu2yqYENLw9) in a specific pattern."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/belarus/by_language.png",
+              "imageLink": "/images/belarus/by_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Signs will be in Belarusian or Russian. Both languages use the Cyrillic alphabet.",
+              "NOTE: The letters \u045e and \u0456 are not found in Russian."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/belarus/Street_signs.png",
+              "imageLink": "https://goo.gl/maps/SCKDqSV1qcotwwbFA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Minsk centre street signs are **sea-green**, and can be seen almost everywhere.",
+              "NOTE: If you are close enough to the sign, you can make out the Cyrillic letters \u201c\u0432\u0443\u043b (vul)\u201d, the Belarusian name for \u201cstreet\u201d."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

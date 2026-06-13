@@ -1,0 +1,394 @@
+{
+  "_id": "alaska",
+  "createdAt": "2025-09-07T20:33:58.736Z",
+  "updatedAt": "2026-01-31T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Alaska",
+  "slug": "alaska",
+  "code": "US-AK",
+  "cat": [
+    "North America"
+  ],
+  "heroImage": "/images/alaska/Glaciar_Lamplugh_2C_Parque_Nacional_Bah_C3_ADa_del_Glaciar_2C_Alaska_2C_Estados_Unidos_2C_2017-08-19_2C_DD_134.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Alaska",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/alaska/transparent-alaska_summary_2026.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_licenceplates.png",
+              "imageLink": "/images/alaska/ak_licenceplates.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The most common and recognisable Alaskan licence plate is **all yellow**. In Generation 4 coverage you can also get a plate with a large orange circle in the middle. Front plates are required in Alaska."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_sign.png",
+              "imageLink": "https://maps.app.goo.gl/z5cXcwCnaeAQb29v7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Alaskan highway shield has an image of the **Big Dipper constellation** on the bottom left."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_thintrees.png",
+              "imageLink": "https://goo.gl/maps/KVeG783M2iHDUbHA7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Trees in Alaska are generally **thinner** and have less broad leaves than those seen in the other 49 states."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_mountains.png",
+              "imageLink": "https://goo.gl/maps/S3vTbtkaEdZAg31UA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "On a lot of the Alaskan coverage you will be able to see tall, **snow covered mountains**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_gen2.png",
+              "imageLink": "https://goo.gl/maps/5fQi6ikYaG2wmN9o8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "In most of the US, Generation 2 is rare. However, Alaska has a fair amount of **Generation 2 coverage**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/Smallcam_Alaska.png",
+              "imageLink": "https://maps.app.goo.gl/jbFAEToq1q7Szj3a7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Alaska has Generation 4 \u201csmallcam\u201d coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front, with the front of the white car being very visible. The blur can also be fully transparent."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_shitcam.png",
+              "imageLink": "https://maps.app.goo.gl/EQi88wEVbY7J8eaM6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Alaska is the only state in the US where **shitcam** **coverage **is prevalent. This coverage is lower resolution with more faded colours, compared to other camera generations. Also, a large blur can be seen at the bottom of the page."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Region-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_gen4.png",
+              "imageLink": "https://www.google.com/maps/@60.9334533,-149.3199227,3a,90y,251h,90t/data=!3m6!1e1!3m4!1s6BmwDwznNGUy6d0pBnYwuQ!2e0!7i16384!8i8192",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Generation 4** coverage in Alaska is concentrated around the city of **Anchorage**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_tundra.png",
+              "imageLink": "https://maps.app.goo.gl/XQa4wp95zhGx9zxN7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Most of interior and northern Alaska lies in subarctic or** tundra** climate zones. These areas feature relatively low amounts of [forest undergrowth](https://maps.app.goo.gl/mFe2xNzxYnqgY5Af6) and [shorter trees](https://maps.app.goo.gl/oaa8n8a7AbYVj7YSA)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_alexanderarchipelago.png",
+              "imageLink": "https://goo.gl/maps/Wiwyd7z51jHBpzeb9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Alaskan towns in the Alexander Archipelago, on the British Columbia border have a unique look. Tall mountains with **lush green forests** can be seen in the background, with the majority of buildings made of wood. In addition, [Generation 2](https://goo.gl/maps/YU3fykwkkhwSeihP8) coverage is often overcast and misty.",
+              "NOTE: Coastal areas of [Oregon](https://goo.gl/maps/JUuhjUojP42eQrsF7) and [Washington](https://goo.gl/maps/LikUSJBshaMjidcK6) can have a similar appearance in terms of landscape and foliage."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_cities.png",
+              "imageLink": "https://maps.app.goo.gl/FeF5pJPv68XJ4pc47",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The only two major **urban areas** in Alaska are Anchorage and [Fairbanks](https://maps.app.goo.gl/kGD8vrgWHiQVVy73A)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_anchoragesuburb.png",
+              "imageLink": "https://maps.app.goo.gl/oyWqiGpMrqSRjJzc7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Most of the **suburban areas** in Alaska are in and around Anchorage.These areas feature wide roads, commercial districts, and sometimes heavy traffic. Mountains can commonly be seen in the distance.",
+              "NOTE: Fairbanks has some [similar areas](https://maps.app.goo.gl/y5zA5uE8KjngyPVV8), but mountains are less prevalent."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_aspen.png",
+              "imageLink": "https://maps.app.goo.gl/iCnMJg5nAMmiYAhe6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Aspen trees** ([Populus tremuloides](https://en.wikipedia.org/wiki/Populus_tremuloides)) can be found in lower elevation areas of interior and south-central regions of Alaska. These trees have white bark and rounded leaves."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_agriculture.png",
+              "imageLink": "https://maps.app.goo.gl/9JCKevYP1EKecrBs5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Due to Alaska\u2019s very cold climate; **agricultural fields** are mainly found in the south of the state, mostly in the Matanuska Valley and Kenai Peninsula."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_pipeline.png",
+              "imageLink": "https://goo.gl/maps/4Vdv4TvcSY9kct1z6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **Alaskan pipeline** which is usually visible from main roads, can be seen at these points. This is an easy way to identify Alaska as there are no similar pipelines in the rest of the US."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_juneau.png",
+              "imageLink": "https://maps.app.goo.gl/X56mpB8DgNsGcyoR6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Juneau**, Alaska\u2019s Capital city, is the largest settlement in the Alaskan panhandle. Therefore, it is much more \u2018built up\u2019 than other towns in this area. The city is surrounded by heavily forested mountains and hills."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_anchoragefirehydrant.png",
+              "imageLink": "https://maps.app.goo.gl/4tosf16wCW4ZGxfY6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Fire hydrants in Anchorage are typically** pale pink **or** pale yellow** in colour."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_fairbanksfirehydrant.png",
+              "imageLink": "https://maps.app.goo.gl/dxhjZqP54NF3FQTa7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Fire hydrants in Fairbanks are commonly either** bright yellow **or a** combination of colours** (most commonly [yellow and blue](https://maps.app.goo.gl/akUtjiVdnQMo9emy6))."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_shitcam_fairbanks.webp",
+              "imageLink": "https://goo.gl/maps/7gjXvfkWHa7WjbCp7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Shitcam** is only found around Anchorage and Fairbanks, and parts of the road that connects them.",
+              "NOTE: This map shows all places where this camera can be found. Keep in mind coverage may be updated in some places, therefore you may come across regular coverage in places highlighted here."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_daltonhighway.png",
+              "imageLink": "https://maps.app.goo.gl/gM7xeQr4uNo9ZzB16",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The North end of the Dalton Highway features a **flat** and **snowy landscape** and an overcast sky. A [small ridge](https://goo.gl/maps/fNWJxvvpz1Jzwjs89) of hills can be seen to the west of the highway in certain spots."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_denalihighway.png",
+              "imageLink": "https://goo.gl/maps/BqEu8v5MKPAvsi1d7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Denali highway, stretching from Cantwell to Paxson in central Alaska, is a mostly **gravel highway** in the \u2018Alaska\u2019 mountain range. This road runs generally east to west, is covered in the generation 2 camera, and was taken in late summer, so wildflowers and green shrubby plants are common."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_steesehighway.png",
+              "imageLink": "https://goo.gl/maps/dzktYzJUAqZHS1PEA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Steese Highway is another gravel highway that goes from Fairbanks to the town of \u2018Central.\u2019 Similar to the Denali highway, this road runs generally east to west and is covered in generation 2. The difference, however, is that the **mountains** along this road are noticeably **lower** than the ones adjacent to the Denali Highway."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_taylorhighway.png",
+              "imageLink": "https://goo.gl/maps/Vyhtb9ZJCUAuAZf5A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Highway 5, from the Yukon border to Tetlin Junction, can be recognized by the **foggy, rainy** weather, and Generation 2 camera.",
+              "NOTE: The Top of the World Highway on the Canadian side also has similar weather, but is mostly paved and has no outer lines, unlike the American side, which is only paved west of Chicken, and does have outer lines."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_prudhoebay.png",
+              "imageLink": "https://goo.gl/maps/MXzTi8yw7y9fT3xz6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Prudhoe Bay, the northernmost town in America covered by street view, can be recognized by **cold, dead** landscape, overcast clouds and lack of tall buildings. A second Google car can sometimes be seen."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/alaska/ak_towntrekkers.png",
+              "imageLink": "https://goo.gl/maps/efqLHvNVtEK2fGPNA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "[Nome](https://goo.gl/maps/efqLHvNVtEK2fGPNA), [Unalakleet](https://goo.gl/maps/1DYUKxvbEs7sR17v5) and [Galena](https://goo.gl/maps/aX2axEUDjqNexfiR6) are three isolated Alaskan towns which are covered only by trekker. The trekker\u2019s **lime green hat** or [black and white beanie](https://goo.gl/maps/V28pqftM9fbJ8Qwo6) can be seen.",
+              "NOTE: The trekker\u2019s black and white bandana can only be seen in Nome."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

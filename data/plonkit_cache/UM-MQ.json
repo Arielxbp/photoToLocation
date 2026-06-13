@@ -1,0 +1,247 @@
+{
+  "_id": "us-minor-outlying-islands",
+  "createdAt": "2025-09-07T20:35:21.234Z",
+  "updatedAt": "2023-10-12T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "US Minor Outlying Islands",
+  "slug": "us-minor-outlying-islands",
+  "code": "UM-MQ",
+  "cat": [
+    "North America"
+  ],
+  "heroImage": "/images/us-minor-outlying-islands/Panoramic_view_of_the_low-lying_landscape_of_Eastern_Island_2C_Midway_Atoll_-_2008.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying the islands",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_countrystreak.png",
+              "imageLink": "/images/us-minor-outlying-islands/midway_countrystreak.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The US Minor Outlying Islands are a chain of islands that are US overseas territories. As such, it is counted as **the US** for country streak purposes.",
+              "The guide will be somewhat skewed towards the Midway Atoll, as that is the only island with pinpointable coverage.",
+              "NOTE: The easiest way to locate the Midway Atoll on the map is to zoom in slightly to the west of the North Pacific Ocean map label."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_gen2.png",
+              "imageLink": "https://goo.gl/maps/PJEEw73taHwJb65u7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The coverage on the Midway Atoll was made with a **Generation 2 camera**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_albatrosses.png",
+              "imageLink": "https://goo.gl/maps/Kakx6BbTK2Mp61HV6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "One of the most distinct features of the Midway atoll is the presence of multiple **albatrosses** on almost every single location."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_runways.png",
+              "imageLink": "https://goo.gl/maps/hpfryhPkGfAgZqjn6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "A large part of the coverage on the Midway Atoll was taken on two **runways**, which are the only areas where it can be difficult to spot the albatrosses."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_otherislands.png",
+              "imageLink": "https://goo.gl/maps/YALv3V46aVBbjXds8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The islands other than the Midway Atoll can generally be characterised by three things. Firstly, the **Generation 3 trekker** coverage. Secondly, the low, **bushy** vegetation, and thirdly, the presence of numerous **birds**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Region-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_nicerunway.png",
+              "imageLink": "https://goo.gl/maps/F9kQ53oULpwe9pna7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A **nicely paved runway** can be seen going west to east on the southern side of the Midway Atoll."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_roughrunway.png",
+              "imageLink": "https://goo.gl/maps/9LnkL81nBAfS9Qym8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A **poorly paved runway** can be seen going north to south on the Midway Atoll. The pavement gets increasingly poor to the [north](https://goo.gl/maps/d45BgC8WQFuxeAE67)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_town.png",
+              "imageLink": "https://goo.gl/maps/hokkxYeomeYi5MPq7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On the eastern side of the Midway Atoll, you can find a **small village**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_southeastisland.png",
+              "imageLink": "https://goo.gl/maps/1z9K9Q9iAftdDTTz6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Southeast Island is arguably the least distinctive island in the chain. It has a small lake near the centre, and a large amount of birds in the sky."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_lisianskiisland.png",
+              "imageLink": "https://goo.gl/maps/F5psr4siuK3fiKR9A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lisianski Island only has coverage right by the shore and can typically be recognised by the **large bushes** going around the entire island."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_laysanisland.png",
+              "imageLink": "https://goo.gl/maps/cNLCGPvTvqv7LjXk8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Laysan Island is the only island in the chain where the coverage has almost **no clouds**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_frenchairport.png",
+              "imageLink": "https://goo.gl/maps/K6ZksuXBqhnuJbYs9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The French Frigate Shoals is a fairly long and thin island with a shabby-looking runway. The island has by far the **largest number of birds** out of all islands in the chain."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_eastisland.png",
+              "imageLink": "https://goo.gl/maps/oMVSWipvpK1mcT3U8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "East Island is the **smallest** island in the chain. There is barely any vegetation and you can see the ocean in all directions."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_westcorner.png",
+              "imageLink": "https://goo.gl/maps/i9mxerD8Z3eBzGQF7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The western corner of the Midway Atoll runway is arguably the **most common location** on the official Geoguessr world map and may thus be worth remembering, particularly for a newer player."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/us-minor-outlying-islands/midway_tripods.png",
+              "imageLink": "https://goo.gl/maps/gFcW5YXhgnCPArG6A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Eastern Island, situated right next to the Midway Atoll, has two small areas of low-quality **tripod coverage**. It does not have any other official coverage."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

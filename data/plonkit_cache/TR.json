@@ -1,0 +1,1004 @@
+{
+  "_id": "turkey",
+  "createdAt": "2025-09-07T21:23:27.209Z",
+  "updatedAt": "2026-04-30T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Turkey",
+  "slug": "turkey",
+  "code": "TR",
+  "cat": [
+    "Europe",
+    "Asia"
+  ],
+  "heroImage": "/images/turkey/banner1.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Turkey",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/turkey/0_tr_summary_281_29.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_licenceplate.png",
+              "imageLink": "/images/turkey/tr_licenceplate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Turkey uses the same licence plates as most of Europe: they are long and white, with a **blue strip** on the left."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_language.png",
+              "imageLink": "/images/turkey/tr_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Turkish language has a fairly unique look. It uses the following special characters:",
+              "- \u00c7 \u00e7 and \u015e \u015f with a [cedilla](https://en.wikipedia.org/wiki/Cedilla) (\u201chook\u201d below the letter).",
+              "- \u00d6 \u00f6 and \u00dc \u00fc with an [umlaut](https://en.wikipedia.org/wiki/Umlaut_(diacritic)) (two dots).",
+              "- \u011e \u011f with a [breve](https://en.wikipedia.org/wiki/Breve).",
+              "- Dotless I \u0131. This letter in particular is noteworthy, as it is essentially unique to Turkish. In case you are confused: this is similar to the letter i, but without a dot when written in lowercase.",
+              "- Capital \u0130 with a dot."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_bollard.png",
+              "imageLink": "https://goo.gl/maps/vJsmH4MHfe8u57B98",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Turkish **bollards** have a simple design: rectangular, plain white, and with a red reflector on the front. They are thin when seen from the side.",
+              "There is a rare [yellow](https://maps.app.goo.gl/TDsyYaBcT9Hpmbpk9) version, seen in some areas with high snowfall.",
+              "NOTE: Romania has similar bollards. However, bollards are relatively rare in Romania."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_roadlines.png",
+              "imageLink": "https://goo.gl/maps/Y1jTNnVnJ6gTWr9n6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The colour of Turkish road lines is somewhat inconsistent. Most roads simply have white road lines. However, it is not uncommon to see yellow road lines. These roads can have [fully yellow lines](https://goo.gl/maps/NDYQg17SRma1M8VY9), or a [combination of yellow and white lines](https://goo.gl/maps/kVzg32BeNHnxXNhb8)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_saltandpepper.png",
+              "imageLink": "https://goo.gl/maps/vpzLcfJkyY77wkui8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Many roads have pavement with a grainy \u201c**salt and pepper**\u201d texture."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_divided.png",
+              "imageLink": "https://goo.gl/maps/uG7eY44ViTznRigq9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Divided highways** are extremely common, especially compared to other Mediterranean countries."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_chevron.png",
+              "imageLink": "https://goo.gl/maps/YQnd7NLQpnNw44q36",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Turkish chevrons are typically **red on white**. Beware that there are some other [regional variants](https://goo.gl/maps/c53U4ydsoRYVxGhk9).",
+              "Usually, the tip of the arrow does not touch the edge of the chevron. Some chevrons have a [neon yellow border](https://goo.gl/maps/h52NSmYxDJA77zVD8)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_chevron2.png",
+              "imageLink": "https://goo.gl/maps/rb6kRgiqproQUWFE6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "On intersections, you can often find this distinctive **black and yellow** chevron, with multiple arrows that point upward."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_chevron1.png",
+              "imageLink": "https://goo.gl/maps/Ai1JLo8zhvg4NCKF7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Sometimes, you can see these **narrow chevrons** that have a red and white colour scheme.",
+              "NOTE: Almost identical chevrons can be found in [South Africa](https://www.google.com/maps/@-31.9255787,26.9327084,3a,15y,260.14h,77.09t/data=!3m7!1e1!3m5!1safeEbQeUOh2C-t3z0hfx6Q!2e0!5s20230401T000000!7i16384!8i8192?entry=ttu)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_directionalsigns.png",
+              "imageLink": "https://goo.gl/maps/W4m2vDDmwBdvxCAV9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Direction signs use a very distinct font that can often be recognised by the noticeably **wide letter spaces**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_snowpole.png",
+              "imageLink": "https://goo.gl/maps/cupTkRgXiDKx2LJt7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Snow poles usually feature a colour sequence of black-orange-black-white from top to bottom, with small red reflectors."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_dur.png",
+              "imageLink": "https://goo.gl/maps/HUDf91iQqjFM8xHa8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Stop signs have the word \u201c**DUR**\u201d written on them. This is unique to Turkey."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_guardrails.png",
+              "imageLink": "https://goo.gl/maps/hXWYWvF8DxS5Am816",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Turkey uses both main types of guardrails:",
+              "- A-type guardrails, which have **rounded** edges.",
+              "- B-type guardrails, which have **square** edges.",
+              "While most Mediterranean countries use the A-type, B-type can help solve some tough 50-50s. Furthermore, seeing [both types](https://www.google.com/maps/@38.7634071,36.9889726,3a,75y,279.13h,72.18t/data=!3m6!1e1!3m4!1s-lWzgc6PumTFgOVCosSYkQ!2e0!7i16384!8i8192?entry=ttu) will exclude all southern European and Middle Eastern countries, other than Montenegro and Israel & the West Bank. For a full overview of which guardrails are found in which European country, see [this infographic](/images/turkey/europeguardrail.png)."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_pole.png",
+              "imageLink": "https://goo.gl/maps/i4r3FcX5N9hDQzgs6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Metal poles, either in the shape of a **ladder** or with a **mesh** pattern, are extremely common in Turkey."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_gen3noantenna.png",
+              "imageLink": "https://goo.gl/maps/gpEXoAqh8raW3xar7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "In the **Generation 3** coverage, the Google car **never has an antenna**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_gen4car.png",
+              "imageLink": "https://goo.gl/maps/GsRJayyumGYmmju3A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The **Generation 4** coverage in Turkey typically features a **white Google car**. Usually, only a tiny sliver of the back of the car is visible. The car can have a short antenna, or [no antenna](https://goo.gl/maps/cDZNhkcAjdTX5zw89) at all."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_pickuptruck.png",
+              "imageLink": "https://maps.app.goo.gl/Ebd2AVU36nUc1NNF9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "A **grey pickup truck** can be found in some Generation 4 coverage.",
+              "NOTE: Similar pickup trucks can also be found in [Senegal](https://maps.app.goo.gl/qVLNzZSjP3uTWXcg8) and [Kenya](https://maps.app.goo.gl/ggiEBc94DWL7BQwp7)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/Turkey_Smallcam.png",
+              "imageLink": "https://maps.app.goo.gl/e5EJ3feR9vWbaYz38",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Turkey also has Generation 4 \u201csmallcam\u201d coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, making it harder to spot."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_landscape.png",
+              "imageLink": "https://goo.gl/maps/eXQf5WpzjEQE2dh29",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Turkish landscape ranges from arid in the [southeast](https://goo.gl/maps/LjNc6hYmCyfbay51A) to a Mediterranean landscape in the [southwest](https://goo.gl/maps/gEzXWMtN6TYYx4GG7). In the [north](https://goo.gl/maps/odAj9owBhLGwSmBH7) you will often find a more forested and lush landscape. The most typical landscape is semi-arid, either rolling or flat, with vast agricultural fields, containing very limited vegetation other than crops.",
+              "Beware that Turkey is a very naturally diverse country with many landscapes that are not mentioned in this tip."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_apartmentblocks.png",
+              "imageLink": "https://goo.gl/maps/DWQkLUfxdgnn5fUdA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Tall and somewhat square **apartment blocks** are very common in Turkey."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_mosque.png",
+              "imageLink": "https://goo.gl/maps/s8NDvpw9Go8Ezbvx5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Turkey is a Muslim-majority country, and as such mosques can be found in most towns. In particular, tall [**minarets**](https://en.wikipedia.org/wiki/Minaret) are extremely common and a good clue for the country."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_brickpavement.png",
+              "imageLink": "https://goo.gl/maps/m6zfUb5Lx2osZgxg9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Brick pavement** is very common in urban areas, and the bricks will typically have the shape shown in the image."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Region-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_areacodes_nobg.png",
+              "imageLink": "#",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Turkish **area codes** follow a fairly easy to learn pattern and can be very useful to get the general region. Most notably, the first digit of area codes are ordered from 2 in the west to 4 in the east.",
+              "NOTE: Phone codes starting with 5 are not regional."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_droads.png",
+              "imageLink": "https://goo.gl/maps/UtnsVceNUnyXTTkS8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Turkey has three main types of numbered roads. The largest type are the [**O-roads**](https://goo.gl/maps/WeocadhrmCAqWDWc6), which on kilometre markers feature an O followed by a hyphen and the road number. The second largest type are the **D-roads**, which omit the \u201cD\u201d on kilometre markers and instead only feature a 3-digit road number, followed by the road section number on the top and the kilometre at the bottom. The section number will generally increase to the southeast."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_provinceroads.png",
+              "imageLink": "https://goo.gl/maps/tkqjw6hayPez3ff96",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The third type of roads are provincial roads. While these generally aren\u2019t labelled on the map, they can still be used to regionguess since the kilometre markers feature the [**provincial code**](https://sites.google.com/site/roadnumberingsystems/home/countries/turkey?authuser=0) as the first two digits on the sign. These codes generally increase alphabetically from 01 to 76 with some newer regions being unordered. Shown in the image is a road from the Afyon Province (03)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/turkeytruckdistibution_credit_to_vols_jezuz.png",
+              "imageLink": "https://maps.app.goo.gl/fRi7xv5DFxRNGQqm8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Generation 4 **truck coverage** is mainly found in the far east of the country and along the southern coast, with smaller pockets in the west and around Kastamonu.",
+              "For a more detailed look, see this [document](https://docs.google.com/document/d/1VJQSEVVZxJHJebLwgQ2aEoS6ML0MENral7g-IiCnRlg/)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_northlandscape.png",
+              "imageLink": "https://goo.gl/maps/WLpMbKsowgbihvFRA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Northern Turkey tends to be significantly **lusher** and **more forested** than the rest of the country."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_northeast.png",
+              "imageLink": "https://goo.gl/maps/3bJjrEbqhmAYbatH8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In the northeast you will find **uncultivated grasslands** in valleys surrounded by round hills. Trees are very limited in the region. In Generation 3 the area has an extremely distinct look, with deep green grass covering the hills. It is significantly more difficult to recognise in Generation 4, where the grass has a more arid look."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_pines.png",
+              "imageLink": "https://goo.gl/maps/9ovS9sPtcHdmigWy5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Turkish pines** ([pinus brutia](https://en.wikipedia.org/wiki/Pinus_brutia)) are mainly found near the Mediterranean coast.",
+              "NOTE: Turkish pines can appear very similar to [Aleppo pines](https://en.wikipedia.org/wiki/Pinus_halepensis), which are uncommon in Turkey, but are often found in [other Mediterranean countries](https://www.google.com/maps/@41.0385689,0.4753459,3a,48.5y,144.08h,92.16t/data=!3m6!1e1!3m4!1shQfy4LKJz9mGqNx8fa89MA!2e0!7i13312!8i6656?entry=ttu)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_rizetea.png",
+              "imageLink": "https://goo.gl/maps/QZpfT8iBvzxonRwu6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Tea plantations** are common in the province of Rize."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_olives.png",
+              "imageLink": "https://goo.gl/maps/sZnqtdNofT1jUjXc9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Olive trees** are mainly found on the Mediterranean coast."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_sunflowers.png",
+              "imageLink": "https://www.google.com/maps/@40.1570685,34.6725306,3a,47.7y,268.05h,80.12t,0.12r/data=!3m6!1e1!3m4!1s8JwvYfrDtSsWI3zM6RnQlw!2e0!7i16384!8i8192?entry=ttu",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Sunflowers** are mainly found in northwestern Turkey."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_wine.png",
+              "imageLink": "https://goo.gl/maps/MSDrzGXe7RLViLLa8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A majority of all **vineyards** in Turkey can be found in a region east of Izmir."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_cotton.png",
+              "imageLink": "https://goo.gl/maps/H4awdN1QhhCmXmao6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Cotton** is mainly found in the region surrounding the city of \u015eanl\u0131urfa."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_lakevan.png",
+              "imageLink": "https://goo.gl/maps/cEKtbAFE1eEu9qmx9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lake Van is by far the biggest lake in Turkey and has a semi-arid landscape, being surrounded by dry grassy hills and occasional trees and [agricultural fields](https://goo.gl/maps/LCwckUWMg8zV8yrX7) near the shore."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_blackstones.png",
+              "imageLink": "https://goo.gl/maps/KBat19kwZeAmfeEAA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Dark, **volcanic rocks** are commonly found between the cities of \u015eanl\u0131urfa and Diyarbak\u0131r."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_aridrockyvalleys.png",
+              "imageLink": "https://goo.gl/maps/LpZkGx243n5obPmF9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "River valleys surrounded by steep, **barren and rocky cliff sides** can be found between the cities of Erzurum and Artvin and in the [southeast](https://goo.gl/maps/zDhSPCWVAnGq3Ms18) near the city of Hakk\u00e2ri."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_tiledroofs.png",
+              "imageLink": "https://goo.gl/maps/M1fFRrJ1wT7CMqcj6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Tiled roofs** are mostly found in the western two thirds of the country.",
+              "Note that for this and the following roof-related tips to be reliable, the majority of all visible roofs should preferably be of that type."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_flatroofs.png",
+              "imageLink": "https://goo.gl/maps/YtLZLBGAdaPt8nda7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Flat roofs** are mostly found in the southeast and to a lesser extent along the south coast."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_metalroofs.png",
+              "imageLink": "https://goo.gl/maps/RyUM1gqESkYEDiMC8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Metal roofs** are most common in the east."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_pyramidmetalroof.png",
+              "imageLink": "https://goo.gl/maps/3WiR6NCdykeqLtRh7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Sheet metal roofs shaped like **low pyramids** are mainly found far east, particularly in the general area surrounding Lake Van."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_nevsehirbrick.png",
+              "imageLink": "https://goo.gl/maps/f8ccBYkMocaG3YTd6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Many buildings in the Nev\u015fehir Province are built by large, light and unevenly coloured, **sandstone bricks**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_chevronyellowonblack.png",
+              "imageLink": "https://goo.gl/maps/c53U4ydsoRYVxGhk9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Yellow on black chevrons** are mainly found in and around the Bal\u0131kesir Province in the west and in the [Kars Province](https://www.google.com/maps/@40.7194663,43.1857553,3a,15y,58.93h,86.15t/data=!3m6!1e1!3m4!1scyws6VGByT2Y02WeHnA4dw!2e0!7i16384!8i8192?entry=ttu) in the far east. Beware that you may very rarely find them [elsewhere](https://goo.gl/maps/bQYsRcd5eqHj3x1h7)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_chevronblackonyellow.png",
+              "imageLink": "https://goo.gl/maps/dnVaEoQ2WCfTGuZD6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Black on yellow chevrons** are mainly found north of Izmir."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_eastdivider.png",
+              "imageLink": "https://goo.gl/maps/vgE5NejjjYyc8UR29",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Four-lane divided highways with **no divider**, other than double middle road lines, are almost exclusively found in the eastern half of the country.",
+              "Beware that divided highways with [clear dividers](https://goo.gl/maps/SLzhkGpReMShmtDt9), such as guardrails, can still be found in the east."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_watertankvertical.png",
+              "imageLink": "https://goo.gl/maps/9VnQL1ZgJ5vAUyq69",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Vertical water tanks** can be found in most of Turkey, but are notably uncommon along the south and west coast."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_watertankhorizontalvertical.png",
+              "imageLink": "https://goo.gl/maps/yswVLscbSMSot5sT6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Horizontal water tanks placed **on top of** vertical water tanks are primarily found in a line following the south coast and going up to El\u00e2z\u0131\u011f."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_watertanksquare.png",
+              "imageLink": "https://goo.gl/maps/uzbmLqiAu5y7VSJy9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Square water tanks** with angled corners are found in the south, approximately from \u0130skenderun to Sanliurfa."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_watertanksphere.png",
+              "imageLink": "https://maps.app.goo.gl/vN2VozWbCXPbUvUPA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "White **spherical water tanks** can be found in the southeast, mainly south of Batman."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/Turkey European Pole Plates.png",
+              "imageLink": "https://maps.app.goo.gl/gL2TRPecD7ggyqjj7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "In the European part of Turkey, except Istanbul, utility poles, and other electrical infrastructure, will have a 6 digit code, which is often seen on a small pole plate under the yellow electricity warning plate."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_ankarastreetsign.png",
+              "imageLink": "https://goo.gl/maps/LuJK3ANtPMW1kxwx9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Street signs in the Ankara Province are blue with a small **round top**. Similar street signs can very rarely be found in [Giresun](https://goo.gl/maps/aVtMnDJsqJ1ms4jf6).",
+              "Beware that some [newer street signs](https://www.google.com/maps/@39.9941773,32.8704415,3a,15y,27.52h,88.69t/data=!3m7!1e1!3m5!1sHNDiTJyKaZv36GFlgPI6wg!2e0!5s20221101T000000!7i16384!8i8192?entry=ttu) are red."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_izmirstreetsign.png",
+              "imageLink": "https://goo.gl/maps/S1toMRrMMXXkA4iC6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Street signs in the Izmir Province are dark blue, noticeably **bulge outwards** and very commonly have the **emblem** of Izmir in white at the top of the sign."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_greenhouses.png",
+              "imageLink": "https://goo.gl/maps/5epDcoP5q6JLsdwD6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "If you find yourself surrounded by **greenhouses**, you are likely to be along the south coast west of Adana."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_greekarchitecture.png",
+              "imageLink": "https://goo.gl/maps/sTp8L4cY2wKvk3CK9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Around the city of Bodrum you will commonly find this type of **whitewashed buildings** with flat roofs, often combined with [blue details](https://goo.gl/maps/jcmMEtAFzgkLEf466) or [unpainted stone walls](https://goo.gl/maps/GvWo5wWdFEorZkaP8)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_g_C3_B6reme.png",
+              "imageLink": "https://goo.gl/maps/ucRqWEjyw7twJSVa9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "G\u00f6reme, west of Kayseri, can be recognised by the tall **sandstone monoliths** with ancient dwellings carved into them."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_mountararat.png",
+              "imageLink": "https://goo.gl/maps/NFxmbn1T6tfaVHZW7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "[Mount Ararat](https://en.wikipedia.org/wiki/Mount_Ararat), labelled as A\u011fr\u0131 Da\u011f\u0131 on Google Maps, is a dormant volcano in far eastern Turkey and the **tallest mountain** in the country. It is often seen together with K\u00fc\u00e7\u00fck A\u011fr\u0131, a smaller volcano to the southeast."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_banana.png",
+              "imageLink": "https://goo.gl/maps/CEzMawbJt4z1xQRG9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Banana plants** are found around the city of Alanya."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_e99.png",
+              "imageLink": "https://goo.gl/maps/1gZeqihSjJw4qrxy5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Road E99 south of \u015eanl\u0131urfa is a divided highway which can be recognised by the slightly hazy Generation 4 sunrise coverage combined with the flat agricultural landscape and general south-north road angle."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_d525.png",
+              "imageLink": "https://goo.gl/maps/yRjxXvLUnmBtDhwA8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Road D525 south of S\u00f6ke is a completely straight road going south-south-west to north-north-east with winter Generation 3 coverage. Along the road you will typically find a large amount of reed."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_lakebeysehir.png",
+              "imageLink": "https://goo.gl/maps/NHzpaqhFs9g1JHSj6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Along the western shore of Lake Bey\u015fehir and [Lake E\u011firdir](https://goo.gl/maps/9R4Hc6UMzMLLTn7g6) you can find this small single lane road with jagged, exposed rock and [Turkish pines](https://en.m.wikipedia.org/wiki/Pinus_brutia) to the west. These two can be differentiated by the road west of Lake E\u011firdir having a middle road line."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_bozcaadasign.png",
+              "imageLink": "https://goo.gl/maps/X6WmZLDEPY6esYT16",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These light blue and grey **touristic signs** which are either arrow shaped or rectangular with a half circle on the top can be found on the island of Bozcaada."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_streetsignistanbul.png",
+              "imageLink": "https://goo.gl/maps/zTReodSx4dEU2Hhz5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Red street signs with a coloured bottom strip are found in several cities. In the bottom right corner, you can find a white arrow and some numbers. If this arrow is pointing in **both directions** and has a **single arrowhead**, rather than [double](https://goo.gl/maps/Fd5tuzksA3NY8YsF7), then you are almost certainly in Istanbul.",
+              "Beware that simple arrows pointing in only one direction can be found in both [Istanbul](https://goo.gl/maps/6uFmLFqcEn2bT7vL9) and in [other cities](https://goo.gl/maps/BBU6aeQ2BoBN38YH8). However, if you see such signs in combination with [red house numbers](https://goo.gl/maps/kjNkwByQZ7rNaQXdA), then you should be in Istanbul."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_streetsigntrabzon.png",
+              "imageLink": "https://goo.gl/maps/r3tSKDy4QtLFoBqq9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Street signs in Trabzon and [Yalva\u00e7](https://goo.gl/maps/vZmpbacvJeyzbMWc9) are **red** and **oval-shaped**. [House numbers](https://goo.gl/maps/96X34Wg24K87jPG4A) also feature the same design."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_streetsignbursa.png",
+              "imageLink": "https://goo.gl/maps/pJ5WsrmSv7RBVxp47",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Street signs in Bursa are **green**, and generally have slightly **extruded letters**, meaning the signs are not completely flat.",
+              "NOTE: Several other types of infrastructure in Bursa, such as [fences](https://goo.gl/maps/EHzDyAUKLCQySbyB7) and [guardrails](https://goo.gl/maps/nF72j1rxibsT8weR8), may also be coloured green."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/turkey/tr_streetsignbolu.png",
+              "imageLink": "https://goo.gl/maps/J5bS9QhXiWqXWPEQA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Street signs in Bolu are also **green**, but are **completely flat** and lack any kind of border."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends the following maps instead:",
+        "- **AI Generated T\u00fcrkiye** ([map link](https://www.geoguessr.com/maps/65f033d3d34dd58742aaffc1)) - 60k+ AI-generated locations made by members of the Turkish Geoguessr community.",
+        "- **A Balanced Turkey** ([map link](https://www.geoguessr.com/maps/61fb2314990720000141ecc9)) - 100k+ AI-generated locations balanced with coverage density and a reasonable urban-rural distribution in mind.",
+        "In addition, here are some resources to help you practise Turkey:",
+        "- **Plonk It Turkey **([map link](https://www.geoguessr.com/maps/6619e8f3073f663c21b40f44)) - This map contains locations for practising each meta in the Plonk It Turkey guide from step 2 to 3."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

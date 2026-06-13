@@ -1,0 +1,385 @@
+{
+  "_id": "colombia",
+  "createdAt": "2025-09-07T17:49:33.542Z",
+  "updatedAt": "2026-01-08T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Colombia",
+  "slug": "colombia",
+  "code": "CO",
+  "cat": [
+    "South America"
+  ],
+  "heroImage": "/images/colombia/62c54db4b5f82.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Colombia",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/colombia/transparent-co_summary_2026.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Colombia_License_Plate.png",
+              "imageLink": "/images/colombia/Colombia_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Colombian licence plates are typically **yellow**.",
+              "NOTE: Within South America, yellow licence plates are almost exclusively found in Colombia."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Copy_of_Copy_of_Copy_of_Untitled__284_29.png",
+              "imageLink": "https://goo.gl/maps/6vxG5xjQgxQTJWB5A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "In Generation 3 coverage, a **short thick antenna** is sometimes visible with a black, white or grey car. In Generation 4 coverage, a white or silver car is commonly found.",
+              "NOTE: Within the Americas, you can also find the antenna in Mexico, Ecuador and Brazil. However, Colombia is the only country with this antenna on a black Google car."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Copy_of_Copy_of_Copy_of_Copy_of_Untitled.png",
+              "imageLink": "https://goo.gl/maps/quL1ix9Bbcre16s58",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Signposts in Colombia are made of white metal, and join to form a distinct **cross on the back** of signs.",
+              "NOTE: White metal signposts can also be found in Brazil, however these are usually wider."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/kmmarker.png",
+              "imageLink": "https://goo.gl/maps/qy6TRUfGXfBRfb3v8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Colombia uses two types of kilometre markers: a tall green version with the letters \u201c**Pr**\u201d at the top, and the traditional stone marker with black lettering. Both designs are unique to the country.",
+              "NOTE: The first two digits at the bottom indicate the road number. In this case, the road number is 90. The last two digits indicate the section of the road, which increase west to east on even numbered highways, and south to north on odd numbered highways.You can use this [resource](https://es.wikipedia.org/wiki/Anexo:Carreteras_nacionales_de_Colombia) to help identify each section."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Copy_of_Copy_of_Copy_of_Copy_of_Untitled__282_29.png",
+              "imageLink": "https://goo.gl/maps/f6xU7TE71fKNnjMG6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Colombian poles are often marked with unique **black-and-yellow** or black-and-orange stripes."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/woodenfence.png",
+              "imageLink": "https://goo.gl/maps/oB9sZXHmJhqyHGXh6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Wooden fences** are particularly common in Colombia.",
+              "NOTE: In addition to the unpainted variants, some fence posts are [painted and sharp](https://maps.app.goo.gl/z7gpBcspK4rCWeep8) at the top. These are almost exclusive to Colombia."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Copy_of_Copy_of_Copy_of_Copy_of_Untitled__284_29.png",
+              "imageLink": "https://goo.gl/maps/TiauQC83drNVz6e97",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Colombian taxis are always this **pastel yellow** colour. As opposed to private vehicles, they have white licence plates, which are often printed on the side and roof. If unblurred, you will often see the city name.",
+              "NOTE: Ecuadorian taxis may look similar. However, they use a slightly more saturated yellow and typically have orange plates."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Untitled.png",
+              "imageLink": "https://goo.gl/maps/EzxRLX3tdcESYNa68",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Colombian poles are generally **concrete** with a variety of pole tops.",
+              "Moreover, dark-coloured poles are more common in Colombia than in neighbouring countries.",
+              "NOTE: It is the only country in the Americas, apart from Mexico and Ecuador, where octagonal poles can be found."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/import.png",
+              "imageLink": "https://goo.gl/maps/UbRQP5x6anqz9cTH8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "In Colombia, it is particularly common for sidewalks to be decorated with **reddish tiles**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional and province-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/co_verage.png",
+              "imageLink": "/images/colombia/co_verage.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Coverage in Colombia is mainly found in the **north and west**. The islands of Providencia and San Andr\u00e9s, northwest of the mainland, also have coverage."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Landscape_-_Northern_Arid.png",
+              "imageLink": "https://goo.gl/maps/ZnfrcBF2E66y58aR7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Northern part of the country is characterised by **white, sandy soil** and an arid landscape."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Landscape_-_Llanos_Lowland.png",
+              "imageLink": "https://goo.gl/maps/uRahVTtZu8QSFaGD6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "East of the Andes lies a **vast lowland** called Llanos. It is characterised by open tropical grasslands, savannas with scattered trees, small areas of forest and seasonal flooding."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Colombia_Antiqoia_pole_meta.png",
+              "imageLink": "https://goo.gl/maps/uDrKpM9a6hvCh1P16",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These pole markings with one short black strip on the top and bottom, and a **longer yellow section** in the middle, are most commonly found in the Antioquia department. Sometimes, you can find them in the Cordoba department as well."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Pacific_Coast_Nationality.png",
+              "imageLink": "https://goo.gl/maps/YNArY332vexcW8716",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "As a result of slave trade, the Pacific coast of Colombia is home to an overwhelming majority of **Afro-Colombians**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/cauca_valley_sugarcane_3.png",
+              "imageLink": "https://maps.app.goo.gl/WdbFcDVhUMcDvxFx9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Sugar cane** is grown along the Cauca river in Valle del Cauca and neighbouring departments."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/ColombiaGlitchHint.png",
+              "imageLink": "https://maps.app.goo.gl/yJouPrSBhM5cUgTq7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A camera glitch that makes a part of the image look very saturated can be found in southern Colombia."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/North_Road_Colo.png",
+              "imageLink": "https://maps.app.goo.gl/vTWUmbH89gmEQna18",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This landscape is typical of the far Northern province of La Guajira: **extreme dryness**, low vegetation and occasional cacti.",
+              "In addition, you can often recognise the Uribia-Puerto Bolivar road because of this landscape, the straightness and the train track always present to the East."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Ruta_90_Landbridge.png",
+              "imageLink": "https://goo.gl/maps/UCDNjoJVb5r8dSBr8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can recognise the narrow Ruta 90 landbridge between Barranquilla and Cienaga thanks to the dashed yellow lines and **shallow bodies of water** next to the road. [Open ocean](https://maps.app.goo.gl/xp7rvZ2T77oh1Cbu7) can often be seen to the north.",
+              "NOTE: In the older Generation 3 coverage, you will also see tall mountains in the distance."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/mojones.png",
+              "imageLink": "https://maps.app.goo.gl/rhgLD3G3sRApoxXQ9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Intersections in the coastal city of Barranquilla are commonly marked by **small concrete poles** (_mojones_) bearing street names. For example, this image was taken at the intersection of Carrera 42 and Calle 68."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Leticia_Vehicle.png",
+              "imageLink": "https://goo.gl/maps/YRyoyZuYYSkPSM1K7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **unique vehicle** can be found in and around Leticia, the Southernmost town in Colombia.",
+              "NOTE: The long concrete blocks seen in the bottom left corner are a reliable way of recognising the road North of Leticia."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/San_Andres_Google_Car.png",
+              "imageLink": "https://goo.gl/maps/1Zj8q8mWVAbXjGC2A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Coverage on the Caribbean island of San Andr\u00e9s was taken by this distinct **white car**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Providencia_Google_Car.png",
+              "imageLink": "https://goo.gl/maps/x9FEssa7TdBLDzeW8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The island of Providencia, located roughly 90 kilometres North of San Andr\u00e9s, is home to this unique **grey truck**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/colombia/Providencia_Street_Lights.png",
+              "imageLink": "https://goo.gl/maps/wv3unAHT6pYzKioz5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Providencia **street lights** are green and supported by a trapezoidal sheet of metal underneath.",
+              "NOTE: The uniquely shaped [supporting metal](https://www.google.com/maps/@10.9825784,-74.7938269,3a,15.1y,9.87h,107.69t/data=!3m7!1e1!3m5!1sT2K_vf3jLCcKNBdRfnFTbA!2e0!5s20221001T000000!7i16384!8i8192?entry=ttu) piece can also be found in Barranquilla."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

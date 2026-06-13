@@ -1,0 +1,546 @@
+{
+  "_id": "rwanda",
+  "createdAt": "2025-09-18T20:49:05.674Z",
+  "updatedAt": "2025-10-21T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Rwanda",
+  "slug": "rwanda",
+  "code": "RW",
+  "cat": [
+    "Africa"
+  ],
+  "heroImage": "/images/rwanda/210412165426-kigali-rwanda.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Rwanda",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/rwanda/0_summary_rwanda.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwanda_License_Plate.png",
+              "imageLink": "/images/rwanda/Rwanda_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Rwanda uses long **white front** and **yellow back** licence plates."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/RwandanTrio.png",
+              "imageLink": "https://goo.gl/maps/seZVUgccfCWdmDDk7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All the coverage in Rwanda is made with a Generation 4 camera. In most of the coverage, the Google car is entirely visible: it is a big **white, black, **or **brown pickup truck**. The camera mount is visible."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Big_blur.png",
+              "imageLink": "https://maps.app.goo.gl/B3wq9HweTJEii1pG8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Occasionally, the Google car will be covered entirely by a **big blur**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Hazy_sky.png",
+              "imageLink": "https://goo.gl/maps/hX9fjJ12EmcFTcz56",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The coverage has a noticeable **hazy tint** to it, which is especially apparent in the sky.",
+              "NOTE: In Africa, similar hazy Generation 4 coverage is common in Senegal."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwanda_Architecture.png",
+              "imageLink": "https://maps.app.goo.gl/KQG8ihg2rehSPasG8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Rwandan architecture features a lot of brick and concrete. Most houses in Rwanda are single family houses, which can have rather steep roofs. Houses also often have fences for protection. The most notable feature of Rwandan architecture are the \u2018[ventilation bricks](https://maps.app.goo.gl/tFoLkC6fLrWChAwQ8),\u2019 which are present in many houses."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/rw_hills.png",
+              "imageLink": "https://goo.gl/maps/WX7MpZGdAWGawsqy8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Rwanda is generally quite **hilly**, but not very mountainous."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwandan_Soil.png",
+              "imageLink": "https://goo.gl/maps/gbzPuri7vRJkiagbA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most of the soil in Rwanda has a noticeable red tint to it."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwandan_bananas.png",
+              "imageLink": "https://maps.app.goo.gl/pf4mLdKzRWrKCcv96",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Banana plants are common throughout Rwanda."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwandan_Bollards.png",
+              "imageLink": "https://goo.gl/maps/5MdC1wVQaF4pqS9y5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Rwanda uses multiple different **red** and **white** **cylindrical** bollards."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwanda_Waystones.png",
+              "imageLink": "https://maps.app.goo.gl/vDyTReJJbcLtNTf7A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Rwanda uses various different styles of white concrete waystones."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Clean_streets.png",
+              "imageLink": "https://goo.gl/maps/CJPhQkbQuiDrtUPn6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Streets in Rwanda are noticeably very **clean** and free of garbage."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Kerbs.png",
+              "imageLink": "https://goo.gl/maps/WycbsHZUDD5q3nFt7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Kerbs are often painted with **black and white** stripes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Fences2.png",
+              "imageLink": "https://goo.gl/maps/q5Xv4xi6cunJK86u9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Villa neighbourhoods often have a lot of tall **security fences and walls**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Driving_right.png",
+              "imageLink": "https://goo.gl/maps/tbZ9ZSvbU7j8yY2t7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Rwanda drives on the **right**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Red_motorcycle_vests.png",
+              "imageLink": "https://goo.gl/maps/ciq4R8Po2TLcNrD7A",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All motorcyclists in Rwanda are required to wear **red vests and helmets**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwanda_Coverge_map.jpg",
+              "imageLink": "/images/rwanda/Rwanda_Coverge_map.jpg",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Rwanda has **quite limited coverage**: street view is limited to Kigali, and a couple of other patches elsewhere in Rwanda.",
+              "NOTE: Coverage is being sporadically released, so click the link below to view an up-to-date map.",
+              "_You can check out the coverage in detail on [this site](https://sv-map.netlify.app#base=roadmap&cov=official&zoom=10&center=-1.9256780081968785%2C30.20828247070313)._"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwanda_Signs_copy.png",
+              "imageLink": "/images/rwanda/Rwanda_Signs_copy.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Street names often have a two-letter code, which tells you the district you are in."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwanda_Road_Lamps_Infographic.png",
+              "imageLink": "/images/rwanda/Rwanda_Road_Lamps_Infographic.png",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lamps are fairly consistent on National Roads in Rwanda, but other designs can be sometimes found on some sections.",
+              "- Roads marked in green mainly use lamps, with lamp arms that have a [slight curve](https://maps.app.goo.gl/oatgzfoVkRCh6UfJ7) near the end and extend past the lamppost.",
+              "- Roads marked as red have lamps with [shorter arms](https://maps.app.goo.gl/B9E1RXDR4ZUonFjs6) and a sharper bend near the top of the lamppost.",
+              "- Roads marked with blue use lamps with a longer arm that curves for the [entire length](https://maps.app.goo.gl/t21vjYtX5t6ndqHz7).",
+              "- Grey roads rarely have lamps."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/NR_Pole_paintings.png",
+              "imageLink": "https://maps.app.goo.gl/TWXnvD4ycKzex6XC8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Lampposts along many national roads will have the road number painted in black letters. Below that, you will find the lamp number, which generally, but not always, increases the further from Kigali you get."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwanda_Black_Car_map.png",
+              "imageLink": "https://goo.gl/maps/5SjQnL356DrKjN9g8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **black **pickup truck can be found in most of **Kigali**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/RW_tea_plantations.png",
+              "imageLink": "https://goo.gl/maps/aAdzZnGza8TpogbF7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Tea plantations **are common in Western Rwanda, and a couple other pockets."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwanda_NorthEast_Hint.png",
+              "imageLink": "https://maps.app.goo.gl/96duijq1j6WHLQAq9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Northeastern Rwanda has less extreme elevation compared to the rest of Rwanda. It more so consists of rolling hills and open agricultural land or undeveloped grassland."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Volcanoes_Hint_fix.png",
+              "imageLink": "https://goo.gl/maps/yMBXHuVJYtoaML5e9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Volcanoes **and **volcanic rocks **can be seen in northwestern Rwanda."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwanda_National_Park_Hint.png",
+              "imageLink": "https://maps.app.goo.gl/oDMq8e3EqRgLQZjA7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Akagera national park features a very **vegetated **yet **dry **landscape with wide unpaved roads that are reddish-brown in colour.",
+              "You can also find these rectangular [waystones](https://www.google.com/maps/@-1.9022489,30.722706,2a,20y,181.31h,78.8t/data=!3m7!1e1!3m5!1sB9e29rgnkACmiNgJg_aagQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fw%3D900%26h%3D600%26panoid%3DB9e29rgnkACmiNgJg_aagQ%26cb_client%3Dmaps_sv.share%26yaw%3D182.35496720275722%26pitch%3D10.959278061715409%26thumbfov%3D18!7i16384!8i8192?coh=205409&entry=ttu) at intersections.",
+              "This coverage was taken with the **brown **Google car.",
+              "NOTE: There is some coverage on the [paved section](https://www.google.com/maps/@-1.8994956,30.6816537,2a,75y,17.57h,83.7t/data=!3m7!1e1!3m5!1sTssJn2-WhW4H8e6A7POLGQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DTssJn2-WhW4H8e6A7POLGQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D25.209553%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu) south of the national park."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Nn3Yn7v.png",
+              "imageLink": "https://maps.app.goo.gl/WFzWoAAed4grQGNF8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Around Cyangugu, the Google car is often exceptionally dirty.",
+              "NOTE: This is not a 100% meta, but something to take into consideration."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Nyungwe_Forest_National_Park_hint.png",
+              "imageLink": "https://goo.gl/maps/5pk2yQnTb2ZCx74f9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The Nyungwe Forest National Park goes through a **lush** and **hilly **landscape, which has 2 distinct covered roads; The yellow NR10 is paved, with roadlines. **French style bollards** and** green lamp posts** can be seen on the sides of the road. The[ white NR26](https://maps.app.goo.gl/DgoieDsNnmxKfitRA) going south is mostly paved, except for the [southernmost section](https://maps.app.goo.gl/xRs6onjfXYSi7hZS6). No roadlines are present.",
+              "This coverage was taken with the **brown **Google car."
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/mNP1Xna.png",
+              "imageLink": "https://maps.app.goo.gl/cew4jVvJAYJMeXEo6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On the NR10 between Butare and Mont Gabegi, there are two small specks on the bottom left side of the Google car roof."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/NR11_White_Lines.png",
+              "imageLink": "https://maps.app.goo.gl/tTkNGTBJNG4KAf6fA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The NR11 north of Mabanza uses **all white road lines**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/NR15_No_Lines.png",
+              "imageLink": "https://maps.app.goo.gl/Y3y44sSa4hGEaTX26",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The section of NR15 from Muhanga till the Western Province border has very **poor pavement**, with a lot of potholes and a lack of road lines."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/NR15_Unpaved.png",
+              "imageLink": "https://maps.app.goo.gl/stMBdvzjha6vokzw7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The section of NR15 from the Western Province border to [this point](https://maps.app.goo.gl/g4dL5u31ULbJrdXw9) is under construction, with no pavement at the moment; making it the only covered National Road to be unpaved for this long. Also, most of the road hugs a steep cliffside made of red dirt.",
+              "NOTE: Non-national roads are often unpaved, but they are usually not as wide, and have more stuff going on around them."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/NR16_Dashes.png",
+              "imageLink": "https://maps.app.goo.gl/PafdZEXjivDXHhQn6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The NR16 is the only road that predominantly uses **dashed **outer white lines.",
+              "NOTE: Dashes are also used to indicate intersections elsewhere."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Rwanda_River.png",
+              "imageLink": "https://maps.app.goo.gl/KJr8k9PwGWTDxgYV9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A wide river can be seen along the northeastern border of Kigali City."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/rw_villasuburb.png",
+              "imageLink": "https://goo.gl/maps/gAjq1ucPiKnNmvhT7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Much of the Kigali coverage is in the richer neighbourhoods. You will see a lot of **luxury villas**."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/rwanda/Cobblestone_hint.png",
+              "imageLink": "https://goo.gl/maps/nKdtaHx2GqdGdUKKA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Many roads in **Butare** feature **cobblestone pavement**."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "map",
+      "title": "Maps and resources",
+      "text": [
+        "GeoGuessr\u2019s own official maps are not very good, for a variety of reasons. Plonk It recommends you play these maps instead:",
+        "- **A Balanced Rwanda **([map link](https://www.geoguessr.com/maps/65832452fd6dcafd52b68b1a)) - A well balanced, computer generated map of Rwanda with 5000 locations.",
+        "- **IntersectionGuessr - Rwanda** ([map link](https://www.geoguessr.com/maps/629135cc9f28f66570f68cc9)) - Where two roads, of any size, meet. This computer generated map has 10k+ locations distributed across Rwanda.",
+        "In addition, here are some resources to help you practise Rwanda:",
+        "- **Plonk It Rwanda **([map link](https://www.geoguessr.com/maps/66b27958f674cd6d7fc05eed)) - This map contains locations for practising each meta in the Plonk It Rwanda guide from step 2 to 3."
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

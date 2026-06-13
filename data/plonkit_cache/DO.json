@@ -1,0 +1,237 @@
+{
+  "_id": "dominican-republic",
+  "createdAt": "2025-09-07T20:34:07.242Z",
+  "updatedAt": "2024-08-06T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Dominican Republic",
+  "slug": "dominican-republic",
+  "code": "DO",
+  "cat": [
+    "North America"
+  ],
+  "heroImage": "/images/dominican-republic/import.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying the Dominican Republic",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/dominican-republic/0_Copy_of_Copy_of_Infographic__281_29.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/googlecar.png",
+              "imageLink": "https://goo.gl/maps/Hjv6G6xFYJm1F38i6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "This unique car was used for all street view coverage in the Dominican Republic. It can be recognized by the two metal bars, the **thick black stripes** on them, as well as the white hood visible at the front.",
+              "NOTE: These stripes can also be found on one of the Mongolian cars, but the landscape should allow you to tell them apart.",
+              "Within the Americas, you will also see metal bars in Guatemala and Cura\u00e7ao. However, they will not have thick black stripes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Small_Pin__282_29.png",
+              "imageLink": "https://goo.gl/maps/SQEAakBLur4gNuZZ7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most electricity poles are **square and concrete**, with a reverse \u201cL\u201d shape at the top. Less commonly, round or octagonal poles are used.",
+              "NOTE: Within the Americas, only the Dominican Republic, Puerto Rico and Uruguay use square poles."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/Dominican_Republic_License_Plate.png",
+              "imageLink": "/images/dominican-republic/Dominican_Republic_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "DR licence plates are somewhat reminiscent of New Jersey plates, being pale **yellow **at the top and **white **at the bottom.",
+              "NOTE: The Dominican Republic is the only part of Latin America, apart from Puerto Rico and Panama, where front plates are not required."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/smoothasphalt.png",
+              "imageLink": "https://goo.gl/maps/txni2UJ7bVuCJctr5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Roads in the Dominican Republic are often made of this **smooth** **asphalt**, which has a noticeably darker colour than in other countries."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/pare.png",
+              "imageLink": "https://goo.gl/maps/KVQoyruq4fBBNfW38",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Despite being located in Central America, stop signs in DR contain the South American \u201cPARE\u201d. Moreover, many signs are attached to **yellow signposts**.",
+              "NOTE: \u2018PARE\u2019 is also used in all of South America as well as Puerto Rico."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional and province-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/do_coveragemap.png",
+              "imageLink": "/images/dominican-republic/do_coveragemap.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Street View coverage in the Dominican Republic is **very limited**. Only the capital Santo Domingo and the Northern city of Santiago de los Caballeros are covered."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/Landscape_-_Santiago_de_los_Caballeros_Mountains.png",
+              "imageLink": "https://goo.gl/maps/ZDTemdpYaKZamUuT8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "If you have **mountains to the North**, you will always be in Santiago de los Caballeros.",
+              "NOTE: Although some parts of Santo Domingo are hilly, you will never see proper mountains like this one."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/Santiago_de_los_Caballeros_Traffic_Light_Poles.png",
+              "imageLink": "https://goo.gl/maps/WWsdZLcU1gcUNKVp8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "**Yellow traffic light poles** are typically found in the city of Santiago de los Caballeros.",
+              "NOTE: This only applies to traffic light poles - yellow signposts are common in both cities."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/Santo_Domingo_Developed.png",
+              "imageLink": "https://goo.gl/maps/Xhw5DminYNufNY5D9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "As the capital and largest city, Santo Domingo has a **more developed downtown **area, with tall buildings and wide avenues."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/Santo_Domingo_ADN_Signs.png",
+              "imageLink": "https://goo.gl/maps/4z9My5JuKB6Gmej58",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Street name signs in Santo Domingo often contain the letters **\u201cADN\u201d**, a reference to the Distrito Nacional, which the city is located in."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/Santo_Domingo_Striped_Poles.png",
+              "imageLink": "https://goo.gl/maps/sAnUmdxxFtji8Yss5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "These **black-and-purple **pole markings are only found on poles in the Santo Domingo area."
+            ]
+          },
+          "tags": [
+            "pole"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/Landscape_-_Santo_Domingo_Outskirts.png",
+              "imageLink": "https://goo.gl/maps/ZceTAoDBd4PGPf5g8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This type of landscape is found on the outskirts of Santo Domingo. It is characterised by narrow dirt tracks, whitish dirt, **dried green shrubbery** and debris next to the road."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/dominican-republic/Santo_Domingo_Evening_Coverage.png",
+              "imageLink": "https://goo.gl/maps/4yninj7pG32kGhHF8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A small portion of the coverage in Santo Domingo was taken **late in the evening**. Similar imagery does not exist in Santiago de los Caballeros."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

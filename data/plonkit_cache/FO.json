@@ -1,0 +1,318 @@
+{
+  "_id": "faroe-islands",
+  "createdAt": "2025-09-07T22:25:33.213Z",
+  "updatedAt": "2026-04-19T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Faroe Islands",
+  "slug": "faroe-islands",
+  "code": "FO",
+  "cat": [
+    "Europe"
+  ],
+  "heroImage": "/images/faroe-islands/fo_banner.png",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying the Faroe Islands",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/faroe-islands/0_Faroes_Summary_Graphic.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo1.png",
+              "imageLink": "https://maps.app.goo.gl/yJgedAcAa7M8S6776",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The landscape of the Faroe islands is characterised by long, wide fjords with jagged **green mountains** that rise straight out of the water, with rocky ridge lines along the mountainsides. The mountains generally look more imposing and greener than coastal mountains in Iceland, which can often be used to tell them apart."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo2.png",
+              "imageLink": "https://maps.app.goo.gl/VsGLuv6N9s48eGXs5",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Faroe islands have **almost** **no naturally growing** trees."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo3.png",
+              "imageLink": "https://maps.app.goo.gl/1eKxvDDQQhzXjptN9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The generation 4 coverage was captured with a black pickup truck with an antenna on the front. The truck is always blurred.",
+              "NOTE: The truck in Iceland does not have a similar antenna."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo_car.png",
+              "imageLink": "https://www.google.com/maps/@62.1263803,-7.1502977,3a,90y,47.79h,1t,0.03r/data=!3m6!1e1!3m4!1spl6iJDOChAPZlBUaQVpjrA!2e0!7i13312!8i6656?entry=ttu",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "All Generation 3 car coverage on the Faroe Islands has a black Street View car with a **plain grey roof rack**.",
+              "NOTE: No other country with a similar landscape has a car similar to this."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo4.png",
+              "imageLink": "https://maps.app.goo.gl/BRy5Zajz4xvguY1JA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Faroese houses are typically made of wood, often with an **above ground basement** made of stone which is painted in a different colour than the wooden part. Roofs will usually be either metal or have **grass on top** (turf)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo_language.png",
+              "imageLink": "/images/faroe-islands/fo_language.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Faroese language is most closely related to Icelandic, with the special letters \u00c1, \u00d0, \u00cd, \u00d3, \u00da, \u00dd, \u00c6 and \u00d8. It differs from Icelandic by using the letter **\u00d8**, while Icelandic uses \u00c9 and \u00de."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo5.png",
+              "imageLink": "https://maps.app.goo.gl/cgLELfjmtknkuqkG9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Faroese bollards are small wooden sticks that are mainly painted **yellow **and sometimes** red on the top. **"
+            ]
+          },
+          "tags": [
+            "bollard"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo_reflector.png",
+              "imageLink": "https://maps.app.goo.gl/T2PyUA23pBSSvLxJ8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Guardrails on the Faroes have yellow reflectors.",
+              "NOTE: Yellow reflectors are not found on guardrails in any other northern European countries."
+            ]
+          },
+          "tags": [
+            "guardrail"
+          ]
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo6.png",
+              "imageLink": "https://maps.app.goo.gl/MEiaLhqP5oDASg6RA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Directional signs are **yellow** with a **thin black border** and a metal frame, very similar to the ones in [Iceland](https://maps.app.goo.gl/5HsMnQt8A7fSwKpo6)."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/Torshavn.png",
+              "imageLink": "https://maps.app.goo.gl/kHxQMDJRgW8oBnQU7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Torshavn is by far the **biggest town** on the islands, and the only place where you will find buildings taller than three floors. The landscape is somewhat open relative to the rest of the country, particularly to the east."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/Klaksvik.png",
+              "imageLink": "https://maps.app.goo.gl/95iqqnXXk6SKKuHB6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Klaksvik is the second biggest town in the country by a significant margin and can often be recognized by the **narrow fjord** with fairly steep hills going roughly north to south."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo_windparks.png",
+              "imageLink": "https://maps.app.goo.gl/yn9UKFLHavY74kyX8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "There are three **wind parks** visible on the Faroes. The largest one by far is northwest of Torshavn, while the other two are [northeast of Torshavn](https://goo.gl/maps/JzeesXJKHpeXHzXU9) and [east of Vestmanna](https://goo.gl/maps/mMy1JQsEthsYG5z18) respectively."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/Blackhouses_town_idk.png",
+              "imageLink": "https://maps.app.goo.gl/KxdUbt78rH1Tn2RM6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The village of Kirkjub\u00f8ur at the southern tip of the main island can be recognised by the **black houses**, almost all having **grass roofs**. The town also has a small [church ruin](https://goo.gl/maps/iKdyAK21o3jhrJFh7)."
+            ]
+          }
+        },
+        {
+          "kind": "divider",
+          "title": "Trekkers"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo_kolturtrekker.png",
+              "imageLink": "https://goo.gl/maps/4CtT1mXmhyHWUu7H7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The trekker on Koltur island can typically be recognized by the narrow and low **peninsula** on the southeastern tip of the island."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo_eidiskollur.png",
+              "imageLink": "https://goo.gl/maps/quC6FaeEm5x1VpkYA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The trekker on Ei\u00f0iskollur can be recognized by the extremely **low clouds** surrounding the peninsula."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo_hvannholmurtrekker.png",
+              "imageLink": "https://goo.gl/maps/DFZqSp5MKi97Eoh47",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The trekker west of Skopun can be recognised by the **wide strait** to the north with the main islands of the Faroes in the background."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo_klakkurtrekker.png",
+              "imageLink": "https://goo.gl/maps/Vj2fdB4GxwMabaKf9",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "There are two distinct **pyramid-shaped mountains** to the south of the trekker on Klakkur, with a very thin layer of snow on top."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo_gjogvtrekker.png",
+              "imageLink": "https://goo.gl/maps/NobERPV62GzBUwW77",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The trekker by Gj\u00f3gv features a view of the **village to the south** with snow covered mountains in the background."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/faroe-islands/fo_boat.png",
+              "imageLink": "https://goo.gl/maps/6k8Vid8vZH4za3bw7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "A **grey boat** featuring several people in **reflective clothes** and with the text \u201cRIB62\u201d can be seen going to Koltur island."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}

@@ -1,0 +1,461 @@
+{
+  "_id": "tunisia",
+  "createdAt": "2025-09-06T12:27:20.756Z",
+  "updatedAt": "2025-12-04T00:00:00.000Z",
+  "lastUpdatedBy": "",
+  "title": "Tunisia",
+  "slug": "tunisia",
+  "code": "TN",
+  "cat": [
+    "Africa"
+  ],
+  "heroImage": "/images/tunisia/Djerba_architecture_house.jpg",
+  "headerNotes": [],
+  "steps": [
+    {
+      "kind": "tip",
+      "title": "Identifying Tunisia",
+      "items": [
+        {
+          "kind": "centeredImage",
+          "imageUrl": "/images/tunisia/0_Copy_of_Copy_of_Basic_Summary_Graphic_285_29.png"
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia_License_Plate.png",
+              "imageLink": "/images/tunisia/Tunisia_License_Plate.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Tunisian licence plates are **black with white text**.",
+              "NOTE: Military plates feature a small Tunisian flag on the left side of the plate, which is visible on the dark green follow car."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/followcars.png",
+              "imageLink": "https://goo.gl/maps/thZSGfK31DS18U4J6",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "One of the best ways to recognize Tunisia is that, in most coverage, the Google car is escorted by a **follow car**.",
+              "There are several different follow cars and these are four of the most commonly found ones.",
+              "NOTE: Follow cars can be in front of the street view car, or very far behind. Make sure to pan and zoom if you do not find them immediately."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/googlecar.jpg",
+              "imageLink": "https://goo.gl/maps/skcpsz72nqLdwzrU8",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "The Google car in Tunisia is **black** with a medium-length, thin antenna.",
+              "NOTE: The colour of the car is not always perceptible. Make sure to look around for other more helpful clues."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia_landscapes2.png",
+              "imageLink": "https://goo.gl/maps/yQgroSR5eL3YjW4DA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Tunisia has Mediterranean, dry and semidesert climates.",
+              "NOTE: In the second step, you will find more about region specific climate and landscape."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/oliveplantations.jpg",
+              "imageLink": "https://goo.gl/maps/mRG4SkRu3NFCshi56",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "These **olive tree plantations** can often be found along roads. They consist of nicely arranged rows of olive trees on an often raked, weedless soil."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/2022-12-02.png",
+              "imageLink": "https://goo.gl/maps/hQ1CneNc3KVJLCvz9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Tunisia usually has white road lines. Outer road lines can be dashed or solid.",
+              "NOTE: A few roads in Sfax have [yellow middle lines](https://goo.gl/maps/VWruqg6L6z9bPFxU6)."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia_language_tips.png",
+              "imageLink": "/images/tunisia/Tunisia_language_tips.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "In Tunisia, both **French and Arabic** are common. The Arabic script can be identified by its lines and dots. You can often see [bilingual signs](https://goo.gl/maps/gS1SqVNEC2RM3KPq8).",
+              "NOTE: The UAE and (more rarely) Jordan use English and Arabic."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/directionalsigns.png",
+              "imageLink": "https://goo.gl/maps/hQ1CneNc3KVJLCvz9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Most direction signs have a **white** background with towns listed in Arabic and Latin script. The font of the Latin script is usually quite distinctive.",
+              "NOTE: Many direction signs include the capital Tunis, but this does not necessarily mean you are anywhere near that city."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/2022-12-02_7.png",
+              "imageLink": "https://goo.gl/maps/JfM4JQtJZ4F7baGQ7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Doors, windows, gates and other architectural elements are sometimes painted with this specific traditional **shade of blue**.",
+              "NOTE: This shade of blue can be found all over the country, but is especially common on the island of Djerba, where buildings tend to be older and more traditional."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/round.jpg",
+              "imageLink": "https://goo.gl/maps/G1kJPhwDg39dEDQx7",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "**Red and white** striped curbs are common in Tunisia.",
+              "NOTE: Similar curbs are also common in Israel and Palestine. Make sure to look for additional information!"
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/marker2.jpg",
+              "imageLink": "https://goo.gl/maps/cDF9ZJSu6CUrfX9M9",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "These white concrete markers with a rounded red or yellow top can be found throughout Tunisia. The top can be red, yellow, or green.",
+              "NOTE: They are very useful for pinpointing your exact location. On either side, they show the **distance in kilometres to the nearest town.** The side facing the road shows the road number."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia_stop_sign.png",
+              "imageLink": "https://goo.gl/maps/jW5ehwwBT7HTv2NBA",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Tunisia has a fairly unique **stop sign** with Arabic and Latin script.",
+              "NOTE: Similar stop signs can be found in Jordan and the UAE. However, Israel and Palestine use a different unique stop sign with a [hand](https://goo.gl/maps/rDWg2Ff166WhVLax9) instead of text."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Regional and governorate-specific clues",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/tn_coverage.png",
+              "imageLink": "/images/tunisia/tn_coverage.png",
+              "alt": "",
+              "width": 0.417
+            },
+            "text": [
+              "Coverage is mostly limited to the **east coast**, between Bizerte in the north and Medinine in the south. Most coverage is in bigger towns and on main roads. The biggest towns and the island of Djerba have quite extensive side road coverage."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia-north-follow-car.png",
+              "imageLink": "https://goo.gl/maps/uX7XBSih82pM4H646",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "This **light green Toyota** follow car can be found everywhere in the northernmost part of Tunisia. You will never see it south of Hammamet."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia-south-follow-car.png",
+              "imageLink": "https://goo.gl/maps/FxDexhTFBajv1pVo8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The **dark green Mazda** is the most common follow car in Tunisia. This becomes apparent if you look at the coverage map, it can be found all the way from Hammamet to Djerba. Aside from the darker colour, it can also be recognized by its military licence plate with a **red strip** on the left."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia-Tunis-follow-cars.png",
+              "imageLink": "https://goo.gl/maps/ypV2X4f88eVjsqRF6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Tunis, the capital of Tunisia, has **a lot of different follow cars**. Most of them can be found all over the city. The light green Toyota can also be spotted here."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia-Kairouan-follow-car.png",
+              "imageLink": "https://goo.gl/maps/TYsTYQxbayDt9SU77",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The city of Kairouan in central-northern Tunisia has this unique follow car, a **white Mitsubishi** with white mirrors. The dark green follow car can also sometimes be spotted following the Mitsubishi.",
+              "NOTE: Some white follow cars in Tunisia can look similar to the Kairouan car. However, none of them are Mitsubishis."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Djerba_Car.png",
+              "imageLink": "https://goo.gl/maps/fY8AruYDYGHQA9FM8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The island of Djerba is the only region of Tunisia where you are usually **not** accompanied by a follow car. Most coverage completely lacks one.",
+              "While it is rare, this **white Mercedes** and the dark green follow car can be present."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/North_of_Tunis.png",
+              "imageLink": "https://goo.gl/maps/r61uV1vZgSPs82PR6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The area north of Tunis has a Mediterranean climate with hilly terrain. The region is very agricultural and at the time the coverage was captured, almost all fields laid fallow."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunis_to_Hammamet.png",
+              "imageLink": "https://goo.gl/maps/xAw6WN9Z7qjQGWb5A",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The area between Tunis and Hammamet looks similar to the area north of Tunis, but the hills tend to be higher and more vegetated."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia-Hammamet-to-Gabes.png",
+              "imageLink": "https://goo.gl/maps/A8aUJ9L7rvjJreJ58",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The large middle region between Hammamet and Gabes is very flat, and more arid. Olive tree plantations are common and the more south you go, the drier the landscape becomes."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/South_of_Gabes.png",
+              "imageLink": "https://goo.gl/maps/xBGiMvfn5HFFZhmP7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "South of Gabes is where the landscape changes into something more akin to a desert. A lot more rubbish and small white rocks can be found along the roads. Olive tree plantations are still somewhat common. A mountain range far in the distance is often visible to the southwest."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia-Djerba-vibe.png",
+              "imageLink": "https://goo.gl/maps/niGniYJgMVZBb4U19",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "The island of Djerba can sometimes have a distinct vibe. There tend to be a lot of palm trees. Whitewashed, traditional buildings with blue doors and windows are common.",
+              "NOTE: Not all locations on the island will have this distinct vibe. A lack of a follow car is another good way to confirm that you are on Djerba."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Spotlight",
+      "items": [
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/bizerte_lake.png",
+              "imageLink": "https://goo.gl/maps/QGfBCCVsXBFynq1w8",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "Bizerte Lake is instantly recognizable due to its **teal coloured** waters**.** There are slight hills to its south, with the rest of the area around the lake being flat. The city of Bizerte is located on the northeast side of the lake."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Gabes_Palm_Trees.png",
+              "imageLink": "https://goo.gl/maps/iT9cGoowHtC4QCcP7",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "If you see **a large amount of palm trees** in a single place, you are probably in Gabes.",
+              "NOTE: While Djerba also has many palm trees, the towns and surrounding area tend to look more rural."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Sandy_Hills_Near_Medinine.png",
+              "imageLink": "https://goo.gl/maps/7uZmpYPqHPdJy4PZA",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "On the P1 road northwest of Medinine, you can occasionally find sandy hills that look like this. These hills are quite unique, as most coverage in southern Tunisia is in very flat areas."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/tn_moureddineoffroad.png",
+              "imageLink": "https://maps.app.goo.gl/S8KkCnVgkca5hnJq5",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "An offroad from road P12 southwest of Sousse can be recognised by the dark pavement surrounded by bright sandy soil combined with the east-west road angle. The eastern part of the road is fairly vegetated, with large numbers of prickly pears, while the western part of the road is [very arid](https://maps.app.goo.gl/W7Q3a5DgLqsJuio59) with little to no vegetation."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Djerba_Bridge.png",
+              "imageLink": "https://goo.gl/maps/n3dYqxRjLS6fiNbo6",
+              "alt": "",
+              "width": 0.573
+            },
+            "text": [
+              "You can easily recognise the Djerba-Zarzis causeway thanks to the **water on both sides** and the **pipeline** that is always present to your west."
+            ]
+          }
+        },
+        {
+          "kind": "tip",
+          "data": {
+            "image": {
+              "imageUrl": "/images/tunisia/Tunisia_trekker_examples.png",
+              "imageLink": "/images/tunisia/Tunisia_trekker_examples.png",
+              "alt": "",
+              "width": 0.5
+            },
+            "text": [
+              "Trekkers can be found all over the country, even in places far away from the area with car coverage. Coverage includes [archaeological sites](https://goo.gl/maps/2UsBo8HPFhKwi1rs5), [forts](https://goo.gl/maps/UQP4Wuk1jgp4F58v5), [mosques](https://goo.gl/maps/xaFQEbu3Nq5kQ5Q37), and a [Star Wars set](https://goo.gl/maps/y36NttMDLurqthHu5), among other things."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "draftChangelog": []
+}
