@@ -22,9 +22,11 @@ from __future__ import annotations
 import asyncio
 import io
 import json
+import os
 import random
 from pathlib import Path
-
+import re
+import httpx
 import numpy as np
 import torch
 from PIL import Image
@@ -34,6 +36,7 @@ from geoguessr_agent.game.actions import (
     dismiss_cookie_banner,
     hover_minimap_to_expand,
     submit_guess,
+    place_on_map
 )
 from geoguessr_agent.game.browser import OpenGuessrBrowser
 from geoguessr_agent.game.state_machine import GameState, GameStateMachine
@@ -203,6 +206,221 @@ def _pick_coordinate(
 # Main round player
 # ===================================================================
 
+API_KEY=os.environ.get("MAPS_API", "")
+IMAGE_SIZE="1280x1280"
+PANO_REGEX = re.compile(r"panoid=([^&]+)")
+
+async def access_with_api_key(browser, device, state_machine):
+    intercept_pano_id = None
+    # ---- launch ----
+    print("Launching browser...")
+    await browser.start()
+    print("Browser launched. Waiting for page to settle...")
+    await asyncio.sleep(2)
+
+    def handle_request(request):
+        nonlocal intercept_pano_id
+        url = request.url
+        #print(f"Analyzing request with url: {url}\n")
+        if "streetviewpixels" in url and "panoid" in url:
+            match = PANO_REGEX.search(url)
+            if match and not intercept_pano_id:
+                intercept_pano_id = match.group(1)
+                print(f"[Network Intercept] Successfully captured Pano ID: {intercept_pano_id}")
+
+
+    browser.page.context.on("request", handle_request)
+    # ---- cookie ----
+    print("Handling cookie consent...")
+    dismissed = await dismiss_cookie_banner(browser.page)
+    if dismissed:
+        print("  Cookie banner dismissed")
+    await asyncio.sleep(1.5)
+
+    # ---- detect state / start game ----
+    state = await state_machine.detect_state(browser.page)
+    print(f"Detected state: {state}")
+
+    if state == GameState.MAIN_MENU:
+        print("On main menu — starting game...")
+        from geoguessr_agent.game.actions import start_game
+        started = await start_game(browser.page)
+        if not started:
+            print("[ERROR] Could not start the game.")
+            return
+        await asyncio.sleep(2)
+
+    # ---- wait for Street View ----
+    print("Waiting for Street View to appear...")
+    try:
+        await browser.page.wait_for_selector(
+            '#panorama-iframe, .gm-style, [class*="panorama"], '
+            '[class*="street-view"], .leaflet-container, #map',
+            timeout=20_000,
+        )
+    except Exception:
+        print("[WARN] Timed out waiting for Street View")
+        await browser.page.screenshot(path=str(SCREENSHOT_DIR / "debug_no_sv.png"))
+        return
+
+    await asyncio.sleep(3)
+
+    # ---- clear loading spinner ----
+    print("Waiting for loading screen to clear...")
+    for _ in range(10):
+        loading = await browser.page.evaluate("""
+        () => {
+            const spinners = document.querySelectorAll(
+                '[class*="loading"], [class*="spinner"], .compass_spinner, [role="progressbar"]'
+            );
+            for (const s of spinners) {
+                if (s.offsetParent !== null) return true;
+            }
+            return false;
+        }
+        """)
+        if not loading:
+            break
+        await asyncio.sleep(1.0)
+    else:
+        print("  (loading spinner may still be present, continuing)")
+
+    print("Scanning browser network cache for Pano ID...")
+    await asyncio.sleep(1.0) 
+
+    # If the live listener missed it, extract it from the historical request log
+    if not intercept_pano_id:
+        all_requests = browser.page.context.background_pages + [browser.page]
+
+        for frame in browser.page.frames:
+            try:
+                # Execute a script inside every frame context to check its performance log
+                cached_url = await frame.evaluate("""
+                    () => {
+                        const resources = performance.getEntriesByType("resource");
+                        for (const res of resources) {
+                            if (res.name.includes("streetviewpixels") && res.name.includes("panoid=")) {
+                                return res.name;
+                            }
+                        }
+                        return null;
+                    }
+                """)
+                if cached_url:
+                    match = PANO_REGEX.search(cached_url)
+                    if match:
+                        intercept_pano_id = match.group(1)
+                        print(f"[Cache Recovery] Successfully recovered Pano ID from frame logs: {intercept_pano_id}")
+                        break
+            except Exception:
+                continue
+
+    try:
+        browser.page.context.remove_listener("request", handle_request)
+    except Exception:
+        pass
+
+    if not intercept_pano_id:
+        print("[ERROR] Critical Timeout: The Pano ID could not be located in network history.")
+        await browser.page.screenshot(path=str(SCREENSHOT_DIR / "debug_timeout_state.png"))
+        return
+
+    url = f"https://maps.googleapis.com/maps/api/streetview?size={IMAGE_SIZE}&pano={intercept_pano_id}&key={API_KEY}"
+
+    print(f"Fetching clean imagery for Pano: {intercept_pano_id}...")
+    
+    # 2. Fetch the image asynchronously over HTTP
+    async with httpx.AsyncClient() as client:
+        response = await client.get(url)
+        
+        if response.status_code != 200:
+            print(f"Error fetching API: {response.status_code}")
+            return None
+
+        img_bytes = response.content
+        print(f"  Clean image downloaded → ({len(img_bytes)} bytes)")
+
+    # 3. Pass the clean bytes directly to PIL (No UI noise)
+    pil_image = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+    pil_image.save(SCREENSHOT_DIR / "round_streetview.png", quality=95)
+    
+    # 4. Run your preprocessing and inference pipeline
+    input_tensor, resized_image = preprocess_image(pil_image, device)
+    return input_tensor, pil_image
+
+async def access_without_api(browser, device, state_machine):
+    # ---- launch ----
+    print("Launching browser...")
+    await browser.start()
+    print("Browser launched. Waiting for page to settle...")
+    await asyncio.sleep(2)
+
+    # ---- cookie ----
+    print("Handling cookie consent...")
+    dismissed = await dismiss_cookie_banner(browser.page)
+    if dismissed:
+        print("  Cookie banner dismissed")
+    await asyncio.sleep(1.5)
+
+    # ---- detect state / start game ----
+    state = await state_machine.detect_state(browser.page)
+    print(f"Detected state: {state}")
+
+    if state == GameState.MAIN_MENU:
+        print("On main menu — starting game...")
+        from geoguessr_agent.game.actions import start_game
+        started = await start_game(browser.page)
+        if not started:
+            print("[ERROR] Could not start the game.")
+            return
+        await asyncio.sleep(2)
+
+    # ---- wait for Street View ----
+    print("Waiting for Street View to appear...")
+    try:
+        await browser.page.wait_for_selector(
+            '#panorama-iframe, .gm-style, [class*="panorama"], '
+            '[class*="street-view"], .leaflet-container, #map',
+            timeout=20_000,
+        )
+    except Exception:
+        print("[WARN] Timed out waiting for Street View")
+        await browser.page.screenshot(path=str(SCREENSHOT_DIR / "debug_no_sv.png"))
+        return
+
+    await asyncio.sleep(3)
+
+    # ---- clear loading spinner ----
+    print("Waiting for loading screen to clear...")
+    for _ in range(10):
+        loading = await browser.page.evaluate("""
+        () => {
+            const spinners = document.querySelectorAll(
+                '[class*="loading"], [class*="spinner"], .compass_spinner, [role="progressbar"]'
+            );
+            for (const s of spinners) {
+                if (s.offsetParent !== null) return true;
+            }
+            return false;
+        }
+        """)
+        if not loading:
+            break
+        await asyncio.sleep(1.0)
+    else:
+        print("  (loading spinner may still be present, continuing)")
+
+    # ---- screenshot ----
+    print("Capturing Street View screenshot...")
+    screenshot_path = SCREENSHOT_DIR / "round_streetview.png"
+    img_bytes = await browser.page.screenshot(path=str(screenshot_path), full_page=False)
+    print(f"  Screenshot saved → {screenshot_path}  ({len(img_bytes)} bytes)")
+
+    # ---- preprocess for model ----
+    pil_image = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+    input_tensor, resized_image = preprocess_image(pil_image, device)
+    return input_tensor, pil_image
+
 async def play_one_round():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Device: {device}")
@@ -225,83 +443,14 @@ async def play_one_round():
     SCREENSHOT_DIR.mkdir(parents=True, exist_ok=True)
 
     try:
-        # ---- launch ----
-        print("Launching browser...")
-        await browser.start()
-        print("Browser launched. Waiting for page to settle...")
-        await asyncio.sleep(2)
+        input_tensor, pil_image = await access_with_api_key(browser, device, state_machine) if API_KEY != "" else await access_without_api(browser, device, state_machine)
 
-        # ---- cookie ----
-        print("Handling cookie consent...")
-        dismissed = await dismiss_cookie_banner(browser.page)
-        if dismissed:
-            print("  Cookie banner dismissed")
-        await asyncio.sleep(1.5)
-
-        # ---- detect state / start game ----
-        state = await state_machine.detect_state(browser.page)
-        print(f"Detected state: {state}")
-
-        if state == GameState.MAIN_MENU:
-            print("On main menu — starting game...")
-            from geoguessr_agent.game.actions import start_game
-            started = await start_game(browser.page)
-            if not started:
-                print("[ERROR] Could not start the game.")
-                return
-            await asyncio.sleep(2)
-
-        # ---- wait for Street View ----
-        print("Waiting for Street View to appear...")
-        try:
-            await browser.page.wait_for_selector(
-                '#panorama-iframe, .gm-style, [class*="panorama"], '
-                '[class*="street-view"], .leaflet-container, #map',
-                timeout=20_000,
-            )
-        except Exception:
-            print("[WARN] Timed out waiting for Street View")
-            await browser.page.screenshot(path=str(SCREENSHOT_DIR / "debug_no_sv.png"))
-            return
-
-        await asyncio.sleep(3)
-
-        # ---- clear loading spinner ----
-        print("Waiting for loading screen to clear...")
-        for _ in range(10):
-            loading = await browser.page.evaluate("""
-            () => {
-                const spinners = document.querySelectorAll(
-                    '[class*="loading"], [class*="spinner"], .compass_spinner, [role="progressbar"]'
-                );
-                for (const s of spinners) {
-                    if (s.offsetParent !== null) return true;
-                }
-                return false;
-            }
-            """)
-            if not loading:
-                break
-            await asyncio.sleep(1.0)
-        else:
-            print("  (loading spinner may still be present, continuing)")
-
-        # ---- screenshot ----
-        print("Capturing Street View screenshot...")
-        screenshot_path = SCREENSHOT_DIR / "round_streetview.png"
-        img_bytes = await browser.page.screenshot(path=str(screenshot_path), full_page=False)
-        print(f"  Screenshot saved → {screenshot_path}  ({len(img_bytes)} bytes)")
-
-        # ---- preprocess for model ----
-        pil_image = Image.open(io.BytesIO(img_bytes)).convert("RGB")
-        input_tensor, resized_image = preprocess_image(pil_image, device)
-
-        # ---- inference ----
         print("Running model inference...")
         result = infer_location(
             model, input_tensor,
             idx_to_country, idx_to_continent, country_centroids, kaggle_points, device,
         )
+    
 
         pred_lat = result["latitude"]
         pred_lng = result["longitude"]
@@ -339,17 +488,10 @@ async def play_one_round():
         else:
             print("  [WARN] Heatmap generation failed (scipy missing?)")
 
-        # ---- hover minimap → expand → click ----
-        print("Hovering minimap to expand...")
-        if not await hover_minimap_to_expand(browser.page):
-            print("[WARN] Could not find minimap to hover")
-
-        await asyncio.sleep(0.5)
-
         print("Placing guess on the big map...")
-        await click_guess_on_map(browser.page, pred_lat, pred_lng)
+        await place_on_map(browser.page, pred_lat, pred_lng)
 
-        await asyncio.sleep(0.3)
+        await asyncio.sleep(5.0)  # wait for map to update
 
         # ---- submit ----
         print("Submitting guess...")

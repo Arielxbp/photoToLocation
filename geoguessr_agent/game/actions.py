@@ -5,9 +5,67 @@ import math
 import random
 from typing import Optional
 
+from playwright.async_api import Page
+
 
 _MAP_BOUNDS = {"min_x": 100, "min_y": 100, "max_x": 1180, "max_y": 620}
 
+async def place_on_map(page: Page, latitudine: float, longitudine: float):
+    """
+    Inietta ed esegue lo script JavaScript in Playwright per calcolare le 
+    proporzioni di Mercatore sulla mappa di OpenGuessr e simulare il click.
+    """
+    
+    # Script JavaScript da iniettare nella pagina
+    js_script = """
+    (async (targetLat, targetLng) => {
+        // Trova il contenitore della mappa di Google (il box interattivo)
+        const mapWrapper = document.querySelector('.leaflet-container') || document.querySelector('[id*="map"]');
+        
+        if (!mapWrapper) {
+            return "Contenitore della mappa non trovato";
+        }
+        
+        // Simula il passaggio del mouse per attivare l'animazione di ingrandimento
+        mapWrapper.dispatchEvent(new MouseEvent('mouseenter', { bubbles: true }));
+        mapWrapper.dispatchEvent(new MouseEvent('mouseover', { bubbles: true }));
+        
+        // Attende che l'animazione CSS di ingrandimento si completi del tutto
+        await new Promise(resolve => setTimeout(resolve, 400));
+        
+        const rect = mapWrapper.getBoundingClientRect();
+        
+        // Calcolo della proiezione di Mercatore globale adattata alle dimensioni correnti
+        const percentX = (targetLng + 180) / 360;
+        
+        const latRad = (targetLat * Math.PI) / 180;
+        const mercatorY = Math.log(Math.tan(Math.PI / 4 + latRad / 2));
+        const maxMercatorY = Math.log(Math.tan(Math.PI / 4 + (85.0511 * Math.PI / 180) / 2));
+        const percentY = 0.5 - (mercatorY / (2 * maxMercatorY));
+        
+        const clickX = rect.left + (rect.width * percentX);
+        const clickY = rect.top + (rect.height * percentY);
+        
+        // Simula il click del mouse sul punto esatto calcolato
+        const clickEvent = new MouseEvent('click', {
+            clientX: clickX,
+            clientY: clickY,
+            bubbles: true,
+            cancelable: true,
+            view: window
+        });
+        
+        mapWrapper.dispatchEvent(clickEvent);
+        return `Click simulato a pixel: (${clickX.toFixed(2)}, ${clickY.toFixed(2)})`;
+    })
+    """
+    
+    try:
+        # Passa lo script e gli argomenti (latitudine e longitudine) a Playwright
+        risultato = await page.evaluate(f"({js_script})({latitudine}, {longitudine})")
+        print(f"[Playwright Log]: {risultato}")
+    except Exception as e:
+        print(f"[Errore]: Impossibile eseguire lo script sulla pagina. {e}")
 
 def _latlng_to_mercator(lat: float, lng: float) -> tuple[float, float]:
     x = (lng + 180) / 360
