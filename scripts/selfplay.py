@@ -44,6 +44,7 @@ def main():
     args = parser.parse_args()
 
     config = load_config(args.config)
+    config.device = "cpu"
 
     with open(args.indices) as f:
         indices = json.load(f)
