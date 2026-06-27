@@ -92,6 +92,38 @@ class OpenGuessrBrowser:
                 Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en'] });
             """)
 
+        # Capture Leaflet map instances as they are created so the guess map can
+        # be reset to the world view and projected with the map's own API. Works
+        # when Leaflet is exposed as window.L; harmless otherwise.
+        await self._context.add_init_script("""
+            (() => {
+                if (window.__ogLeafletHookInstalled) return;
+                window.__ogLeafletHookInstalled = true;
+                window.__ogMaps__ = [];
+                const hook = (L) => {
+                    try {
+                        if (L && L.Map && L.Map.prototype && !L.Map.__ogHooked) {
+                            const orig = L.Map.prototype.initialize;
+                            L.Map.prototype.initialize = function() {
+                                try { window.__ogMaps__.push(this); } catch (e) {}
+                                return orig.apply(this, arguments);
+                            };
+                            L.Map.__ogHooked = true;
+                        }
+                    } catch (e) {}
+                };
+                let _L = window.L;
+                if (_L) hook(_L);
+                try {
+                    Object.defineProperty(window, 'L', {
+                        configurable: true,
+                        get() { return _L; },
+                        set(v) { _L = v; hook(v); },
+                    });
+                } catch (e) {}
+            })();
+        """)
+
         self._page = await self._context.new_page()
         await self._page.goto(self.url, wait_until="networkidle", timeout=30_000)
         return self._page
@@ -325,6 +357,31 @@ class OpenGuessrBrowser:
             return await self.page.evaluate(
                 "() => document.querySelector('#panorama-iframe')?.src || null"
             )
+        except Exception:
+            return None
+
+    async def read_pano_location(self) -> Optional[tuple[float, float]]:
+        """
+        Return the true (lat, lng) of the currently displayed Street View
+        panorama, parsed from the embed iframe's ``location`` parameter.
+
+        This is OpenGuessr's ground-truth location for the active round. It is
+        only available while the panorama is on screen (i.e. before the guess
+        is submitted), so it must be read during the round, not from the
+        results screen. Unlike ``_read_iframe_params`` it does not require the
+        API key to be present.
+        """
+        try:
+            src = await self._read_iframe_src()
+            if not src:
+                return None
+            location = parse_qs(urlparse(src).query).get("location", [None])[0]
+            if not location:
+                return None
+            parts = location.split(",")
+            if len(parts) < 2:
+                return None
+            return (float(parts[0].strip()), float(parts[1].strip()))
         except Exception:
             return None
 

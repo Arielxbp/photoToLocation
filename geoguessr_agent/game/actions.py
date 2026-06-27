@@ -88,6 +88,67 @@ def coordinates_to_map_click(
     return (x, y)
 
 
+async def reset_minimap_to_world(page) -> bool:
+    """
+    Reset the guess minimap to the default whole-world view.
+
+    OpenGuessr keeps the same Leaflet map across rounds, so a round can start
+    zoomed/panned to the previous result. When that happens the predicted
+    coordinate is off-screen, so the guess click misses entirely or lands on
+    the wrong place after being clamped to the map edge. Resetting to the world
+    view guarantees every coordinate is visible before we click.
+
+    Strategies (best-effort, in order):
+      1. Hooked Leaflet instance -> setView to (20, 0) at min zoom.
+      2. Click the Leaflet zoom-out control several times.
+    """
+    did = await page.evaluate("""
+    () => {
+        const mapEl = document.querySelector(
+            '.leaflet-container, [class*="guess-map"], #map'
+        );
+        const maps = window.__ogMaps__ || [];
+        let map = null;
+        for (const m of maps) {
+            try { if (m && m._container === mapEl) { map = m; break; } } catch (e) {}
+        }
+        if (!map && maps.length === 1) map = maps[0];
+        if (!map && mapEl && mapEl._leaflet_map) map = mapEl._leaflet_map;
+        if (map && typeof map.setView === 'function') {
+            try {
+                const z = (typeof map.getMinZoom === 'function') ? (map.getMinZoom() || 0) : 0;
+                map.setView([20, 0], z, { animate: false });
+                if (typeof map.invalidateSize === 'function') map.invalidateSize();
+                return true;
+            } catch (e) { return false; }
+        }
+        return false;
+    }
+    """)
+    if did:
+        await asyncio.sleep(0.35)
+        return True
+
+    # Fallback: click the Leaflet zoom-out control until it bottoms out at the
+    # world view (disabled controls simply no-op).
+    try:
+        btn = await page.query_selector(
+            ".leaflet-control-zoom-out, a.leaflet-control-zoom-out"
+        )
+        if btn:
+            for _ in range(8):
+                try:
+                    await btn.click(timeout=500)
+                    await asyncio.sleep(0.12)
+                except Exception:
+                    break
+            await asyncio.sleep(0.3)
+            return True
+    except Exception:
+        pass
+    return False
+
+
 async def click_guess_on_map(
     page,
     lat: float,
@@ -109,8 +170,63 @@ async def click_guess_on_map(
     The old behaviour stretched the whole world across the element rect with
     independent x/y scaling, which ignored centre/zoom and distorted latitude —
     making the click land far from the intended coordinates.
+
+    Primary strategy: if the live Leaflet instance is available, recenter the
+    map on the guess and click the centre — this guarantees the target is on
+    screen even on a tiny / zoomed / panned minimap. Otherwise fall back to the
+    tile/Mercator projection below.
     """
-    debug = []
+    # Strategy 0 (most robust): recenter the Leaflet map on the guess, then
+    # click the centre. A small minimap often cannot show the whole world at
+    # once, so a coordinate like Japan can sit off the right edge and get
+    # clamped to the wrong place. Moving the target to the centre avoids that.
+    centered = await page.evaluate(
+        """
+    ([lat, lng]) => {
+        const mapEl = document.querySelector(
+            '.leaflet-container, [class*="guess-map"], #map, [class*="map"]'
+        );
+        if (!mapEl) return null;
+        const maps = window.__ogMaps__ || [];
+        let map = null;
+        for (const m of maps) {
+            try { if (m && m._container === mapEl) { map = m; break; } } catch (e) {}
+        }
+        if (!map && maps.length === 1) map = maps[0];
+        if (!map && mapEl._leaflet_map) map = mapEl._leaflet_map;
+        if (!map || typeof map.setView !== 'function') return null;
+        try {
+            if (typeof map.invalidateSize === 'function') map.invalidateSize();
+            const minZ = (typeof map.getMinZoom === 'function') ? (map.getMinZoom() || 0) : 0;
+            map.setView([lat, lng], minZ, { animate: false });
+            const rect = mapEl.getBoundingClientRect();
+            const pt = map.latLngToContainerPoint([lat, lng]);
+            const x = rect.left + pt.x;
+            const y = rect.top + pt.y;
+            const onScreen = (x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom);
+            return { x: x, y: y, onScreen: onScreen,
+                     rect: { left: rect.left, top: rect.top, w: rect.width, h: rect.height } };
+        } catch (e) { return null; }
+    }
+    """,
+        [lat, lng],
+    )
+
+    if centered and centered.get("x") is not None and centered.get("onScreen"):
+        await asyncio.sleep(0.25)  # let the pan settle
+        r = centered["rect"]
+        x = max(r["left"] + 4, min(centered["x"], r["left"] + r["w"] - 4))
+        y = max(r["top"] + 4, min(centered["y"], r["top"] + r["h"] - 4))
+        print(f"    map-click [leaflet-center] ({lat:.4f},{lng:.4f}) -> ({x:.0f},{y:.0f})")
+        await page.mouse.move(x, y)
+        await asyncio.sleep(0.1)
+        await page.mouse.click(x, y)
+        await asyncio.sleep(random.uniform(0.3, 0.6))
+        return True
+
+    # Fallback: no usable Leaflet instance — try to reset to a world view so
+    # the projection below has the whole map visible, then project.
+    await reset_minimap_to_world(page)
 
     info = await page.evaluate(
         """
@@ -121,22 +237,26 @@ async def click_guess_on_map(
         if (!mapEl) return { method: 'none' };
         const rect = mapEl.getBoundingClientRect();
         const rectInfo = { left: rect.left, top: rect.top, w: rect.width, h: rect.height };
+        const cx = rect.left + rect.width / 2;
+        const cy = rect.top + rect.height / 2;
 
-        // --- Strategy 1: live Leaflet map instance ---
-        let map = mapEl._leaflet_map || null;
-        if (!map && window.L && L.Map && L.Map._instances) {
-            for (const m of Object.values(L.Map._instances)) {
-                if (m && m._container === mapEl) { map = m; break; }
-            }
+        // --- Strategy 1: live Leaflet map instance (hooked or discoverable) ---
+        let map = null;
+        const hooked = window.__ogMaps__ || [];
+        for (const m of hooked) {
+            try { if (m && m._container === mapEl) { map = m; break; } } catch (e) {}
         }
+        if (!map && hooked.length === 1) map = hooked[0];
+        if (!map && mapEl._leaflet_map) map = mapEl._leaflet_map;
         if (map && typeof map.latLngToContainerPoint === 'function') {
             const pt = map.latLngToContainerPoint([lat, lng]);
-            return { method: 'leaflet', x: rect.left + pt.x, y: rect.top + pt.y, rect: rectInfo };
+            const x = rect.left + pt.x;
+            const y = rect.top + pt.y;
+            const onScreen = (x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom);
+            return { method: 'leaflet', x: x, y: y, onScreen: onScreen, rect: rectInfo };
         }
 
         // --- Strategy 2: derive the projection from a visible raster tile ---
-        const cx = rect.left + rect.width / 2;
-        const cy = rect.top + rect.height / 2;
         const imgs = Array.from(mapEl.querySelectorAll('img'));
         let tile = null;
         let bestD = Infinity;
@@ -166,14 +286,15 @@ async def click_guess_on_map(
             }
         }
         if (tile) {
-            const scale = Math.pow(2, tile.z);
-            const worldX = ((lng + 180) / 360) * tile.w * scale;
+            const span = tile.w * Math.pow(2, tile.z);   // full-world width (screen px)
+            let x = tile.left + ((lng + 180) / 360) * span - tile.tx * tile.w;
             const s = Math.max(-0.9999, Math.min(0.9999, Math.sin(lat * Math.PI / 180)));
             const yNorm = 0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI);
-            const worldY = yNorm * tile.h * scale;
-            const x = tile.left + worldX - tile.tx * tile.w;
-            const y = tile.top + worldY - tile.ty * tile.h;
-            return { method: 'tiles', x: x, y: y, z: tile.z, rect: rectInfo };
+            const y = tile.top + yNorm * (tile.h * Math.pow(2, tile.z)) - tile.ty * tile.h;
+            // Longitude wraps: pick the world copy whose x is nearest the centre.
+            x = x - span * Math.round((x - cx) / span);
+            const onScreen = (x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom);
+            return { method: 'tiles', x: x, y: y, z: tile.z, onScreen: onScreen, rect: rectInfo };
         }
 
         return { method: 'rect_only', rect: rectInfo };
@@ -183,11 +304,11 @@ async def click_guess_on_map(
     )
 
     method = info.get("method", "none") if info else "none"
+    on_screen = bool(info.get("onScreen")) if info else False
     x = y = None
 
     if method in ("leaflet", "tiles") and info.get("x") is not None:
         x, y = info["x"], info["y"]
-        debug.append(f"{method}: ({lat:.4f},{lng:.4f}) -> page({x:.0f},{y:.0f})")
     elif info and info.get("rect"):
         # Last resort: fit the whole-world Mercator to the element rect.
         r = info["rect"]
@@ -195,19 +316,20 @@ async def click_guess_on_map(
         x = r["left"] + x_merc * r["w"]
         y = r["top"] + y_merc * r["h"]
         method = "mercator_elem"
-        debug.append(
-            f"mercator_elem (no tiles/leaflet): merc({x_merc:.4f},{y_merc:.4f}) "
-            f"-> page({x:.0f},{y:.0f})"
-        )
     else:
         x, y = coordinates_to_map_click(lat, lng, map_bounds)
         method = "mercator_static"
-        debug.append(f"mercator_static: ({x:.0f},{y:.0f})")
 
-    # Keep the click inside the map element so the guess registers.
+    if method in ("leaflet", "tiles") and not on_screen:
+        print(
+            f"    [WARN] guess ({lat:.4f},{lng:.4f}) is off the visible minimap; "
+            f"clamping to edge (map may still be zoomed in)"
+        )
+
+    # Keep the click inside the map element so the guess at least registers.
     if info and info.get("rect"):
         r = info["rect"]
-        inset = 3
+        inset = 4
         x = max(r["left"] + inset, min(x, r["left"] + r["w"] - inset))
         y = max(r["top"] + inset, min(y, r["top"] + r["h"] - inset))
     x = max(0, min(x, 4000))

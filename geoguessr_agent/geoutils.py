@@ -222,6 +222,20 @@ _COUNTRY_LATLNG: dict[str, tuple[float, float]] = {
     "Iceland": (64.96, -19.02),
     "Faroe Islands": (61.89, -6.91),
     "Svalbard": (77.88, 17.30),
+    "Luxembourg": (49.82, 6.13),
+    "Andorra": (42.55, 1.60),
+    "San Marino": (43.94, 12.46),
+    "Vatican City": (41.90, 12.45),
+    "Malta": (35.94, 14.38),
+    "Montenegro": (42.71, 19.37),
+    "North Macedonia": (41.61, 21.75),
+    "Bosnia and Herzegovina": (43.92, 17.68),
+    "Isle of Man": (54.24, -4.55),
+    "Jersey": (49.21, -2.13),
+    "Hong Kong": (22.40, 114.11),
+    "Curaçao": (12.17, -68.99),
+    "Gambia": (13.44, -15.31),
+    "Palestine": (31.95, 35.23),
 }
 
 

@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import asyncio
 import io
-import json
 import random
 import time
 from datetime import datetime
@@ -41,9 +40,9 @@ class SelfPlayLoop:
     3. Store (image, guess, true_location, score) in replay buffer
     4. Periodically trigger DPO fine-tuning
 
-    Uses country-centroid coordinates (the region head was trained with a
-    broken mapping — all samples got region_idx=0 — so region-based coords
-    always land on S2 cell 0 in the South Atlantic).
+    Guess coordinates come from a per-country centroid table (with a small
+    jitter); the table covers every predictable country, so no guess lands at
+    (0, 0). The trained region head is used only if no table is supplied.
     """
 
     def __init__(
@@ -100,8 +99,13 @@ class SelfPlayLoop:
     @torch.no_grad()
     def _infer_location(self, img_bytes: bytes) -> dict:
         """
-        Run inference on a screenshot. Always uses country centroids for
-        coordinate estimation (region head is untrained — see class docstring).
+        Run inference on a screenshot.
+
+        Coordinates come from the country-centroid table (one fixed point per
+        country, plus a small ±3° jitter so repeated guesses for the same
+        country are not pixel-identical). The table covers every country the
+        model can predict, so no guess collapses to (0, 0). If no centroid
+        table was supplied, the trained region head is used as a fallback.
 
         Returns dict with keys:
           latitude, longitude, country_idx, country_conf,
@@ -116,7 +120,7 @@ class SelfPlayLoop:
         country_idx = country_idx.item()
         country_conf = country_conf.item()
 
-        # Coordinates: country centroid + jitter
+        # Coordinates: country centroid (primary) + small jitter.
         if self.country_centroids is not None:
             centroid = self.country_centroids[country_idx]
             lat = float(torch.rad2deg(centroid[0]).item())
@@ -124,10 +128,17 @@ class SelfPlayLoop:
             if lat != 0.0 or lng != 0.0:
                 lat += random.uniform(-3.0, 3.0)
                 lng += random.uniform(-3.0, 3.0)
-                lat = max(-85.0, min(85.0, lat))
-                lng = max(-180.0, min(180.0, lng))
         else:
-            lat, lng = 0.0, 0.0
+            # No centroid table — fall back to the trained region head.
+            region_probs = torch.softmax(outputs["region_logits"], dim=-1)
+            top_probs, top_idx = torch.topk(region_probs, k=5, dim=-1)
+            weighted = top_probs @ self.region_centroids[top_idx.squeeze(0)]
+            coords_rad = weighted.squeeze(0)
+            lat = float(torch.rad2deg(coords_rad[0]).item())
+            lng = float(torch.rad2deg(coords_rad[1]).item())
+
+        lat = max(-85.0, min(85.0, lat))
+        lng = max(-180.0, min(180.0, lng))
 
         continent_probs = torch.softmax(outputs["continent_logits"], dim=-1)
         continent_idx = continent_probs.argmax(-1).item()
@@ -247,6 +258,13 @@ class SelfPlayLoop:
         img_bytes = await self.browser.page.screenshot(path=str(screenshot_path))
         print(f"    Screenshot: {len(img_bytes)} bytes")
 
+        # Capture ground truth NOW, while the panorama is still on screen.
+        # OpenGuessr embeds the round's true location in the Street View
+        # iframe's `location=` parameter; it disappears once we submit.
+        pano_truth = await self.browser.read_pano_location()
+        if pano_truth:
+            print(f"    True location (iframe): ({pano_truth[0]:.4f}, {pano_truth[1]:.4f})")
+
         # ---- inference ----
         result = self._infer_location(img_bytes)
         pred_lat = result["latitude"]
@@ -314,8 +332,8 @@ class SelfPlayLoop:
             distance = 10000.0
             print("    [WARN] Could not read score")
 
-        true_coords = None
-        if results and results.get("lat") is not None and results.get("lng") is not None:
+        true_coords = pano_truth
+        if not true_coords and results and results.get("lat") is not None and results.get("lng") is not None:
             true_coords = (float(results["lat"]), float(results["lng"]))
         if not true_coords:
             true_coords = await self.state_machine.read_true_coordinates(self.browser.page)
@@ -330,11 +348,6 @@ class SelfPlayLoop:
         else:
             true_lat, true_lng = pred_lat, pred_lng
             print("    [WARN] Could not read true coordinates")
-            await self.browser.dump_page_html(capture_dir / "coords.html")
-            if self.state_machine._intercepted_data:
-                (capture_dir / "intercepted_api.json").write_text(
-                    json.dumps(self.state_machine._intercepted_data, indent=2, default=str)
-                )
 
         primary_img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
 
