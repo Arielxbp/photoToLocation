@@ -8,11 +8,11 @@ import yaml
 
 @dataclass
 class ModelConfig:
-    backbone: str = "efficientnet_b1"
+    backbone: str = "efficientnet_b3"
     pretrained: bool = True
     pretrained_weights: str = "IMAGENET1K_V2"
     image_size: tuple[int, int] = (320, 180)
-    embed_dim: int = 1280
+    embed_dim: int = 1536
     dropout: float = 0.3
     num_countries: int = 95
     num_regions: int = 1500
@@ -23,11 +23,15 @@ class ModelConfig:
 @dataclass
 class TrainingConfig:
     batch_size: int = 128
-    epochs: int = 30
+    epochs: int = 50
     learning_rate: float = 1e-3
     weight_decay: float = 1e-2
-    lr_scheduler_patience: int = 3
+    lr_scheduler_patience: int = 5
     lr_scheduler_factor: float = 0.5
+    scheduler_type: str = "cosine"
+    warmup_epochs: int = 5
+    label_smoothing: float = 0.05
+    mixup_alpha: float = 0.2
     loss_country_weight: float = 0.6
     loss_region_weight: float = 0.3
     loss_continent_weight: float = 0.1
@@ -36,6 +40,7 @@ class TrainingConfig:
     val_split: float = 0.1
     seed: int = 42
     mixed_precision: bool = True
+    use_tta: bool = True
 
 
 @dataclass

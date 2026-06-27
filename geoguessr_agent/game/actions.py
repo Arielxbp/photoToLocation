@@ -95,87 +95,125 @@ async def click_guess_on_map(
     map_bounds: Optional[dict[str, int]] = None,
 ) -> bool:
     """
-    Click the minimap at (lat, lng). Returns debug info as second value.
-    Tries multiple strategies in order:
-      1. Leaflet latLngToContainerPoint (correct for any zoom)
-      2. Compute pixel from map's pixel bounds
-      3. Mercator fallback
+    Click the minimap at (lat, lng).
+
+    Projection strategy, most-accurate first:
+      1. Leaflet ``latLngToContainerPoint`` — used when the live map instance
+         is reachable from the DOM.
+      2. Tile-derived Web Mercator — reads a visible raster tile's
+         ``/{z}/{x}/{y}`` (or ``?x=&y=&z=``) coordinates together with its
+         on-screen rectangle to reconstruct the exact pixel↔world mapping.
+         This accounts for the map's actual centre, zoom and pan.
+      3. Whole-world Mercator fitted to the element rect (last resort only).
+
+    The old behaviour stretched the whole world across the element rect with
+    independent x/y scaling, which ignored centre/zoom and distorted latitude —
+    making the click land far from the intended coordinates.
     """
-    x_merc, y_merc = _latlng_to_mercator(lat, lng)
     debug = []
 
-    # Strategy 1: Leaflet API
-    info = await page.evaluate("""
+    info = await page.evaluate(
+        """
     ([lat, lng]) => {
         const mapEl = document.querySelector(
             '.leaflet-container, [class*="guess-map"], #map, [class*="map"]'
         );
-        if (!mapEl) return { err: 'no_map_element' };
+        if (!mapEl) return { method: 'none' };
         const rect = mapEl.getBoundingClientRect();
+        const rectInfo = { left: rect.left, top: rect.top, w: rect.width, h: rect.height };
 
-        let map = null;
-        if (mapEl._leaflet_map) {
-            map = mapEl._leaflet_map;
-        } else if (typeof L !== 'undefined' && L.Map && L.Map._instances) {
+        // --- Strategy 1: live Leaflet map instance ---
+        let map = mapEl._leaflet_map || null;
+        if (!map && window.L && L.Map && L.Map._instances) {
             for (const m of Object.values(L.Map._instances)) {
-                if (m._container === mapEl || m.getContainer() === mapEl) {
-                    map = m;
-                    break;
-                }
+                if (m && m._container === mapEl) { map = m; break; }
             }
         }
-
-        if (map && map.latLngToContainerPoint) {
+        if (map && typeof map.latLngToContainerPoint === 'function') {
             const pt = map.latLngToContainerPoint([lat, lng]);
-            return {
-                method: 'leaflet',
-                x: rect.left + pt.x,
-                y: rect.top + pt.y,
-                rect: { left: rect.left, top: rect.top, w: rect.width, h: rect.height },
-                pt: { x: pt.x, y: pt.y },
-            };
+            return { method: 'leaflet', x: rect.left + pt.x, y: rect.top + pt.y, rect: rectInfo };
         }
 
-        return {
-            method: 'no_leaflet',
-            rect: { left: rect.left, top: rect.top, w: rect.width, h: rect.height },
-        };
+        // --- Strategy 2: derive the projection from a visible raster tile ---
+        const cx = rect.left + rect.width / 2;
+        const cy = rect.top + rect.height / 2;
+        const imgs = Array.from(mapEl.querySelectorAll('img'));
+        let tile = null;
+        let bestD = Infinity;
+        for (const img of imgs) {
+            const src = img.currentSrc || img.src || '';
+            let z, tx, ty;
+            let m = src.match(/\\/(\\d{1,2})\\/(\\d{1,7})\\/(\\d{1,7})(?:[.?&\\/]|$)/);
+            if (m) { z = +m[1]; tx = +m[2]; ty = +m[3]; }
+            else {
+                const mz = src.match(/[?&](?:z|zoom)=(\\d{1,2})/);
+                const mx = src.match(/[?&]x=(\\d{1,7})/);
+                const my = src.match(/[?&]y=(\\d{1,7})/);
+                if (mz && mx && my) { z = +mz[1]; tx = +mx[1]; ty = +my[1]; }
+            }
+            if (z === undefined || isNaN(z)) continue;
+            const r = img.getBoundingClientRect();
+            if (r.width < 64 || r.height < 64) continue;
+            // must overlap the map viewport (skip stale off-screen tiles)
+            if (r.right < rect.left || r.left > rect.right ||
+                r.bottom < rect.top || r.top > rect.bottom) continue;
+            const tcx = r.left + r.width / 2;
+            const tcy = r.top + r.height / 2;
+            const d = (tcx - cx) * (tcx - cx) + (tcy - cy) * (tcy - cy);
+            if (d < bestD) {
+                bestD = d;
+                tile = { z: z, tx: tx, ty: ty, left: r.left, top: r.top, w: r.width, h: r.height };
+            }
+        }
+        if (tile) {
+            const scale = Math.pow(2, tile.z);
+            const worldX = ((lng + 180) / 360) * tile.w * scale;
+            const s = Math.max(-0.9999, Math.min(0.9999, Math.sin(lat * Math.PI / 180)));
+            const yNorm = 0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI);
+            const worldY = yNorm * tile.h * scale;
+            const x = tile.left + worldX - tile.tx * tile.w;
+            const y = tile.top + worldY - tile.ty * tile.h;
+            return { method: 'tiles', x: x, y: y, z: tile.z, rect: rectInfo };
+        }
+
+        return { method: 'rect_only', rect: rectInfo };
     }
-    """, [lat, lng])
+    """,
+        [lat, lng],
+    )
 
+    method = info.get("method", "none") if info else "none"
     x = y = None
-    method = "unknown"
 
-    if info and info.get("method") == "leaflet":
+    if method in ("leaflet", "tiles") and info.get("x") is not None:
         x, y = info["x"], info["y"]
-        method = "leaflet"
+        debug.append(f"{method}: ({lat:.4f},{lng:.4f}) -> page({x:.0f},{y:.0f})")
+    elif info and info.get("rect"):
+        # Last resort: fit the whole-world Mercator to the element rect.
         r = info["rect"]
-        debug.append(
-            f"leaflet: rect({r['left']:.0f},{r['top']:.0f} {r['w']:.0f}x{r['h']:.0f}) "
-            f"pt({info['pt']['x']:.1f},{info['pt']['y']:.1f}) "
-            f"-> page({x:.0f},{y:.0f})"
-        )
-    elif info and "rect" in info:
-        r = info["rect"]
-        # Strategy 2: use Mercator within the actual map element rect
+        x_merc, y_merc = _latlng_to_mercator(lat, lng)
         x = r["left"] + x_merc * r["w"]
         y = r["top"] + y_merc * r["h"]
         method = "mercator_elem"
         debug.append(
-            f"mercator_elem: rect({r['left']:.0f},{r['top']:.0f} {r['w']:.0f}x{r['h']:.0f}) "
-            f"merc({x_merc:.4f},{y_merc:.4f}) -> page({x:.0f},{y:.0f})"
+            f"mercator_elem (no tiles/leaflet): merc({x_merc:.4f},{y_merc:.4f}) "
+            f"-> page({x:.0f},{y:.0f})"
         )
     else:
-        # Strategy 3: hardcoded bounds
         x, y = coordinates_to_map_click(lat, lng, map_bounds)
         method = "mercator_static"
         debug.append(f"mercator_static: ({x:.0f},{y:.0f})")
 
-    x = max(0, min(x, 2000))
-    y = max(0, min(y, 2000))
+    # Keep the click inside the map element so the guess registers.
+    if info and info.get("rect"):
+        r = info["rect"]
+        inset = 3
+        x = max(r["left"] + inset, min(x, r["left"] + r["w"] - inset))
+        y = max(r["top"] + inset, min(y, r["top"] + r["h"] - inset))
+    x = max(0, min(x, 4000))
+    y = max(0, min(y, 4000))
 
-    debug.append(f"click: ({lat:.4f},{lng:.4f}) -> page({x:.0f},{y:.0f}) [{method}]")
-    print(f"    {' | '.join(debug[-2:])}")
+    print(f"    map-click [{method}] ({lat:.4f},{lng:.4f}) -> ({x:.0f},{y:.0f})")
 
     await page.mouse.move(x, y)
     await asyncio.sleep(0.1)

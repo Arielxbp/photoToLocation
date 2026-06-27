@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import math
 import os
 import time
 from collections import defaultdict
@@ -33,6 +34,29 @@ def compute_accuracy(output: torch.Tensor, target: torch.Tensor, top_k: tuple = 
     return results
 
 
+def _mixup_data(
+    images: torch.Tensor,
+    country_idx: torch.Tensor,
+    region_idx: torch.Tensor,
+    continent_idx: torch.Tensor,
+    alpha: float = 0.2,
+) -> tuple:
+    if alpha <= 0:
+        return images, country_idx, None, region_idx, None, continent_idx, None, 1.0
+    lam = np.random.beta(alpha, alpha)
+    lam = max(lam, 1 - lam)
+    batch_size = images.size(0)
+    index = torch.randperm(batch_size, device=images.device)
+    mixed_images = lam * images + (1 - lam) * images[index]
+    return (
+        mixed_images,
+        country_idx, country_idx[index],
+        region_idx, region_idx[index],
+        continent_idx, continent_idx[index],
+        lam,
+    )
+
+
 class Trainer:
     """Supervised training loop for the geolocation model (Phase 1)."""
 
@@ -57,17 +81,42 @@ class Trainer:
             lr=config.learning_rate,
             weight_decay=config.weight_decay,
         )
-        self.scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-            self.optimizer,
-            mode="min",
-            factor=config.lr_scheduler_factor,
-            patience=config.lr_scheduler_patience,
-        )
+
+        self._build_scheduler()
+
         self.scaler = GradScaler() if config.mixed_precision else None
+        self.mixup_alpha = getattr(config, "mixup_alpha", 0.0)
 
         self.current_epoch = 0
         self.best_val_loss = float("inf")
         self.metrics_history: list[dict] = []
+
+    def _build_scheduler(self) -> None:
+        scheduler_type = getattr(self.cfg, "scheduler_type", "plateau")
+        warmup_epochs = getattr(self.cfg, "warmup_epochs", 0)
+
+        if scheduler_type == "cosine":
+            total_epochs = self.cfg.epochs
+            if warmup_epochs > 0:
+                def lr_lambda(epoch):
+                    if epoch < warmup_epochs:
+                        return (epoch + 1) / warmup_epochs
+                    progress = (epoch - warmup_epochs) / max(1, total_epochs - warmup_epochs)
+                    return 0.5 * (1 + math.cos(math.pi * progress))
+                self.scheduler = torch.optim.lr_scheduler.LambdaLR(
+                    self.optimizer, lr_lambda
+                )
+            else:
+                self.scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+                    self.optimizer, T_max=total_epochs,
+                )
+        else:
+            self.scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+                self.optimizer,
+                mode="min",
+                factor=self.cfg.lr_scheduler_factor,
+                patience=self.cfg.lr_scheduler_patience,
+            )
 
     def train_epoch(self) -> dict:
         self.model.train()
@@ -83,34 +132,34 @@ class Trainer:
             lng = batch["lng"].to(self.device)
             true_coords = latlng_to_rad(lat, lng)
 
+            images, c_a, c_b, r_a, r_b, ct_a, ct_b, lam = _mixup_data(
+                images, country_idx, region_idx, continent_idx, self.mixup_alpha,
+            )
+
             self.optimizer.zero_grad()
+
+            target_dict = {
+                "country_idx": c_a,
+                "region_idx": r_a,
+                "continent_idx": ct_a,
+                "true_coords": true_coords,
+                "mixup_lam": lam,
+            }
+            if c_b is not None:
+                target_dict["country_idx_shuffled"] = c_b
+                target_dict["region_idx_shuffled"] = r_b
+                target_dict["continent_idx_shuffled"] = ct_b
 
             if self.scaler:
                 with autocast(self.device):
                     outputs = self.model(images)
-                    loss_dict = self.loss_fn(
-                        outputs,
-                        {
-                            "country_idx": country_idx,
-                            "region_idx": region_idx,
-                            "continent_idx": continent_idx,
-                            "true_coords": true_coords,
-                        },
-                    )
+                    loss_dict = self.loss_fn(outputs, target_dict)
                 self.scaler.scale(loss_dict["total"]).backward()
                 self.scaler.step(self.optimizer)
                 self.scaler.update()
             else:
                 outputs = self.model(images)
-                loss_dict = self.loss_fn(
-                    outputs,
-                    {
-                        "country_idx": country_idx,
-                        "region_idx": region_idx,
-                        "continent_idx": continent_idx,
-                        "true_coords": true_coords,
-                    },
-                )
+                loss_dict = self.loss_fn(outputs, target_dict)
                 loss_dict["total"].backward()
                 self.optimizer.step()
 
@@ -179,11 +228,55 @@ class Trainer:
             **accuracies,
         }
 
-    def fit(self, checkpoint_dir: str | Path) -> dict:
+    def save_checkpoint(self, path: str | Path) -> None:
+        scaler_state = self.scaler.state_dict() if self.scaler else None
+        checkpoint = {
+            "model_state": self.model.state_dict(),
+            "optimizer_state": self.optimizer.state_dict(),
+            "scheduler_state": self.scheduler.state_dict(),
+            "scaler_state": scaler_state,
+            "epoch": self.current_epoch,
+            "best_val_loss": self.best_val_loss,
+            "metrics_history": self.metrics_history,
+            "model_config": {
+                "num_countries": self.model.country_head.fc[-1].out_features,
+                "num_regions": self.model.region_head.fc[-1].out_features,
+                "num_continents": self.model.continent_head.fc[-1].out_features,
+            },
+            "training_config": {
+                "epochs": self.cfg.epochs,
+                "batch_size": self.cfg.batch_size,
+                "learning_rate": self.cfg.learning_rate,
+                "weight_decay": self.cfg.weight_decay,
+                "scheduler_type": getattr(self.cfg, "scheduler_type", "plateau"),
+                "warmup_epochs": getattr(self.cfg, "warmup_epochs", 0),
+                "mixup_alpha": getattr(self.cfg, "mixup_alpha", 0.0),
+            },
+        }
+        torch.save(checkpoint, path)
+
+    def load_state(self, path: str | Path) -> int:
+        checkpoint = torch.load(path, map_location=self.device, weights_only=False)
+        self.model.load_state_dict(checkpoint["model_state"])
+        self.optimizer.load_state_dict(checkpoint["optimizer_state"])
+        self.scheduler.load_state_dict(checkpoint["scheduler_state"])
+        if self.scaler and checkpoint.get("scaler_state"):
+            self.scaler.load_state_dict(checkpoint["scaler_state"])
+        self.current_epoch = checkpoint["epoch"] + 1
+        self.best_val_loss = checkpoint["best_val_loss"]
+        self.metrics_history = checkpoint.get("metrics_history", [])
+        return self.current_epoch
+
+    def fit(self, checkpoint_dir: str | Path, resume_from: str | Path | None = None) -> dict:
         checkpoint_dir = Path(checkpoint_dir)
         checkpoint_dir.mkdir(parents=True, exist_ok=True)
 
-        for epoch in range(self.cfg.epochs):
+        start_epoch = 0
+        if resume_from:
+            start_epoch = self.load_state(resume_from)
+            print(f"Resumed from epoch {start_epoch} (best val_loss={self.best_val_loss:.4f})")
+
+        for epoch in range(start_epoch, self.cfg.epochs):
             self.current_epoch = epoch
             start = time.time()
 
@@ -199,13 +292,17 @@ class Trainer:
             }
             self.metrics_history.append(epoch_metrics)
 
-            self.scheduler.step(val_metrics["total"])
+            if isinstance(self.scheduler, torch.optim.lr_scheduler.ReduceLROnPlateau):
+                self.scheduler.step(val_metrics["total"])
+            else:
+                self.scheduler.step()
 
             if val_metrics["total"] < self.best_val_loss:
                 self.best_val_loss = val_metrics["total"]
                 self.model.save(str(checkpoint_dir / "best_model.pth"))
-                print(f"  ✓ Saved best model (val_loss={val_metrics['total']:.4f})")
+                print(f"  \u2713 Saved best model (val_loss={val_metrics['total']:.4f})")
 
+            self.save_checkpoint(str(checkpoint_dir / "training_state.pt"))
             self._log_epoch(epoch_metrics)
 
             if epoch % 5 == 0 or epoch == self.cfg.epochs - 1:

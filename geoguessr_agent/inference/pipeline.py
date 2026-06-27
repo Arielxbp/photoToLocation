@@ -6,6 +6,7 @@ from typing import Optional
 
 import numpy as np
 import torch
+import torch.nn.functional as F
 from PIL import Image
 
 from ..model.geolocator import GeoLocator
@@ -19,7 +20,7 @@ from ..data.panorama import (
 
 
 class InferencePipeline:
-    """End-to-end inference: image → (lat, lng, country, region, continent)."""
+    """End-to-end inference: image -> (lat, lng, country, region, continent)."""
 
     def __init__(
         self,
@@ -31,6 +32,7 @@ class InferencePipeline:
         idx_to_region: Optional[dict[int, str]] = None,
         idx_to_continent: Optional[dict[int, str]] = None,
         device: str = "cuda",
+        use_tta: bool = True,
     ):
         self.model = model.to(device)
         self.model.eval()
@@ -41,6 +43,7 @@ class InferencePipeline:
         self.idx_to_region = idx_to_region or {}
         self.idx_to_continent = idx_to_continent or {}
         self.device = device
+        self.use_tta = use_tta
 
     def preprocess(self, image: Image.Image | np.ndarray | bytes | str | Path) -> torch.Tensor:
         """Preprocess an image from various input formats."""
@@ -55,12 +58,27 @@ class InferencePipeline:
         else:
             raise TypeError(f"Unsupported image type: {type(image)}")
 
+        from ..constants import IMAGE_NET_MEAN, IMAGE_NET_STD
         img = img.resize((320, 180), Image.BILINEAR)
         arr = np.array(img, dtype=np.float32).transpose(2, 0, 1) / 255.0
-        mean = np.array([0.485, 0.456, 0.406]).reshape(3, 1, 1)
-        std = np.array([0.229, 0.224, 0.225]).reshape(3, 1, 1)
+        mean = IMAGE_NET_MEAN.reshape(3, 1, 1)
+        std = IMAGE_NET_STD.reshape(3, 1, 1)
         tensor = torch.from_numpy((arr - mean) / std).float()
         return tensor.unsqueeze(0).to(self.device)
+
+    def _forward_tta(self, tensor: torch.Tensor) -> dict[str, torch.Tensor]:
+        outputs = self.model(tensor)
+
+        flipped = torch.flip(tensor, dims=[3])
+        outputs_flip = self.model(flipped)
+
+        tta_outputs = {}
+        for key in ("country_logits", "region_logits", "continent_logits"):
+            tta_outputs[key] = (outputs[key] + outputs_flip[key]) / 2.0
+        tta_outputs["coord_xyz"] = outputs["coord_xyz"]
+        tta_outputs["features"] = outputs["features"]
+
+        return tta_outputs
 
     @torch.no_grad()
     def predict(self, image: Image.Image | np.ndarray | bytes | str | Path) -> dict:
@@ -69,7 +87,10 @@ class InferencePipeline:
         Returns lat, lng, country name, country confidence, top-5 countries.
         """
         tensor = self.preprocess(image)
-        outputs = self.model(tensor)
+        if self.use_tta:
+            outputs = self._forward_tta(tensor)
+        else:
+            outputs = self.model(tensor)
 
         country_probs = torch.softmax(outputs["country_logits"], dim=-1)
         top5_conf, top5_idx = torch.topk(country_probs, k=5, dim=-1)
@@ -111,7 +132,11 @@ class InferencePipeline:
     def predict_batch(self, images: list[Image.Image]) -> list[dict]:
         """Batch prediction for multiple images."""
         tensors = torch.cat([self.preprocess(img) for img in images], dim=0).to(self.device)
-        outputs = self.model(tensors)
+
+        if self.use_tta:
+            outputs = self._forward_tta(tensors)
+        else:
+            outputs = self.model(tensors)
 
         country_probs = torch.softmax(outputs["country_logits"], dim=-1)
         region_probs = torch.softmax(outputs["region_logits"], dim=-1)
@@ -171,7 +196,11 @@ class InferencePipeline:
         tensors = torch.cat(
             [self.preprocess(crop) for crop in crops], dim=0
         ).to(self.device)
-        outputs = self.model(tensors)
+
+        if self.use_tta:
+            outputs = self._forward_tta(tensors)
+        else:
+            outputs = self.model(tensors)
 
         country_logits = outputs["country_logits"]
         country_probs = torch.softmax(country_logits, dim=-1)
@@ -242,7 +271,7 @@ class InferencePipeline:
         n_crops: int = 5,
     ) -> Optional[dict]:
         """
-        Full pipeline: stitch panorama tiles → perspective crops → multi-view
+        Full pipeline: stitch panorama tiles -> perspective crops -> multi-view
         inference.
 
         Args:

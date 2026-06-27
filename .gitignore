@@ -1,7 +1,10 @@
-archive.zip
-data/indices.centroids.pt
-checkpoints/
 __pycache__/
 .venv/
-data/kaggle/data/
-data/kaggle/data_mapped/
+*.egg-info/
+checkpoints/
+data/kaggle/data*/
+logs/
+*.png
+*.zip
+data/*.pt
+data/*.pkl

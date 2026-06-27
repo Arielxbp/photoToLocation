@@ -313,5 +313,6 @@
   },
   "num_countries": 96,
   "num_regions": 24576,
-  "num_continents": 7
+  "num_continents": 7,
+  "s2_level": 6
 }

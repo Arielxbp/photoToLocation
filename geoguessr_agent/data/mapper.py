@@ -164,12 +164,6 @@ class CountryMapper:
             else:
                 self.country_to_continent[country] = 0
 
-    def build_region_index(self, region_list: list[str]) -> dict[str, int]:
-        """Build region index from a list of region names."""
-        unique_regions = sorted(set(r for r in region_list if r and r != "Unknown"))
-        return {r: i for i, r in enumerate(unique_regions)}
-
-
 def load_kaggle_metadata(data_dir: str | Path) -> list[dict]:
     """Load all metadata from a Kaggle-style dataset directory."""
     data_dir = Path(data_dir)

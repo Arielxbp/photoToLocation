@@ -94,10 +94,10 @@ class HaversineSmoothCrossEntropy(nn.Module):
 class HierarchicalLoss(nn.Module):
     """
     Combined loss for country + region + continent prediction.
-    Uses the HSLU report's weighting scheme:
-        - Country: cross-entropy (weight 0.6)
-        - Region: smoothed haversine cross-entropy (weight 0.3)
-        - Continent: cross-entropy (weight 0.1)
+
+    Supports:
+        - label smoothing for country classification
+        - MixUp: accepts optional lam + shuffled indices for mixed-target loss
     """
 
     def __init__(
@@ -107,31 +107,45 @@ class HierarchicalLoss(nn.Module):
         loss_region_weight: float = 0.3,
         loss_continent_weight: float = 0.1,
         haversine_temperature: float = 1.0,
+        label_smoothing: float = 0.0,
     ):
         super().__init__()
         self.register_buffer("region_centroids", region_centroids)
         self.w_country = loss_country_weight
         self.w_region = loss_region_weight
         self.w_continent = loss_continent_weight
-        self.country_loss = nn.CrossEntropyLoss()
-        self.region_loss = HaversineSmoothCrossEntropy(temperature=haversine_temperature)
+        self.label_smoothing = label_smoothing
+        self.country_loss = nn.CrossEntropyLoss(label_smoothing=label_smoothing)
         self.continent_loss = nn.CrossEntropyLoss()
+        self.region_loss = HaversineSmoothCrossEntropy(temperature=haversine_temperature)
 
     def forward(
         self,
         outputs: dict[str, torch.Tensor],
         targets: dict[str, torch.Tensor],
     ) -> dict[str, torch.Tensor]:
-        l_country = self.country_loss(outputs["country_logits"], targets["country_idx"])
         l_region = self.region_loss(
             outputs["region_logits"],
             self.region_centroids,
             targets["true_coords"],
             targets["region_idx"],
         )
-        l_continent = self.continent_loss(
-            outputs["continent_logits"], targets["continent_idx"]
-        )
+
+        lam = targets.get("mixup_lam", 1.0)
+        if lam >= 1.0:
+            l_country = self.country_loss(outputs["country_logits"], targets["country_idx"])
+            l_continent = self.continent_loss(outputs["continent_logits"], targets["continent_idx"])
+        else:
+            l_country = lam * self.country_loss(
+                outputs["country_logits"], targets["country_idx"]
+            ) + (1 - lam) * self.country_loss(
+                outputs["country_logits"], targets["country_idx_shuffled"]
+            )
+            l_continent = lam * self.continent_loss(
+                outputs["continent_logits"], targets["continent_idx"]
+            ) + (1 - lam) * self.continent_loss(
+                outputs["continent_logits"], targets["continent_idx_shuffled"]
+            )
 
         total = (
             self.w_country * l_country
@@ -145,6 +159,10 @@ class HierarchicalLoss(nn.Module):
             "region": l_region,
             "continent": l_continent,
         }
+
+    def set_label_smoothing(self, value: float) -> None:
+        self.label_smoothing = value
+        self.country_loss = nn.CrossEntropyLoss(label_smoothing=value)
 
 
 class DPOGeoLoss(nn.Module):
@@ -175,8 +193,6 @@ class DPOGeoLoss(nn.Module):
             region_centroids: (num_regions, 2) centroids
             true_coords: (batch, 2) true locations
         """
-        batch = true_coords.shape[0]
-
         ref_probs = torch.softmax(ref_region_logits, dim=-1)
         model_probs_better = torch.softmax(model_region_logits_better, dim=-1)
         model_probs_worse = torch.softmax(model_region_logits_worse, dim=-1)

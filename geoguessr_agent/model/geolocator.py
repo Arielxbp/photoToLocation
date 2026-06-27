@@ -5,19 +5,14 @@ from typing import Optional
 import torch
 import torch.nn as nn
 
-from .backbone import EfficientNetBackbone
+from .backbone import EfficientNetBackbone, _DEFAULT_VARIANT
 from .heads import ContinentHead, CoordinateHead, CountryHead, RegionHead
 
 
 class GeoLocator(nn.Module):
     """
-    Full geolocation model combining EfficientNet-B1 backbone with
+    Full geolocation model combining EfficientNet backbone with
     hierarchical classification heads (country, region, continent).
-
-    Architecture validated by the HSLU 2024 report:
-        - EfficientNet-B1 is the best backbone
-        - No data augmentation for Google Street View images
-        - Hierarchical classification > direct coordinate regression
     """
 
     def __init__(
@@ -28,10 +23,11 @@ class GeoLocator(nn.Module):
         pretrained: bool = True,
         freeze_backbone: bool = False,
         dropout: float = 0.3,
+        backbone_name: str = _DEFAULT_VARIANT,
     ):
         super().__init__()
         self.backbone = EfficientNetBackbone(
-            pretrained=pretrained, freeze=freeze_backbone
+            pretrained=pretrained, freeze=freeze_backbone, variant=backbone_name,
         )
         in_dim = self.backbone.feature_dim
 
@@ -78,9 +74,6 @@ class GeoLocator(nn.Module):
                 "features": outputs["features"],
             }
 
-    def unfreeze_backbone_last_n(self, n: int) -> None:
-        self.backbone.unfreeze_last_n_blocks(n)
-
     def save(self, path: str) -> None:
         torch.save(
             {
@@ -89,6 +82,7 @@ class GeoLocator(nn.Module):
                     "num_countries": self.country_head.fc[-1].out_features,
                     "num_regions": self.region_head.fc[-1].out_features,
                     "num_continents": self.continent_head.fc[-1].out_features,
+                    "backbone_name": self.backbone.feature_dim,  # stored for reference
                 },
             },
             path,

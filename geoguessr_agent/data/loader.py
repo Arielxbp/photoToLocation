@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Callable, Optional
 
 from geoguessr_agent.data.mapper import _normalize_country
+from geoguessr_agent.geoutils import latlng_to_region_idx
 
 import numpy as np
 import torch
@@ -30,6 +31,8 @@ class GeoguessrDataset(Dataset):
         variance_threshold: float = 15.0,
         laplacian_threshold: float = 50.0,
         transform: Optional[Callable] = None,
+        s2_level: int = 6,
+        cell_to_idx: Optional[dict[int, int]] = None,
     ):
         self.data_dir = Path(data_dir)
         self.country_index = country_index
@@ -41,6 +44,8 @@ class GeoguessrDataset(Dataset):
         self.variance_threshold = variance_threshold
         self.laplacian_threshold = laplacian_threshold
         self.transform = transform
+        self.s2_level = s2_level
+        self.cell_to_idx = cell_to_idx or {}
 
         if file_list is not None:
             self.samples = file_list
@@ -105,9 +110,10 @@ class GeoguessrDataset(Dataset):
         if self.transform:
             img = self.transform(img)
         else:
+            from ..constants import IMAGE_NET_MEAN_T, IMAGE_NET_STD_T
             img = torch.from_numpy(np.array(img).transpose(2, 0, 1)).float() / 255.0
-            mean = torch.tensor([0.485, 0.456, 0.406]).view(3, 1, 1)
-            std = torch.tensor([0.229, 0.224, 0.225]).view(3, 1, 1)
+            mean = IMAGE_NET_MEAN_T.view(3, 1, 1)
+            std = IMAGE_NET_STD_T.view(3, 1, 1)
             img = (img - mean) / std
 
         meta = self._load_metadata(img_path)
@@ -119,7 +125,15 @@ class GeoguessrDataset(Dataset):
         lng = coords[1] if len(coords) > 1 else float(meta.get("lng", 0.0))
 
         country_idx = self.country_index.get(country, -1)
-        region_idx = self.region_index.get(region, 0)
+
+        # Compute region_idx from (lat, lng) via S2 cells — the correct
+        # mapping that the old code was missing (it did a string-dict lookup
+        # that always returned 0, making the region head untrainable).
+        if self.cell_to_idx and lat != 0.0 and lng != 0.0:
+            region_idx = latlng_to_region_idx(lat, lng, self.s2_level, self.cell_to_idx)
+        else:
+            region_idx = self.region_index.get(region, 0)
+
         continent_idx = self.continent_index.get(
             continent, self.country_to_continent.get(country, 0)
         )
@@ -152,6 +166,8 @@ def create_dataloaders(
     filter_low_variance: bool = True,
     variance_threshold: float = 15.0,
     laplacian_threshold: float = 50.0,
+    s2_level: int = 6,
+    cell_to_idx: Optional[dict[int, int]] = None,
 ) -> tuple[DataLoader, DataLoader]:
     """Create training and validation DataLoaders."""
 
@@ -166,6 +182,8 @@ def create_dataloaders(
         filter_low_variance=filter_low_variance,
         variance_threshold=variance_threshold,
         laplacian_threshold=laplacian_threshold,
+        s2_level=s2_level,
+        cell_to_idx=cell_to_idx,
     )
 
     generator = torch.Generator().manual_seed(seed)
