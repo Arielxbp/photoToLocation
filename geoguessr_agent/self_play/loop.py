@@ -23,8 +23,8 @@ from ..game.actions import (
 )
 from ..game.browser import OpenGuessrBrowser
 from ..game.state_machine import GameState, GameStateMachine
-from ..model.geolocator import GeoLocator
 from ..inference.gradcam import generate_annotated_heatmap
+from ..model.geolocator import GeoLocator
 from ..plonkit.kb import ClueKnowledgeBase
 from ..self_play.buffer import ReplayBuffer, ReplayEntry
 from ..self_play.reward import RewardCalculator
@@ -62,9 +62,13 @@ class SelfPlayLoop:
         self.region_centroids = region_centroids.to(config.device)
         self.country_index = country_index
         self.idx_to_country = idx_to_country
-        self.country_centroids = country_centroids.to(config.device) if country_centroids is not None else None
+        if country_centroids is not None:
+            self.country_centroids = country_centroids.to(config.device)
+        else:
+            self.country_centroids = None
         self.kb = kb
         self.enable_heatmaps = enable_heatmaps
+        self.exploration_epsilon = config.dpo.exploration_epsilon
 
         self.browser = OpenGuessrBrowser(
             url=config.game.url,
@@ -119,6 +123,10 @@ class SelfPlayLoop:
         country_conf, country_idx = country_probs.max(dim=-1)
         country_idx = country_idx.item()
         country_conf = country_conf.item()
+
+        if self.exploration_epsilon > 0 and random.random() < self.exploration_epsilon:
+            country_idx = random.randint(0, len(self.idx_to_country) - 1)
+            country_conf = 0.0
 
         # Coordinates: country centroid (primary) + small jitter.
         if self.country_centroids is not None:
@@ -333,7 +341,10 @@ class SelfPlayLoop:
             print("    [WARN] Could not read score")
 
         true_coords = pano_truth
-        if not true_coords and results and results.get("lat") is not None and results.get("lng") is not None:
+        if (not true_coords
+                and results
+                and results.get("lat") is not None
+                and results.get("lng") is not None):
             true_coords = (float(results["lat"]), float(results["lng"]))
         if not true_coords:
             true_coords = await self.state_machine.read_true_coordinates(self.browser.page)

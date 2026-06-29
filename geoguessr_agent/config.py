@@ -45,13 +45,18 @@ class TrainingConfig:
 
 @dataclass
 class DPOConfig:
-    beta: float = 0.1
+    beta: float = 0.02
     learning_rate: float = 1e-5
     buffer_size: int = 10_000
-    batch_size: int = 64
-    dpo_epochs: int = 3
+    batch_size: int = 32
+    dpo_epochs: int = 1
     fine_tune_every_n_rounds: int = 500
     collect_rounds_per_session: int = 50
+    exploration_epsilon: float = 0.1
+    validation_enabled: bool = True
+    max_degradation_pct: float = 5.0
+    dpo_loss_weight: float = 0.1
+    sft_loss_weight: float = 1.0
 
 
 @dataclass

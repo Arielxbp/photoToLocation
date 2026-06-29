@@ -257,4 +257,146 @@ def get_country_centroids(country_index: dict[str, int]) -> torch.Tensor:
     return torch.tensor(centroids, dtype=torch.float32)
 
 
+# ---------------------------------------------------------------------------
+# Country capitals — alternative click target table for self-play
+# ---------------------------------------------------------------------------
+
+_CAPITAL_LATLNG: dict[str, tuple[float, float]] = {
+    "Albania": (41.33, 19.82),
+    "Andorra": (42.51, 1.52),
+    "Argentina": (-34.60, -58.38),
+    "Australia": (-35.28, 149.13),
+    "Austria": (48.21, 16.37),
+    "Bangladesh": (23.81, 90.41),
+    "Belgium": (50.85, 4.35),
+    "Bhutan": (27.47, 89.64),
+    "Bolivia": (-19.03, -65.26),
+    "Bosnia and Herzegovina": (43.86, 18.41),
+    "Botswana": (-24.63, 25.91),
+    "Brazil": (-15.79, -47.88),
+    "Bulgaria": (42.70, 23.32),
+    "Cambodia": (11.56, 104.92),
+    "Canada": (45.42, -75.70),
+    "Chile": (-33.45, -70.67),
+    "China": (39.91, 116.40),
+    "Colombia": (4.71, -74.07),
+    "Costa Rica": (9.93, -84.08),
+    "Croatia": (45.82, 15.98),
+    "Curaçao": (12.11, -68.93),
+    "Czechia": (50.08, 14.44),
+    "Denmark": (55.68, 12.57),
+    "Dominican Republic": (18.49, -69.86),
+    "Ecuador": (-0.23, -78.52),
+    "Egypt": (30.04, 31.24),
+    "Estonia": (59.44, 24.75),
+    "Eswatini": (-26.30, 31.14),
+    "Faroe Islands": (62.01, -6.77),
+    "Finland": (60.17, 24.94),
+    "France": (48.86, 2.35),
+    "Gambia": (13.45, -16.58),
+    "Germany": (52.52, 13.40),
+    "Ghana": (5.56, -0.20),
+    "Greece": (37.98, 23.73),
+    "Greenland": (64.18, -51.72),
+    "Guatemala": (14.63, -90.51),
+    "Hong Kong": (22.32, 114.17),
+    "Hungary": (47.50, 19.04),
+    "Iceland": (64.15, -21.94),
+    "India": (28.61, 77.23),
+    "Indonesia": (-6.21, 106.85),
+    "Iraq": (33.32, 44.40),
+    "Ireland": (53.35, -6.26),
+    "Isle of Man": (54.15, -4.48),
+    "Israel": (31.77, 35.21),
+    "Italy": (41.90, 12.50),
+    "Japan": (35.68, 139.76),
+    "Jersey": (49.19, -2.11),
+    "Jordan": (31.95, 35.93),
+    "Kazakhstan": (51.17, 71.43),
+    "Kenya": (-1.29, 36.82),
+    "Kyrgyzstan": (42.87, 74.59),
+    "Laos": (17.97, 102.63),
+    "Latvia": (56.95, 24.11),
+    "Lebanon": (33.89, 35.50),
+    "Lesotho": (-29.32, 27.48),
+    "Lithuania": (54.69, 25.28),
+    "Luxembourg": (49.61, 6.13),
+    "Madagascar": (-18.91, 47.54),
+    "Malaysia": (3.14, 101.69),
+    "Mali": (12.65, -8.00),
+    "Malta": (35.90, 14.51),
+    "Mexico": (19.43, -99.13),
+    "Mongolia": (47.92, 106.92),
+    "Montenegro": (42.44, 19.26),
+    "Morocco": (33.97, -6.85),
+    "Namibia": (-22.56, 17.09),
+    "Nepal": (27.70, 85.32),
+    "Netherlands": (52.37, 4.89),
+    "New Zealand": (-41.29, 174.78),
+    "Nigeria": (9.06, 7.50),
+    "North Macedonia": (41.99, 21.43),
+    "Norway": (59.91, 10.75),
+    "Oman": (23.59, 58.41),
+    "Pakistan": (33.68, 73.05),
+    "Palestine": (31.90, 35.20),
+    "Panama": (8.98, -79.52),
+    "Peru": (-12.05, -77.04),
+    "Philippines": (14.60, 120.98),
+    "Poland": (52.23, 21.01),
+    "Portugal": (38.72, -9.14),
+    "Puerto Rico": (18.47, -66.11),
+    "Qatar": (25.29, 51.53),
+    "Reunion": (-20.88, 55.45),
+    "Romania": (44.43, 26.10),
+    "Russia": (55.75, 37.62),
+    "Rwanda": (-1.94, 30.06),
+    "San Marino": (43.94, 12.45),
+    "Senegal": (14.69, -17.44),
+    "Serbia": (44.79, 20.45),
+    "Singapore": (1.35, 103.82),
+    "Slovakia": (48.15, 17.11),
+    "Slovenia": (46.05, 14.51),
+    "South Africa": (-25.75, 28.19),
+    "South Korea": (37.57, 126.98),
+    "Spain": (40.42, -3.70),
+    "Sri Lanka": (6.91, 79.89),
+    "Svalbard": (78.22, 15.63),
+    "Sweden": (59.33, 18.07),
+    "Switzerland": (46.95, 7.45),
+    "Taiwan": (25.03, 121.57),
+    "Tanzania": (-6.17, 35.74),
+    "Thailand": (13.75, 100.50),
+    "Tunisia": (36.81, 10.18),
+    "Turkey": (39.93, 32.86),
+    "Uganda": (0.32, 32.58),
+    "Ukraine": (50.45, 30.52),
+    "United Arab Emirates": (24.47, 54.37),
+    "United Kingdom": (51.51, -0.13),
+    "United States": (38.91, -77.04),
+    "Uruguay": (-34.90, -56.16),
+    "Vatican City": (41.90, 12.45),
+    "Vietnam": (21.03, 105.83),
+    "Belarus": (53.90, 27.57),
+}
+
+
+def get_capital_coordinates(country_index: dict[str, int]) -> torch.Tensor:
+    """
+    Return capital city coordinates (lat_rad, lng_rad) for each country
+    in the index.
+
+    Alternative to ``get_country_centroids`` — clicks the minimap on the
+    country's capital rather than its geographic centre.  The same ±3°
+    jitter is applied downstream in SelfPlayLoop so repeated guesses
+    for the same country vary.
+    """
+    n = len(country_index)
+    coords = [(0.0, 0.0)] * n
+    for country, idx in country_index.items():
+        lat, lng = _CAPITAL_LATLNG.get(country, (0.0, 0.0))
+        coords[idx] = (math.radians(lat), math.radians(lng))
+
+    return torch.tensor(coords, dtype=torch.float32)
+
+
 

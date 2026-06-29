@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import math
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -167,10 +165,15 @@ class HierarchicalLoss(nn.Module):
 
 class DPOGeoLoss(nn.Module):
     """
-    Direct Preference Optimization loss adapted for geolocation.
+    Direct Preference Optimization loss for region classification.
 
-    Given two guesses for the same image (better and worse, as measured by
-    Haversine distance to ground truth), the model should prefer the better guess.
+    The model is shown an image and should assign higher log-probability to
+    the region containing the true location (preferred) than to the region
+    the model originally guessed (dispreferred).
+
+    Standard DPO formulation on log-probabilities rather than on
+    smooth haversine rewards, which avoids the constant-loss problem
+    when both versions use the same model forward pass.
     """
 
     def __init__(self, beta: float = 0.1):
@@ -180,43 +183,30 @@ class DPOGeoLoss(nn.Module):
     def forward(
         self,
         ref_region_logits: torch.Tensor,
-        model_region_logits_better: torch.Tensor,
-        model_region_logits_worse: torch.Tensor,
-        region_centroids: torch.Tensor,
-        true_coords: torch.Tensor,
+        model_region_logits: torch.Tensor,
+        preferred_idx: torch.Tensor,
+        dispreferred_idx: torch.Tensor,
     ) -> torch.Tensor:
         """
         Args:
-            ref_region_logits: logits from reference (frozen) model
-            model_region_logits_better: logits from current model for better guess
-            model_region_logits_worse: logits from current model for worse guess
-            region_centroids: (num_regions, 2) centroids
-            true_coords: (batch, 2) true locations
+            ref_region_logits: (batch, num_regions) logits from frozen reference
+            model_region_logits: (batch, num_regions) logits from trainable model
+            preferred_idx: (batch,) region indices for the true location
+            dispreferred_idx: (batch,) region indices for the guessed location
         """
-        ref_probs = torch.softmax(ref_region_logits, dim=-1)
-        model_probs_better = torch.softmax(model_region_logits_better, dim=-1)
-        model_probs_worse = torch.softmax(model_region_logits_worse, dim=-1)
+        ref_log_probs = F.log_softmax(ref_region_logits, dim=-1)
+        model_log_probs = F.log_softmax(model_region_logits, dim=-1)
 
-        ref_coords_better = ref_probs @ region_centroids
-        ref_coords_worse = ref_probs @ region_centroids
-        model_coords_better = model_probs_better @ region_centroids
-        model_coords_worse = model_probs_worse @ region_centroids
+        ref_pref = ref_log_probs.gather(1, preferred_idx.unsqueeze(-1)).squeeze(-1)
+        ref_disf = ref_log_probs.gather(1, dispreferred_idx.unsqueeze(-1)).squeeze(-1)
+        model_pref = model_log_probs.gather(1, preferred_idx.unsqueeze(-1)).squeeze(-1)
+        model_disf = model_log_probs.gather(1, dispreferred_idx.unsqueeze(-1)).squeeze(-1)
 
-        d_ref_better = haversine_distance(ref_coords_better, true_coords)
-        d_ref_worse = haversine_distance(ref_coords_worse, true_coords)
-        d_model_better = haversine_distance(model_coords_better, true_coords)
-        d_model_worse = haversine_distance(model_coords_worse, true_coords)
+        model_ratio = model_pref - model_disf
+        ref_ratio = ref_pref - ref_disf
 
-        r_ref_better = -d_ref_better
-        r_ref_worse = -d_ref_worse
-        r_model_better = -d_model_better
-        r_model_worse = -d_model_worse
-
-        advantage_better = r_model_better - r_ref_better
-        advantage_worse = r_model_worse - r_ref_worse
-
-        log_ratio = self.beta * (advantage_better - advantage_worse)
-        loss = -torch.log(torch.sigmoid(log_ratio)).mean()
+        log_ratio = torch.clamp(self.beta * (model_ratio - ref_ratio), min=-10.0, max=10.0)
+        loss = -F.logsigmoid(log_ratio).mean()
 
         return loss
 

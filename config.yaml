@@ -46,3 +46,17 @@ data:
   laplacian_threshold: 50.0
 
 device: cuda
+
+dpo:
+  beta: 0.02
+  learning_rate: 0.00001
+  buffer_size: 10000
+  batch_size: 32
+  dpo_epochs: 1
+  fine_tune_every_n_rounds: 500
+  collect_rounds_per_session: 50
+  exploration_epsilon: 0.1
+  validation_enabled: true
+  max_degradation_pct: 5.0
+  dpo_loss_weight: 0.1
+  sft_loss_weight: 1.0

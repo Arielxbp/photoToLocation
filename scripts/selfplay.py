@@ -25,7 +25,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import torch
 
 from geoguessr_agent.config import load_config
-from geoguessr_agent.geoutils import get_country_centroids
+from geoguessr_agent.geoutils import get_capital_coordinates, get_country_centroids
 from geoguessr_agent.model.geolocator import GeoLocator
 from geoguessr_agent.plonkit.kb import ClueKnowledgeBase
 from geoguessr_agent.self_play.loop import SelfPlayLoop
@@ -41,9 +41,15 @@ def main():
     parser.add_argument("--buffer", default="data/replay_buffer.pkl",
                         help="Where to persist the collected replay buffer")
     parser.add_argument("--heatmaps", action="store_true", default=False)
+    parser.add_argument("--epsilon", type=float, default=None,
+                        help="Exploration epsilon (overrides config)")
+    parser.add_argument("--use-capitals", action="store_true", default=False,
+                        help="Click minimap on country capitals instead of geographic centres")
     args = parser.parse_args()
 
     config = load_config(args.config)
+    if args.epsilon is not None:
+        config.dpo.exploration_epsilon = args.epsilon
 
     with open(args.indices) as f:
         indices = json.load(f)
@@ -70,7 +76,10 @@ def main():
     if args.kb_dir and Path(args.kb_dir).exists():
         kb = ClueKnowledgeBase(args.kb_dir)
 
-    country_centroids = get_country_centroids(indices["country_index"])
+    if args.use_capitals:
+        country_centroids = get_capital_coordinates(indices["country_index"])
+    else:
+        country_centroids = get_country_centroids(indices["country_index"])
 
     loop = SelfPlayLoop(
         config=config,
