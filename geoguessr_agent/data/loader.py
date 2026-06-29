@@ -6,13 +6,13 @@ import random
 from pathlib import Path
 from typing import Callable, Optional
 
-from geoguessr_agent.data.mapper import _normalize_country
-from geoguessr_agent.geoutils import latlng_to_region_idx
-
 import numpy as np
 import torch
 from PIL import Image
 from torch.utils.data import DataLoader, Dataset, WeightedRandomSampler
+
+from geoguessr_agent.data.mapper import _normalize_country
+from geoguessr_agent.geoutils import latlng_to_region_idx
 
 
 class GeoguessrDataset(Dataset):
@@ -33,6 +33,7 @@ class GeoguessrDataset(Dataset):
         transform: Optional[Callable] = None,
         s2_level: int = 6,
         cell_to_idx: Optional[dict[int, int]] = None,
+        clue_features: Optional[dict[str, np.ndarray]] = None,
     ):
         self.data_dir = Path(data_dir)
         self.country_index = country_index
@@ -46,6 +47,7 @@ class GeoguessrDataset(Dataset):
         self.transform = transform
         self.s2_level = s2_level
         self.cell_to_idx = cell_to_idx or {}
+        self.clue_features = clue_features or {}
 
         if file_list is not None:
             self.samples = file_list
@@ -138,7 +140,7 @@ class GeoguessrDataset(Dataset):
             continent, self.country_to_continent.get(country, 0)
         )
 
-        return {
+        sample = {
             "image": img,
             "country_idx": torch.tensor(country_idx, dtype=torch.long),
             "region_idx": torch.tensor(region_idx, dtype=torch.long),
@@ -148,6 +150,13 @@ class GeoguessrDataset(Dataset):
             "country_name": country,
             "path": img_path,
         }
+
+        if self.clue_features and img_path in self.clue_features:
+            sample["clue_features"] = torch.from_numpy(
+                self.clue_features[img_path]
+            ).float()
+
+        return sample
 
 
 def create_dataloaders(
@@ -168,6 +177,7 @@ def create_dataloaders(
     laplacian_threshold: float = 50.0,
     s2_level: int = 6,
     cell_to_idx: Optional[dict[int, int]] = None,
+    clue_features: Optional[dict[str, np.ndarray]] = None,
 ) -> tuple[DataLoader, DataLoader]:
     """Create training and validation DataLoaders."""
 
@@ -184,6 +194,7 @@ def create_dataloaders(
         laplacian_threshold=laplacian_threshold,
         s2_level=s2_level,
         cell_to_idx=cell_to_idx,
+        clue_features=clue_features,
     )
 
     generator = torch.Generator().manual_seed(seed)

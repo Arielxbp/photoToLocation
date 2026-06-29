@@ -28,6 +28,10 @@ def main():
     parser.add_argument("--checkpoint-dir", default="checkpoints")
     parser.add_argument("--balance", action="store_true", default=True)
     parser.add_argument("--resume", default=None, help="Resume from a training_state.pt checkpoint")
+    parser.add_argument(
+        "--clue-features", default=None,
+        help="Path to pre-extracted clue features .pt file (enables fusion training)",
+    )
     args = parser.parse_args()
 
     config = load_config(args.config)
@@ -65,6 +69,16 @@ def main():
 
     region_index = {"cell_" + str(i): i for i in range(num_regions)}
 
+    clue_features_dict = None
+    clue_feature_dim = None
+    if args.clue_features:
+        clue_feature_data = torch.load(args.clue_features, map_location="cpu", weights_only=False)
+        if isinstance(clue_feature_data, dict) and "features" in clue_feature_data:
+            clue_features_dict = clue_feature_data["features"]
+            clue_feature_dim = clue_feature_data.get("feature_dim")
+        print(f"Loaded {len(clue_features_dict)} pre-extracted clue features "
+              f"(dim={clue_feature_dim})")
+
     file_list = None
     if args.balance:
         file_list = build_balanced_split(
@@ -92,6 +106,7 @@ def main():
         laplacian_threshold=config.data.laplacian_threshold,
         s2_level=s2_level,
         cell_to_idx=cell_to_idx,
+        clue_features=clue_features_dict,
     )
 
     print(f"Train batches: {len(train_loader)}, Val batches: {len(val_loader)}")
@@ -104,6 +119,7 @@ def main():
         freeze_backbone=False,
         dropout=config.model.dropout,
         backbone_name=config.model.backbone,
+        clue_feature_dim=clue_feature_dim,
     )
 
     loss_fn = HierarchicalLoss(

@@ -74,6 +74,14 @@ class GameConfig:
 
 
 @dataclass
+class FeatureConfig:
+    enabled: bool = False
+    clip_model: str = "openai/clip-vit-base-patch32"
+    use_streetclip: bool = False
+    device: str = "cuda"
+
+
+@dataclass
 class DataConfig:
     kaggle_dir: str = "data/kaggle"
     plonkit_cache_dir: str = "data/plonkit_cache"
@@ -100,6 +108,7 @@ class Config:
     training: TrainingConfig = field(default_factory=TrainingConfig)
     dpo: DPOConfig = field(default_factory=DPOConfig)
     game: GameConfig = field(default_factory=GameConfig)
+    features: FeatureConfig = field(default_factory=FeatureConfig)
     data: DataConfig = field(default_factory=DataConfig)
     wandb: WandbConfig = field(default_factory=WandbConfig)
     device: str = "cuda"

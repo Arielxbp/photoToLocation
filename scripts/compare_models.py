@@ -84,8 +84,9 @@ def _geolocator_predict(
     tensor: torch.Tensor,
     country_centroids: torch.Tensor,
     idx_to_country: dict[int, str],
+    clue_features: Optional[torch.Tensor] = None,
 ) -> dict:
-    outputs = model(tensor)
+    outputs = model(tensor, clue_features)
 
     country_probs = torch.softmax(outputs["country_logits"], dim=-1)
     top5_conf, top5_idx = torch.topk(country_probs, k=5, dim=-1)
@@ -202,12 +203,7 @@ def _streetclip_predict(
 
 
 class ComparativeSelfPlayLoop:
-    """Runs self-play rounds evaluating both the trained GeoLocator and
-    StreetCLIP on the same screenshots.
-
-    The trained model's guess is clicked on the map so the round can
-    complete; StreetCLIP's prediction is recorded silently.
-    """
+    """Runs self-play rounds evaluating two models on the same screenshots."""
 
     def __init__(
         self,
@@ -220,6 +216,8 @@ class ComparativeSelfPlayLoop:
         country_names: list[str],
         country_centroids: torch.Tensor,
         exploration_epsilon: float = 0.1,
+        model_b: Optional[GeoLocator] = None,
+        clue_extractor=None,
     ):
         self.cfg = config
         self.trained_model = trained_model.to(config.device).eval()
@@ -230,6 +228,12 @@ class ComparativeSelfPlayLoop:
         self.country_names = country_names
         self.country_centroids = country_centroids.to(config.device)
         self.exploration_epsilon = exploration_epsilon
+        self.model_b = model_b.to(config.device).eval() if model_b else None
+        self.clue_extractor = clue_extractor
+
+        if self.model_b is not None:
+            self.streetclip = None
+            self.streetclip_processor = None
 
         self.browser = OpenGuessrBrowser(
             url=config.game.url,
@@ -319,7 +323,7 @@ class ComparativeSelfPlayLoop:
 
         pano_truth = await self.browser.read_pano_location()
 
-        # ---- Trained GeoLocator ----
+        # ---- Model A (trained GeoLocator) ----
         tensor = _preprocess_for_efficientnet(img_bytes).to(self.cfg.device)
         with torch.no_grad():
             trained_pred = _geolocator_predict(
@@ -327,11 +331,30 @@ class ComparativeSelfPlayLoop:
                 self.country_centroids, self.idx_to_country,
             )
 
-        # ---- StreetCLIP baseline ----
-        streetclip_pred = _streetclip_predict(
-            self.streetclip, self.streetclip_processor, img_bytes,
-            self.country_names, self.country_centroids, self.country_index,
-        )
+        # ---- Model B (StreetCLIP or second GeoLocator) ----
+        if self.model_b is not None:
+            model_b_name = "Model B (fusion)"
+            clue_vec = None
+            if self.clue_extractor is not None and self.model_b.has_fusion:
+                from PIL import Image as PILImage
+                pil_img = PILImage.open(io.BytesIO(img_bytes)).convert("RGB")
+                extracted = self.clue_extractor.extract_with_labels(pil_img)
+                clue_vec = torch.from_numpy(
+                    extracted["vector"]
+                ).float().unsqueeze(0).to(self.cfg.device)
+            with torch.no_grad():
+                model_b_pred = _geolocator_predict(
+                    self.model_b, tensor,
+                    self.country_centroids, self.idx_to_country,
+                    clue_features=clue_vec,
+                )
+            streetclip_pred = model_b_pred
+        else:
+            model_b_name = "StreetCLIP"
+            streetclip_pred = _streetclip_predict(
+                self.streetclip, self.streetclip_processor, img_bytes,
+                self.country_names, self.country_centroids, self.country_index,
+            )
 
         # Exploration epsilon for the *clicked* prediction
         click_pred = dict(trained_pred)
@@ -344,10 +367,18 @@ class ComparativeSelfPlayLoop:
                 click_pred["latitude"] += random.uniform(-3.0, 3.0)
                 click_pred["longitude"] += random.uniform(-3.0, 3.0)
 
-        print(f"    GeoLocator: ({trained_pred['latitude']:.2f}, {trained_pred['longitude']:.2f})"
-              f" → {trained_pred['country_name']} (conf={trained_pred['country_conf']:.2f})")
-        print(f"    StreetCLIP: ({streetclip_pred['latitude']:.2f}, {streetclip_pred['longitude']:.2f})"
-              f" → {streetclip_pred['country_name']} (conf={streetclip_pred['country_conf']:.2f})")
+        print(
+            f"    Model A: ({trained_pred['latitude']:.2f},"
+            f" {trained_pred['longitude']:.2f})"
+            f" → {trained_pred['country_name']}"
+            f" (conf={trained_pred['country_conf']:.2f})"
+        )
+        print(
+            f"    {model_b_name}: ({streetclip_pred['latitude']:.2f},"
+            f" {streetclip_pred['longitude']:.2f})"
+            f" → {streetclip_pred['country_name']}"
+            f" (conf={streetclip_pred['country_conf']:.2f})"
+        )
 
         # ---- click with the trained model ----
         if not await hover_minimap_to_expand(self.browser.page):
@@ -389,33 +420,35 @@ class ComparativeSelfPlayLoop:
             trained_pred["latitude"], trained_pred["longitude"],
             true_lat, true_lng,
         )
-        streetclip_dist = _haversine_km(
+        model_b_dist = _haversine_km(
             streetclip_pred["latitude"], streetclip_pred["longitude"],
             true_lat, true_lng,
         )
 
         print(f"    True: ({true_lat:.4f}, {true_lng:.4f})  "
-              f"GeoLocator={trained_dist:.0f} km  StreetCLIP={streetclip_dist:.0f} km")
+              f"Model A={trained_dist:.0f} km  {model_b_name}={model_b_dist:.0f} km")
 
         return {
             "round": round_num,
             "true_lat": true_lat,
             "true_lng": true_lng,
-            "geo_lat": trained_pred["latitude"],
-            "geo_lng": trained_pred["longitude"],
-            "geo_country": trained_pred["country_name"],
-            "geo_conf": trained_pred["country_conf"],
-            "geo_distance_km": trained_dist,
-            "streetclip_lat": streetclip_pred["latitude"],
-            "streetclip_lng": streetclip_pred["longitude"],
-            "streetclip_country": streetclip_pred["country_name"],
-            "streetclip_conf": streetclip_pred["country_conf"],
-            "streetclip_distance_km": streetclip_dist,
+            "model_a_lat": trained_pred["latitude"],
+            "model_a_lng": trained_pred["longitude"],
+            "model_a_country": trained_pred["country_name"],
+            "model_a_conf": trained_pred["country_conf"],
+            "model_a_distance_km": trained_dist,
+            "model_b_lat": streetclip_pred["latitude"],
+            "model_b_lng": streetclip_pred["longitude"],
+            "model_b_country": streetclip_pred["country_name"],
+            "model_b_conf": streetclip_pred["country_conf"],
+            "model_b_distance_km": model_b_dist,
         }
 
     async def run_session(self, num_rounds: int = 50) -> list[dict]:
+        label_a = "Model A (image-only)"
+        label_b = "Model B (fusion)" if self.model_b is not None else "StreetCLIP"
         print(f"\n{'='*60}")
-        print(f"GeoLocator vs StreetCLIP  —  {num_rounds} rounds")
+        print(f"{label_a} vs {label_b}  —  {num_rounds} rounds")
         print(f"{'='*60}")
 
         try:
@@ -471,38 +504,38 @@ class ComparativeSelfPlayLoop:
         if not self.records:
             return {"rounds": 0}
 
-        geo_dists = [r["geo_distance_km"] for r in self.records]
-        sc_dists = [r["streetclip_distance_km"] for r in self.records]
+        a_dists = [r["model_a_distance_km"] for r in self.records]
+        b_dists = [r["model_b_distance_km"] for r in self.records]
 
-        geo_wins = sum(1 for g, s in zip(geo_dists, sc_dists) if g < s)
-        sc_wins = sum(1 for s, g in zip(sc_dists, geo_dists) if s < g)
-        ties = len(self.records) - geo_wins - sc_wins
+        a_wins = sum(1 for a, b in zip(a_dists, b_dists) if a < b)
+        b_wins = sum(1 for b, a in zip(b_dists, a_dists) if b < a)
+        ties = len(self.records) - a_wins - b_wins
 
         return {
             "rounds": len(self.records),
-            "geolocator": {
-                "mean_km": np.mean(geo_dists),
-                "median_km": np.median(geo_dists),
-                "min_km": np.min(geo_dists),
-                "max_km": np.max(geo_dists),
-                "std_km": np.std(geo_dists),
+            "model_a": {
+                "mean_km": np.mean(a_dists),
+                "median_km": np.median(a_dists),
+                "min_km": np.min(a_dists),
+                "max_km": np.max(a_dists),
+                "std_km": np.std(a_dists),
             },
-            "streetclip": {
-                "mean_km": np.mean(sc_dists),
-                "median_km": np.median(sc_dists),
-                "min_km": np.min(sc_dists),
-                "max_km": np.max(sc_dists),
-                "std_km": np.std(sc_dists),
+            "model_b": {
+                "mean_km": np.mean(b_dists),
+                "median_km": np.median(b_dists),
+                "min_km": np.min(b_dists),
+                "max_km": np.max(b_dists),
+                "std_km": np.std(b_dists),
             },
             "head_to_head": {
-                "geolocator_wins": geo_wins,
-                "streetclip_wins": sc_wins,
+                "model_a_wins": a_wins,
+                "model_b_wins": b_wins,
                 "ties": ties,
             },
         }
 
 
-def _print_stats(stats: dict) -> None:
+def _print_stats(stats: dict, label_a: str = "Model A", label_b: str = "Model B") -> None:
     print(f"\n{'='*60}")
     print("COMPARISON RESULTS")
     print(f"{'='*60}")
@@ -510,37 +543,42 @@ def _print_stats(stats: dict) -> None:
         print("No rounds completed.")
         return
 
-    print(f"\nTotal rounds: {stats['rounds']}")
-    print(f"\n{'Metric':<16} {'GeoLocator':>10} {'StreetCLIP':>10} {'Δ (G−S)':>10}")
+    total = stats["rounds"]
+    print(f"\nTotal rounds: {total}")
+    print(f"\n{'Metric':<16} {label_a:>10} {label_b:>10} {'Δ (A−B)':>10}")
     print(f"{'-'*16} {'-'*10} {'-'*10} {'-'*10}")
 
     for metric in ("mean_km", "median_km", "min_km", "max_km", "std_km"):
-        g = stats["geolocator"][metric]
-        s = stats["streetclip"][metric]
-        delta = g - s
+        a = stats["model_a"][metric]
+        b = stats["model_b"][metric]
+        delta = a - b
         sign = "+" if delta >= 0 else ""
-        print(f"{metric:<16} {g:10.1f} {s:10.1f} {sign}{delta:9.1f}")
+        print(f"{metric:<16} {a:10.1f} {b:10.1f} {sign}{delta:9.1f}")
 
     h2h = stats["head_to_head"]
-    total = h2h["geolocator_wins"] + h2h["streetclip_wins"] + h2h["ties"]
-    print(f"\nHead-to-head (lower distance wins):")
-    print(f"  GeoLocator wins: {h2h['geolocator_wins']:3d} ({100*h2h['geolocator_wins']/total:.0f}%)")
-    print(f"  StreetCLIP wins: {h2h['streetclip_wins']:3d} ({100*h2h['streetclip_wins']/total:.0f}%)")
-    print(f"  Ties:            {h2h['ties']:3d} ({100*h2h['ties']/total:.0f}%)")
+    print("\nHead-to-head (lower distance wins):")
+    print(f"  {label_a} wins: {h2h['model_a_wins']:3d} ({100*h2h['model_a_wins']/total:.0f}%)")
+    print(f"  {label_b} wins: {h2h['model_b_wins']:3d} ({100*h2h['model_b_wins']/total:.0f}%)")
+    print(f"  Ties:          {h2h['ties']:3d} ({100*h2h['ties']/total:.0f}%)")
 
-    mean_diff = stats["geolocator"]["mean_km"] - stats["streetclip"]["mean_km"]
+    mean_diff = stats["model_a"]["mean_km"] - stats["model_b"]["mean_km"]
     direction = "better" if mean_diff < 0 else "worse"
-    print(f"\nGeoLocator is {abs(mean_diff):.0f} km {direction} on average vs StreetCLIP.")
+    print(f"\n{label_a} is {abs(mean_diff):.0f} km {direction} on average vs {label_b}.")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Compare trained GeoLocator vs StreetCLIP on self-play rounds"
+        description="Compare two models on self-play rounds"
     )
     parser.add_argument("--config", "-c", default=None, help="Path to YAML config file")
     parser.add_argument(
         "--model", default="checkpoints/best_model.pth",
-        help="Path to the trained GeoLocator checkpoint (.pth)",
+        help="Path to Model A checkpoint (image-only GeoLocator)",
+    )
+    parser.add_argument(
+        "--model-b", default="checkpoints/best_model_fusion.pth",
+        help="Path to Model B checkpoint (e.g. fusion GeoLocator). "
+             "If not set, uses StreetCLIP as baseline.",
     )
     parser.add_argument(
         "--indices", default="data/indices.json",
@@ -570,20 +608,54 @@ def main():
     max_idx = max(idx_to_country.keys())
     country_names = [idx_to_country.get(i, "Unknown") for i in range(max_idx + 1)]
 
-    # ---- Load trained GeoLocator ----
-    print(f"Loading trained GeoLocator: {args.model}")
+    # ---- Load Model A (trained GeoLocator) ----
+    print(f"Loading Model A: {args.model}")
+    checkpoint_a = torch.load(args.model, map_location="cpu", weights_only=False)
     trained = GeoLocator(
         num_countries=indices["num_countries"],
         num_regions=indices["num_regions"],
         num_continents=indices["num_continents"],
         pretrained=False,
     )
-    trained.load_state_dict(
-        torch.load(args.model, map_location="cpu", weights_only=False)["state_dict"]
-    )
+    trained.load_state_dict(checkpoint_a["state_dict"])
 
-    # ---- Load StreetCLIP baseline ----
-    sc_model, sc_processor = _load_streetclip(config.device)
+    # ---- Load Model B or StreetCLIP ----
+    model_b = None
+    sc_model = None
+    sc_processor = None
+    clue_extractor = None
+    label_b = "StreetCLIP"
+
+    if args.model_b:
+        print(f"Loading Model B: {args.model_b}")
+        checkpoint_b = torch.load(args.model_b, map_location="cpu", weights_only=False)
+        cfg_b = checkpoint_b.get("config", {})
+        has_fusion = cfg_b.get("has_fusion", False) or cfg_b.get("clue_feature_dim") is not None
+        model_b = GeoLocator(
+            num_countries=indices["num_countries"],
+            num_regions=indices["num_regions"],
+            num_continents=indices["num_continents"],
+            pretrained=False,
+            clue_feature_dim=cfg_b.get("clue_feature_dim") if has_fusion else None,
+        )
+        model_b.load_state_dict(checkpoint_b["state_dict"])
+        label_b = "Model B (fusion)" if model_b.has_fusion else "Model B (image-only)"
+
+        if model_b.has_fusion and config.features.enabled:
+            from geoguessr_agent.features.extractor import ClueFeatureExtractor
+            clip_device = config.features.device or config.device
+            clue_extractor = ClueFeatureExtractor(
+                model_name=config.features.clip_model,
+                device=clip_device,
+                use_streetclip=config.features.use_streetclip,
+            )
+            print(f"  CLIP extractor enabled for Model B ({config.features.clip_model})")
+        elif model_b.has_fusion:
+            print("  [WARN] Model B has fusion but features.enabled=false — "
+                  "running without clues")
+    else:
+        print("Loading StreetCLIP baseline...")
+        sc_model, sc_processor = _load_streetclip(config.device)
 
     loop = ComparativeSelfPlayLoop(
         config=config,
@@ -595,12 +667,14 @@ def main():
         country_names=country_names,
         country_centroids=country_centroids,
         exploration_epsilon=epsilon,
+        model_b=model_b,
+        clue_extractor=clue_extractor,
     )
 
     records = asyncio.run(loop.run_session(num_rounds=args.rounds))
 
     stats = loop.stats()
-    _print_stats(stats)
+    _print_stats(stats, label_a="Model A", label_b=label_b)
 
     if args.output and records:
         output_path = Path(args.output)

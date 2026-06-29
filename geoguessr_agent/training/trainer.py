@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import math
-import os
 import time
 from collections import defaultdict
 from pathlib import Path
@@ -9,13 +8,11 @@ from typing import Optional
 
 import numpy as np
 import torch
-import torch.nn as nn
 from sklearn.metrics import balanced_accuracy_score
 from torch.amp import autocast
 from torch.cuda.amp import GradScaler
 from tqdm import tqdm
 
-from ..data.loader import GeoguessrDataset
 from ..model.geolocator import GeoLocator
 from ..model.losses import HierarchicalLoss, latlng_to_rad
 
@@ -40,20 +37,27 @@ def _mixup_data(
     region_idx: torch.Tensor,
     continent_idx: torch.Tensor,
     alpha: float = 0.2,
+    clue_features: Optional[torch.Tensor] = None,
 ) -> tuple:
     if alpha <= 0:
-        return images, country_idx, None, region_idx, None, continent_idx, None, 1.0
+        return images, country_idx, None, region_idx, None, continent_idx, None, 1.0, None
     lam = np.random.beta(alpha, alpha)
     lam = max(lam, 1 - lam)
     batch_size = images.size(0)
     index = torch.randperm(batch_size, device=images.device)
     mixed_images = lam * images + (1 - lam) * images[index]
+
+    mixed_clue = None
+    if clue_features is not None:
+        mixed_clue = lam * clue_features + (1 - lam) * clue_features[index]
+
     return (
         mixed_images,
         country_idx, country_idx[index],
         region_idx, region_idx[index],
         continent_idx, continent_idx[index],
         lam,
+        mixed_clue,
     )
 
 
@@ -131,9 +135,13 @@ class Trainer:
             lat = batch["lat"].to(self.device)
             lng = batch["lng"].to(self.device)
             true_coords = latlng_to_rad(lat, lng)
+            clue_features = batch.get("clue_features")
+            if clue_features is not None:
+                clue_features = clue_features.to(self.device)
 
-            images, c_a, c_b, r_a, r_b, ct_a, ct_b, lam = _mixup_data(
+            images, c_a, c_b, r_a, r_b, ct_a, ct_b, lam, mixed_clue = _mixup_data(
                 images, country_idx, region_idx, continent_idx, self.mixup_alpha,
+                clue_features=clue_features,
             )
 
             self.optimizer.zero_grad()
@@ -152,13 +160,13 @@ class Trainer:
 
             if self.scaler:
                 with autocast(self.device):
-                    outputs = self.model(images)
+                    outputs = self.model(images, mixed_clue)
                     loss_dict = self.loss_fn(outputs, target_dict)
                 self.scaler.scale(loss_dict["total"]).backward()
                 self.scaler.step(self.optimizer)
                 self.scaler.update()
             else:
-                outputs = self.model(images)
+                outputs = self.model(images, mixed_clue)
                 loss_dict = self.loss_fn(outputs, target_dict)
                 loss_dict["total"].backward()
                 self.optimizer.step()
@@ -193,8 +201,11 @@ class Trainer:
             lat = batch["lat"].to(self.device)
             lng = batch["lng"].to(self.device)
             true_coords = latlng_to_rad(lat, lng)
+            clue_features = batch.get("clue_features")
+            if clue_features is not None:
+                clue_features = clue_features.to(self.device)
 
-            outputs = self.model(images)
+            outputs = self.model(images, clue_features)
             loss_dict = self.loss_fn(
                 outputs,
                 {
@@ -230,6 +241,15 @@ class Trainer:
 
     def save_checkpoint(self, path: str | Path) -> None:
         scaler_state = self.scaler.state_dict() if self.scaler else None
+        model_config = {
+            "num_countries": self.model.country_head.fc[-1].out_features,
+            "num_regions": self.model.region_head.fc[-1].out_features,
+            "num_continents": self.model.continent_head.fc[-1].out_features,
+        }
+        if self.model.has_fusion and self.model.fusion is not None:
+            model_config["clue_feature_dim"] = (
+                self.model.fusion.clue_encoder.net[0].in_features
+            )
         checkpoint = {
             "model_state": self.model.state_dict(),
             "optimizer_state": self.optimizer.state_dict(),
@@ -238,11 +258,7 @@ class Trainer:
             "epoch": self.current_epoch,
             "best_val_loss": self.best_val_loss,
             "metrics_history": self.metrics_history,
-            "model_config": {
-                "num_countries": self.model.country_head.fc[-1].out_features,
-                "num_regions": self.model.region_head.fc[-1].out_features,
-                "num_continents": self.model.continent_head.fc[-1].out_features,
-            },
+            "model_config": model_config,
             "training_config": {
                 "epochs": self.cfg.epochs,
                 "batch_size": self.cfg.batch_size,

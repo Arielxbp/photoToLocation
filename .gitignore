@@ -6,3 +6,4 @@ logs/
 *.png
 *.zip
 data/*.pkl
+data/clue_features.pt

@@ -75,6 +75,17 @@ class SelfPlayLoop:
         self.enable_heatmaps = enable_heatmaps
         self.exploration_epsilon = config.dpo.exploration_epsilon
 
+        self.clue_extractor = None
+        if config.features.enabled:
+            from ..features.extractor import ClueFeatureExtractor
+            clip_device = config.features.device or config.device
+            self.clue_extractor = ClueFeatureExtractor(
+                model_name=config.features.clip_model,
+                device=clip_device,
+                use_streetclip=config.features.use_streetclip,
+            )
+            print("[SelfPlay] Clue feature extractor enabled")
+
         self.browser = OpenGuessrBrowser(
             url=config.game.url,
             headless=config.game.headless,
@@ -118,10 +129,20 @@ class SelfPlayLoop:
 
         Returns dict with keys:
           latitude, longitude, country_idx, country_conf,
-          top5_conf, top5_idx, continent_idx, outputs
+          top5_conf, top5_idx, continent_idx, outputs, clue_labels
         """
         tensor = self._preprocess_image(img_bytes).to(self.cfg.device)
-        outputs = self.model(tensor)
+
+        clue_features = None
+        clue_labels = None
+        if self.clue_extractor is not None and self.model.has_fusion:
+            pil_img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+            extracted = self.clue_extractor.extract_with_labels(pil_img)
+            vec = extracted["vector"]
+            clue_features = torch.from_numpy(vec).float().unsqueeze(0).to(self.cfg.device)
+            clue_labels = extracted["labels"]
+
+        outputs = self.model(tensor, clue_features)
 
         country_probs = torch.softmax(outputs["country_logits"], dim=-1)
         top5_conf, top5_idx = torch.topk(country_probs, k=5, dim=-1)
@@ -165,6 +186,7 @@ class SelfPlayLoop:
             "top5_idx": top5_idx.squeeze(0).cpu().tolist(),
             "continent_idx": continent_idx,
             "outputs": outputs,
+            "clue_labels": clue_labels,
         }
 
     async def _ensure_game_started(self) -> bool:
