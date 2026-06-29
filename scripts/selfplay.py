@@ -48,6 +48,7 @@ def main():
     args = parser.parse_args()
 
     config = load_config(args.config)
+    config.device = "cpu"
     if args.epsilon is not None:
         config.dpo.exploration_epsilon = args.epsilon
 

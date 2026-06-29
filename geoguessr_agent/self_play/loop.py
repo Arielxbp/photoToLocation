@@ -7,7 +7,9 @@ import time
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
-
+import os
+import re
+import httpx
 import numpy as np
 import torch
 from PIL import Image
@@ -29,6 +31,9 @@ from ..plonkit.kb import ClueKnowledgeBase
 from ..self_play.buffer import ReplayBuffer, ReplayEntry
 from ..self_play.reward import RewardCalculator
 
+API_KEY=os.environ.get("MAPS_API", "")
+IMAGE_SIZE="1280x720"
+PANO_REGEX = re.compile(r"panoid=([^&]+)")
 
 class SelfPlayLoop:
     """
@@ -261,10 +266,47 @@ class SelfPlayLoop:
         capture_dir = self.screenshot_dir / f"round_{round_num}"
         capture_dir.mkdir(parents=True, exist_ok=True)
 
-        # ---- screenshot capture (simpler than tile interception) ----
+        intercept_pano_id = None
+
+        for frame in self.browser.page.frames:
+            try:
+                # Execute a script inside every frame context to check its performance log
+                cached_url = await frame.evaluate("""
+                    () => {
+                        const resources = performance.getEntriesByType("resource");
+                        for (const res of resources) {
+                            if (res.name.includes("streetviewpixels") && res.name.includes("panoid=")) {
+                                return res.name;
+                            }
+                        }
+                        return null;
+                    }
+                """)
+                if cached_url:
+                    match = PANO_REGEX.search(cached_url)
+                    if match:
+                        intercept_pano_id = match.group(1)
+                        break
+            except Exception:
+                continue
+        
         screenshot_path = capture_dir / "streetview.png"
-        img_bytes = await self.browser.page.screenshot(path=str(screenshot_path))
-        print(f"    Screenshot: {len(img_bytes)} bytes")
+        if intercept_pano_id is not None and API_KEY != "":
+            print(f"Downloading image with PANO_ID: {intercept_pano_id} from Maps API")
+            url = f"https://maps.googleapis.com/maps/api/streetview?size={IMAGE_SIZE}&pano={intercept_pano_id}&key={API_KEY}"
+            async with httpx.AsyncClient() as client:
+                response = await client.get(url)
+                if response.status_code != 200:
+                    print(f"Error fetching API: {response.status_code}")
+                    return None
+                img_bytes = response.content
+            pil_image = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+            pil_image.save(screenshot_path, quality=95)
+        else:
+            print(f"Taking screenshot of browser page")
+            img_bytes = await self.browser.page.screenshot(path=str(screenshot_path))
+        
+        print(f"    Img: {len(img_bytes)} bytes")
 
         # Capture ground truth NOW, while the panorama is still on screen.
         # OpenGuessr embeds the round's true location in the Street View
